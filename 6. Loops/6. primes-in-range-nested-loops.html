@@ -1,0 +1,43 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<title>Loops - Primes in range</title>
+	<link href="styles/js-console.css" rel="stylesheet" />
+</head>
+<body>										 
+	<label for="tb-range-start">Start: </label>
+	<input type="text" id="tb-range-start" />
+	<label for="tb-range-end">End: </label>
+	<input type="text" id="tb-range-end" />
+
+	<a href="#" id="btn-power" onclick="onFindPrimesBtnClick()">Calc Primes</a>
+	<div id="js-console">
+	</div>
+	<script src="scripts/js-console.js">	  
+	</script>
+	<script>
+		function onFindPrimesBtnClick() {
+			var start = jsConsole.readInteger('#tb-range-start');
+			var end = jsConsole.readInteger('#tb-range-end');
+
+			for (var number = start; number <= end; number++) {
+				var isPrime = true;
+				var divider = 2;
+				var maxDivider = Math.sqrt(number);
+				while (divider <= maxDivider) {
+					if (number % divider == 0) {
+						isPrime = false;
+						break;
+					}
+					divider++;
+				}
+				if (isPrime) {
+					jsConsole.write(number + ', ');
+				}
+			}
+			jsConsole.writeLine();
+		}
+		
+	</script>
+</body>
+</html>

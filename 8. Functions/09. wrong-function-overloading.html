@@ -1,0 +1,23 @@
+﻿<html>
+<head>
+	<title>Functions - False Function Overloading</title>
+	<link href="styles/js-console.css" rel="stylesheet" />
+</head>
+<body>
+	<div id="js-console"></div>
+	<script src="scripts/js-console.js"></script>
+	<script type="text/javascript">						   		
+		function consolePrint(number) {
+			jsConsole.writeLine('Number: ' + number);
+		}
+
+		function print(number, text) {
+			jsConsole.writeLine('Number: ' + number);
+			jsConsole.writeLine('Text: ' + text);
+		}
+
+		print(5);
+		print(5, 'Lorem Ipsum');
+	</script>
+</body>
+</html>

@@ -1,0 +1,50 @@
+<html>
+<head>
+	<title>Operators and Expressions - Comparison Operators</title>
+	<link href="styles/js-console.css" rel="stylesheet" />
+</head>
+<body>
+	<div id="js-console"></div>
+	<script src="scripts/js-console.js"></script>
+	<script>
+
+		jsConsole.writeLine("----------------------------------------------------");
+		jsConsole.writeLine("Regular comparisons: ");
+		var a = 5;
+		var b = 4;
+
+		jsConsole.writeLine("a = " + a + ", b = " + b);
+		jsConsole.writeLine("(a >= b)  = " + (a >= b)); // True
+		jsConsole.writeLine("(a != b)  = " + (a != b)); // True
+		jsConsole.writeLine("(a == b)  = " + (a == b)); // False
+		jsConsole.writeLine("(a == a)  = " + (a == a)); // True
+		jsConsole.writeLine("(a != ++b) = " + (a != ++b)); // False
+		jsConsole.writeLine("(a > b)   = " + (a > b));  // False
+
+		jsConsole.writeLine("----------------------------------------------------");
+		jsConsole.writeLine("Special comparisons: ");
+		var zeroInt = 0;
+		var oneInt = 1;
+
+		var zeroFloat = 0.0;
+		var oneFloat = 1.0;
+		
+		var emptyStr = "";
+		var oneStr = "1";															
+		var str = "JavaScript";
+		
+		var nullValue = null;
+		var emptyObject = {};
+
+		jsConsole.writeLine('0 == 0.0 = ' + (zeroInt == zeroFloat));
+		jsConsole.writeLine('1 == "1" =' + (oneInt == oneStr));
+		jsConsole.writeLine('1 === "1" =' + (oneInt === oneStr));
+
+
+		jsConsole.writeLine('0 == "" = ' + (zeroInt == emptyStr));
+		jsConsole.writeLine('0 === "" = ' + (zeroInt === emptyStr));
+
+		jsConsole.writeLine(nullValue == emptyStr)				
+	</script>
+</body>
+</html>

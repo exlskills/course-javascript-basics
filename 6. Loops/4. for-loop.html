@@ -1,0 +1,42 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<title>Loops - for loops</title>
+	<link href="styles/js-console.css" rel="stylesheet" />
+</head>
+<body>
+	<label for="tb-number">Number: </label>
+	<input type="text" id="tb-number" />
+	<label for="tb-power">power: </label>
+	<input type="text" id="tb-power" />
+	<br />
+
+	<a href="#" id="btn-power" onclick="onPowerBtnClick()">Calc Power</a>
+	<div id="js-console">
+	</div>
+	<script src="scripts/js-console.js">	  
+	</script>
+	<script>
+		function onPowerBtnClick() {
+			var n = jsConsole.readInteger('#tb-number');
+			var m = jsConsole.readInteger('#tb-power');
+
+			var product = 1;
+			var productStr = "";
+
+			for (var power = 0; power < m; power++) {
+				product *= n;
+				productStr += n;
+				if (power != m - 1) {
+					productStr += '*';
+				}
+			}
+
+			productStr += ' = ' + product;
+
+			jsConsole.writeLine(productStr);
+		}
+		
+	</script>
+</body>
+</html>

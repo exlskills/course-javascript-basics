@@ -1,0 +1,53 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<title>Functions - Parameters</title>
+	<link href="styles/js-console.css" rel="stylesheet" />
+</head>
+<body>
+	<label for="tb-number">Number</label>
+	<input id="tb-number" type="text" class="js-console-input" />
+	<a href="#" class="js-console-btn" onclick="onPrintSignBtnClick()">Print sign</a>
+	<br />
+
+	<label for="tb-numbers">Enter numbers, separated by comma ",": </label>
+	<input id="tb-numbers" type="text" class="js-console-input" />
+	<a href="#" class="js-console-btn" onclick="onPrintMaxBtnClick()">Print max</a>
+	<div id="js-console"></div>
+	<script src="scripts/js-console.js"></script>
+	<script>
+
+		function onPrintSignBtnClick() {
+			var number = jsConsole.readFloat('#tb-number');
+			printSign(number);
+		}
+
+		function onPrintMaxBtnClick() {
+			var numbers= jsConsole.readNumbersArray('#tb-numbers');				   			
+			printMax(numbers);
+		}
+
+		function printSign(number) {
+			if (number > 0) {
+				jsConsole.writeLine('The number is positive');
+			}
+			else if (number < 0) {
+				jsConsole.writeLine('The number is negative');
+			}
+			else {
+				jsConsole.writeLine('The number is 0');
+			}
+		}
+
+		function printMax(arr) {
+			var maxIndex = 0;
+			for (var i = 0; i < arr.length; i++) {
+				if (arr[maxIndex] < arr[i]) {
+					maxIndex = i;
+				}
+			}
+			jsConsole.writeLine(arr[maxIndex] + ' is the max number in [' + arr.join(', ') + ']');
+		}
+	</script>
+</body>
+</html>

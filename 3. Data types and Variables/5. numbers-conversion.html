@@ -1,0 +1,29 @@
+﻿<html>
+
+<head>
+	<title>Data types and variables - Numbers conversion</title>
+	<link href="styles/js-console.css" rel="stylesheet" />
+</head>
+
+<body>
+	<div id="js-console"></div>
+	<script src="scripts/js-console.js"></script>
+	<script>
+		var valueDouble = 8.75;
+		var valueInt = valueDouble | 0; // 8
+		jsConsole.writeLine("valueDouble = " + valueDouble);
+		jsConsole.writeLine("valueInt = " + valueInt);
+
+		valueDouble = 8.75;
+		var roundedInt = (valueDouble + 0.5) | 0; // 9
+		jsConsole.writeLine("valueDouble = " + valueDouble);
+		jsConsole.writeLine("roundedInt = " + roundedInt);
+		
+		var str = "1234";
+		var i = str | 0 + 1; // 1235
+		jsConsole.writeLine("str = " + str);
+		jsConsole.writeLine("i = " + i);
+	</script>
+</body>
+
+</html>

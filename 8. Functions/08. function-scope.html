@@ -1,0 +1,28 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<title>Functions - Scope</title>
+	<link href="styles/js-console.css" rel="stylesheet" />
+</head>
+<body>
+	<div id="js-console">
+	</div>
+	<script src="scripts/js-console.js">	  
+	</script>
+	<script>
+		var arr = [1, 2, 3, 3, 4, 3, 5, 3, 6, 7];
+
+		function countOccurences(value) {
+			var count = 0;
+			for (var i = 0; i < arr.length; i++) {
+				if (arr[i] === value) count++;
+			}
+			return count;
+		}
+
+		jsConsole.writeLine(countOccurences(3));
+		jsConsole.writeLine(count);
+
+	</script>
+</body>
+</html>

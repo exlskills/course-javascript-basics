@@ -1,0 +1,34 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<title>Functions - Triangle</title>
+	<link href="styles/js-console.css" rel="stylesheet" />
+</head>
+<body>
+	<label for="tb-number">Number: </label>
+	<input id="tb-number" type="text" class="js-console-input" />
+	<a href="#" class="js-console-btn" onclick="onPrintTriangleBtnClick()">Print triangle</a>
+	<div id="js-console"></div>
+	<script src="scripts/js-console.js"></script>
+	<script>
+
+		function onPrintTriangleBtnClick() {
+			var n = jsConsole.readFloat('#tb-number');			
+			var line;
+			for (line = 1; line <= n; line++)
+				printLine(1, line);
+			for (line = n - 1; line >= 1; line--)
+				printLine(1, line);
+			jsConsole.writeLine('----------------');
+
+		}
+		function printLine(start, end) {
+			for (var i = start; i <= end; i++) {
+				jsConsole.write(i + ' ');
+			}
+			jsConsole.writeLine();
+		}
+
+	</script>
+</body>
+</html>

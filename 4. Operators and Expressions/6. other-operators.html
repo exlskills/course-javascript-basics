@@ -1,0 +1,28 @@
+<html>
+<head>
+	<title>Operators and Expressions - Other Operators</title>
+	<link href="styles/js-console.css" rel="stylesheet" />
+</head>
+<body>
+	<div id="js-console"></div>
+	<script src="scripts/js-console.js"></script>
+<script>
+	var first = "First";
+	var second = "Second";
+	jsConsole.writeLine(first + second); // FirstSecond
+	var output = "The number is : ";
+	var number = 5;
+	jsConsole.writeLine(output + number);
+	// The number is : 5
+
+	var a = 6;
+	var b = 4;
+	jsConsole.writeLine(a > b ? "a > b" : "b >= a"); // a>b
+	var c = b = 3; // b=3; followed by c=3;
+	jsConsole.writeLine(c); // 3
+	jsConsole.writeLine((a+b)/2); // 4.5
+	jsConsole.writeLine(typeof(a)); //number
+	jsConsole.writeLine(typeof([])); //object
+</script>
+</body>
+</html>

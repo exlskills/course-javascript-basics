@@ -1,0 +1,31 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+		<title>JS Console - Example</title>
+		<link href="styles/js-console.css" rel="stylesheet" />
+	</head>
+	<body>
+		<div id="js-console">
+		</div>
+		<script src="scripts/js-console.js">	
+		</script>
+		<script>
+			function buildPerson(fname, lname) {
+				return {
+					fname: fname,
+					lname: lname,
+					toString: function getFullName() {
+						return this.fname + " " + this.lname;
+					}
+				};
+			}
+
+			var minkov = buildPerson('Doncho', 'Minkov');
+			var kenov = buildPerson('Ivaylo', 'Kenov');
+
+			jsConsole.writeLine(minkov);
+			jsConsole.writeLine(kenov);
+	
+		</script>
+	</body>
+</html>

@@ -1,0 +1,27 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<title>Using Objects - Overview</title>
+	<link href="styles/js-console.css" rel="stylesheet" />
+</head>
+<body>
+	<div id="js-console"></div>
+	<script src="scripts/js-console.js"></script>
+	<script>
+
+		function padleft(number, diggits) {
+
+			return '00000000000000000000000000000000000000000'.substr(0, diggits - number.length) + number;
+		}
+
+		var n = 16;
+		var binaryDigits = n.toString(2).length - 1;
+		for (var i = 0; i < n; i++) {
+			var number = i;
+			var numberInBinary = number.toString(2);
+			var paddedBinary = padleft(numberInBinary, binaryDigits);
+			jsConsole.writeLine('The number ' + number + ' is represented in binary as ' + paddedBinary);
+		}														   
+	</script>
+</body>
+</html>

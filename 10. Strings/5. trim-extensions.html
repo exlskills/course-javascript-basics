@@ -1,0 +1,34 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<title>Strings - Extensions - Trim</title>
+	<link href="styles/js-console.css" rel="stylesheet" />
+	<script src="scripts/string-extensions.js"></script>
+</head>
+<body>
+	<div id="js-console"></div>
+	<script src="scripts/js-console.js"></script>
+
+	<script>
+		var str = '                  ala bala portokalq                ';
+
+		jsConsole.writeLine('trimming whitespace');
+		jsConsole.writeLine('original: !' + str + '!');
+
+		jsConsole.writeLine('trim: !' + str.trim() + '!');
+		jsConsole.writeLine('trimLeft: !' + str.trimLeft() + '!');
+		jsConsole.writeLine('trimRight: !' + str.trimRight() + '!');
+
+		str = 'cacacbala bala portokalqcbac';
+		var chars = 'abc';
+
+		jsConsole.writeLine();
+		jsConsole.writeLine('trimming characters: ' + chars);
+
+		jsConsole.writeLine('original: !' + str + '!');
+		jsConsole.writeLine('trim: !' + str.trimChars(chars) + '!');
+		jsConsole.writeLine('trimLeft: !' + str.trimLeftChars(chars) + '!');
+		jsConsole.writeLine('trimRight: !' + str.trimRightChars(chars) + '!');
+	</script>
+</body>
+</html>

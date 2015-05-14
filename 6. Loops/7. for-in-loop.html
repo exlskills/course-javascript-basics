@@ -1,0 +1,42 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<title>Loops - for-in loops</title>
+	<link href="styles/js-console.css" rel="stylesheet" />
+</head>
+<body>
+	<div id="js-console">
+	</div>
+	<script src="scripts/js-console.js">	  
+	</script>
+	<script>
+
+		function printAll(obj) {
+			jsConsole.writeLine('--------------------------');
+			for (var property in obj) {
+				jsConsole.writeLine('obj[' + property + '] = ' + obj[property]);
+			}
+			jsConsole.writeLine('--------------------------');
+		}
+
+		var arr = [1, 2, 3, 4, 5, 6, 7, 8, 9];
+		printAll(arr);
+		var doc = document;
+		printAll(doc);
+
+		var obj = {
+			firstName: 'Doncho',
+			lastName: 'Minkov',
+			age: 23,
+			fullName: function () {
+				return this.firstName + " " + this.lastName
+			},
+			toString: function () {
+				return 'Name: ' + this.fullName() + '\nAge: ' + this.age
+			}
+		};
+
+		printAll(obj);
+	</script>
+</body>
+</html>

@@ -1,0 +1,29 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Strings - Methods</title>
+    <link href="styles/js-console.css" rel="stylesheet" />
+</head>
+<body>
+    <div id="js-console">
+    </div>
+    <script src="scripts/js-console.js">	
+    </script>
+    <script>
+        var str = 'Sample string to show strings';
+
+        jsConsole.writeLine(str);
+        jsConsole.writeLine('length = ' + str.length);
+
+        jsConsole.writeLine('str[' + 4 + '] = ' + str[4]);
+        jsConsole.writeLine('str.charAt(' + 4 + ') = ' + str.charAt(4));
+
+        jsConsole.writeLine('"' + str + '".indexOf("string") = ' + str.indexOf('string'));
+        jsConsole.writeLine('"' + str + '".indexOf("string",8) = ' + str.indexOf('string', 8));
+        jsConsole.writeLine('"' + str + '".indexOf("string",23) = ' + str.indexOf('string', 23));
+
+        jsConsole.writeLine('"' + str + '".substr(3,5) = "' + str.substr(3, 5) + '"');
+        jsConsole.writeLine('"' + str + '".substring(3,5) = "' + str.substring(3, 5) + '"');
+    </script>
+</body>
+</html>

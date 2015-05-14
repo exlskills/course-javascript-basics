@@ -1,0 +1,24 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<title>Functions - Returning a Value</title>
+	<link href="styles/js-console.css" rel="stylesheet" />
+</head>
+<body>
+	<div id="js-console"></div>
+	<script src="scripts/js-console.js"></script>
+	<script>
+		function getPropertiesCount(obj) {
+			var count = 0;
+			for (var prop in obj) {
+				count++;
+			}
+			return count;
+		}
+
+		jsConsole.writeLine(getPropertiesCount(document));
+		jsConsole.writeLine(getPropertiesCount(navigator));
+	</script>
+
+</body>
+</html>

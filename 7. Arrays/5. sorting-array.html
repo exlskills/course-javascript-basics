@@ -1,0 +1,27 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<title>JS Arrays - sorting arrays</title>
+	<link href="styles/js-console.css" rel="stylesheet" />
+</head>
+<body>
+	<div id="js-console"></div>
+	<script src="scripts/js-console.js"></script>
+	<script>
+		function orderBy(a, b) {
+			//return (a == b) ? 0 : (a > b) ? 1 : -1;	 
+			return a - b;
+		};
+		var numbers = [5, 4, 23, 2];
+
+		numbers.sort();
+		jsConsole.writeLine(numbers.join(', '));
+
+		numbers.sort(orderBy);
+		jsConsole.writeLine(numbers.join(', '));
+		//returns 2, 4, 5, 23 
+
+
+	</script>
+</body>
+</html>

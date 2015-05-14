@@ -1,0 +1,29 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<title>Functions - the arguments Object</title>
+	<link href="styles/js-console.css" rel="stylesheet" />
+</head>
+<body>						
+	<div id="js-console"></div>
+	<script src="scripts/js-console.js"></script>
+	<script>
+		function printArguments() {
+			console.log('-------------');
+			console.log(arguments.callee);
+
+			for (var i in arguments) {
+				console.log(arguments[i]);
+			}
+			console.log('-------------');
+		}
+
+		printArguments(1, 2, 3, 4, 5);
+
+		printArguments([1, 2, 3, 4, 5], 'Stirng', new Object(), new Date());
+
+
+	</script>
+
+</body>
+</html>

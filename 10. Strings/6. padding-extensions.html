@@ -1,0 +1,21 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Strings - Extensions - Padding</title>
+    <link href="styles/js-console.css" rel="stylesheet" />
+    <script src="scripts/string-extensions.js"></script>
+</head>
+<body>
+    <div id="js-console"></div>
+    <script src="scripts/js-console.js"></script>
+    <script>
+        var string = 'Sample string';
+        jsConsole.writeLine('original: "' + string + '"');
+
+        jsConsole.writeLine('padLeft(30) ->   "' + string.padLeft(30).htmlEscape() + '"');
+        jsConsole.writeLine('padRight(30) ->  "' + string.padRight(30).htmlEscape() + '"');
+        jsConsole.writeLine('padLeft(30) ->   "' + string.padLeft(30,"-")+ '"');
+        jsConsole.writeLine('padRight(30) ->  "' + string.padRight(30,"-").htmlEscape() + '"');
+    </script>
+</body>
+</html>

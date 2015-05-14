@@ -1,0 +1,75 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<title>JS Console - Example</title>
+	<link href="styles/js-console.css" rel="stylesheet" />
+	<style>
+		#number {
+			border: 1px solid black;
+			padding: 5px 15px;
+			background-color: black;
+			color: white;
+			font-family: Consolas;
+			margin-bottom: 5px;
+		}
+
+		a {
+			color: black;
+			border: 1px solid black;
+			padding: 5px 15px;
+			text-decoration: none;
+			display: inline-block;
+			margin: 15px 0;
+		}
+
+			a:hover {
+				text-decoration: underline;
+			}
+	</style>
+</head>
+<body>
+	<label for="tb-text">Text: </label>
+	<input type="text" id="tb-text" />
+	<br />
+	<a href="#" onclick="onCheckNumbersButtonClick()">Even or Odd</a>
+	<div id="console">
+	</div>
+	<script src="scripts/js-console.js">	  
+	</script>
+	<script>
+		function onCheckNumbersButtonClick() {
+			var text = jsConsole.read("#tb-text");
+			var vowels = 0;
+			var other = 0;
+			var numbers = 0;
+			for (var i = 0; i < text.length; i++) {
+				var character = text[i];
+				if (character == "a" || character == "A") {
+					vowels++;
+				}
+				else if (character == "e" || character == "E") {
+					vowels++;
+				}
+				else if (character == "u" || character == "U") {
+					vowels++;
+				}
+				else if (character == "o" || character == "o") {
+					vowels++;
+				}
+				else if (character == "i" || character == "i") {
+					vowels++;
+				}
+				else if ("0" <= character && character <= "9") {
+					numbers++;
+				}
+				else {
+					other++;
+				}
+			}
+			jsConsole.writeLine("Vowels: " + vowels);
+			jsConsole.writeLine("Numbers: " + numbers)
+			jsConsole.writeLine("Other: " + other);
+		}
+	</script>
+</body>
+</html>

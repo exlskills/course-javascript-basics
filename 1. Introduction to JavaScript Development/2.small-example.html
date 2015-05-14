@@ -1,0 +1,28 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<title>Introduction to JavaScript - Event Handlers</title>
+	<script>
+		function ninjaClicked() {
+			console.log(this);
+			alert("Beware the Ninja!");
+		}
+
+		function onGenderChange(e) {
+			var select = document.getElementById("gender-select");
+			alert(select.options[select.selectedIndex].value)
+		}
+	</script>
+</head>
+
+															   
+<body>
+	<img src="images/the-ninja.png" onclick="ninjaClicked()" />	
+	<label for="gender-select">Gender: </label>
+	<select id="gender-select" onchange="onGenderChange(event)">							  
+		<option value="male">Male</option>
+		<option value="female">Female</option>
+		<option value="alien">Alien</option>
+	</select>
+</body>
+</html>

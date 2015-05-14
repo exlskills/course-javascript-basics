@@ -1,0 +1,35 @@
+﻿.js-console{
+	margin:0;
+}
+
+body {
+    .js-console {
+        margin: 0;
+        padding: 5px 10px;
+        background-color: black;
+        width: 800px;
+        height: 500px;
+        font-family: Consolas;
+        font-size: 18px;
+        color: white;
+        overflow-x: hidden;
+        overflow-y: scroll;
+        word-break: break-all;
+
+        & > p {
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            display: block;
+
+            & > span {
+                margin: 0;
+                padding: 0;
+            }
+			& > br{
+				display:inline-block;
+				margin-bottom:5px;
+			}
+        }
+    }
+}

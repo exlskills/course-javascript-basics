@@ -1,0 +1,26 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<title>Functions - Calling Functions</title>
+	<link href="styles/js-console.css" rel="stylesheet" />
+</head>
+<body>
+	<div id="js-console"></div>
+	<script src="scripts/js-console.js"></script>		   
+	<script>		   
+		function printLogo() {
+			jsConsole.writeLine('---------------');
+			jsConsole.writeLine('Telerik Corp.');
+			jsConsole.writeLine('www.telerik.com');
+			jsConsole.writeLine('---------------');
+		}														
+
+		function anotherPrint() {
+			printLogo();
+			anotherPrint();
+		}
+
+		anotherPrint();								
+	</script>
+</body>
+</html>

@@ -1,0 +1,16 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<title>Strings - HtmlEscape</title>
+	<script src="scripts/string-extensions.js"></script>
+</head>
+<body>
+	<div id="container"></div>
+	<script>			
+	    var script = '<script>document.location="http://bad-place";<\/script>';
+	    document.write(script);
+	    //document.write(script.htmlEscape());
+	</script>
+
+</body>
+</html>

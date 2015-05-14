@@ -1,0 +1,30 @@
+﻿<html>
+
+<head>
+	<title>Data types and variables - Integer types</title>
+	<link href="styles/js-console.css" rel="stylesheet" />
+</head>
+
+<body>
+	<div id="js-console"></div>				 
+	<script src="scripts/js-console.js"></script>
+	<script>
+		var studentsCount = 5;
+		jsConsole.writeLine("studentsCount is: " + studentsCount);
+
+		var maxInteger = 9007199254740992;
+		jsConsole.writeLine("max integer is: " + maxInteger);
+
+		var minInteger = -9007199254740992;
+		jsConsole.writeLine("min integer is: " + minInteger);
+
+		var greaterThanMax = maxInteger + 1;
+		jsConsole.writeLine("is maxInteger + 1 possible?  " + greaterThanMax);
+
+		var maxIntMult33 = maxInteger * 33;
+		jsConsole.writeLine("maxInteger * 33 is: " + maxIntMult33);
+		// Lost precision. The correct is 297237575406452736		
+	</script>
+</body>
+
+</html>

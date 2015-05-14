@@ -1,0 +1,50 @@
+﻿.js-console{
+	margin:0;
+}
+
+body {
+    .js-console {
+        margin: 0;
+        padding: 5px 10px;
+        background-color: black;
+        width: 800px;
+        height: 500px;
+        font-family: Consolas;
+        font-size: 18px;
+        color: white;
+        overflow-x: hidden;
+        overflow-y: scroll;
+        word-break: break-all;
+
+        & > p {
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            display: block;
+
+            & > span {
+                margin: 0;
+                padding: 0;
+            }
+			& > br{
+				display:inline-block;
+				margin-bottom:5px;
+			}
+        }
+    }
+
+    .js-console-input,.js-console-btn{
+        background:#fff;
+        padding:5px 15px;
+        font-family:Consolas;
+        font-size:18px;
+        border:1px solid black;
+    }
+    .js-console-btn{
+        text-decoration:none;
+        color:black;
+        &:hover{
+        text-decoration:underline;
+        }
+    }
+}

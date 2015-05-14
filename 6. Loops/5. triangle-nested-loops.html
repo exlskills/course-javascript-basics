@@ -1,0 +1,29 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<title>Loops - Triangle</title>
+	<link href="styles/js-console.css" rel="stylesheet" />
+</head>
+<body>
+	<label for="tb-number">Number: </label>
+	<input type="text" id="tb-number" />
+
+	<a href="#" id="btn-power" onclick="onDrawTriangleBtnClick()">Draw Triangle</a>
+	<div id="js-console">
+	</div>
+	<script src="scripts/js-console.js">	  
+	</script>
+	<script>
+		function onDrawTriangleBtnClick() {
+			var n = jsConsole.readInteger('#tb-number');
+			for (var row = 1; row <= n; row++) {
+				for (var column = 1; column <= row; column++) {
+					jsConsole.write(column + ' ');
+				}
+				jsConsole.writeLine()
+			}						 
+		}
+		
+	</script>
+</body>
+</html>

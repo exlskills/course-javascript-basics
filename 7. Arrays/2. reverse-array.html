@@ -1,0 +1,33 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+	<title>JS Arrays - Reverse arrays</title>
+	<link href="styles/js-console.css" rel="stylesheet" />
+</head>
+
+<body>
+	<div id="js-console"></div>
+	<script src="scripts/js-console.js"></script>
+	<script>				  	
+
+		var array = [1, 2, 3, 4, 5];
+
+		// Get array size
+		var length = array.length;
+
+		// Declare and create the reversed array
+		var reversed = new Array(length);
+
+		// Initialize the reversed array
+		for (var index = 0; index < length; index++) {
+			reversed[length - index - 1] = array[index];
+		}
+
+		jsConsole.writeLine('array = [' + array.join(', ') + ']');
+		jsConsole.writeLine('reversed = [' + reversed.join(', ') + ']');
+
+	</script>
+</body>
+
+</html>

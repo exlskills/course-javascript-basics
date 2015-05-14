@@ -1,0 +1,28 @@
+<html>
+<head>
+	<title>Operators and Expressions - Arithmetic Operators</title>
+	<link href="styles/js-console.css" rel="stylesheet" />
+</head>
+<body>
+	<div id="js-console"></div>
+	<script src="scripts/js-console.js"></script>
+	<script>
+		jsConsole.writeLine("11.0 / 3 = " + (11.0 / 3)); // 3.666666667
+		jsConsole.writeLine("11 / 3.0 = " + (11 / 3.0)); // 3.666666667
+		jsConsole.writeLine("11 % 3 = " + (11 % 3));   // 2
+		jsConsole.writeLine("11 % -3 = " + (11 % -3));  // 2
+		jsConsole.writeLine("-11 % 3 = " + (-11 % 3));  // -2
+
+		jsConsole.writeLine("1.5 / 0.0 = " + (1.5 / 0.0));  // Infinity
+		jsConsole.writeLine("-1.5 / 0.0 = " + (-1.5 / 0.0)); // -Infinity
+		jsConsole.writeLine("0.0 / 0.0 = " + (0.0 / 0.0));  // NaN				
+
+		jsConsole.writeLine("true / 2 = " + (true/2));
+		jsConsole.writeLine('"1" / 2 = ' + ("1" / 2));
+		jsConsole.writeLine('"as" / 2 = ' + ("as" / 2));
+
+		var x = 0;
+		jsConsole.writeLine("5 / x = " + (5 / x));
+	</script>
+</body>
+</html>

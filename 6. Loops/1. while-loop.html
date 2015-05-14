@@ -1,0 +1,47 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<title>Loops - while loop</title>
+	<link href="styles/js-console.css" rel="stylesheet" />
+</head>
+<body>
+	<input type="text" id="tb-number" />
+	<a href="#" id="btn-check-prime" onclick="onCheckPrimeBtnClick()">Check prime</a>
+	<div id="js-console">
+	</div>
+	<script src="scripts/js-console.js">	  
+	</script>
+	<script>
+		var number = Math.floor((Math.random() * 10000));
+
+		while (number % 10) {
+			jsConsole.writeLine(number);
+			number = Math.floor((Math.random() * 10000));
+		}
+		jsConsole.writeLine('Found -> ' + number)
+
+
+		jsConsole.writeLine();
+		jsConsole.writeLine();
+		jsConsole.writeLine();
+
+		function onCheckPrimeBtnClick() {
+
+			var number = jsConsole.readInteger('#tb-number');
+			var divider = 2;
+			var maxDivider = Math.sqrt(number);
+			var isPrime = true;
+			while (isPrime && (divider <= maxDivider)) {
+				if (number % divider == 0) {
+					isPrime = false;
+				}
+				divider++;
+			}
+
+			jsConsole.writeLine('The number ' + number + ' is ' + (isPrime ? '' : ' not ') + ' prime');
+		}
+
+
+	</script>
+</body>
+</html>

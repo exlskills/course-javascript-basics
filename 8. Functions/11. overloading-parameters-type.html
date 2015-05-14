@@ -1,0 +1,35 @@
+﻿<html>
+<head>
+	<title>Functions - Overloading with Parameters Type</title>
+	<link href="styles/js-console.css" rel="stylesheet" />
+</head>
+<body>
+	<div id="js-console"></div>
+	<script src="scripts/js-console.js"></script>
+	<script type="text/javascript">
+		function specialPrint(value) {
+			switch (typeof value) {
+				case 'number': jsConsole.writeLine('Number: ' + value); break;
+				case 'string': jsConsole.writeLine('String: "' + value + '"'); break;
+				case 'boolean': jsConsole.writeLine('Boolean: ' + value); break;
+				case undefined: jsConsole.writeLine('undefined'); break;
+				case null: jsConsole.writeLine('null'); break;
+				default:
+				case "object": jsConsole.writeLine('Object: ' + JSON.stringify(value)); break;
+			}
+		}
+										  
+		specialPrint(5);
+		specialPrint('Lorem Ipsum');
+		specialPrint(new Array(1, 2, 3, 4));
+		specialPrint(true);
+		specialPrint(false);
+		specialPrint('0');
+		specialPrint(0);
+		specialPrint(undefined);
+		specialPrint(null);
+		specialPrint(new Date(2013, 2, 3));
+		specialPrint(document);
+	</script>
+</body>
+</html>

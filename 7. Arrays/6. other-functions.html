@@ -1,0 +1,60 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+	<title>JS Arrays - Functions</title>
+	<link href="styles/js-console.css" rel="stylesheet" />
+</head>
+
+<body>
+	<div id="js-console"></div>
+	<script src="scripts/js-console.js"></script>
+	<script>
+		var numbers = [5, 4, 23, 2];
+
+		var reversed = numbers.reverse();
+
+		jsConsole.writeLine('<strong>[5, 4, 23, 2].reverse():</strong> ');
+		reversed.forEach(function (item) {
+			jsConsole.write(item + ", ");
+		});
+
+		jsConsole.writeLine();
+		jsConsole.writeLine('------------------------------');
+
+		var numbers2 = [1, 2, 3, 4, 5, 6];
+
+		jsConsole.writeLine('<strong>[5, 4, 23, 2].concat([1, 2, 3, 4, 5, 6]):</strong> ');
+		var allNumbers = numbers.concat(numbers2);
+		allNumbers.forEach(function (item) {
+			jsConsole.write(item + ", ");
+		});
+
+		jsConsole.writeLine();
+		jsConsole.writeLine('------------------------------');
+
+
+		jsConsole.writeLine('numbers: ' + numbers);
+		var deleted = numbers.splice(0, 2, 'one', 'two', 'three');
+
+		jsConsole.writeLine('<strong>deleted after [5, 4, 23, 2].splice(0, 2, "one", "two", "three"):</strong> ');
+		jsConsole.writeLine('elements deleted: ' + deleted.join(', '));
+		jsConsole.writeLine('numbers after: ' + numbers.join(', '));
+		jsConsole.writeLine();
+
+		var allNumbers = new Array();
+		for (var i = 0; i < 20; i++) {
+			allNumbers.push(i);
+		}
+
+		var even = allNumbers.filter(function (item) {
+			return item % 2 == 0;
+		});
+
+		jsConsole.writeLine('<strong>after [1, 2, ...., 18, 19].filter(item%2==0): </strong>');
+		jsConsole.writeLine(even.join(', '));
+
+	</script>
+</body>
+
+</html>

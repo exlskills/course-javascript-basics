@@ -1,0 +1,25 @@
+<html>
+<head>
+	<title>Operators and Expressions - Logical Operators</title>
+	<link href="styles/js-console.css" rel="stylesheet" />
+</head>
+<body>
+	<div id="js-console"></div>
+	<script src="scripts/js-console.js"></script>
+	<script>
+		var a = true;
+		var b = false;
+
+		jsConsole.writeLine("a && b = " + (a && b)); // False
+		jsConsole.writeLine("a || b = " + (a || b)); // True
+		jsConsole.writeLine("a ^ b = " + (a ^ b)); // 1	  !!!!!!
+		jsConsole.writeLine("!b = " + (!b)); // True
+		jsConsole.writeLine("b || true = " + (b || true)); // True
+		jsConsole.writeLine("b && true = " + (b && true)); // False
+		jsConsole.writeLine("a || true = " + (a || true)); // True
+		jsConsole.writeLine("a && true = " + (a && true)); // True
+		jsConsole.writeLine("!a = " + (!a)); // False
+		jsConsole.writeLine("(5 > 7) ^ (a == b) = " + ((5 > 7) ^ (a == b))); // 0	  
+	</script>
+</body>
+</html>
