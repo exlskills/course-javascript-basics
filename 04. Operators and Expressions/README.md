@@ -78,15 +78,15 @@ _Examples:_
 |   x  |   y   | inside |
 |:----:|:-----:|:------:|
 | 0    | 1     | true   |
-| -2   | 0     | true   |
-| -1   | 2     | false  |
-| 1.5  | -1    | true   |
-| -1.5 | -1.5  | false  |
+| -5   | 0     | true   |
+| -4   | 5     | false  |
+| 1.5  | -3    | true   |
+| -4   | -3.5  | false  |
 | 100  | -30   | false  |
 | 0    | 0     | true   |
 | 0.2  | -0.8  | true   |
-| 0.9  | -1.93 | false  |
-| 1    | 1.655 | true   |
+| 0.9  | -4.93 | false  |
+| 2    | 2.655 | true   |
 
 ### Problem 7. Is prime 
 *	Write an expression that checks if given positive integer number n (n ≤ 100) is prime.
