@@ -4,7 +4,7 @@
 	<title>JS Console - Example</title>
 	<link href="styles/js-console.css" rel="stylesheet" />
 	<style>
-		#number {
+		#tb-number {
 			border: 1px solid black;
 			padding: 5px 15px;
 			background-color: black;
@@ -32,18 +32,30 @@
 	<input type="text" id="tb-number" />
 	<br />
 	<a href="#" onclick="onEvenOddButtonClick()">Even or Odd</a>
+	<a href="#" onclick="onIsNumberButtonClick()">Is Number</a>
 	<div id="console">
 	</div>
 	<script src="scripts/js-console.js">	  
 	</script>
 	<script>
 		function onEvenOddButtonClick() {
-			var number = jsConsole.readFloat("#tb-number");
-			if (number % 2 == 0) {
-				jsConsole.writeLine("The number " + number + " is <strong>even</strong>")
+			var str = jsConsole.readFloat('#tb-number'),
+				number = +str;
+
+			if (number % 2) {
+				jsConsole.writeLine('The number ' + number + ' is <strong>odd</strong>');
+			} else {
+				jsConsole.writeLine('The number ' + number + ' is <strong>even</strong>');
 			}
-			else {
-				jsConsole.writeLine("The number " + number + " is <strong>odd</strong>")
+		}
+
+		function onIsNumberButtonClick() {
+			var str = jsConsole.readFloat('#tb-number');
+
+			if (+str) {
+				jsConsole.writeLine('The string is a Number');
+			} else {
+				jsConsole.writeLine('The string is not a Number');
 			}
 		}
 	</script>

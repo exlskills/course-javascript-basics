@@ -4,7 +4,7 @@
 	<title>JS Console - Example</title>
 	<link href="styles/js-console.css" rel="stylesheet" />
 	<style>
-		#number {
+		input[type=text] {
 			border: 1px solid black;
 			padding: 5px 15px;
 			background-color: black;
@@ -31,39 +31,32 @@
 	<label for="tb-text">Text: </label>
 	<input type="text" id="tb-text" />
 	<br />
-	<a href="#" onclick="onCheckNumbersButtonClick()">Even or Odd</a>
-	<div id="console">
-	</div>
-	<script src="scripts/js-console.js">	  
-	</script>
+	<a href="#" onclick="onCheckNumbersButtonClick()">Odd or Even</a>
+	<div id="console"></div>
+	<script src="scripts/js-console.js"></script>
 	<script>
 		function onCheckNumbersButtonClick() {
-			var text = jsConsole.read("#tb-text");
-			var vowels = 0;
-			var other = 0;
-			var numbers = 0;
-			for (var i = 0; i < text.length; i++) {
+			var text = jsConsole.read("#tb-text"),
+				vowels = 0,
+				other = 0,
+				numbers = 0;
+
+			for (var i = 0; i < text.length; i+=1) {
 				var character = text[i];
-				if (character == "a" || character == "A") {
-					vowels++;
-				}
-				else if (character == "e" || character == "E") {
-					vowels++;
-				}
-				else if (character == "u" || character == "U") {
-					vowels++;
-				}
-				else if (character == "o" || character == "o") {
-					vowels++;
-				}
-				else if (character == "i" || character == "i") {
-					vowels++;
-				}
-				else if ("0" <= character && character <= "9") {
-					numbers++;
-				}
-				else {
-					other++;
+				if (character === 'a' || character === 'A') {
+					vowels+=1;
+				} else if (character === 'e' || character === 'E') {
+					vowels+=1;
+				} else if (character === 'u' || character === 'U') {
+					vowels+=1;
+				} else if (character === 'o' || character === 'o') {
+					vowels+=1;
+				} else if (character === 'i' || character === 'i') {
+					vowels+=1;
+				} else if ('0' <= character && character <= '9') {
+					numbers+=1;
+				} else {
+					other+=1;
 				}
 			}
 			jsConsole.writeLine("Vowels: " + vowels);

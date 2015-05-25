@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>JS Console - Example</title>
+    <link href="styles/js-console.css" rel="stylesheet" />
+    <style>
+        input[type=text] {
+            border: 1px solid black;
+            padding: 5px 15px;
+            background-color: black;
+            color: white;
+            font-family: Consolas;
+            margin-bottom: 5px;
+        }
+
+        a {
+            color: black;
+            border: 1px solid black;
+            padding: 5px 15px;
+            text-decoration: none;
+            display: inline-block;
+            margin: 15px 0;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+<label for="tb-day">Text: </label>
+<input type="text" id="tb-day" />
+<br />
+<a href="#" onclick="onDayButtonClick()">Check the day</a>
+<a href="#" onclick="onScoreButtonClick()">Check score</a>
+<div id="console">
+</div>
+<script src="scripts/js-console.js">
+</script>
+<script>
+    function onDayButtonClick() {
+        var dayIndex = jsConsole.readInteger('#tb-day'),
+            result;
+
+        switch (dayIndex) {
+            case 1:
+            case 2:
+            case 3:
+            case 4:
+            case 5:
+                result = 'Working day';
+                break;
+            case 6:
+            case 7:
+                result = 'Weekend';
+                break;
+            default: result = 'Error!'; break;
+        }
+
+        jsConsole.writeLine(result);
+    }
+
+    function onScoreButtonClick() {
+        var str = jsConsole.readFloat('#tb-day'),
+            score = +str;
+
+        switch (true) {
+            case !score: // true when score is NaN
+            case score < 2 || score > 6:
+                jsConsole.writeLine('Invalid score');
+                break;
+            case score < 3.5:
+                jsConsole.writeLine('Poor ' + score);
+                break;
+            case score < 4.5:
+                jsConsole.writeLine('Good ' + score);
+                break;
+            case score < 5.5:
+                jsConsole.writeLine('Very good ' + score);
+                break;
+            default:
+                jsConsole.writeLine('Excellent ' + score);
+                break;
+        }
+    }
+</script>
+</body>
+</html>

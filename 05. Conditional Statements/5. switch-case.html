@@ -38,9 +38,9 @@
 	</script>
 	<script>
 		function onDayButtonClick() {
-			var dayIndex = jsConsole.readInteger("#tb-day");
+			var dayIndex = jsConsole.readInteger("#tb-day"),
+				day;
 
-			var day;
 			switch (dayIndex) {
 				case 1: day = "Monday"; break;
 				case 2: day = "Tuesday"; break;
@@ -49,9 +49,9 @@
 				case 5: day = "Friday"; break;
 				case 6: day = "Saturday"; break;
 				case 7: day = "Sunday"; break;
-				default:
-					day = "Invalid day"; break;
+				default: day = "Invalid day"; break;
 			}
+
 			jsConsole.writeLine(day);
 		}
 	</script>
