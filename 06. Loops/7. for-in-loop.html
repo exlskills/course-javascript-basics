@@ -35,18 +35,18 @@
 				return 'Name: ' + this.fullName() + '\nAge: ' + this.age
 			}
 		};
+
 		function printObject(obj) {
-        		jsConsole.writeLine('--------------------------');
-        		for (var property in obj) {
-            			if (typeof(obj[property]) != 'function') {
-                		jsConsole.writeLine('obj[' + property + '] = ' + obj[property]);
-            			}
-            			else{
-            			jsConsole.writeLine('obj[' + property + '] = ' + obj[property]());
-            			}
-        		}
-        		jsConsole.writeLine('--------------------------');
-    		}
+			jsConsole.writeLine('--------------------------');
+			for (var property in obj) {
+				if (typeof(obj[property]) != 'function') {
+					jsConsole.writeLine('obj[' + property + '] = ' + obj[property]);
+				} else{
+					jsConsole.writeLine('obj[' + property + '] = ' + obj[property]());
+				}
+			}
+			jsConsole.writeLine('--------------------------');
+		}
 		printObject(obj);
 	</script>
 </body>

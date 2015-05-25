@@ -7,6 +7,7 @@
 <body>
 	<input type="text" id="tb-number" />
 	<a href="#" id="btn-check-prime" onclick="onCheckPrimeBtnClick()">Check prime</a>
+	<a href="#" onclick="onPrintSumBtnClick()">Print Sum</a>
 	<div id="js-console">
 	</div>
 	<script src="scripts/js-console.js">	  
@@ -20,17 +21,15 @@
 		}
 		jsConsole.writeLine('Found -> ' + number)
 
-
-		jsConsole.writeLine();
 		jsConsole.writeLine();
 		jsConsole.writeLine();
 
 		function onCheckPrimeBtnClick() {
+			var number = jsConsole.readInteger('#tb-number'),
+				divider = 2,
+				maxDivider = Math.sqrt(number),
+				isPrime = true;
 
-			var number = jsConsole.readInteger('#tb-number');
-			var divider = 2;
-			var maxDivider = Math.sqrt(number);
-			var isPrime = true;
 			while (isPrime && (divider <= maxDivider)) {
 				if (number % divider == 0) {
 					isPrime = false;
@@ -41,7 +40,21 @@
 			jsConsole.writeLine('The number ' + number + ' is ' + (isPrime ? '' : ' not ') + ' prime');
 		}
 
+		function onPrintSumBtnClick() {
+			var n = jsConsole.readInteger('#tb-number'),
+				number = 1,
+				sum = 1,
+				result = 'The sum 1';
 
+			while (number < n) {
+				number += 1;
+				sum += number ;
+				result += '+' + number;
+			}
+
+			result += ' = ' + sum;
+			jsConsole.writeLine(result);
+		}
 	</script>
 </body>
 </html>

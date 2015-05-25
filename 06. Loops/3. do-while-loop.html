@@ -22,9 +22,10 @@
 	</script>
 	<script>
 		function onCalcFactBtnClick() {
-			var number = jsConsole.readInteger('#tb-number');
-			var fact = 1;
-			var factStr = 'n! = ';
+			var number = jsConsole.readInteger('#tb-number'),
+				fact = 1,
+				factStr = 'n! = ';
+
 			do {
 				fact *= number;
 				factStr += number + '*'
@@ -34,12 +35,14 @@
 			factStr += ' = ' + fact;
 			jsConsole.writeLine(factStr);
 		}
+
 		function onPowerBtnClick() {
-			var n = jsConsole.readInteger('#tb-power-number');
-			var m = jsConsole.readInteger('#tb-power');
-			var power = 0;
-			var product = 1;
-			var productStr = '';
+			var n = jsConsole.readInteger('#tb-power-number'),
+				m = jsConsole.readInteger('#tb-power'),
+				power = 0,
+				product = 1,
+				productStr = '';
+
 			do {
 				product *= n;
 				productStr += n;
@@ -48,10 +51,10 @@
 				}
 				power++;
 			} while (power < m);
+
 			productStr += ' = ' + product;
 			jsConsole.writeLine(productStr);
 		}
-
 	</script>
 </body>
 </html>

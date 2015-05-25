@@ -13,21 +13,23 @@
 	</script>
 	<script>
 		function onCalcFactBtnClick() {
+			var number = jsConsole.readInteger('#tb-number'),
+				fact = 1,
+				factStr = 'n! = ';
 
-			var number = jsConsole.readInteger('#tb-number');
-			var fact = 1;
-			var factStr = 'n! = ';
-			while (true) {
-				if (number == 1)
+			while (number) {
+				if (number === 1) {
 					break;
+				}
+
 				factStr += number + '*';
 				fact *= number;
-				number--;
+				number -= 1;
 			}
+
 			factStr += '1 = ' + fact;
 			jsConsole.writeLine(factStr);
 		}
-
 	</script>
 </body>
 </html>

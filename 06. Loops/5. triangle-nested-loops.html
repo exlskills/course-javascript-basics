@@ -15,9 +15,11 @@
 	</script>
 	<script>
 		function onDrawTriangleBtnClick() {
-			var n = jsConsole.readInteger('#tb-number');
-			for (var row = 1; row <= n; row++) {
-				for (var column = 1; column <= row; column++) {
+			var n = jsConsole.readInteger('#tb-number'),
+				row, column;
+
+			for (row = 1; row <= n; row+=1) {
+				for (column = 1; column <= row; column+=1) {
 					jsConsole.write(column + ' ');
 				}
 				jsConsole.writeLine()
