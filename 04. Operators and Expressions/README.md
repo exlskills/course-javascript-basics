@@ -71,7 +71,7 @@ _Examples:_
 | 62241 | 11110011 00100001     | 0      |
 
 ### Problem 6. Point in Circle
-*	Write an expression that checks if given point `P(x,  y)` is within a circle `K(O, 5)`.
+*	Write an expression that checks if given point `P(x,  y)` is within a circle `K({0,0}, 5)`. //{0,0} is the centre and 5 is the radius
 
 _Examples:_
 
@@ -127,12 +127,12 @@ _Examples:_
 |   x  |   y  | inside K & outside of R |
 |:----:|:----:|:-----------------------:|
 | 1    | 2    | yes                     |
-| 2.5  | 2    | no                      |
+| 2.5  | 2    | yes                     |
 | 0    | 1    | no                      |
 | 2.5  | 1    | no                      |
 | 2    | 0    | no                      |
 | 4    | 0    | no                      |
-| 2.5  | 1.5  | no                      |
+| 2.5  | 1.5  | yes                     |
 | 2    | 1.5  | yes                     |
 | 1    | 2.5  | yes                     |
 | -100 | -100 | no                      |
