@@ -33,7 +33,7 @@
 <br />
 <a href="#" onclick="onDayButtonClick()">Check the day</a>
 <a href="#" onclick="onScoreButtonClick()">Check score</a>
-<a href="#" onclick="onFollowThroughDemoBtnClick()">Follow Through Demo</a>
+<a href="#" onclick="onFallThroughDemoBtnClick()">Fall Through Demo</a>
 <div id="console">
 </div>
 <script src="scripts/js-console.js">
@@ -70,7 +70,7 @@
             case score < 2 || score > 6:
                 jsConsole.writeLine('Invalid score');
                 break;
-            case score < 3.5:
+            case true: //score < 3.5:
                 jsConsole.writeLine('Poor ' + score);
                 break;
             case score < 4.5:
@@ -85,8 +85,8 @@
         }
     }
 
-    function onFollowThroughDemoBtnClick() {
-        var foo = 2,
+    function onFallThroughDemoBtnClick() {
+        var foo = 1,
             output = 'Output: ';
 
         switch (foo) {
