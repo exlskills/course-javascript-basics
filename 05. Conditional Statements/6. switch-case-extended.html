@@ -33,6 +33,7 @@
 <br />
 <a href="#" onclick="onDayButtonClick()">Check the day</a>
 <a href="#" onclick="onScoreButtonClick()">Check score</a>
+<a href="#" onclick="onFollowThroughDemoBtnClick()">Follow Through Demo</a>
 <div id="console">
 </div>
 <script src="scripts/js-console.js">
@@ -81,6 +82,33 @@
             default:
                 jsConsole.writeLine('Excellent ' + score);
                 break;
+        }
+    }
+
+    function onFollowThroughDemoBtnClick() {
+        var foo = 2,
+            output = 'Output: ';
+
+        switch (foo) {
+            case 10:
+                output += 'So ';
+            case 1:
+                output += 'What ';
+                output += 'Is ';
+            case 2:
+                output += 'Your ';
+            case 3:
+                output += 'Name';
+            case 4:
+                output += '?';
+                jsConsole.writeLine(output);
+                break;
+            case 5:
+                output += '!';
+                jsConsole.writeLine(output);
+                break;
+            default:
+                jsConsole.writeLine('Please pick a number from 0 to 6!');
         }
     }
 </script>
