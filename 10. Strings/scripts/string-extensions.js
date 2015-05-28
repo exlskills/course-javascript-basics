@@ -14,8 +14,8 @@
 					return true;
 				}
 			}
+			return isMatch;
 		}
-		return isMatch;
 	}
 
 	if (!String.prototype.toCharArray) {
