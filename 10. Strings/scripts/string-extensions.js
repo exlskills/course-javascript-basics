@@ -15,6 +15,7 @@
 				}
 			}
 		}
+		return isMatch;
 	}
 
 	if (!String.prototype.toCharArray) {
