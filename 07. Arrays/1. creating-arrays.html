@@ -10,21 +10,24 @@
 	<div id="js-console"></div>
 	<script src="scripts/js-console.js"></script>
 	<script>				  	
-
-		var arr = new Array(1, 2, 3, 4, 5);
+		var arr,
+			arr2,
+			weekDays,
+			mixedArr;
+			
+		arr = new Array(1, 2, 3, 4, 5);
 		jsConsole.writeLine('arr = ' + arr.join(', '));
 
-		var arr2 = new Array(10);								
+		arr2 = new Array(10);								
 		jsConsole.writeLine('arr2 = ' + arr2.join(', '));
 		jsConsole.writeLine('arr2[2] = ' + arr2[2]);
 		
-		var weekDays = ['Monday', 'Tuesday', 'Wednesday',
+		weekDays = ['Monday', 'Tuesday', 'Wednesday',
 			'Thursday', 'Friday', 'Saturday', 'Sunday']
 		jsConsole.writeLine('weekDays = ' + weekDays.join(', '));
 
-		var mixedArr = [1, new Date(), 'hello'];
+		mixedArr = [1, new Date(), 'hello'];
 		jsConsole.writeLine('mixedArr = ' + mixedArr.join(', '));
-
 	</script>
 </body>
 

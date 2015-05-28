@@ -10,11 +10,12 @@
 	<div id="js-console"></div>
 	<script src="scripts/js-console.js"></script>
 	<script>
-
-		var numbers = [1, 2, 3, 4, 5];
+		var tail,
+			head,
+			numbers = [1, 2, 3, 4, 5];
 		jsConsole.writeLine(numbers.join('|')); // result: 1|2|3|4|5
 		
-		var tail = numbers.pop();               // tail = 5;
+		tail = numbers.pop();               // tail = 5;
 		jsConsole.writeLine('Add 0 at the end (tail)');
 		jsConsole.writeLine('Removed: ' + tail);
 		jsConsole.writeLine(numbers.join('|')); // result: 1|2|3|4
@@ -23,10 +24,9 @@
 		jsConsole.writeLine('Insert 0 at the start (head)');
 		jsConsole.writeLine(numbers.join('|')); // result: 0|1|2|3|4
 		
-		var head = numbers.shift();             // head=0;		   
+		head = numbers.shift();             // head=0;		   
 		jsConsole.writeLine('Removed: ' + head);
 		jsConsole.writeLine(numbers.join('|')); // result: 1|2|3|4
-
 	</script>
 </body>
 
