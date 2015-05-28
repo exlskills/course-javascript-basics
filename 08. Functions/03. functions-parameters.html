@@ -40,8 +40,9 @@
 		}
 
 		function printMax(arr) {
-			var maxIndex = 0;
-			for (var i = 0; i < arr.length; i++) {
+			var i,
+				maxIndex = 0;
+			for (i = 0; i < arr.length; i++) {
 				if (arr[maxIndex] < arr[i]) {
 					maxIndex = i;
 				}

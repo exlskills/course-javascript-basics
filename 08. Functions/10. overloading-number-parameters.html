@@ -10,20 +10,26 @@
 
 		function getCharCount(str,char, isCaseSensitive) {
 			function getCharCountCaseInsensitive(char) {
-				var count = 0;
-				var lowerChar = char.toLowerCase();
-				var upperChar = char.toUpperCase();
-				for (var ch = 0; ch < str.length; ch++) {
+				var ch,
+					count = 0,
+					lowerChar = char.toLowerCase(),
+					upperChar = char.toUpperCase();
+					
+				for (ch = 0; ch < str.length; ch++) {
 					if (str[ch] === lowerChar || str[ch] === upperChar) count++;
 				}
+				
 				return count;
 			}
 
 			function getCharCountCaseSensitive(char) {
-				var count = 0;
-				for (var ch = 0; ch < str.length; ch++) {
+				var ch,
+					count = 0;
+					
+				for (ch = 0; ch < str.length; ch++) {
 					if (str[ch] === char) count++;
 				}
+				
 				return count;
 			}
 

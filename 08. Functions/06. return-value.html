@@ -9,10 +9,13 @@
 	<script src="scripts/js-console.js"></script>
 	<script>
 		function getPropertiesCount(obj) {
-			var count = 0;
-			for (var prop in obj) {
+			var prop, 
+				count = 0;
+				
+			for (prop in obj) {
 				count++;
 			}
+			
 			return count;
 		}
 
