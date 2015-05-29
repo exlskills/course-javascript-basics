@@ -1,0 +1,38 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Array Methods - filter</title>
+    <link href="styles/js-console.css" rel="stylesheet" />
+</head>
+<body>
+    <div id="js-console"></div>
+    <script src="scripts/js-console.js"></script>
+    <script type="text/javascript">
+        printIsAny([1, 2, 3, 4], isOdd, 'odd numbers');
+        printIsAny([1, 3, 5, 7], isOdd, 'odd numbers');
+        printIsAny([2, 4, 6, 8], isOdd, 'odd numbers');
+        jsConsole.writeLine('------------------------------------------');
+        printIsAny([2, 3, 4, 5, 6, 7, 8], isRange(4, 7), 'in range [4..7]');
+        printIsAny([2, 3, 4, 5, 6, 7, 8], isRange(2, 4), 'in range [2..4]');
+
+        function printIsAny(arr, func, msg) {
+            jsConsole.writeLine('[' + arr + '] ' + msg + ' => [' + arr.filter(func) + ']');
+        }
+
+        function isOdd(num, i, arr) {
+            //jsConsole.writeLine('arr[' + i + '] = ' + arr[i] + ' is odd? - ' + !!(num % 2));
+            return !!(num % 2);
+        }
+
+        function isRange(min, max) {
+            return function(item) {
+                var i = arguments[1],
+                    arr = arguments[2];
+
+                //jsConsole.writeLine('arr[' + i + '] = ' + arr[i] + ' is greater than 18? - ' + !!(num > 18));
+                return min <= item && item <= max;
+            }
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,22 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Array Methods - reduce</title>
+    <link href="styles/js-console.css" rel="stylesheet" />
+</head>
+<body>
+    <div id="js-console"></div>
+    <script src="scripts/js-console.js"></script>
+    <script type="text/javascript">
+        var sum = [1, 2, 3, 4].reduce(function(sum, number) {
+            return sum + number;
+        }, 0);
+        var product = [1, 2, 3, 4].reduce(function(sum, number) {
+            return sum * number;
+        }, 1);
+
+        jsConsole.writeLine(sum);
+        jsConsole.writeLine(product);
+    </script>
+</body>
+</html>
