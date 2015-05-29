@@ -25,14 +25,14 @@
 		//	return this.firstname + " " + this.lastname;
 		//}
 
+		jsConsole.writeLine(person);
+		renamePerson(person, 'Stamat');
+		jsConsole.writeLine(person);
+
 		function renamePerson(personObj, fname, lname) {
 			personObj.firstname = fname || personObj.firstname;
 			personObj.lastname = lname || personObj.lastname;
 		}
-
-		jsConsole.writeLine(person);
-		renamePerson(person, 'Stamat');
-		jsConsole.writeLine(person);
 	</script>
 </body>
 </html>

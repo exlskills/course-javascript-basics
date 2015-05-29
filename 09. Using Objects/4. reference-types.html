@@ -10,6 +10,17 @@
 	<script src="scripts/js-console.js">
 	</script>
 	<script>
+		var marks, student;
+		marks = [
+			{ subject: 'JavaScript', score: 5.50 },
+			{ subject: 'OOP', score: 5.00 },
+			{ subject: 'Slice and Dice', score: 6.00 },
+			{ subject: 'Photoshop', score: 4.00 }],
+		student = { name: 'Doncho Minkov', marks: marks };
+		printStudent(student);
+		marks[2].score = 5.50;
+		printStudent(student);
+		//logs 5.50 for Slice and Dice score					
 
 		function printStudent(student) {
 			jsConsole.writeLine('<strong>' + student.name + '</student>');
@@ -18,19 +29,6 @@
 			}
 			jsConsole.writeLine('--------------------------');
 		}
-
-		var marks = [
-			{ subject: 'JavaScript', score: 5.50 },
-			{ subject: 'OOP', score: 5.00 },
-			{ subject: 'Slice and Dice', score: 6.00 },
-			{ subject: 'Photoshop', score: 4.00 }];
-
-		var student = { name: 'Doncho Minkov', marks: marks };
-		printStudent(student);
-		marks[2].score = 5.50;
-		printStudent(student);
-		//logs 5.50 for Slice and Dice score					
-
 	</script>
 </body>
 </html>

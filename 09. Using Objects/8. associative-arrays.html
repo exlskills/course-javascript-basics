@@ -10,10 +10,20 @@
 	<script src="scripts/js-console.js">
 	</script>
 	<script>
+		var text = 'When I was born my parents named me Pesho Ivanov, and still my name is Pesho Ivanov and now I am 102 years old. Two years ago my first name was Pesho, and my last name was Ivanov. ',
+			words = getWords(text),
+			wordsCount = countWords(words),
+			word;
+
+		for (word in wordsCount) {
+			jsConsole.writeLine(word + ' -> ' + wordsCount[word]);
+		}
 
 		function getWords(text) {
-			var words = text.split(/[\s\.,-?!)(]/);
-			for (var i = 0; i < words.length; i++) {
+			var words = text.split(/[\s\.,-?!)(]/),
+				i;
+
+			for (i = 0; i < words.length; i++) {
 				if (words[i] == "") {
 					words.splice(i, 1);
 				}
@@ -22,9 +32,10 @@
 		}
 
 		function countWords(words) {
-			var wordsCount = {};
-			var word = {};
-			for (var i in words) {
+			var wordsCount = {},
+				word, i;
+
+			for (i in words) {
 				word = words[i].toLowerCase();
 				if (wordsCount[word]) {
 					wordsCount[word]++;
@@ -37,16 +48,6 @@
 			return wordsCount;
 		}
 
-		var text = 'When I was born my parents named me Pesho Ivanov, and still my name is Pesho Ivanov and now I am 102 years old. Two years ago my first name was Pesho, and my last name was Ivanov. ';
-
-
-		var words = getWords(text);
-
-		var wordsCount = countWords(words);
-
-		for (var word in wordsCount) {
-			jsConsole.writeLine(word + ' -> ' + wordsCount[word]);
-		}
 	</script>
 </body>
 </html>

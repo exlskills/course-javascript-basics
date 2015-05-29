@@ -10,6 +10,12 @@
 		<script src="scripts/js-console.js">	
 		</script>
 		<script>
+			var minkov = buildPerson('Doncho', 'Minkov'),
+				kenov = buildPerson('Ivaylo', 'Kenov');
+
+			jsConsole.writeLine(minkov);
+			jsConsole.writeLine(kenov);
+
 			function buildPerson(fname, lname) {
 				return {
 					fname: fname,
@@ -19,13 +25,6 @@
 					}
 				};
 			}
-
-			var minkov = buildPerson('Doncho', 'Minkov');
-			var kenov = buildPerson('Ivaylo', 'Kenov');
-
-			jsConsole.writeLine(minkov);
-			jsConsole.writeLine(kenov);
-	
 		</script>
 	</body>
 </html>

@@ -8,20 +8,20 @@
 	<div id="js-console"></div>
 	<script src="scripts/js-console.js"></script>
 	<script>
+		var maxNumber = 16,
+			binaryDigits, number, numberInBinary, paddedBinary;
 
-		function padleft(number, diggits) {
-
-			return '00000000000000000000000000000000000000000'.substr(0, diggits - number.length) + number;
+		binaryDigits = maxNumber.toString(2).length - 1;
+		for (number = 0; number < maxNumber; number++) {
+			numberInBinary = number.toString(2);
+			paddedBinary = padLeft(numberInBinary, binaryDigits);
+			jsConsole.writeLine('The number ' + number + ' is represented in binary as ' + paddedBinary);
 		}
 
-		var n = 16;
-		var binaryDigits = n.toString(2).length - 1;
-		for (var i = 0; i < n; i++) {
-			var number = i;
-			var numberInBinary = number.toString(2);
-			var paddedBinary = padleft(numberInBinary, binaryDigits);
-			jsConsole.writeLine('The number ' + number + ' is represented in binary as ' + paddedBinary);
-		}														   
+		function padLeft(number, diggits) {
+			return '00000000000000000000000000000000000000000'
+				.substr(0, diggits - number.length) + number;
+		}		
 	</script>
 </body>
 </html>

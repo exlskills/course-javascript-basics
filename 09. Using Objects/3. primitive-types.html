@@ -10,41 +10,37 @@
 </head>
 
 <body>
-    <div id="js-console">
-    </div>
-    <script src="scripts/js-console.js">
-    	
-    </script>
+    <div id="js-console"></div>
+    <script src="scripts/js-console.js"></script>
     <script>
     		//Primitive types have a reference type wrapper
-	var number = 5;
-	var numberObj = new Number(5);
+		var num = 5,
+			numObj = new Number(5);
 
-	jsConsole.writeLine('(number == numberObj) = ' + (number == numberObj));
-	jsConsole.writeLine('(number === numberObj) = ' + (number === numberObj));
-	jsConsole.writeLine('typeof number = ' + typeof number);
-	jsConsole.writeLine('typeof numberObj = ' + typeof numberObj);
-	jsConsole.writeLine('(typeof number === typeof numberObj) = ' + (typeof number === typeof numberObj));
+		jsConsole.writeLine('(number == numberObj) = ' + (num == numObj));
+		jsConsole.writeLine('(number === numberObj) = ' + (num === numObj));
+		jsConsole.writeLine('typeof num = ' + typeof num);
+		jsConsole.writeLine('typeof numObj = ' + typeof numObj);
+		jsConsole.writeLine('(typeof num === typeof numObj) = ' + (typeof num === typeof numObj));
 
-	//Primitive types are passed by value
-	jsConsole.writeLine("-------------------");
+		//Primitive types are passed by value
+		jsConsole.writeLine("-------------------");
 
-	var fname = 'Pesho';
-	var lname = 'Ivanov';
-	var person = {
-	    firstName: fname,
-	    lastName: lname,
-	    toString: function personToString() {
-	        return this.firstName + " " + this.lastName
-	    }
-	};
+		var fname = 'Pesho',
+			lname = 'Ivanov',
+			person = {
+				firstName: fname,
+				lastName: lname,
+				toString: function personToString() {
+					return this.firstName + " " + this.lastName
+			}
+		};
 
-	jsConsole.writeLine(person);
-	jsConsole.writeLine('Changing the last name to Petrov');
-	lname = 'Petrov';
-	jsConsole.writeLine(person) // still "Ivanov"
-	
-    </script>
+		jsConsole.writeLine(person);
+		jsConsole.writeLine('Changing the last name to Petrov');
+		lname = 'Petrov';
+		jsConsole.writeLine(person) // still "Ivanov"
+	</script>
 </body>
 
 </html>
