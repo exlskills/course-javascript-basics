@@ -14,6 +14,7 @@
 					return true;
 				}
 			}
+			return isMatch;
 		}
 	}
 

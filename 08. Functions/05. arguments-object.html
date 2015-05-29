@@ -9,20 +9,19 @@
 	<script src="scripts/js-console.js"></script>
 	<script>
 		function printArguments() {
+			var i;
+			
 			console.log('-------------');
 			console.log(arguments.callee);
 
-			for (var i in arguments) {
+			for (i in arguments) {
 				console.log(arguments[i]);
 			}
 			console.log('-------------');
 		}
 
 		printArguments(1, 2, 3, 4, 5);
-
 		printArguments([1, 2, 3, 4, 5], 'Stirng', new Object(), new Date());
-
-
 	</script>
 
 </body>

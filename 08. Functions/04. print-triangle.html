@@ -13,17 +13,19 @@
 	<script>
 
 		function onPrintTriangleBtnClick() {
-			var n = jsConsole.readFloat('#tb-number');			
-			var line;
+			var line,
+				n = jsConsole.readFloat('#tb-number');			
+			
 			for (line = 1; line <= n; line++)
 				printLine(1, line);
 			for (line = n - 1; line >= 1; line--)
 				printLine(1, line);
 			jsConsole.writeLine('----------------');
-
 		}
+
 		function printLine(start, end) {
-			for (var i = start; i <= end; i++) {
+			var i;
+			for (i = start; i <= end; i++) {
 				jsConsole.write(i + ' ');
 			}
 			jsConsole.writeLine();

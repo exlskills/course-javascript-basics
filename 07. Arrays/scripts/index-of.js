@@ -1,7 +1,9 @@
 ﻿(function () {
 	if (!Array.prototype.indexOf) {
 		Array.prototype.indexOf = function (o, s) {
-			for (var i = (s || 0), n = this.length; i < n; i++) {
+			var i,
+				len = this.length;
+			for (i = (s || 0), n = len; i < n; i++) {
 				if (this[i] === o) {
 					return i;
 				}
@@ -11,7 +13,9 @@
 	}
 	if (!Array.prototype.lastIndexOf) {
 		Array.prototype.lastIndexOf = function (o, e) {
-			for (var i = (e || this.length) ; i >= 0; i--) {
+			var i,
+				len = this.length;
+			for (i = (e || len) ; i >= 0; i--) {
 				if (this[i] === o) {
 					return i;
 				}

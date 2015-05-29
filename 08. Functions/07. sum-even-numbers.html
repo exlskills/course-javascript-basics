@@ -19,12 +19,15 @@
 		}
 
 		function sum(numbers) {
-			var sum = 0;
-			for (var i in numbers) {
+			var i, 
+				sum = 0;
+				
+			for (i in numbers) {
 				if (numbers[i] % 2 == 0) {
 					sum += numbers[i];
 				}
 			}
+			
 			return sum;
 		}
 	</script>
