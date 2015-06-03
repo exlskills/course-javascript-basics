@@ -1,0 +1,46 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Chaining Array Methods</title>
+    <link href="styles/js-console.css" rel="stylesheet" />
+</head>
+<body>
+    <div id="js-console"></div>
+    <script src="scripts/js-console.js"></script>
+    <script type="text/javascript">
+        if (!Array.prototype.fill) {
+            Array.prototype.fill = function(callback) {
+                var i, len = this.length;
+                for (i = 0;i < len; i+=1) {
+                    this[i] = arguments[0];
+                }
+                return this;
+            };
+        }
+
+        var n = 10,
+            digits = [],
+            digitNames;
+
+        digits[n - 1] = undefined;
+        digitNames = digits.fill(0)
+                .map(getRandomDigit)
+                .filter(isOdd)
+                .map(digitToDigitName);
+        jsConsole.write(digitNames);
+        console.log(digitNames);
+
+        function getRandomDigit() {
+            return (Math.random() * 10) | 0;
+        }
+
+        function isOdd(item) {
+            return !!(item % 2);
+        }
+
+        function digitToDigitName(digit) {
+            return ['Zero', 'One', 'Two', 'Three', 'Four', 'Five', 'Six', 'Seven', 'Eight', 'Nine'][digit];
+        }
+    </script>
+</body>
+</html>

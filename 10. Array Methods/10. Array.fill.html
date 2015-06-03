@@ -1,0 +1,36 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Array Methods - fill</title>
+    <link href="styles/js-console.css" rel="stylesheet" />
+</head>
+<body>
+    <div id="js-console"></div>
+    <script src="scripts/js-console.js"></script>
+    <script type="text/javascript">
+        if (!Array.prototype.fill) {
+            Array.prototype.fill = function(callback) {
+                var i, len = this.length;
+                for (i = 0;i < len; i+=1) {
+                    this[i] = arguments[0];
+                }
+                return this;
+            };
+        }
+        var arr = [],
+            count = 15;
+
+        arr[count - 1] = undefined;
+        arr.fill(1);
+        jsConsole.writeLine(arr);
+
+        arr = [];
+        count = 5;
+        arr[count - 1] = undefined;
+
+        arr.fill([1, 2, 3, 4, 5]);
+        jsConsole.writeLine(arr);
+        console.log(arr);
+    </script>
+</body>
+</html>

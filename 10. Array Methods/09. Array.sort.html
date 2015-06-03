@@ -1,0 +1,37 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Array Methods - sort</title>
+    <link href="styles/js-console.css" rel="stylesheet" />
+</head>
+<body>
+    <div id="js-console"></div>
+    <script src="scripts/js-console.js"></script>
+    <script type="text/javascript">
+        var numbers = [5, 1, 2, 4, 6];
+        numbers.sort(function(x, y) {
+            return y - x;
+        });
+        jsConsole.writeLine(numbers); //[ 6, 5, 4, 2, 1 ]
+
+        function createPerson(name, age) {
+            return {
+                name: name,
+                age: age,
+                toString: function() {
+                    return this.name;
+                }
+            };
+        }
+
+        var people = [ createPerson('Peter', 13),
+            createPerson('John', 18),
+            createPerson('Susan', 21)
+        ];
+        people.sort(function(p1, p2) {
+            return p1.name > p2.name;
+        });
+        jsConsole.writeLine(people); // John, Peter, Susan
+    </script>
+</body>
+</html>

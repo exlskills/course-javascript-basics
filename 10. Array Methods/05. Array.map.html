@@ -8,10 +8,11 @@
     <div id="js-console"></div>
     <script src="scripts/js-console.js"></script>
     <script type="text/javascript">
-        var numbers = ['One', 'Two', 'Three', 'Four', 'Five'];
-        numbers.forEach(function(item, index) {
-            jsConsole.writeLine('Item at' + index + 'has value' + item);
+        var squares = [1, 2, 3, 4, 5].map(function(number) {
+            return number * number;
         });
+
+        jsConsole.writeLine('Squares = [' + squares + ']');
 
         var lines = ['1 2 3',
                      '4 5 6'];
