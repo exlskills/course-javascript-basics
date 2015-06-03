@@ -19,7 +19,7 @@ Using Objects
 *	Write a function that calculates the average age of all females, extracted from an array of persons
 	*	Use Array#filter
 	*	Use only array methods and no regular loops (for, while)
-
+	
 ### Problem 5. Youngest person
 *	Write a function that finds the youngest male person in a given array of people and prints his full name
 	*	Use only array methods and no regular loops (for, while)
