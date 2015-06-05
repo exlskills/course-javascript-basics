@@ -16,7 +16,7 @@ _Example:_
 *	Write a function that puts the value of an object into the content/attributes of HTML tags.
 	*	Add the function to the **String.prototype**
 
-_Example:_
+_Example 1:_
 
 **input**
 
@@ -27,3 +27,13 @@ _Example:_
 
 		<div data-bind-content="name">Steven</div>
 
+_Example 2:_
+
+**input**
+		
+		var bindingString = '<a data-bind-content="name" data-bind-href="link" data-bind-class="name"></div>'
+		str.bind(str, {name: 'Elena', link: 'http://telerikacademy.com'});
+
+**output**
+
+		<a data-bind-content="name" data-bind-href="link" data-bind-class="name" href="http://telerikacademy.com" class="Elena">Elena</div>
