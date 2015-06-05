@@ -31,9 +31,9 @@ _Example 2:_
 
 **input**
 		
-		var bindingString = '<a data-bind-content="name" data-bind-href="link" data-bind-class="name"></div>'
+		var bindingString = '<a data-bind-content="name" data-bind-href="link" data-bind-class="name"></а>'
 		str.bind(str, {name: 'Elena', link: 'http://telerikacademy.com'});
 
 **output**
 
-		<a data-bind-content="name" data-bind-href="link" data-bind-class="name" href="http://telerikacademy.com" class="Elena">Elena</div>
+		<a data-bind-content="name" data-bind-href="link" data-bind-class="name" href="http://telerikacademy.com" class="Elena">Elena</а>
