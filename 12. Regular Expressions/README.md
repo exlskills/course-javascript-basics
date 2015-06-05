@@ -18,7 +18,12 @@ _Example:_
 
 _Example:_
 
-| input | output |
-| ------------------------------------------------------- | ------------------------------------------ |
-|	var str = '<div data-bind-content="name"></div>';<br/>str.bind(str, {name: 'Gosho'});`| `<div data-bind-content="name">Gosho</div>|
+**input**
+
+		var str = '<div data-bind-content="name"></div>';
+		str.bind(str, {name: 'Steven'});
+
+**output**
+
+		<div data-bind-content="name">Steven</div>
 
