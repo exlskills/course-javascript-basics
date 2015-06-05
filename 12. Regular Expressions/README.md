@@ -3,7 +3,7 @@ Regular Expressions
 
 ### Problem 1. Format with placeholders
 *	Write a function that formats a string. The function should have placeholders, as shown in the example
-	*	Add the function to the String.prototype
+	*	Add the function to the **String.prototype**
 
 _Example:_
 
