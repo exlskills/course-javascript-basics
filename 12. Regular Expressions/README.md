@@ -20,5 +20,5 @@ _Example:_
 
 | input | output |
 | ------------------------------------------------------- | ------------------------------------------ |
-|	`var str = '<div data-bind-content="name"></div>';`<br/>`str.bind(str, {name: 'Gosho'});`| `<div data-bind-content="name">Gosho</div>`|
+|	var str = '<div data-bind-content="name"></div>';<br/>str.bind(str, {name: 'Gosho'});`| `<div data-bind-content="name">Gosho</div>|
 
