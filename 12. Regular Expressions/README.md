@@ -9,5 +9,5 @@ _Example:_
 | input | output |
 | ------------------------------------------------------- | ------------------------------------------ |
 |	var options = {name: 'John'};<br/>		format('Hello, there! Are you #{name}', options);	| 'Hello, there! Are you John'|
-| ------------------------------------------------------- | ------------------------------------------- |
-|	var options = {name: 'John',age: 13};<br/>format('My name is #{name} and I am #{age}-years-old',options);|'My name is 'John' and I am 13-years-old' |
+| ------------------------------------------------------- | ------------------------------------------ |
+|	var options = {name: 'John', age: 13};<br/>format('My name is #{name} and I am #{age}-years-old',options);|'My name is 'John' and I am 13-years-old' |
