@@ -1,0 +1,121 @@
+15
+text-RandomText
+anotherText-RandomTextAgain
+passTheIf-true
+doNotPassTheIf-false
+passTheIf-true
+doNotPassTheIf-false
+pesho-na peshlqka modela
+gosho-i gosho e tuka brato
+someNumbers-1;2;3;4;5
+someTechs-asp.net;mvc;angular;node;c sharp
+someNumbersHere-1;2;3;4;5
+someTechsHere-asp.net;mvc;angular;node;c sharp
+kolio-nikolay
+minkov-donchoviq
+unused-just unused model
+106
+<nk-template name="first">
+    <ul>
+        <li>
+            In section UL
+        </li>
+        <li>
+            Still in section UL
+        </li>
+    </ul>
+</nk-template>
+<nk-template name="second">
+    <div>
+        Second section :)
+    </div>
+</nk-template>
+<div>
+    <p>
+    {{<nk-if condition="pesho">}}
+        {{escaped}} dude
+    </p>
+    <p>
+    {{<nk-template render="pesho">}}
+    </p>
+    <p>
+    {{<nk-repeat for="pesho in peshos">}}
+        {{escaped}} in comment
+    </p>
+</div>
+<div>
+    <nk-template render="first" />
+    <nk-template render="second" />
+</div>
+<div>
+    <div>
+        <nk-model>text</nk-model>
+    </div>
+    <ul>
+        <li>
+             <span><nk-model>anotherText</nk-model></span>
+        </li>
+    </ul>
+</div>
+<div>
+    <p>Some bulsh*t text</p>
+    <br />
+    <nk-if condition="passTheIf">
+        <span>Passed</span>
+    </nk-if>
+    <br />
+    <div>
+        <span>More bulsh*t text</span>
+        <nk-if condition="doNotPassTheIf">
+            <span>if this passes this is error</span>
+        </nk-if>
+    <div>
+</div>
+<div>
+    <p>Some bulsh*t text + <nk-model>pesho</nk-model> & <nk-model>gosho</nk-model></p>
+    <br />
+    <nk-if condition="passTheIf">
+        <span>Passed <nk-model>pesho</nk-model> and <nk-model>gosho</nk-model></span>
+    </nk-if>
+    <br />
+    <div>
+        <span>More bulsh*t text</span>
+        <nk-if condition="doNotPassTheIf">
+            <span>if this passes this is error <nk-model>pesho</nk-model> and <nk-model>gosho</nk-model></span>
+        </nk-if>
+    <div>
+</div>
+<div>
+    <span>Some bulsh*t text</span>
+    <br />
+    <nk-repeat for="number in someNumbers">
+        <span><nk-model>number</nk-model> da ima</span>
+        <span>only <nk-model>number</nk-model></span>
+    </nk-repeat>
+    <br />
+    <div>
+        <span>More bulsh*t text</span>
+        <nk-repeat for="tech in someTechs">
+            <span><nk-model>tech</nk-model> is cool</span>
+            <span>and <nk-model>tech</nk-model> is mama</span>
+        </nk-repeat>
+    <div>
+</div>
+<div>
+    <span>Some bulsh*t text</span>
+    <br />
+    <nk-repeat for="someNumber in someNumbersHere">
+        <span><nk-model>someNumber</nk-model> da ima</span>
+        <span>only <nk-model>someNumber</nk-model></span>
+        <strong><nk-model>kolio</nk-model></strong>
+    </nk-repeat>
+    <br />
+    <div>
+        <span>More bulsh*t text</span>
+        <nk-repeat for="someTech in someTechsHere">
+            <span><nk-model>someTech</nk-model> is cool</span>
+            <span>and <nk-model>someTech</nk-model> is mama</span>
+            <strong><nk-model>minkov</nk-model></strong>
+        </nk-repeat>
+    <div>
+</div>

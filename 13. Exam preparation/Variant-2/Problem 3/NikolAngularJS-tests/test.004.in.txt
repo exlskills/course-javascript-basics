@@ -1,0 +1,18 @@
+2
+passTheIf-true
+doNotPassTheIf-false
+14
+<div>
+    <p>Some bulsh*t text</p>
+    <br />
+    <nk-if condition="passTheIf">
+        <span>Passed</span>
+    </nk-if>
+    <br />
+    <div>
+        <span>More bulsh*t text</span>
+        <nk-if condition="doNotPassTheIf">
+            <span>if this passes this is error</span>
+        </nk-if>
+    <div>
+</div>

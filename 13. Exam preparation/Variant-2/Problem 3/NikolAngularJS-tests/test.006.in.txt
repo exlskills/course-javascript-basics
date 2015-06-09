@@ -1,0 +1,20 @@
+2
+someNumbers-1;2;3;4;5
+someTechs-asp.net;mvc;angular;node;c sharp
+14
+<div>
+    <span>Some bulsh*t text</span>
+    <br />
+    <nk-repeat for="number in someNumbers">
+        <span><nk-model>number</nk-model> da ima</span>
+        <span>only <nk-model>number</nk-model></span>
+    </nk-repeat>
+    <br />
+    <div>
+        <span>More bulsh*t text</span>
+        <nk-repeat for="tech in someTechs">
+            <span><nk-model>tech</nk-model> is cool</span>
+            <span>and <nk-model>tech</nk-model> is mama</span>
+        </nk-repeat>
+    <div>
+</div>

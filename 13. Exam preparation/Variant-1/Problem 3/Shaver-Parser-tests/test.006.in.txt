@@ -1,0 +1,20 @@
+2
+someNumbers:1,2,3,4,5
+someTechs:asp.net,mvc,angular,node,c-sharp
+14
+<div>
+    <span>Some bulsh*t text</span>
+    <br />
+    @foreach (var number in someNumbers) {
+        <span>@number da ima</span>
+        <span>only @number</span>
+    }
+    <br />
+    <div>
+        <span>More bulsh*t text</span>
+        @foreach (var tech in someTechs) {
+            <span>@tech is cool</span>
+            <span>and @tech is mama</span>
+        }
+    <div>
+</div>

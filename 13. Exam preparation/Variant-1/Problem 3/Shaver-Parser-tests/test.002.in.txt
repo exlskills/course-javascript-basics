@@ -1,0 +1,21 @@
+0
+21
+@section first {
+<ul>
+    <li>
+        In section UL
+    </li>
+    <li>
+        Still in section UL
+    </li>
+</ul>
+}
+@section second {
+<div>
+    Second section :)
+</div>
+}
+<div>
+    @renderSection("first")
+    @renderSection("second")
+</div>

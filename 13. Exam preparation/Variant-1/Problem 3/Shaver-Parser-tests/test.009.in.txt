@@ -1,0 +1,15 @@
+5
+pesho:gosho
+gosho:pesho
+if:gadno
+foreach:hackvane
+renderSection:ivaylo sucks ;D
+8
+<div>
+    @@if (pesho)
+    @if (pesho)
+    @foreach (var nqma in nikoi)
+    @pesho 
+    @gosho 
+    @renderSection 
+</div>

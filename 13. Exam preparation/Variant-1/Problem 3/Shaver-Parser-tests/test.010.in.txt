@@ -1,0 +1,15 @@
+5
+peshov:goshoviq
+goshov:peshoviq
+ifaylo:gadno a?
+foreachable:hackvane ima tuk
+renderSectionirane:ivaylo sucks more ;D
+8
+<div>
+    @@if (peshov)
+    @ifaylo (peshov)
+    @foreachable (var nqma in nikoi)
+    @peshov 
+    @goshov 
+    @renderSectionirane 
+</div>

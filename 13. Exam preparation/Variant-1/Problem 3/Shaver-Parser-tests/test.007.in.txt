@@ -1,0 +1,24 @@
+4
+someNumbersHere:1,2,3,4,5
+someTechsHere:asp.net,mvc,angular,node,c-sharp
+kolio:nikolay
+minkov:donchoviq
+14
+<div>
+    <span>Some bulsh*t text</span>
+    <br />
+    @foreach (var someNumber in someNumbersHere) {
+        <span>@someNumber da ima</span>
+        <span>only @someNumber</span>
+        <strong>@kolio</strong>
+    }
+    <br />
+    <div>
+        <span>More bulsh*t text</span>
+        @foreach (var someTech in someTechsHere) {
+            <span>@someTech is cool</span>
+            <span>and @someTech is mama</span>
+            <strong>@minkov</strong>
+        }
+    <div>
+</div>

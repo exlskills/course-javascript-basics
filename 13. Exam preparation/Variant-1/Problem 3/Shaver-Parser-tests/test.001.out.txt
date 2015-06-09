@@ -1,0 +1,13 @@
+<div>
+    <p>
+    @if (pesho)
+        @escaped dude
+    </p>
+    <p>
+    @renderSection("pesho")
+    </p>
+    <p>
+    @foreach(var pesho in peshos)
+        @escaped in comment
+    </p>
+</div>

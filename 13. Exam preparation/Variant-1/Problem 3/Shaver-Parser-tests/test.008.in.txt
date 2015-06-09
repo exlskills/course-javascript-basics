@@ -1,0 +1,123 @@
+15
+text:RandomText
+anotherText:RandomTextAgain
+passTheIf:true
+doNotPassTheIf:false
+passTheIf:true
+doNotPassTheIf:false
+pesho:na peshlqka modela
+gosho:i gosho e tuka brato
+someNumbers:1,2,3,4,5
+someTechs:asp.net,mvc,angular,node,c-sharp
+someNumbersHere:1,2,3,4,5
+someTechsHere:asp.net,mvc,angular,node,c-sharp
+kolio:nikolay
+minkov:donchoviq
+unused:just unused model
+106
+@section first {
+<ul>
+    <li>
+        In section UL
+    </li>
+    <li>
+        Still in section UL
+    </li>
+</ul>
+}
+@section second {
+<div>
+    Second section :)
+</div>
+}
+<div>
+    <p>
+    @@if (pesho) { 
+        @@escaped dude
+    }
+    </p>
+    <p>
+    @@renderSection("pesho")
+    </p>
+    <p>
+    @@foreach(var pesho in peshos) {
+        @@escaped in comment
+    }
+    </p>
+</div>
+<div>
+    @renderSection("first")
+    @renderSection("second")
+</div>
+<div>
+    <div>
+        @text 
+    </div>
+    <ul>
+        <li>
+             <span>@anotherText</span>
+        </li>
+    </ul>
+</div>
+<div>
+    <p>Some bulsh*t text</p>
+    <br />
+    @if (passTheIf) {
+        <span>Passed</span>
+    }
+    <br />
+    <div>
+        <span>More bulsh*t text</span>
+        @if (doNotPassTheIf) {
+            <span>if this passes this is error</span>
+        }
+    <div>
+</div>
+<div>
+    <p>Some bulsh*t text + @pesho & @gosho</p>
+    <br />
+    @if (passTheIf) {
+        <span>Passed @pesho and @gosho</span>
+    }
+    <br />
+    <div>
+        <span>More bulsh*t text</span>
+        @if (doNotPassTheIf) {
+            <span>if this passes this is error @pesho and @gosho</span>
+        }
+    <div>
+</div>
+<div>
+    <span>Some bulsh*t text</span>
+    <br />
+    @foreach (var number in someNumbers) {
+        <span>@number da ima</span>
+        <span>only @number</span>
+    }
+    <br />
+    <div>
+        <span>More bulsh*t text</span>
+        @foreach (var tech in someTechs) {
+            <span>@tech is cool</span>
+            <span>and @tech is mama</span>
+        }
+    <div>
+</div>
+<div>
+    <span>Some bulsh*t text</span>
+    <br />
+    @foreach (var someNumber in someNumbersHere) {
+        <span>@someNumber da ima</span>
+        <span>only @someNumber</span>
+        <strong>@kolio</strong>
+    }
+    <br />
+    <div>
+        <span>More bulsh*t text</span>
+        @foreach (var someTech in someTechsHere) {
+            <span>@someTech is cool</span>
+            <span>and @someTech is mama</span>
+            <strong>@minkov</strong>
+        }
+    <div>
+</div>

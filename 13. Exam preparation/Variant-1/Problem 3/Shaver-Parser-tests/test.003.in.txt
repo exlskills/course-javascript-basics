@@ -1,0 +1,14 @@
+2
+text:RandomText
+anotherText:RandomTextAgain
+10
+<div>
+    <div>
+        @text 
+    </div>
+    <ul>
+        <li>
+             <span>@anotherText</span>
+        </li>
+    </ul>
+</div>

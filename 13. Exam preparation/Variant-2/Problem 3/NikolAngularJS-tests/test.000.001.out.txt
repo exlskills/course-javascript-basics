@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Telerik Academy</title>
+</head>
+<body>
+    <ul id="menu">
+        <li>Home</li>
+        <li>About us</li>
+    </ul>
+
+    <h1>Telerik Academy</h1>
+    <h2>Free training</h2>
+    <div><nk-model>subTitle</nk-model> ;)</div>
+
+    <ul>
+        <li>
+            Ivan
+        </li>
+        <li>Multiline Telerik Academy</li>
+        <li>
+            Gosho
+        </li>
+        <li>Multiline Telerik Academy</li>
+        <li>
+            Pesho
+        </li>
+        <li>Multiline Telerik Academy</li>
+    </ul>
+
+    <footer>
+        Copyright Telerik Academy 2014
+    </footer>
+</body>
+</html>

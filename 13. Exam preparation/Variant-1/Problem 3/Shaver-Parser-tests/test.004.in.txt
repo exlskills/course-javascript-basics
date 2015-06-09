@@ -1,0 +1,18 @@
+2
+passTheIf:true
+doNotPassTheIf:false
+14
+<div>
+    <p>Some bulsh*t text</p>
+    <br />
+    @if (passTheIf) {
+        <span>Passed</span>
+    }
+    <br />
+    <div>
+        <span>More bulsh*t text</span>
+        @if (doNotPassTheIf) {
+            <span>if this passes this is error</span>
+        }
+    <div>
+</div>

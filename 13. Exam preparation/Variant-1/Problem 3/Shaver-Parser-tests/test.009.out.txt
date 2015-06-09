@@ -1,0 +1,8 @@
+<div>
+    @if (pesho)
+    gadno (pesho)
+    hackvane (var nqma in nikoi)
+    gosho 
+    pesho 
+    ivaylo sucks ;D 
+</div>

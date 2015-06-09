@@ -1,0 +1,14 @@
+2
+text-RandomText
+anotherText-RandomTextAgain
+10
+<div>
+    <div>
+        <nk-model>text</nk-model>
+    </div>
+    <ul>
+        <li>
+             <span><nk-model>anotherText</nk-model></span>
+        </li>
+    </ul>
+</div>
