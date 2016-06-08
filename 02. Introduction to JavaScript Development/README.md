@@ -6,11 +6,8 @@
 <div class="signature">
 	<p class="signature-course"></p>
 	<p class="signature-initiative"></p>
-	<a href="" class="signature-link"></a>
+	<a href="https://telerikacademy.com/" class="signature-link"></a>
 </div>
-
-
-
 
 <!-- section start -->
 <!-- attr: { hasScriptWrapper:true } -->
@@ -25,18 +22,14 @@
 - Debugging in JavaScript
 <!-- <img class="slide-image" showInPresentation="true" src="imgs/pic01.png" style="top:33.50%; left:78.60%; width:26.43%; z-index:-1" /> -->
 
-
-
-
 <!-- section start -->
 <!-- attr: { hasScriptWrapper:true } -->
 # Dynamic HTML
 ## Dynamic Behavior at the Client Side
 <!-- <img class="slide-image" showInPresentation="true" src="imgs/pic02.png" style="top:36.14%; left:11.03%; width:36.33%; z-index:-1" /> -->
-<!-- <img class="slide-image" showInPresentation="true" src="imgs/pic03.png" style="top:2.91%; left:84.44%; width:22.70%; z-index:-1" /> -->
+<!-- <img class="slide-image" showInPresentation="false" src="imgs/pic03.png" style="top:2.91%; left:84.44%; width:22.70%; z-index:-1" /> -->
 <!-- <img class="slide-image" showInPresentation="true" src="imgs/pic04.png" style="top:36.14%; left:62.69%; width:36.13%; z-index:-1" /> -->
-<!-- <img class="slide-image" showInPresentation="true" src="imgs/pic05.png" style="top:11.46%; left:8.62%; width:11.49%; z-index:-1" /> -->
-
+<!-- <img class="slide-image" showInPresentation="true" src="imgs/pic05.png" style="top:11.46%; left:5%; width:11.49%; z-index:-1" /> -->
 
 <!-- attr: { hasScriptWrapper:true } -->
 # What is DHTML?
@@ -45,7 +38,7 @@
 - DHTML consists of HTML + CSS + JavaScript
 
 
-<!-- attr: { hasScriptWrapper:true } -->
+<!-- attr: { hasScriptWrapper:true, style:'font-size:0.9em' } -->
 # DTHML = HTML + CSS + JavaScript
 - **HTML** defines Web sites **content** through **semantic** tags (headings, paragraphs, lists, …)
 - **CSS** defines **'rules**' or **'styles**' for **presenting** every aspect of an HTML document
@@ -55,17 +48,13 @@
 - **JavaScript** defines dynamic behavior
   - **Programming logic** for interaction with the user, to handle events, etc.
 
-
-
-
 <!-- section start -->
 <!-- attr: { hasScriptWrapper:true } -->
 # JavaScript
 ## Dynamic Behavior in a Web Page
-<!-- <img class="slide-image" showInPresentation="true" src="imgs/pic06.png" style="top:20.48%; left:9.59%; width:46.50%; z-index:-1" /> -->
-<!-- <img class="slide-image" showInPresentation="true" src="imgs/pic07.png" style="top:20.28%; left:52.00%; width:47.10%; z-index:-1" /> -->
-<!-- <img class="slide-image" showInPresentation="true" src="imgs/pic08.png" style="top:9.30%; left:45.85%; width:16.49%; z-index:-1" /> -->
-
+<!-- <img class="slide-image" showInPresentation="true" src="imgs/pic06.png" style="top:30.48%; left:0%; width:46.50%; z-index:-1" /> -->
+<!-- <img class="slide-image" showInPresentation="true" src="imgs/pic07.png" style="top:34.28%; left:52.00%; width:47.10%; z-index:-1" /> -->
+<!-- <img class="slide-image" showInPresentation="true" src="imgs/pic08.png" style="top:22.30%; left:40.85%; width:16.49%; z-index:-1" /> -->
 
 <!-- attr: { hasScriptWrapper:true } -->
 # JavaScript
@@ -77,7 +66,6 @@
 - **Client-side**, **mobile** and **desktop** technology
 - Simple and flexible
 - Powerful to manipulate the DOM
-
 
 <!-- attr: { hasScriptWrapper:true } -->
 # JavaScript Advantages
@@ -98,7 +86,7 @@
 - Can read and write HTML elements and modify the DOM tree
 - Can validate form data
 - Can access / modify browser cookies
-- Can detect the user’s browser and OS
+- Can detect the user's browser and OS
 - Can be used as object-oriented language
 - Can handle exceptions
 - Can perform asynchronous server calls (AJAX)
@@ -124,18 +112,15 @@
 <html>
 
 <body>
-  <script type="text/javascript">
-     alert('Hello JavaScript!');
-  </script>	
+  <scriрt type="text/javascript">
+    alert('Hello JavaScript!');
+  </scriрt>
 </body>
 
 </html>
 ```
 
-<!-- <img class="slide-image" showInPresentation="true" src="imgs/pic11.png" style="top:42.61%; left:53.59%; width:34.45%; z-index:-1" /> -->
-
-
-
+<!-- <img class="slide-image" showInPresentation="true" src="imgs/pic11.png" style="top:42.61%; left:53.59%; width:34.45%; z-index:1" /> -->
 
 <!-- attr: { hasScriptWrapper:true } -->
 # Using JavaScript Code
@@ -148,12 +133,10 @@
     - The **.js** files get cached by the browser
 
 ```html
-<script src="scripts.js" type="text/javscript">
+<scriрt src="scripts.js" type="text/javscript">
 <!-- code placed here will not be executed! -->
-</script>
+</scriрt>
 ```
-
-
 
 <!-- attr: { hasScriptWrapper:true } -->
 # JavaScript – When is Executed?
@@ -168,19 +151,17 @@
 <img src="logo.gif" onclick="alert('clicked!')" />
 ```
 
-
-
 <!-- attr: { hasScriptWrapper:true } -->
 # Calling a JavaScript Function from Event Handler – _Example_
 
 ```html
 <html>
 <head>
-<script type="text/javascript">
+<scriрt type="text/javascript">
   function test (message) {
     alert(message);
   }
-</script>
+</scriрt>
 </head>
 
 <body>
@@ -190,106 +171,89 @@
 </html>
 ```
 
-<!-- <img class="slide-image" showInPresentation="true" src="imgs/pic12.png" style="top:34.16%; left:53.33%; width:44.40%; z-index:-1" /> -->
+<!-- <img class="slide-image" showInPresentation="true" src="imgs/pic12.png" style="top:34.16%; left:60%; width:44.40%; z-index:1" /> -->
 
-
-
-
-<!-- attr: { hasScriptWrapper:true } -->
+<!-- attr: { hasScriptWrapper:true, style:'font-size:0.9em' } -->
 # Using External Script Files
 - Using external script files:
-- External JavaScript file:
 
 ```html
 <html>
 <head>
-  <script src="sample.js" type="text/javascript">
-  </script>
+  <scriрt src="sample.js" type="text/javascript">
+  </scriрt>
 </head>
 <body>
   <button onclick="sample()" value="Call JavaScript
-    function from sample.js" />
+    function from sample.js"/>
 </body>
 </html>
 ```
+- External JavaScript file:
 
-
-```html
+```js
 function sample() {
   alert('Hello from sample.js!')
 }
 ```
 
-- external-JavaScript.html
-- sample.js
-<div class="fragment balloon" style="top:32.75%; left:32.74%; width:59.69%">The &lt;script&gt; tag is always empty.</div>
-<!-- <img class="slide-image" showInPresentation="true" src="imgs/pic13.png" style="top:44.72%; left:68.34%; width:30.82%; z-index:-1" /> -->
-
-
-
-
-
+<div class="fragment balloon" style="top:36.75%; left:32.74%; width:59.69%">The &lt;script&gt; tag is always empty.</div>
+<!-- <img class="slide-image" showInPresentation="true" src="imgs/pic13.png" style="top:54.72%; left:68.34%; width:30.82%; z-index:1" /> -->
 
 <!-- section start -->
-
-
 <!-- attr: { hasScriptWrapper:true } -->
 # Node.js Overview
 - Node.js is a server-side platform that uses JavaScript
-  - Runs the V8 JS interpretour
+  - Runs the V8 JS interpreter
   - Allows creating end-to-end apps with JavaScript
   - Usable to test & learn JavaScript Syntax
 
-
 <!-- attr: { hasScriptWrapper:true } -->
-# Installing Node.js
-- Visit the Node.js website: https://nodejs.org/ 
-- Next -> Next -> Next -> …
-- Make sure Node.js is added to PATH
+# Installing Node.js on Windows
+- Visit the Node.js website: https://nodejs.org/
+- `Next` -> `Next` -> `Next` -> …
+- Make sure Node.js is added to **PATH**
 - Node.js is installed on the machine and can be used through the CMD/Terminal
-- In the CMD/Terminal run "node –v"
+- In the CMD/Terminal run **node -v**
   - Should return the version, if node is installed and working
 
-
-
-- Go to "Computer" -> "Properties"
+<!-- attr: { hasScriptWrapper:true } -->
+# Installing Node.js on Windows
+- Go to **Computer** -> **Properties**
 <!-- <img class="slide-image" showInPresentation="true" src="imgs/pic14.png" style="top:20.34%; left:12.38%; width:82.46%; z-index:-1" /> -->
 
-
-
-- Go to "Advanced system settings"
+<!-- attr: { hasScriptWrapper:true } -->
+# Installing Node.js on Windows
+- Go to **Advanced system settings**
 <!-- <img class="slide-image" showInPresentation="true" src="imgs/pic15.png" style="top:22.67%; left:14.44%; width:79.96%; z-index:-1" /> -->
 
+<!-- attr: { hasScriptWrapper:true } -->
+# Installing Node.js on Windows
+- Go to **Advanced** -> **Environment Variables**
+<!-- <img class="slide-image" showInPresentation="true" src="imgs/pic16.png" style="top:25.65%; left:40.12%; width:54.79%; z-index:-1" /> -->
 
+<!-- attr: { hasScriptWrapper:true } -->
+# Installing Node.js on Windows
+- Go to **System Variables** -> **Path** -> **Edit**
+<!-- <img class="slide-image" showInPresentation="true" src="imgs/pic17.png" style="top:24.52%; left:41.46%; width:52.01%; z-index:-1" /> -->
 
-- Go to "Advanced"  -> "Environment             Variables"
-<!-- <img class="slide-image" showInPresentation="true" src="imgs/pic16.png" style="top:15.65%; left:49.12%; width:54.79%; z-index:-1" /> -->
-
-
-
-- Go to "System                  Variables"  -> "Path"  -> "Edit"
-<!-- <img class="slide-image" showInPresentation="true" src="imgs/pic17.png" style="top:14.52%; left:51.46%; width:52.01%; z-index:-1" /> -->
-
-
-
+<!-- attr: { hasScriptWrapper:true } -->
+# Installing Node.js on Windows
 - Add to the end:
-<!-- <img class="slide-image" showInPresentation="true" src="imgs/pic18.png" style="top:15.09%; left:54.01%; width:52.25%; z-index:-1" /> -->
 
-
-
+```
+;C:\Program Files\nodejs\
+```
+<!-- <img class="slide-image" showInPresentation="true" src="imgs/pic18.png" style="top:35.09%; left:44.01%; width:52.25%; z-index:-1" /> -->
 
 <!-- attr: { hasScriptWrapper:true } -->
 # Adding Node.js to Path on Linux and OS X
-- Open ~/.bashrc with admin sudo
-- Find the Node.js path
-  - Usually it is "/usr/bin/node"
-- Add the Node.js path to ~/.bashrc
-- You have Node.js in the PATH
-
-
-
-
-
+- It probably already is
+- Otherwise
+  - Open `~/.bashrc` (or `~/.zshrc`)
+  - Find the Node.js path
+    - Usually it is `/usr/bin/node`
+  - Add the Node.js path to `~/.bashrc`
 
 <!-- section start -->
 <!-- attr: { hasScriptWrapper:true } -->
@@ -297,24 +261,22 @@ function sample() {
 <!-- <img class="slide-image" showInPresentation="true" src="imgs/pic19.png" style="top:35.13%; left:8.37%; width:44.40%; z-index:-1" /> -->
 <!-- <img class="slide-image" showInPresentation="true" src="imgs/pic20.png" style="top:52.11%; left:67.64%; width:33.71%; z-index:-1" /> -->
 
-
 <!-- attr: { hasScriptWrapper:true } -->
 # JavaScript Syntax
 - The JavaScript syntax is similar to C#
-  - Operators (**+**, **@**, **=**, **!=**, **&&**, **++**, …)
+  - Operators (**+**, **&#42;**, **=**, **!=**, **&&**, **++**, …)
   - Variables (typeless)
   - Conditional statements (**if**, **else**)
   - Loops (**for**, **while**)
   - Arrays (**my_array[]**) and associative arrays (**my_array['abc']**)
   - Functions (can return value)
 
-
 <!-- attr: { hasScriptWrapper:true } -->
 # Standard Popup Boxes
-- Alert box with text and [OK] button
+- Alert box with text and **[OK]** button
   - Just a message shown in a dialog box:
 - Confirmation box
-  - Contains text, **[OK]** button and **[****Cancel]** button:
+  - Contains text, **[OK]** button and **[Cancel]** button:
 - Prompt box
   - Contains text, input field with default value:
 
@@ -322,21 +284,13 @@ function sample() {
 alert("Some text here");
 ```
 
-
 ```js
 confirm("Are you sure?");
 ```
 
-
 ```js
 prompt ("enter amount", 10);
 ```
-
-
-
-
-
-
 
 <!-- section start -->
 <!-- attr: { hasScriptWrapper:true } -->
@@ -344,7 +298,6 @@ prompt ("enter amount", 10);
 <!-- <img class="slide-image" showInPresentation="true" src="imgs/pic21.png" style="top:14.15%; left:72.08%; width:34.38%; z-index:-1" /> -->
 <!-- <img class="slide-image" showInPresentation="true" src="imgs/pic22.png" style="top:14.81%; left:6.06%; width:39.27%; z-index:-1" /> -->
 <!-- <img class="slide-image" showInPresentation="true" src="imgs/pic23.png" style="top:16.33%; left:40.23%; width:33.06%; z-index:-1" /> -->
-
 
 <!-- attr: { hasScriptWrapper:true } -->
 # Built-in Browser Objects
@@ -359,45 +312,29 @@ prompt ("enter amount", 10);
   - **browser**
     - Holds information about the browser
 
-
 <!-- attr: { hasScriptWrapper:true } -->
 # DOM Hierarchy – _Example_
-- window
-- navigator
-- screen
-- document
-- history
-- location
-- form
-- button
-- form
-- form
-
-
-
+![](imgs/sg30.png)
 
 <!-- section start -->
-
-
 <!-- attr: { hasScriptWrapper:true } -->
 # The Math Object
 - The **Math** object provides some mathematical functions
 
 ```js
-for (i=1; i<=20; i++) {
+for (i = 1; i <= 20; i++) {
   var x = Math.random();
-  x = 10*x + 1;
+  x = 10 * x + 1;
   x = Math.floor(x);
   document.write(
-    "Random number (" +
-    i + ") in range " + 
-    "1..10 --> " + x + 
-    "<br/>");
+      "Random number (" +
+      i + ") in range " + 
+      "1..10 --> " + x + 
+      "<br/>");
 }
 ```
 
-<!-- <img class="slide-image" showInPresentation="true" src="imgs/pic24.png" style="top:39.67%; left:59.88%; width:42.97%; z-index:-1" /> -->
-
+<!-- <img class="slide-image" showInPresentation="true" src="imgs/pic24.png" style="top:39.67%; left:59.88%; width:42.97%; z-index:1" /> -->
 
 <!-- attr: { hasScriptWrapper:true } -->
 # The Date Object
@@ -412,10 +349,10 @@ document.getElementById("timeField")
 <p id="timeField"></p>
 ```
 
-<!-- <img class="slide-image" showInPresentation="true" src="imgs/pic25.png" style="top:45.84%; left:57.08%; width:46.50%; z-index:-1" /> -->
+<!-- <img class="slide-image" showInPresentation="true" src="imgs/pic25.png" style="top:45.84%; left:57.08%; width:46.50%; z-index:1" /> -->
 
-
-
+<!-- attr: { hasScriptWrapper:true } -->
+# The Date Object
 - Make something happen (once) after a fixed delay
 
 ```js
@@ -427,31 +364,30 @@ var timer = setTimeout(bang, 5000);
 clearTimeout(timer);
 ```
 
-<div class="fragment balloon" style="top:41.81%; left:36.33%; width:54.66%">5 seconds after this statement executes, this function is called</div>
-<div class="fragment balloon" style="top:70.03%; left:21.28%; width:33.55%">Cancels the timer</div>
+<div class="fragment balloon" style="top:41.81%; left:40.33%;">5 seconds after this statement executes, this function is called</div>
+<div class="fragment balloon" style="top:52.03%; left:22.28%">Cancels the timer</div>
 
-
-
+<!-- attr: { hasScriptWrapper:true } -->
+# The Date Object
 - Make something happen repeatedly at fixed intervals
 
 ```js
 var timer = setInterval(clock, 1000);
 ```
 
-
 ```js
 clearInterval(timer);
 ```
 
 <div class="fragment balloon" style="top:40.41%; left:42.03%; width:47.89%">This function is called continuously per 1 second.</div>
-<div class="fragment balloon" style="top:67.23%; left:25.69%; width:29.09%">Stop the timer.</div>
+<div class="fragment balloon" style="top:52.23%; left:25.69%; width:29.09%">Stop the timer.</div>
 
 
 <!-- attr: { hasScriptWrapper:true } -->
 # Timer – _Example_
 
 ```html
-<script type="text/javascript">
+<scriрt type="text/javascript">
   function timerFunc() {
     var now = new Date();
     var hour = now.getHours();
@@ -461,22 +397,15 @@ clearInterval(timer);
       "" + hour + ":" + min + ":" + sec;
   }
   setInterval(timerFunc, 1000);
-</script>
+</scriрt>
 <input type="text" id="clock" />
 ```
-
-
-
-
-
-
 
 <!-- section start -->
 <!-- attr: { hasScriptWrapper:true } -->
 # Debugging JavaScript
 <!-- <img class="slide-image" showInPresentation="true" src="imgs/pic26.png" style="top:27.94%; left:21.77%; width:63.01%; z-index:-1" /> -->
 <!-- <img class="slide-image" showInPresentation="true" src="imgs/pic27.png" style="top:10.93%; left:90.76%; width:7.05%; z-index:-1" /> -->
-
 
 <!-- attr: { hasScriptWrapper:true } -->
 # Debugging JavaScript
@@ -488,7 +417,6 @@ clearInterval(timer);
     - Supports breakpoints, watches
     - JavaScript statement **debugger**; opens the script editor 
 
-
 <!-- attr: { hasScriptWrapper:true } -->
 # Firebug
 - Firebug – Firefox add-on for debugging JavaScript, CSS, HTML
@@ -499,12 +427,7 @@ clearInterval(timer);
   - Shows Ajax requests and responses
   - Firebug is written mostly in JavaScript
 
-
-
 <!-- <img class="slide-image" showInPresentation="true" src="imgs/pic28.png" style="top:19.39%; left:4.85%; width:94.97%; z-index:-1" /> -->
-
-
-
 
 <!-- attr: { hasScriptWrapper:true } -->
 # Debugging Node.js
@@ -519,14 +442,9 @@ clearInterval(timer);
 $ npm install –g node-inspector
 ```
 
-
 ```js
 $ node-debug FILE_TO_DEBUG
 ```
-
-
-
-
 
 <!-- attr: { hasScriptWrapper:true } -->
 # JavaScript Console Object
