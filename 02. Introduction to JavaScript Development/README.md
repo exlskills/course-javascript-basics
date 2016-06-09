@@ -12,19 +12,20 @@
 <!-- section start -->
 <!-- attr: { hasScriptWrapper:true } -->
 # Table of Contents
-- Dynamic HTML
-- How to Create DHTML?
+- [Dynamic HTML](#dhtml)
+- [How to Create DHTML?](#)
   - XHTML, CSS, JavaScript, DOM
-- Intro to JavaScript
+- [Intro to JavaScript](#js-web)
   - JavaScript in Web Pages
-- JavaScript Syntax 
-- Pop-up boxes
-- Debugging in JavaScript
+- [Node.js overview](#nodejs)
+- [JavaScript Syntax](#syntax)
+- [Pop-up boxes](#popup)
+- [Debugging in JavaScript](#debugging)
 <!-- <img class="slide-image" showInPresentation="true" src="imgs/pic01.png" style="top:33.50%; left:78.60%; width:26.43%; z-index:-1" /> -->
 
 <!-- section start -->
-<!-- attr: { hasScriptWrapper:true, class:'slide-section' } -->
-# Dynamic HTML
+<!-- attr: { hasScriptWrapper:true, class:'slide-section', id:'dhtml' } -->
+# <a id="dhtml"></a>Dynamic HTML
 ## Dynamic Behavior at the Client Side
 <!-- <img class="slide-image" showInPresentation="true" src="imgs/pic02.png" style="top:53.50%; left:11.03%; width:24.33%; z-index:-1" /> -->
 <!-- <img class="slide-image" showInPresentation="false" src="imgs/pic03.png" style="top:2.91%; left:84.44%; width:22.70%; z-index:-1" /> -->
@@ -37,7 +38,6 @@
   - Makes possible a Web page to react and change in response to the user’s actions
 - DHTML consists of HTML + CSS + JavaScript
 
-
 <!-- attr: { hasScriptWrapper:true, style:'font-size:0.9em' } -->
 # DTHML = HTML + CSS + JavaScript
 - **HTML** defines Web sites **content** through **semantic** tags (headings, paragraphs, lists, …)
@@ -49,8 +49,8 @@
   - **Programming logic** for interaction with the user, to handle events, etc.
 
 <!-- section start -->
-<!-- attr: { hasScriptWrapper:true, class:'slide-section' } -->
-# JavaScript
+<!-- attr: { hasScriptWrapper:true, class:'slide-section', id:'js-web' } -->
+# <a id="js-web"></a>JavaScript
 ## Dynamic Behavior in a Web Page
 <!-- <img class="slide-image" showInPresentation="true" src="imgs/pic06.png" style="top:54%; left:0%; width:42.50%; z-index:-1" /> -->
 <!-- <img class="slide-image" showInPresentation="true" src="imgs/pic07.png" style="top:54%; left:52.00%; width:37%; z-index:-1" /> -->
@@ -79,7 +79,6 @@
   - Custom HTML controls, e.g. scrollable table
   - Implementing AJAX functionality
 
-
 <!-- attr: { hasScriptWrapper:true } -->
 # What Can JavaScript Do?
 - Can handle events
@@ -90,7 +89,6 @@
 - Can be used as object-oriented language
 - Can handle exceptions
 - Can perform asynchronous server calls (AJAX)
-
 
 <!-- attr: { hasScriptWrapper:true } -->
 # JavaScript Engines
@@ -103,7 +101,6 @@
   - etc.
 <!-- <img class="slide-image" showInPresentation="true" src="imgs/pic09.png" style="top:49.37%; left:66.28%; width:37.91%; z-index:-1" /> -->
 <!-- <img class="slide-image" showInPresentation="true" src="imgs/pic10.png" style="top:59.94%; left:62.45%; width:41.51%; z-index:-1" /> -->
-
 
 <!-- attr: { hasScriptWrapper:true } -->
 # The First Script
@@ -260,9 +257,9 @@ function sample() {
   - Add the Node.js path to `~/.bashrc`
 
 <!-- section start -->
-<!-- attr: { hasScriptWrapper:true } -->
-# JavaScript Syntax
-<!-- <img class="slide-image" showInPresentation="true" src="imgs/pic19.png" style="top:35.13%; left:8.37%; width:44.40%; z-index:-1" /> -->
+<!-- attr: { hasScriptWrapper:true, class:'slide-section', id:'syntax' } -->
+# <a id="syntax"></a>JavaScript Syntax
+<!-- <img class="slide-image" showInPresentation="true" src="imgs/pic19.png" style="top:42.13%; left:8.37%; width:44.40%; z-index:-1" /> -->
 <!-- <img class="slide-image" showInPresentation="true" src="imgs/pic20.png" style="top:52.11%; left:67.64%; width:33.71%; z-index:-1" /> -->
 
 <!-- attr: { hasScriptWrapper:true, showInPresentation:true } -->
@@ -275,8 +272,8 @@ function sample() {
   - Arrays (`my_array[]`) and associative arrays (`my_array['abc']`)
   - Functions (can return value)
 
-<!-- attr: { hasScriptWrapper:true } -->
-# Standard Pop-up Boxes
+<!-- attr: { hasScriptWrapper:true, id:'popup' } -->
+# <a id="popup"></a>Standard Pop-up Boxes
 - Alert box with text and **[OK]** button
   - Just a message shown in a dialog box:
 - Confirmation box
@@ -404,8 +401,8 @@ clearInterval(timer);
 ```
 
 <!-- section start -->
-<!-- attr: { hasScriptWrapper:true, class:'slide-section' } -->
-# Debugging JavaScript
+<!-- attr: { hasScriptWrapper:true, class:'slide-section', id:'debugging' } -->
+# <a id="debugging"></a>Debugging JavaScript
 <!-- <img class="slide-image" showInPresentation="true" src="imgs/pic26.png" style="top:44%; left:21.77%; width:55%; z-index:-1" /> -->
 <!-- <img class="slide-image" showInPresentation="true" src="imgs/pic27.png" style="top:10.93%; left:90.76%; width:7.05%; z-index:-1" /> -->
 
