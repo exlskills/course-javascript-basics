@@ -3,7 +3,7 @@
 # JavaScript Fundamentals: Course Introduction
 ## JS Course Program, Evaluation, Exams, Resources
 
-<!-- <img class="slide-image" showInPresentation="true" src="\imgs\logo-js.png" style="top:55.35%; left:83.27%; width:17.08%; z-index:-1; " /> -->
+<!-- <img class="slide-image" showInPresentation="true" src="imgs/logo-js.png" style="top:55.35%; left:83.27%; width:17.08%; z-index:-1; " /> -->
 
 <div class="signature">
 	<p class="signature-course">Javascript Fundamentals</p>
@@ -22,7 +22,7 @@
 - [Resources for the Course](#resources)
 - [Required software](#required-software)
 
-<!-- <img class="slide-image" showInPresentation="true" src="\imgs\pic02.png" style="top:40%; left:65%; width:25%; z-index:-1" /> -->
+<!-- <img class="slide-image" showInPresentation="true" src="imgs/pic02.png" style="top:40%; left:65%; width:25%; z-index:-1" /> -->
 
 
 
@@ -32,7 +32,7 @@
 <!-- # JavaScript Fundamentals
 ## Coming To The Next Module -->
 
-<!-- <img class="slide-image" showInPresentation="true" src="\imgs\pic03.png" style="top:55%; left:30%; width:40%; z-index:-1; border-radius: 15px" /> -->
+<!-- <img class="slide-image" showInPresentation="true" src="imgs/pic03.png" style="top:55%; left:30%; width:40%; z-index:-1; border-radius: 15px" /> -->
 
 
 <!-- attr: { id:'whats-next', showInPresentation:true, hasScriptWrapper:true } -->
@@ -47,7 +47,7 @@
   - 3 problems for 4 hours
   - http://bgcoder.com
 
-<!-- <img class="slide-image" showInPresentation="true" src="\imgs\pic04.png" style="top:27.33%; left:74.85%; width:27.33%; z-index:-1" /> -->
+<!-- <img class="slide-image" showInPresentation="true" src="imgs/pic04.png" style="top:27.33%; left:74.85%; width:27.33%; z-index:-1" /> -->
 
 
 <!-- section start -->
@@ -55,7 +55,7 @@
 <!-- # JavaScript Fundamentals Curriculum
 ## What will be covered in the course? -->
 
-<!-- <img class="slide-image" showInPresentation="true" src="\imgs\pic05.png" style="top:60%; left:60%; width:20%; z-index:-1" /> -->
+<!-- <img class="slide-image" showInPresentation="true" src="imgs/pic05.png" style="top:60%; left:60%; width:20%; z-index:-1" /> -->
 
 <!-- attr: { id:'curriculum', showInPresentation:true, hasScriptWrapper:true } -->
 # <a id="curriculum"></a>Curriculum
@@ -108,7 +108,7 @@
 <!-- # Evaluation 
 ## Thank God There Are... No Bonuses! -->
 
-<!-- <img class="slide-image" showInPresentation="true" src="\imgs\pic16.png" style="top:55%; left:40%; width:20%; z-index:-1; border-radius: 15px" /> -->
+<!-- <img class="slide-image" showInPresentation="true" src="imgs/pic16.png" style="top:55%; left:40%; width:20%; z-index:-1; border-radius: 15px" /> -->
 
 <!-- attr: { id:'exam-and-evaluation', showInPresentation:true, hasScriptWrapper:true } -->
 # <a id="exam-and-evaluation"></a>Javascript Fundamentals – Evaluation
@@ -187,7 +187,7 @@
   - Reports about your results
 - [Course page](https://telerikacademy.com/Courses/Courses/Details/339)
 
-<!-- <img class="slide-image" showInPresentation="true" src="\imgs\pic31.png" style="top:45%; left:60%; width:40%; z-index:-1" /> -->
+<!-- <img class="slide-image" showInPresentation="true" src="imgs/pic31.png" style="top:45%; left:60%; width:40%; z-index:-1" /> -->
 
 
 <!-- attr: { id:'required-software', showInPresentation:true, hasScriptWrapper:true } -->
