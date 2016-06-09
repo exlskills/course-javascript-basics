@@ -139,7 +139,7 @@
 ```
 
 <!-- attr: { hasScriptWrapper:true } -->
-# JavaScript – When is Executed?
+# JavaScript - When is Executed?
 - JavaScript code is executed during the page loading or when the browser fires an event
   - All statements are executed at page loading
   - Some statements just define functions that can be called later
@@ -152,7 +152,7 @@
 ```
 
 <!-- attr: { hasScriptWrapper:true } -->
-# Calling a JavaScript Function from Event Handler – _Example_
+# Calling a JavaScript Function from Event Handler - _Example_
 
 ```html
 <html>
@@ -313,7 +313,7 @@ prompt ("enter amount", 10);
     - Holds information about the browser
 
 <!-- attr: { hasScriptWrapper:true } -->
-# DOM Hierarchy – _Example_
+# DOM Hierarchy - _Example_
 ![](imgs/sg30.png)
 
 <!-- section start -->
@@ -384,7 +384,7 @@ clearInterval(timer);
 
 
 <!-- attr: { hasScriptWrapper:true } -->
-# Timer – _Example_
+# Timer - _Example_
 
 ```html
 <scriрt type="text/javascript">
@@ -419,7 +419,7 @@ clearInterval(timer);
 
 <!-- attr: { hasScriptWrapper:true } -->
 # Firebug
-- Firebug – Firefox add-on for debugging JavaScript, CSS, HTML
+- Firebug - Firefox add-on for debugging JavaScript, CSS, HTML
   - Supports breakpoints, watches, JavaScript console editor
   - Very useful for CSS and HTML too
     - You can edit all the document real-time: CSS, HTML, etc
@@ -439,7 +439,7 @@ clearInterval(timer);
   - A browser opens with the code, and it can be debugged
 
 ```js
-$ npm install –g node-inspector
+$ npm install -g node-inspector
 ```
 
 ```js
@@ -457,11 +457,9 @@ $ node-debug FILE_TO_DEBUG
   - **warn(message)**
   - **error(message)**
 
-
 <!-- attr: { hasScriptWrapper:true } -->
 # Introduction JavaScript Development
 - Questions?
-
 
 <!-- attr: { hasScriptWrapper:true } -->
 # Free Trainings @ Telerik Academy
