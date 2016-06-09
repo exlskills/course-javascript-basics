@@ -1,5 +1,5 @@
 <!-- section start -->
-<!-- attr: { hasScriptWrapper:true } -->
+<!-- attr: { hasScriptWrapper:true, class:'slide-section' } -->
 # Data Types and Variables
 <!-- <img class="slide-image" showInPresentation="true" src="imgs/pic00.png" style="top:50.52%; left:59.88%; width:44.96%; z-index:-1" /> -->
 <!-- <img class="slide-image" showInPresentation="true" src="imgs/pic01.png" style="top:7.00%; left:86.00%; width:17.49%; z-index:-1" /> -->
@@ -12,7 +12,7 @@
 </div>
 
 <!-- section start -->
-<!-- attr: { hasScriptWrapper:true } -->
+<!-- attr: { hasScriptWrapper:true, class:'slide-section' } -->
 # Table of Contents
 - Data Types
   - Integer
@@ -25,7 +25,7 @@
 <!-- <img class="slide-image" showInPresentation="true" src="imgs/pic04.png" style="top:18.51%; left:69.08%; width:32.91%; z-index:-1" /> -->
 
 <!-- section start -->
-<!-- attr: { hasScriptWrapper:true } -->
+<!-- attr: { hasScriptWrapper:true, class:'slide-section' } -->
 # Data Types in JavaScript
 <!-- <img class="slide-image" showInPresentation="true" src="imgs/pic05.png" style="top:35.94%; left:67.26%; width:35.41%; z-index:-1" /> -->
 <!-- <img class="slide-image" showInPresentation="true" src="imgs/pic06.png" style="top:35.94%; left:7.38%; width:52.01%; z-index:-1" /> -->
@@ -68,7 +68,7 @@ var mark = 5.25 // mark holds a floating-point number
 ```
 
 <!-- section start -->
-<!-- attr: { hasScriptWrapper:true } -->
+<!-- attr: { hasScriptWrapper:true, class:'slide-section' } -->
 # Introducing Variables
 <!-- <img class="slide-image" showInPresentation="true" src="imgs/pic08.png" style="top:43.20%; left:37.43%; width:38.79%; z-index:-1" /> -->
 <!-- <img class="slide-image" showInPresentation="true" src="imgs/pic09.png" style="top:7.05%; left:81.40%; width:22.43%; z-index:-1" /> -->
@@ -102,7 +102,7 @@ var counter = 5;
 <!-- <img class="slide-image" showInPresentation="true" src="imgs/pic11.png" style="top:14.10%; left:67.37%; width:35.37%; z-index:-1" /> -->
 
 <!-- section start -->
-<!-- attr: { hasScriptWrapper:true } -->
+<!-- attr: { hasScriptWrapper:true, class:'slide-section' } -->
 # Integer Types
 <!-- <img class="slide-image" showInPresentation="true" src="imgs/pic12.png" style="top:34.97%; left:26.81%; width:54.38%; z-index:-1" /> -->
 
@@ -133,7 +133,7 @@ var div = a / 0; // Infinity
 <!-- <img class="slide-image" showInPresentation="true" src="imgs/pic14.png" style="top:38.84%; left:65.70%; width:36.80%; z-index:-1" /> -->
 
 <!-- section start -->
-<!-- attr: { hasScriptWrapper:true } -->
+<!-- attr: { hasScriptWrapper:true, class:'slide-section' } -->
 # Floating-Point Numbers
 <!-- <img class="slide-image" showInPresentation="true" src="imgs/pic15.png" style="top:36.20%; left:30.88%; width:47.15%; z-index:-1" /> -->
 
@@ -230,7 +230,7 @@ var i = str | 0 + 1; // 1235
 <!-- <img class="slide-image" showInPresentation="true" src="imgs/pic19.png" style="top:32.57%; left:22.44%; width:61.74%; z-index:-1" /> -->
 
 <!-- section start -->
-<!-- attr: { hasScriptWrapper:true } -->
+<!-- attr: { hasScriptWrapper:true, class:'slide-section' } -->
 # Boolean Type
 <!-- <img class="slide-image" showInPresentation="true" src="imgs/pic20.png" style="top:42.31%; left:53.33%; width:46.72%; z-index:-1" /> -->
 <!-- <img class="slide-image" showInPresentation="true" src="imgs/pic21.png" style="top:42.31%; left:14.03%; width:24.68%; z-index:-1" /> -->
@@ -262,7 +262,7 @@ console.log(equalA1);    // true
 <!-- <img class="slide-image" showInPresentation="true" src="imgs/pic23.png" style="top:8.09%; left:39.34%; width:60.97%; z-index:-1" /> -->
 
 <!-- section start -->
-<!-- attr: { hasScriptWrapper:true } -->
+<!-- attr: { hasScriptWrapper:true, class:'slide-section' } -->
 # String Type
 <!-- <img class="slide-image" showInPresentation="true" src="imgs/pic24.png" style="top:39.21%; left:24.33%; width:55.54%; z-index:-1" /> -->
 <!-- <img class="slide-image" showInPresentation="true" src="imgs/pic25.png" style="top:4.83%; left:26.20%; width:74.93%; z-index:-1" /> -->
@@ -368,7 +368,7 @@ Number('123.3') -> returns 123.3
 <div class="fragment balloon" style="top:61.35%; left:68.72%; width:38.79%">Preferred ways</div>
 
 <!-- section start -->
-<!-- attr: { hasScriptWrapper:true } -->
+<!-- attr: { hasScriptWrapper:true, class:'slide-section' } -->
 # Undefined and Null Values
 ## Understanding '**undefined**' in JavaScript
 <!-- <img class="slide-image" showInPresentation="true" src="imgs/pic28.png" style="top:11.78%; left:26.90%; width:55.10%; z-index:-1" /> -->
@@ -414,7 +414,7 @@ console.log(typeof(x)); // undefined
 <!-- <img class="slide-image" showInPresentation="true" src="imgs/pic32.png" style="top:33.39%; left:9.28%; width:22.49%; z-index:-1" /> -->
 
 <!-- section start -->
-<!-- attr: { hasScriptWrapper:true } -->
+<!-- attr: { hasScriptWrapper:true, class:'slide-section' } -->
 # Declaring and Using Variables
 <!-- <img class="slide-image" showInPresentation="true" src="imgs/pic33.png" style="top:34.67%; left:47.30%; width:52.62%; z-index:-1" /> -->
 
@@ -478,7 +478,7 @@ var numberOfPrivateClientOfTheFirm = 100;
 ```
 
 <!-- section start -->
-<!-- attr: { hasScriptWrapper:true } -->
+<!-- attr: { hasScriptWrapper:true, class:'slide-section' } -->
 # Assigning Values To Variables
 <!-- <img class="slide-image" showInPresentation="true" src="imgs/pic35.png" style="top:51.57%; left:7.49%; width:91.68%; z-index:-1" /> -->
 <!-- <img class="slide-image" showInPresentation="true" src="imgs/pic36.png" style="top:-0.14%; left:79.76%; width:15.89%; z-index:-1" /> -->
