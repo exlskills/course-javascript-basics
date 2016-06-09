@@ -469,13 +469,13 @@ node-debug FILE_TO_DEBUG
 <!-- attr: { hasScriptWrapper:true } -->
 # Free Trainings @ Telerik Academy
 - "Web Design with HTML 5, CSS 3 and JavaScript" course @ Telerik Academy
-    - html5course.telerik.com
+    - [html5course.telerik.com](http://html5course.telerik.com)
   - Telerik Software Academy
-    - academy.telerik.com
+    - [academy.telerik.com](http://academy.telerik.com)
   - Telerik Academy @ Facebook
-    - facebook.com/TelerikAcademy
+    - [facebook.com/TelerikAcademy](https://facebook.com/TelerikAcademy)
   - Telerik Software Academy Forums
-    - forums.academy.telerik.com
+    - [forums.academy.telerik.com](https://telerikacademy.com/Forum/Home)
 <!-- <img class="slide-image" showInPresentation="true" src="imgs/pic29.png" style="top:58.18%; left:90.52%; width:16.97%; z-index:-1" /> -->
 <!-- <img class="slide-image" showInPresentation="true" src="imgs/pic30.png" style="top:34.35%; left:68.14%; width:36.30%; z-index:-1" /> -->
 <!-- <img class="slide-image" showInPresentation="true" src="imgs/pic31.png" style="top:48.92%; left:75.91%; width:10.85%; z-index:-1" /> -->
