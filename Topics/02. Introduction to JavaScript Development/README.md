@@ -122,8 +122,8 @@
 <!-- attr: { hasScriptWrapper:true } -->
 # Using JavaScript Code
 - The JavaScript code can be placed in:
-  - `<script>` tag in the head 
-  - `<script>` tag in the body - not recommended 
+  - `<script>` tag in the head
+  - `<script>` tag in the body - not recommended
   - External files, linked via `<script>` tag the head
     - Files usually have **.js** extension
     - Highly recommended
@@ -328,8 +328,8 @@ for (i = 1; i <= 20; i++) {
   x = Math.floor(x);
   document.write(
       "Random number (" +
-      i + ") in range " + 
-      "1..10 --> " + x + 
+      i + ") in range " +
+      "1..10 --> " + x +
       "<br/>");
 }
 ```
@@ -392,7 +392,7 @@ clearInterval(timer);
     var hour = now.getHours();
     var min = now.getMinutes();
     var sec = now.getSeconds();
-    document.getElementById("clock").value = 
+    document.getElementById("clock").value =
       "" + hour + ":" + min + ":" + sec;
   }
   setInterval(timerFunc, 1000);
@@ -414,7 +414,7 @@ clearInterval(timer);
   - Microsoft Script Editor
     - Add-on for Internet Explorer
     - Supports breakpoints, watches
-    - **JavaScript** statement **debugger**; opens the script editor 
+    - **JavaScript** statement **debugger**; opens the script editor
 
 <!-- attr: { hasScriptWrapper:true } -->
 # Firebug

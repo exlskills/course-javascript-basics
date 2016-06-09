@@ -16,8 +16,8 @@
 <!-- section start -->
 # Table of Contents
 - Data Types
-  - Integer 
-  - Floating-Point 
+  - Integer
+  - Floating-Point
   - Boolean
   - String
 - Declaring and Using Variables
@@ -189,7 +189,7 @@ var a = 0.1;
 var b = 0.2;
 var sum = 0.3;
 var equal = (a+b == sum); // false!!!
-console.log('a+b = '+ (a+b) + ', sum = ' + 
+console.log('a+b = '+ (a+b) + ', sum = ' +
   sum + ', sum == a+b? is ' + equal);
 ```
 
@@ -256,7 +256,7 @@ var i = str | 0 + 1; // 1235
 
 # The Boolean Data Type
 - The **Boolean****data type**:
-  - Has two possible values: 
+  - Has two possible values:
     - **true** and **false**
   - Is useful in logical expressions
 <!-- <img class="slide-image" showInPresentation="true" src="imgs/pic22.png" style="top:15.51%; left:69.40%; width:31.38%; z-index:-1" /> -->
@@ -477,7 +477,7 @@ var height = 200;
 
 # Identifiers
 - Identifiers may consist of:
-  - Letters (Unicode) 
+  - Letters (Unicode)
   - Digits [**0**-**9**]
   - Underscore '**_**'
   - Dollar '**$**'
@@ -512,7 +512,7 @@ var New = 2; // Here N is capital
 var _2Pac; // This identifier begins with _
 var поздрав = 'Hello'; // Unicode symbols used
 // The following is more appropriate:
-var greeting = 'Hello'; 
+var greeting = 'Hello';
 var n = 100; // Undescriptive
 var numberOfClients = 100; // Descriptive
 // Overdescriptive identifier:
@@ -569,7 +569,7 @@ thirdValue = firstValue = 3; // Avoid this!
 - Several ways of initializing:
   - By using a literal expression
   - By referring to an already initialized variable
-- Uninitialized variables are undefined 
+- Uninitialized variables are undefined
 <!-- <img class="slide-image" showInPresentation="true" src="imgs/pic39.png" style="top:12.69%; left:94.16%; width:9.34%; z-index:-1" /> -->
 
 
