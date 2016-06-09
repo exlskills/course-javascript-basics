@@ -7,7 +7,7 @@
 <div class="signature">
 	<p class="signature-course"></p>
 	<p class="signature-initiative"></p>
-	<a href="" class="signature-link"></a>
+	<a href="https://telerikacademy.com/" class="signature-link"></a>
 </div>
 
 
