@@ -157,6 +157,7 @@
 - JavaScript performance tester
   - http://jsperf.com
 
+<!-- section start -->
 <!-- attr: { class:'slide-section', showInPresentation: true } -->
 <!-- # JavaScript Tools
 ## Questions? -->
