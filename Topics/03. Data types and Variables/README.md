@@ -14,19 +14,19 @@
 <!-- section start -->
 <!-- attr: { hasScriptWrapper:true } -->
 # Table of Contents
-- Data Types
-  - Integer
-  - Floating-Point
-  - Boolean
-  - String
-- Declaring and Using Variables
-  - Identifiers
-  - Declaring Variables and Assigning Values
+- [Data Types](#data-types)
+  - [Integer](#integer)
+  - [Floating-Point](#floating)
+  - [Boolean](#boolean)
+  - [String](#string)
+- [Declaring and Using Variables](#declaring)
+  - [Identifiers](#identifiers)
+  - [Declaring Variables and Assigning Values](#assigning)
 <!-- <img class="slide-image" showInPresentation="true" src="imgs/pic04.png" style="top:18.51%; left:69.08%; width:32.91%; z-index:-1" /> -->
 
 <!-- section start -->
-<!-- attr: { hasScriptWrapper:true, class:'slide-section' } -->
-# Data Types in JavaScript
+<!-- attr: { hasScriptWrapper:true, class:'slide-section', id:'data-types' } -->
+# <a id="data-types"></a>Data Types in JavaScript
 <!-- <img class="slide-image" showInPresentation="true" src="imgs/pic05.png" style="top:45%; left:65%; width:35.41%; z-index:-1" /> -->
 <!-- <img class="slide-image" showInPresentation="true" src="imgs/pic06.png" style="top:45%; left:5%; width:52.01%; z-index:-1" /> -->
 
@@ -77,7 +77,7 @@ var mark = 5.25 // mark holds a floating-point number
 # What Is a Variable?
 - A **variable** is a:
   - Placeholder of information that can usually be changed at run-time
-  - A piece of computer memoryholding some value
+  - A piece of computer memory holding some value
 - Variables allow you to:
   - Store information
   - Retrieve the stored information
@@ -102,8 +102,8 @@ var counter = 5;
 <!-- <img class="slide-image" showInPresentation="true" src="imgs/pic11.png" style="top:14.10%; left:67.37%; width:35.37%; z-index:-1" /> -->
 
 <!-- section start -->
-<!-- attr: { hasScriptWrapper:true, class:'slide-section' } -->
-# Integer Types
+<!-- attr: { hasScriptWrapper:true, class:'slide-section', id:'integer' } -->
+# <a id="integer"></a>Integer Types
 <!-- <img class="slide-image" showInPresentation="true" src="imgs/pic12.png" style="top:42%; left:24%; width:54.38%; z-index:-1" /> -->
 
 <!-- attr: { hasScriptWrapper:true } -->
@@ -133,8 +133,8 @@ var div = a / 0; // Infinity
 <!-- <img class="slide-image" showInPresentation="true" src="imgs/pic14.png" style="top:40%; left:65.70%; width:33%; z-index:-1" /> -->
 
 <!-- section start -->
-<!-- attr: { hasScriptWrapper:true, class:'slide-section' } -->
-# Floating-Point Numbers
+<!-- attr: { hasScriptWrapper:true, class:'slide-section', id:'floating' } -->
+# <a id="floating"></a>Floating-Point Numbers
 <!-- <img class="slide-image" showInPresentation="true" src="imgs/pic15.png" style="top:45%; left:28%; width:44%; z-index:-1" /> -->
 
 <!-- attr: { hasScriptWrapper:true } -->
@@ -230,8 +230,8 @@ var i = str | 0 + 1; // 1235
 <!-- <img class="slide-image" showInPresentation="true" src="imgs/pic19.png" style="top:55%; left:36%; width:28%; z-index:-1" /> -->
 
 <!-- section start -->
-<!-- attr: { hasScriptWrapper:true, class:'slide-section' } -->
-# Boolean Type
+<!-- attr: { hasScriptWrapper:true, class:'slide-section', id:'boolean' } -->
+# <a id="boolean"></a>Boolean Type
 <!-- <img class="slide-image" showInPresentation="true" src="imgs/pic20.png" style="top:42.31%; left:53.33%; width:46.72%; z-index:-1" /> -->
 <!-- <img class="slide-image" showInPresentation="true" src="imgs/pic21.png" style="top:42.31%; left:14.03%; width:24.68%; z-index:-1" /> -->
 
@@ -262,8 +262,8 @@ console.log(equalA1);    // true
 <!-- <img class="slide-image" showInPresentation="true" src="imgs/pic23.png" style="top:0%; left:65%; width:38%; z-index:-1" /> -->
 
 <!-- section start -->
-<!-- attr: { hasScriptWrapper:true, class:'slide-section' } -->
-# String Type
+<!-- attr: { hasScriptWrapper:true, class:'slide-section', id:'string' } -->
+# <a id="string"></a>String Type
 <!-- <img class="slide-image" showInPresentation="true" src="imgs/pic24.png" style="top:45%; left:0%; width:35%; z-index:-1" /> -->
 <!-- <img class="slide-image" showInPresentation="true" src="imgs/pic25.png" style="top:45%; left:60%; width:35%; z-index:-1" /> -->
 
@@ -403,8 +403,8 @@ console.log(typeof(x)); // undefined
 <!-- <img class="slide-image" showInPresentation="true" src="imgs/pic32.png" style="top:45%; left:9.28%; width:22.49%; z-index:-1" /> -->
 
 <!-- section start -->
-<!-- attr: { hasScriptWrapper:true, class:'slide-section' } -->
-# Declaring and Using Variables
+<!-- attr: { hasScriptWrapper:true, class:'slide-section', id:'declaring' } -->
+# <a id="declaring"></a>Declaring and Using Variables
 <!-- <img class="slide-image" showInPresentation="true" src="imgs/pic33.png" style="top:55%; left:55%; width:40%; z-index:-1" /> -->
 
 <!-- attr: { hasScriptWrapper:true } -->
@@ -424,8 +424,8 @@ var <identifier> [= <initialization>];
 var height = 200;
 ```
 
-<!-- attr: { hasScriptWrapper:true } -->
-# Identifiers
+<!-- attr: { hasScriptWrapper:true, id:'identifiers' } -->
+# <a id="identifiers"></a>Identifiers
 - Identifiers may consist of:
   - Letters (Unicode)
   - Digits [`0`-`9`]
@@ -469,8 +469,8 @@ var numberOfPrivateClientOfTheFirm = 100;
 ```
 
 <!-- section start -->
-<!-- attr: { hasScriptWrapper:true, class:'slide-section' } -->
-# Assigning Values To Variables
+<!-- attr: { hasScriptWrapper:true, class:'slide-section', id:'assigning' } -->
+# <a id="assigning"></a>Assigning Values To Variables
 <!-- <img class="slide-image" showInPresentation="true" src="imgs/pic35.png" style="top:53%; left:30%; width:40%; z-index:-1" /> -->
 <!-- <img class="slide-image" showInPresentation="true" src="imgs/pic36.png" style="top:-0.14%; left:79.76%; width:15.89%; z-index:-1" /> -->
 
