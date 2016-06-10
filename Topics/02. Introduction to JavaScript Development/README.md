@@ -1,12 +1,13 @@
 <!-- section start -->
-<!-- attr: { hasScriptWrapper:true, class:'slide-section' } -->
+<!-- attr: { class:'slide-title', hasScriptWrapper:true } -->
 # Introduction to JavaScript Development
 ## The Magic of Dynamic Web Pages
-<!-- <img class="slide-image" showInPresentation="true" src="imgs/pic00.png" style="top:0%; left:46.14%; width:45.99%; z-index:-1" /> -->
+
+
 <div class="signature">
-	<p class="signature-course"></p>
-	<p class="signature-initiative"></p>
-	<a href="https://telerikacademy.com/" class="signature-link"></a>
+	<p class="signature-course">Javascript Fundamentals</p>
+	<p class="signature-initiative">Telerik Software Academy</p>
+	<a href="https://telerikacademy.com" class="signature-link">https://telerikacademy.com</a>
 </div>
 
 <!-- section start -->
@@ -463,7 +464,7 @@ node-debug FILE_TO_DEBUG
 # Introduction JavaScript Development
 ## Questions?
 
-<!-- attr: { hasScriptWrapper:true } -->
+<!-- attr: { hasScriptWrapper:true, style:'font-size: 0.9em' } -->
 # Free Trainings @ Telerik Academy
 - "Web Design with HTML 5, CSS 3 and JavaScript" course @ Telerik Academy
     - [html5course.telerik.com](http://html5course.telerik.com)
@@ -473,7 +474,7 @@ node-debug FILE_TO_DEBUG
     - [facebook.com/TelerikAcademy](https://facebook.com/TelerikAcademy)
   - Telerik Software Academy Forums
     - [forums.academy.telerik.com](https://telerikacademy.com/Forum/Home)
+
 <!-- <img class="slide-image" showInPresentation="true" src="imgs/pic29.png" style="top:58.18%; left:90.52%; width:16.97%; z-index:-1" /> -->
 <!-- <img class="slide-image" showInPresentation="true" src="imgs/pic30.png" style="top:34.35%; left:68.14%; width:36.30%; z-index:-1" /> -->
 <!-- <img class="slide-image" showInPresentation="true" src="imgs/pic31.png" style="top:48.92%; left:75.91%; width:10.85%; z-index:-1" /> -->
-<!-- <img class="slide-image" showInPresentation="true" src="imgs/pic32.png" style="top:11.88%; left:91.56%; width:14.23%; z-index:-1" /> -->
