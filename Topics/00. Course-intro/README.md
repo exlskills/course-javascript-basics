@@ -11,8 +11,6 @@
 	<a href="https://telerikacademy.com" class="signature-link">https://telerikacademy.com</a>
 </div>
 
-
-
 <!-- section start -->
 <!-- attr: { showInPresentation:true, hasScriptWrapper:true } -->
 # Table of Contents
@@ -24,16 +22,12 @@
 
 <!-- <img class="slide-image" showInPresentation="true" src="imgs/pic02.png" style="top:40%; left:65%; width:25%; z-index:-1" /> -->
 
-
-
-
 <!-- section start -->
 <!-- attr: { class:'slide-section', showInPresentation:true, hasScriptWrapper:true } -->
 <!-- # JavaScript Fundamentals
 ## Coming To The Next Module -->
 
 <!-- <img class="slide-image" showInPresentation="true" src="imgs/pic03.png" style="top:55%; left:30%; width:40%; z-index:-1; border-radius: 15px" /> -->
-
 
 <!-- attr: { id:'whats-next', showInPresentation:true, hasScriptWrapper:true } -->
 # <a id="whats-next"></a>What's Coming Next?
@@ -48,7 +42,6 @@
   - http://bgcoder.com
 
 <!-- <img class="slide-image" showInPresentation="true" src="imgs/pic04.png" style="top:27.33%; left:74.85%; width:27.33%; z-index:-1" /> -->
-
 
 <!-- section start -->
 <!-- attr: {  class:'slide-section', showInPresentation:true, hasScriptWrapper:true, style:'font-size: 0.8em' } -->
@@ -75,7 +68,6 @@
 - **Conditional statements**
   - if, if-else, switch-case statements
 
-
 <!-- attr: { showInPresentation:true, hasScriptWrapper:true, style:'font-size: 0.9em' } -->
 <!-- # Curriculum -->
 - **Functions**
@@ -86,7 +78,6 @@
   - Manipulation of Arrays
     - add, remove, find elements
     - copy or delete parts of the array
-
 
 <!-- attr: { showInPresentation:true, hasScriptWrapper:true, style:'font-size: 0.9em' } -->
 <!-- # Curriculum -->
@@ -99,9 +90,6 @@
 - **Exam preparation**
   - Solving problems with JavaScript
 - **Practical Exam**
-
-
-
 
 <!-- section start -->
 <!-- attr: { class:'slide-section', showInPresentation:true, hasScriptWrapper:true } -->
@@ -143,7 +131,6 @@
   - You submit your Javascript source code
   - It tests your solution against predefined **tests**
   - For each test passed you get some score
-
 
 <!-- attr: { showInPresentation: true, style: 'font-size: 40px'} -->
 # Homework Assignments
@@ -189,7 +176,6 @@
 
 <!-- <img class="slide-image" showInPresentation="true" src="imgs/pic31.png" style="top:45%; left:60%; width:40%; z-index:-1" /> -->
 
-
 <!-- attr: { id:'required-software', showInPresentation:true, hasScriptWrapper:true } -->
 # <a id="required-software"></a>Required Software
 - Software needed for this course:
@@ -200,11 +186,10 @@
   - [Jetbrains WebStorm](https://www.jetbrains.com/webstorm/)
   - [Visual Studio 2015](https://www.visualstudio.com/en-us/downloads/download-visual-studio-vs.aspx)
 
-
+<!-- section start -->
 <!-- attr: { class:'slide-section', showInPresentation:true, hasScriptWrapper:true, style:'font-size: 0.9em' } -->
 <!-- # JavaScript Fundamentals Introduction
 ## Questions? -->
-
 
 <!-- attr: { showInPresentation: true, hasScriptWrapper: true, style:'font-size: 0.9em' } -->
 # Free Trainings @ Telerik Academy
