@@ -131,7 +131,7 @@
     - The **.js** files get cached by the browser
 
 ```html
-<scriрt src="scripts.js" type="text/javscript">
+<scriрt src="scripts.js" type="text/javascript">
 <!-- code placed here will not be executed! -->
 </scriрt>
 ```
