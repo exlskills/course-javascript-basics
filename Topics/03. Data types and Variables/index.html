@@ -3,7 +3,7 @@
 
 <head>
   <meta charset="utf-8">
-  <title></title>
+  <title>Data Types and Variables</title>
   <meta name="description" content="A framework for easily creating beautiful presentations using HTML">
   <meta name="author" content="Hakim El Hattab">
   <meta name="apple-mobile-web-app-capable" content="yes" />
@@ -44,9 +44,9 @@
   <script src="https://rawgit.com/TelerikAcademy/Common/master/revealjs-theme/js/render.js"></script>
   <script>
     var protocol = window.location.protocol,
-      pathname = window.location.pathname.substring(0, window.location.pathname.indexOf('index.html')),
-      host = window.location.host,
-      readmeLocation = protocol + "//" + host + pathname;
+        pathname = window.location.pathname.replace(/index\.html$/, ''),
+        host = window.location.host,
+        readmeLocation = protocol + "//" + host + pathname;
 
     if (readmeLocation[readmeLocation.length - 1] !== '/') {
       readmeLocation += '/';
