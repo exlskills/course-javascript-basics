@@ -201,6 +201,7 @@
   - [Visual Studio 2015](https://www.visualstudio.com/en-us/downloads/download-visual-studio-vs.aspx)
 
 
+<!-- section start -->
 <!-- attr: { class:'slide-section', showInPresentation:true, hasScriptWrapper:true, style:'font-size: 0.9em' } -->
 <!-- # JavaScript Fundamentals Introduction
 ## Questions? -->
