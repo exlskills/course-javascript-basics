@@ -114,7 +114,7 @@ var counter = 5;
 <!-- <img class="slide-image" showInPresentation="true" src="imgs/pic13.png" style="top:55.24%; left:75.94%; width:28.21%; z-index:-1" /> -->
 
 <!-- attr: { hasScriptWrapper:true } -->
-# Integer Types – _Example_
+# Integer Types - _Example_
 - **Integer** type can hold numbers from `-9007199254740992` to `9007199254740992`
   - The underlying type behind is a floating-point number (**IEEE-754**)
 
@@ -154,7 +154,7 @@ var div = a / 0; // Infinity
     - Will always work on all platforms
 
 <!-- attr: { hasScriptWrapper:true } -->
-# Floating-Point Types – _Example_
+# Floating-Point Types - _Example_
 - The **floating-point** type can hold numbers from `5e-324` to `1.79e+308`
 
 ```js
@@ -244,7 +244,7 @@ var i = str | 0 + 1; // 1235
 <!-- <img class="slide-image" showInPresentation="true" src="imgs/pic22.png" style="top:15.51%; left:69.40%; width:31.38%; z-index:-1" /> -->
 
 <!-- attr: { hasScriptWrapper:true } -->
-# Boolean Values – _Example_
+# Boolean Values - _Example_
 - _Example_ of boolean variables taking values of `true` or `false`:
 
 ```js
@@ -286,7 +286,7 @@ var name = 'Ivaylo' + ' ' + 'Kenov';
 ```
 
 <!-- attr: { hasScriptWrapper:true } -->
-# Saying Hello – _Example_
+# Saying Hello - _Example_
 - Concatenating the two names of a person to obtain his full name:
   - _Note_: a space is missing between the two names! We have to add it manually
 
@@ -447,7 +447,7 @@ var height = 200;
   - Small letters are considered different than the capital letters
 
 <!-- attr: { hasScriptWrapper:true } -->
-# Identifiers – _Examples_
+# Identifiers - _Examples_
 - _Examples_ of correct identifiers:
 - _Examples_ of incorrect identifiers:
 
@@ -486,7 +486,7 @@ var numberOfPrivateClientOfTheFirm = 100;
 <!-- <img class="slide-image" showInPresentation="true" src="imgs/pic37.png" style="top:15.51%; left:78.60%; width:23.32%; z-index:-1" /> -->
 
 <!-- attr: { hasScriptWrapper:true } -->
-# Assigning Values – _Examples_
+# Assigning Values - _Examples_
 - Assigning values example:
 
 ```js
@@ -519,7 +519,7 @@ thirdValue = firstValue = 3; // Avoid this!
 <!-- <img class="slide-image" showInPresentation="true" src="imgs/pic39.png" style="top:12.69%; left:94.16%; width:9.34%; z-index:-1" /> -->
 
 <!-- attr: { hasScriptWrapper:true } -->
-# Initialization – _Examples_
+# Initialization - _Examples_
 - _Example_ of some initializations:
 
 ```js
@@ -543,7 +543,7 @@ var message = greeting;
   - Declared with the keyword `var`
 - Global variables
   - Declared **without** the keyword `var`
-  - Bad practices – never do this!
+  - Bad practices - never do this!
 
 ```js
 var a = 5; // a is local in the current scope
