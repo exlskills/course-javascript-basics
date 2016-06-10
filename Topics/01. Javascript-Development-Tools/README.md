@@ -9,9 +9,7 @@
 	<a href="https://telerikacademy.com" class="signature-link">https://telerikacademy.com</a>
 </div>
 
-
 <!-- <img class="slide-image" showInPresentation="true" src="imgs/js-tools.png" style="top:60%; right:5%; width:20%; z-index:-1; border-radius: 15px" /> -->
-
 
 <!-- section start -->
 # Table of Contents
@@ -24,14 +22,12 @@
 - [Utilities](#utilities)
   - [Linters, playgrounds and other](#utilities-list)
 
-
 <!-- section start -->
 <!-- attr: { class:'slide-section', showInPresentation:true, hasScriptWrapper:true } -->
 <!-- # JavaScript Tools
 ## Know your Tools! -->
 
 <!-- <img class="slide-image" showInPresentation="true" src="imgs/pic03.png" style="top:55%; left:30%; width:40%; z-index:-1; border-radius: 15px" /> -->
-
 
 # JavaScript Tools
 - JavaScript is an interpreted language
@@ -41,7 +37,6 @@
     - You can even code it in Notepad
 - Yet, there are many tools that make JavaScript coding eaiser
   - Like editors, debuggers, etc…
-
 
 <!-- attr: { class:'slide-section', showInPresentation:true, hasScriptWrapper:true } -->
 <!-- # JavaScript Coding Tools
@@ -75,7 +70,6 @@
 - **Lots of plugins and extensions**
   - And a lot of good Javascript plugins
 
-
 <!-- <img class="slide-image" showInPresentation="true" src="imgs/pic05.png" style="top:55%; left:75%; width:15%; z-index:-1" /> -->
 
 <!-- attr: { hasScriptWrapper: true, style:'font-size: 0.9em' } -->
@@ -96,7 +90,6 @@
 - **Customizable**
 - Rich amount of **plugins and extensions**
 - **Good speed performance**
-
 
 <!-- <img class="slide-image" showInPresentation="true" src="imgs/sublime-logo.png" style="top:55%; left:75%; width:20%; z-index:-1" /> -->
 
@@ -120,9 +113,7 @@
 - **WebStorm is a paid software**
   - Yet, **Jetbrains offer a discount (100%) for students**
 
-
 <!-- <img class="slide-image" showInPresentation="true" src="imgs/webstorm-logo.svg" style="top:45%; left:80%; width:15%; z-index:-1" /> -->
-
 
 <!-- attr: { id:'debugging', class:'slide-section', showInPresentation: true, hasScriptWrapper: true } -->
 <!-- # <a id="debugging"></a>Debugging Javascript -->
@@ -138,7 +129,6 @@
   - Firefox has **Firebug**
   - Chrome and Opera have **Web developer**
   - Internet Explorer has **F12**
-
 
 <!-- attr: { id:'utilities', class:'slide-section', showInPresentation: true, hasScriptWrapper: true } -->
 <!-- # <a id="utilities"></a>Javascript Utilities -->
@@ -161,7 +151,6 @@
 <!-- attr: { class:'slide-section', showInPresentation: true } -->
 <!-- # JavaScript Tools
 ## Questions? -->
-
 
 <!-- attr: { showInPresentation: true, hasScriptWrapper: true, style:'font-size: 0.9em' } -->
 # Free Trainings @ Telerik Academy
