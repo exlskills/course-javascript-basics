@@ -53,14 +53,14 @@ if (condition) {
 - The condition can be of any type
 - The statement can be:
   - Single statement ending with a semicolon
-  - Block enclosed in braces 
+  - Block enclosed in braces
 <!-- <img class="slide-image" showInPresentation="true" src="imgs/pic07.png" style="top:13.22%; left:81.46%; width:24.64%; z-index:-1" /> -->
 
 <!-- attr: { hasScriptWrapper:true } -->
 # How It Works?
 - The condition is evaluated
   - If it is true-like, the statement is executed
-  - If it is false-like, the statement is skipped 
+  - If it is false-like, the statement is skipped
 - true
 - condition
 - statement
@@ -101,9 +101,9 @@ if(!(+str)){ // if str is not a number, +str is NaN
 
 ```js
 if (expression) {
-    statement1; 
+    statement1;
 } else {
-    statement2; 
+    statement2;
 }
 ```
 
@@ -126,7 +126,7 @@ if (expression) {
 ```js
 var s = '123';
 var number = +s;
-if (number % 2) { 
+if (number % 2) {
     console.log('This number is odd.');
 } еlse {
     console.log('This number is even.');
@@ -150,7 +150,7 @@ if (+str) {
 
 <!-- section start -->
 <!-- attr: { hasScriptWrapper:true, class:'slide-section' } -->
-# Nested if Statements 
+# Nested if Statements
 ## Creating More Complex Logic
 <!-- <img class="slide-image" showInPresentation="true" src="imgs/pic12.png" style="top:41.44%; left:30.68%; width:47.96%; z-index:-1" /> -->
 
@@ -167,7 +167,7 @@ if (expression) {
     statement;
   }
 } else {
-  statement; 
+  statement;
 }
 ```
 
@@ -240,7 +240,7 @@ else …
 
 <!-- attr: { hasScriptWrapper:true } -->
 # The switch-case Statement
-- Selects for execution a statement from a list depending on the value of the `switch` expression 
+- Selects for execution a statement from a list depending on the value of the `switch` expression
 
 ```js
 switch (day) {
@@ -262,7 +262,7 @@ switch (day) {
   - The statement that corresponds to that case is executed
 - If no case is equal to the expression
   - If there is default case, it is executed
-  - Otherwise the control is transferred to the end point of the switch statement 
+  - Otherwise the control is transferred to the end point of the switch statement
 
 <!-- attr: { hasScriptWrapper:true } -->
 # The switch-case Statement
