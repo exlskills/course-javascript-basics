@@ -29,7 +29,6 @@
 # <a id="dhtml"></a>Dynamic HTML
 ## Dynamic Behavior at the Client Side
 <!-- <img class="slide-image" showInPresentation="true" src="imgs/pic02.png" style="top:53.50%; left:11.03%; width:24.33%; z-index:-1" /> -->
-<!-- <img class="slide-image" showInPresentation="false" src="imgs/pic03.png" style="top:2.91%; left:84.44%; width:22.70%; z-index:-1" /> -->
 <!-- <img class="slide-image" showInPresentation="true" src="imgs/pic04.png" style="top:53.50%; left:62.69%; width:24.13%; z-index:-1" /> -->
 <!-- <img class="slide-image" showInPresentation="true" src="imgs/pic05.png" style="top:15%; left:5%; width:11.49%; z-index:-1" /> -->
 
