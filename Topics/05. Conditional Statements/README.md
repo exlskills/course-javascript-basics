@@ -1,4 +1,5 @@
 <!-- section start -->
+<!-- attr: { hasScriptWrapper:true } -->
 # Conditional Statements
 ## Implementing Control Logic in JavaScript
 <!-- <img class="slide-image" showInPresentation="true" src="imgs/pic00.png" style="top:54.30%; left:51.46%; width:54.21%; z-index:-1" /> -->
@@ -12,6 +13,7 @@
 </div>
 
 <!-- section start -->
+<!-- attr: { hasScriptWrapper:true } -->
 # Table of Contents
 - The **if** Statement
 - The **if-else** Statement
@@ -23,10 +25,12 @@
 <!-- <img class="slide-image" showInPresentation="true" src="imgs/pic05.png" style="top:51.13%; left:73.92%; width:29.09%; z-index:-1" /> -->
 
 <!-- section start -->
+<!-- attr: { hasScriptWrapper:true } -->
 # if and if-else
 ## Implementing Conditional Logic
 <!-- <img class="slide-image" showInPresentation="true" src="imgs/pic06.png" style="top:44.96%; left:36.85%; width:36.27%; z-index:-1" /> -->
 
+<!-- attr: { hasScriptWrapper:true } -->
 # The if Statement
 - The most simple conditional statement
 - Enables you to test for a condition
@@ -39,6 +43,7 @@ if (condition) {
 }
 ```
 
+<!-- attr: { hasScriptWrapper:true } -->
 # Condition and Statement
 - The condition can be:
   - Boolean variable
@@ -51,6 +56,7 @@ if (condition) {
   - Block enclosed in braces 
 <!-- <img class="slide-image" showInPresentation="true" src="imgs/pic07.png" style="top:13.22%; left:81.46%; width:24.64%; z-index:-1" /> -->
 
+<!-- attr: { hasScriptWrapper:true } -->
 # How It Works?
 - The condition is evaluated
   - If it is true-like, the statement is executed
@@ -60,6 +66,7 @@ if (condition) {
 - statement
 - false
 
+<!-- attr: { hasScriptWrapper:true } -->
 # The if Statement – _Example_
 - _Example_s with if statements
   - The expression evaluates for true-like or false-like values
@@ -80,11 +87,13 @@ if(!(+str)){ // if str is not a number, +str is NaN
 }
 ```
 
+<!-- attr: { hasScriptWrapper:true } -->
 # The if Statement
 <!-- <img class="slide-image" showInPresentation="true" src="imgs/pic08.png" style="top:47.20%; left:7.45%; width:27.57%; z-index:-1" /> -->
 <!-- <img class="slide-image" showInPresentation="true" src="imgs/pic09.png" style="top:47.60%; left:48.26%; width:24.13%; z-index:-1" /> -->
 <!-- <img class="slide-image" showInPresentation="true" src="imgs/pic10.png" style="top:17.39%; left:74.64%; width:33.32%; z-index:-1" /> -->
 
+<!-- attr: { hasScriptWrapper:true } -->
 # The if-else Statement
 - More complex and useful conditional statement
 - Executes one branch if the condition is true, and another if it is false
@@ -98,6 +107,7 @@ if (expression) {
 }
 ```
 
+<!-- attr: { hasScriptWrapper:true } -->
 # How It Works ?
 - The condition is evaluated
   - If it is true-like, the first statement is executed
@@ -109,6 +119,7 @@ if (expression) {
 - second
 - statement
 
+<!-- attr: { hasScriptWrapper:true } -->
 # if-else Statement – _Example_
 - Checking a number if it is odd or even
 
@@ -133,14 +144,17 @@ if (+str) {
 <div class="fragment balloon" style="top:73.29%; left:29.97%; width:42.31%">If 'str' is not a Number, the result will be NaN (FALSE-like)</div>
 <div class="fragment balloon" style="top:23.02%; left:35.65%; width:42.31%">The same as if(number % 2 === 1)</div>
 
+<!-- attr: { hasScriptWrapper:true } -->
 # The if-else Statement
 <!-- <img class="slide-image" showInPresentation="true" src="imgs/pic11.png" style="top:42.07%; left:29.01%; width:50.25%; z-index:-1" /> -->
 
 <!-- section start -->
+<!-- attr: { hasScriptWrapper:true } -->
 # Nested if Statements 
 ## Creating More Complex Logic
 <!-- <img class="slide-image" showInPresentation="true" src="imgs/pic12.png" style="top:41.44%; left:30.68%; width:47.96%; z-index:-1" /> -->
 
+<!-- attr: { hasScriptWrapper:true } -->
 # Nested if Statements
 - **if** and **if-else** statements can be **nested**, i.e. used inside another **if** or **else** statement
 - Every **else** corresponds to its closest preceding **if**
@@ -157,6 +171,7 @@ if (expression) {
 }
 ```
 
+<!-- attr: { hasScriptWrapper:true } -->
 # Nested if – Good Practices
 - Always use **{** **…** **}** blocks to avoid ambiguity
   - Even when a single statement follows
@@ -164,6 +179,7 @@ if (expression) {
 - Put the case you normally expect to process first, then write the unusual cases
 - Arrange the code to make it more readable
 
+<!-- attr: { hasScriptWrapper:true } -->
 # Nested if Statements – _Example_
 
 ```js
@@ -193,9 +209,11 @@ if (n) {
 
 - _Example_s with nested if statements
 
+<!-- attr: { hasScriptWrapper:true } -->
 # Nested ifStatements
 <!-- <img class="slide-image" showInPresentation="true" src="imgs/pic13.png" style="top:23.90%; left:15.92%; width:31.17%; z-index:-1" /> -->
 
+<!-- attr: { hasScriptWrapper:true } -->
 # Multiple if-else-if-else-…
 - Sometimes we need to use another **if** construction in the **else** block
   - Thus **else if** can be used:
@@ -210,14 +228,17 @@ if (ch === 'A' || ch === 'a') {
 else …
 ```
 
+<!-- attr: { hasScriptWrapper:true } -->
 # Multiple if-elseStatements
 <!-- <img class="slide-image" showInPresentation="true" src="imgs/pic14.png" style="top:7.05%; left:31.81%; width:45.46%; z-index:-1" /> -->
 
 <!-- section start -->
+<!-- attr: { hasScriptWrapper:true } -->
 # switch-case
 - Making Several Comparisons at Once
 <!-- <img class="slide-image" showInPresentation="true" src="imgs/pic15.png" style="top:47.71%; left:20.64%; width:65.41%; z-index:-1" /> -->
 
+<!-- attr: { hasScriptWrapper:true } -->
 # The switch-case Statement
 - Selects for execution a statement from a list depending on the value of the **switch** expression 
 
@@ -234,6 +255,7 @@ switch (day) {
 }
 ```
 
+<!-- attr: { hasScriptWrapper:true } -->
 # How switch-case Works?
 - The expression is evaluated
 - When one of the constants specified in a case label is equal to the expression
@@ -242,9 +264,11 @@ switch (day) {
   - If there is default case, it is executed
   - Otherwise the control is transferred to the end point of the switch statement 
 
+<!-- attr: { hasScriptWrapper:true } -->
 # The switch-case Statement
 <!-- <img class="slide-image" showInPresentation="true" src="imgs/pic16.png" style="top:10.58%; left:25.22%; width:57.22%; z-index:-1" /> -->
 
+<!-- attr: { hasScriptWrapper:true } -->
 #  The Fall-through Behavior in Switch
 - JavaScript supports the fall-through behavior
   - i.e. if a case statement misses a break, the code for the next cases is also executed
@@ -264,6 +288,7 @@ switch (day) {
 }
 ```
 
+<!-- attr: { hasScriptWrapper:true } -->
 # Expressions in the Case Label
 - In JavaScript, the case label can be an expression
   - Useful when in need to check ranges
@@ -287,9 +312,11 @@ switch (false) {
 ```
 
 <!-- section start -->
+<!-- attr: { hasScriptWrapper:true } -->
 # Truthy and Falsy Values
 - First steps in the dynamic beauty of JavaScript
 
+<!-- attr: { hasScriptWrapper:true } -->
 # Truthy and Falsy Values
 - Every type in JavaScript has a inherent Boolean value
   - So called truthy (TRUE-like) and falsy (FALSE-like) values
@@ -298,9 +325,11 @@ switch (false) {
 - All other values are truthy
 - Info: http://www.sitepoint.com/javascript-truthy-falsy/
 
+<!-- attr: { hasScriptWrapper:true } -->
 # Truthy and Falsy Values
 <!-- <img class="slide-image" showInPresentation="true" src="imgs/pic17.png" style="top:11.46%; left:33.33%; width:42.31%; z-index:-1" /> -->
 
+<!-- attr: { hasScriptWrapper:true } -->
 # Summary
 - Comparison and logical operators are used to compose logical conditions
 - The conditional statements **if** and **if-else** provide conditional execution of blocks of code
@@ -310,6 +339,7 @@ switch (false) {
   - Supports the fall-though behavior
   - Can contain expressions in the case value
 
+<!-- attr: { hasScriptWrapper:true } -->
 # Conditional Statements
 <!-- <img class="slide-image" showInPresentation="true" src="imgs/pic18.png" style="top:50.77%; left:44.91%; width:27.33%; z-index:-1" /> -->
 <!-- <img class="slide-image" showInPresentation="true" src="imgs/pic19.png" style="top:12.77%; left:12.68%; width:19.37%; z-index:-1" /> -->
@@ -318,6 +348,7 @@ switch (false) {
 <!-- <img class="slide-image" showInPresentation="true" src="imgs/pic22.png" style="top:52.81%; left:9.27%; width:17.23%; z-index:-1" /> -->
 <!-- <img class="slide-image" showInPresentation="true" src="imgs/pic23.png" style="top:54.67%; left:87.89%; width:13.30%; z-index:-1" /> -->
 
+<!-- attr: { hasScriptWrapper:true } -->
 # Free Trainings @ Telerik Academy
 - "Web Design with HTML 5, CSS 3 and JavaScript" course @ Telerik Academy
     - html5course.telerik.com
