@@ -9,16 +9,16 @@
 <div class="signature">
 	<p class="signature-course"></p>
 	<p class="signature-initiative"></p>
-	<a href="" class="signature-link"></a>
+	<a href="https://telerikacademy.com" class="signature-link"></a>
 </div>
 
 <!-- section start -->
 <!-- attr: { hasScriptWrapper:true } -->
 # Table of Contents
-- The **if** Statement
-- The **if-else** Statement
-- Nested **if** Statements
-- The **switch-case** Statement
+- The `if` Statement
+- The `if-else` Statement
+- Nested `if` Statements
+- The `switch-case` Statement
   - The fall-though behavior
   - Expressions in the case
 <!-- <img class="slide-image" showInPresentation="true" src="imgs/pic04.png" style="top:25.56%; left:77.66%; width:25.56%; z-index:-1" /> -->
@@ -35,7 +35,7 @@
 - The most simple conditional statement
 - Enables you to test for a condition
 - Branch to different parts of the code depending on the result
-- The simplest form of an **if** statement:
+- The simplest form of an `if` statement:
 
 ```js
 if (condition) {
@@ -97,7 +97,7 @@ if(!(+str)){ // if str is not a number, +str is NaN
 # The if-else Statement
 - More complex and useful conditional statement
 - Executes one branch if the condition is true, and another if it is false
-- The simplest form of an **if-else** statement:
+- The simplest form of an `if-else` statement:
 
 ```js
 if (expression) {
@@ -156,8 +156,8 @@ if (+str) {
 
 <!-- attr: { hasScriptWrapper:true } -->
 # Nested if Statements
-- **if** and **if-else** statements can be **nested**, i.e. used inside another **if** or **else** statement
-- Every **else** corresponds to its closest preceding **if**
+- `if` and `if-else` statements can be **nested**, i.e. used inside another `if` or `else` statement
+- Every `else` corresponds to its closest preceding `if`
 
 ```js
 if (expression) {
@@ -173,9 +173,9 @@ if (expression) {
 
 <!-- attr: { hasScriptWrapper:true } -->
 # Nested if – Good Practices
-- Always use **{** **…** **}** blocks to avoid ambiguity
+- Always use `{ … }` blocks to avoid ambiguity
   - Even when a single statement follows
-- Avoid using more than three levels of nested **if** statements
+- Avoid using more than three levels of nested `if` statements
 - Put the case you normally expect to process first, then write the unusual cases
 - Arrange the code to make it more readable
 
@@ -210,13 +210,13 @@ if (n) {
 - _Example_s with nested if statements
 
 <!-- attr: { hasScriptWrapper:true } -->
-# Nested ifStatements
+# Nested if Statements
 <!-- <img class="slide-image" showInPresentation="true" src="imgs/pic13.png" style="top:23.90%; left:15.92%; width:31.17%; z-index:-1" /> -->
 
 <!-- attr: { hasScriptWrapper:true } -->
 # Multiple if-else-if-else-…
-- Sometimes we need to use another **if** construction in the **else** block
-  - Thus **else if** can be used:
+- Sometimes we need to use another `if` construction in the `else` block
+  - Thus `else if` can be used:
 
 ```js
 var ch = 'X';
@@ -229,7 +229,7 @@ else …
 ```
 
 <!-- attr: { hasScriptWrapper:true } -->
-# Multiple if-elseStatements
+# Multiple if-else Statements
 <!-- <img class="slide-image" showInPresentation="true" src="imgs/pic14.png" style="top:7.05%; left:31.81%; width:45.46%; z-index:-1" /> -->
 
 <!-- section start -->
@@ -240,7 +240,7 @@ else …
 
 <!-- attr: { hasScriptWrapper:true } -->
 # The switch-case Statement
-- Selects for execution a statement from a list depending on the value of the **switch** expression 
+- Selects for execution a statement from a list depending on the value of the `switch` expression 
 
 ```js
 switch (day) {
@@ -332,10 +332,10 @@ switch (false) {
 <!-- attr: { hasScriptWrapper:true } -->
 # Summary
 - Comparison and logical operators are used to compose logical conditions
-- The conditional statements **if** and **if-else** provide conditional execution of blocks of code
+- The conditional statements `if` and `if-else` provide conditional execution of blocks of code
   - Constantly used in computer programming
   - Conditional statements can be nested
-- The **switch** statement easily and elegantly checks an expression for a sequence of values
+- The `switch` statement easily and elegantly checks an expression for a sequence of values
   - Supports the fall-though behavior
   - Can contain expressions in the case value
 
@@ -347,13 +347,14 @@ switch (false) {
 <!-- attr: { hasScriptWrapper:true } -->
 # Free Trainings @ Telerik Academy
 - "Web Design with HTML 5, CSS 3 and JavaScript" course @ Telerik Academy
-    - html5course.telerik.com
+    - [javascript course](http://academy.telerik.com/student-courses/web-design-and-ui/javascript-fundamentals/about)
   - Telerik Software Academy
-    - academy.telerik.com
+    - [academy.telerik.com](academy.telerik.com)
   - Telerik Academy @ Facebook
-    - facebook.com/TelerikAcademy
+    - [facebook.com/TelerikAcademy](facebook.com/TelerikAcademy)
   - Telerik Software Academy Forums
-    - forums.academy.telerik.com
+    - [forums.academy.telerik.com](http://telerikacademy.com/Forum/Home)
+
 <!-- <img class="slide-image" showInPresentation="true" src="imgs/pic24.png" style="top:58.18%; left:90.52%; width:16.97%; z-index:-1" /> -->
 <!-- <img class="slide-image" showInPresentation="true" src="imgs/pic25.png" style="top:34.35%; left:68.14%; width:36.30%; z-index:-1" /> -->
 <!-- <img class="slide-image" showInPresentation="true" src="imgs/pic26.png" style="top:48.92%; left:75.91%; width:10.85%; z-index:-1" /> -->
