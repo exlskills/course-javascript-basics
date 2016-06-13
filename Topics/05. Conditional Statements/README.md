@@ -3,9 +3,9 @@
 # Conditional Statements
 ## Implementing Control Logic in JavaScript
 <!-- <img class="slide-image" showInPresentation="true" src="imgs/pic00.png" style="top:54.30%; left:51.46%; width:54.21%; z-index:-1" /> -->
-<!-- <img class="slide-image" showInPresentation="true" src="imgs/pic01.png" style="top:4.40%; left:35.56%; width:21.16%; z-index:-1" /> -->
-<!-- <img class="slide-image" showInPresentation="true" src="imgs/pic02.png" style="top:4.41%; left:68.77%; width:35.26%; z-index:-1" /> -->
-<!-- <img class="slide-image" showInPresentation="true" src="imgs/pic03.png" style="top:12.06%; left:6.55%; width:15.07%; z-index:-1" /> -->
+<!-- <img class="slide-image" showInPresentation="true" src="imgs/pic01.png" style="top:5%; left:35.56%; width:20%; z-index:-1" /> -->
+<!-- <img class="slide-image" showInPresentation="true" src="imgs/pic02.png" style="top:5%; left:68.77%; width:34%; z-index:-1" /> -->
+<!-- <img class="slide-image" showInPresentation="true" src="imgs/pic03.png" style="top:10%; left:6.55%; width:14%; z-index:-1" /> -->
 <div class="signature">
 	<p class="signature-course"></p>
 	<p class="signature-initiative"></p>
@@ -28,7 +28,7 @@
 <!-- attr: { hasScriptWrapper:true, class:'slide-section' } -->
 # if and if-else
 ## Implementing Conditional Logic
-<!-- <img class="slide-image" showInPresentation="true" src="imgs/pic06.png" style="top:44.96%; left:36.85%; width:36.27%; z-index:-1" /> -->
+<!-- <img class="slide-image" showInPresentation="true" src="imgs/pic06.png" style="top:55%; left:36; width:36%; z-index:-1" /> -->
 
 <!-- attr: { hasScriptWrapper:true } -->
 # The if Statement
@@ -53,23 +53,24 @@ if (condition) {
 - The condition can be of any type
 - The statement can be:
   - Single statement ending with a semicolon
-  - Block enclosed in braces 
+  - Block enclosed in braces
 <!-- <img class="slide-image" showInPresentation="true" src="imgs/pic07.png" style="top:13.22%; left:81.46%; width:24.64%; z-index:-1" /> -->
 
 <!-- attr: { hasScriptWrapper:true } -->
 # How It Works?
 - The condition is evaluated
   - If it is true-like, the statement is executed
-  - If it is false-like, the statement is skipped 
+  - If it is false-like, the statement is skipped
 - true
 - condition
 - statement
 - false
+<!-- Check this slide in pptx -->
 
 <!-- attr: { hasScriptWrapper:true } -->
 # The if Statement – _Example_
-- _Example_s with if statements
-  - The expression evaluates for true-like or false-like values
+- _Examples_ with `if` statements
+  - The expression evaluates for `true`-like or `false`-like values
 
 ```js
 var bigger = 123;
@@ -101,17 +102,17 @@ if(!(+str)){ // if str is not a number, +str is NaN
 
 ```js
 if (expression) {
-    statement1; 
+    statement1;
 } else {
-    statement2; 
+    statement2;
 }
 ```
 
 <!-- attr: { hasScriptWrapper:true } -->
 # How It Works ?
 - The condition is evaluated
-  - If it is true-like, the first statement is executed
-  - If it is false-like, the second statement is executed
+  - If it is `true`-like, the first statement is executed
+  - If it is `false`-like, the second statement is executed
 - condition
 - first
 - statement
@@ -126,7 +127,7 @@ if (expression) {
 ```js
 var s = '123';
 var number = +s;
-if (number % 2) { 
+if (number % 2) {
     console.log('This number is odd.');
 } еlse {
     console.log('This number is even.');
@@ -150,9 +151,9 @@ if (+str) {
 
 <!-- section start -->
 <!-- attr: { hasScriptWrapper:true, class:'slide-section' } -->
-# Nested if Statements 
+# Nested if Statements
 ## Creating More Complex Logic
-<!-- <img class="slide-image" showInPresentation="true" src="imgs/pic12.png" style="top:41.44%; left:30.68%; width:47.96%; z-index:-1" /> -->
+<!-- <img class="slide-image" showInPresentation="true" src="imgs/pic12.png" style="top:55%; left:30%; width:40%; z-index:-1" /> -->
 
 <!-- attr: { hasScriptWrapper:true } -->
 # Nested if Statements
@@ -167,7 +168,7 @@ if (expression) {
     statement;
   }
 } else {
-  statement; 
+  statement;
 }
 ```
 
@@ -179,8 +180,9 @@ if (expression) {
 - Put the case you normally expect to process first, then write the unusual cases
 - Arrange the code to make it more readable
 
-<!-- attr: { hasScriptWrapper:true } -->
+<!-- attr: { hasScriptWrapper:true, style:'font-size:0.8em' } -->
 # Nested if Statements – _Example_
+- _Examples_ with nested if statements
 
 ```js
 if (first === second) {
@@ -206,8 +208,6 @@ if (n) {
   console.log('This is not a number!');
 }
 ```
-
-- _Example_s with nested if statements
 
 <!-- attr: { hasScriptWrapper:true } -->
 # Nested if Statements
@@ -240,7 +240,7 @@ else …
 
 <!-- attr: { hasScriptWrapper:true } -->
 # The switch-case Statement
-- Selects for execution a statement from a list depending on the value of the `switch` expression 
+- Selects for execution a statement from a list depending on the value of the `switch` expression
 
 ```js
 switch (day) {
@@ -262,7 +262,7 @@ switch (day) {
   - The statement that corresponds to that case is executed
 - If no case is equal to the expression
   - If there is default case, it is executed
-  - Otherwise the control is transferred to the end point of the switch statement 
+  - Otherwise the control is transferred to the end point of the switch statement
 
 <!-- attr: { hasScriptWrapper:true } -->
 # The switch-case Statement
