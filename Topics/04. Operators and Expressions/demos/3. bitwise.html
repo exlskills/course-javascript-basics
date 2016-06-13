@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html>
 <head>
 	<title>Operators and Expressions - Bitwise Operators</title>
@@ -8,43 +9,43 @@
 	<script src="scripts/js-console.js"></script>
 	<script>
 
-		jsConsole.writeLine("-------------------------");
-		jsConsole.writeLine("Bitwise operators with integers:");
-		var a = 3;                // 00000000 00000011
-		var b = 5;                // 00000000 00000101
+		jsConsole.writeLine('-------------------------');
+		jsConsole.writeLine('Bitwise operators with integers:');
+		let a = 3;                // 00000000 00000011
+		let b = 5;                // 00000000 00000101
 
-		jsConsole.writeLine("a = " + a + ", b = " + b);
+		jsConsole.writeLine('a = ' + a + ', b = ' + b);
 
-		jsConsole.writeLine("a | b  = " + (a | b) + " - > " + (a | b).toString(2));   // 00000000 00000111
-		jsConsole.writeLine("a & b  = " + (a & b) + " - > " + (a & b).toString(2));   // 00000000 00000001
-		jsConsole.writeLine("a ^ b  = " + (a ^ b) + " - > " + (a ^ b).toString(2));   // 00000000 00000110
-		jsConsole.writeLine("~a & b = " + (~a & b) + " - > " + (~a & b).toString(2));   // 00000000 00000100
-		jsConsole.writeLine("a << 1 = " + (a << 1) + " - > " + (a << 1).toString(2));  // 00000000 00000110
-		jsConsole.writeLine("a >> 1 = " + (a >> 1) + " - > " + (a >> 1).toString(2));  // 00000000 00000001
+		jsConsole.writeLine('a | b  = ' + (a | b) + ' - > ' + (a | b).toString(2));   // 00000000 00000111
+		jsConsole.writeLine('a & b  = ' + (a & b) + ' - > ' + (a & b).toString(2));   // 00000000 00000001
+		jsConsole.writeLine('a ^ b  = ' + (a ^ b) + ' - > ' + (a ^ b).toString(2));   // 00000000 00000110
+		jsConsole.writeLine('~a & b = ' + (~a & b) + ' - > ' + (~a & b).toString(2));   // 00000000 00000100
+		jsConsole.writeLine('a << 1 = ' + (a << 1) + ' - > ' + (a << 1).toString(2));  // 00000000 00000110
+		jsConsole.writeLine('a >> 1 = ' + (a >> 1) + ' - > ' + (a >> 1).toString(2));  // 00000000 00000001
 
 
-		jsConsole.writeLine("-------------------------");
-		jsConsole.writeLine("Bitwise operators with floats:");
-		var f1 = 3.5;
-		var f2 = 5.3;
+		jsConsole.writeLine('-------------------------');
+		jsConsole.writeLine('Bitwise operators with floats:');
+		let f1 = 3.5;
+		let f2 = 5.3;
 
-		jsConsole.writeLine("f1 = " + f1 + ", f2 = " + f2);
+		jsConsole.writeLine('f1 = ' + f1 + ', f2 = ' + f2);
 
-		jsConsole.writeLine("f1 | f2  = " + (f1 | f2) + " - > " + (f1 | f2).toString(2));   // 00000000 00000111
-		jsConsole.writeLine("f1 & f2  = " + (f1 & f2) + " - > " + (f1 & f2).toString(2));   // 00000000 00000001
-		jsConsole.writeLine("f1 ^ f2  = " + (f1 ^ f2) + " - > " + (f1 ^ f2).toString(2));   // 00000000 00000110
-		jsConsole.writeLine("~f1 & f2 = " + (~f1 & f2) + " - > " + (~f1 & f2).toString(2));   // 00000000 00000100
-		jsConsole.writeLine("f1 << 1 = " + (f1 << f2) + " - > " + (f1 << 1).toString(2));  // 00000000 00000110
-		jsConsole.writeLine("f1 >> 1 = " + (f1 >> f2) + " - > " + (f1 >> 1).toString(2));  // 00000000 00000001
+		jsConsole.writeLine('f1 | f2  = ' + (f1 | f2) + ' - > ' + (f1 | f2).toString(2));   // 00000000 00000111
+		jsConsole.writeLine('f1 & f2  = ' + (f1 & f2) + ' - > ' + (f1 & f2).toString(2));   // 00000000 00000001
+		jsConsole.writeLine('f1 ^ f2  = ' + (f1 ^ f2) + ' - > ' + (f1 ^ f2).toString(2));   // 00000000 00000110
+		jsConsole.writeLine('~f1 & f2 = ' + (~f1 & f2) + ' - > ' + (~f1 & f2).toString(2));   // 00000000 00000100
+		jsConsole.writeLine('f1 << 1 = ' + (f1 << f2) + ' - > ' + (f1 << 1).toString(2));  // 00000000 00000110
+		jsConsole.writeLine('f1 >> 1 = ' + (f1 >> f2) + ' - > ' + (f1 >> 1).toString(2));  // 00000000 00000001
 
-		jsConsole.writeLine("-------------------------");
-		jsConsole.writeLine("Bitwise operators with non-number types:");
+		jsConsole.writeLine('-------------------------');
+		jsConsole.writeLine('Bitwise operators with non-number types:');
 
-		jsConsole.writeLine("~true = " + ~true);
-		jsConsole.writeLine("~false = " + ~false);
-		jsConsole.writeLine('"~JavaScript" = ' + ~"JavaScript")
-		jsConsole.writeLine('"js" & true = ' + ("js" | true))
-		jsConsole.writeLine('"js" & true = ' + ("js" ^ true))	   
+		jsConsole.writeLine('~true = ' + ~true);
+		jsConsole.writeLine('~false = ' + ~false);
+		jsConsole.writeLine('"~JavaScript" = ' + ~'JavaScript')
+		jsConsole.writeLine('"js" & true = ' + ('js' | true))
+		jsConsole.writeLine('"js" & true = ' + ('js' ^ true))	   
 	</script>
 </body>
 </html>

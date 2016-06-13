@@ -1,8 +1,8 @@
 ﻿(function () {
 	function createJsConsole(selector) {
-		var self = this;
-		//var consoleElement = document.querySelector(selector);
-		var consoleElement = document.getElementById(selector);
+		let self = this;
+		//let consoleElement = document.querySelector(selector);
+		let consoleElement = document.getElementById(selector);
 
 		if (consoleElement.className) {
 			consoleElement.className = consoleElement.className + " js-console";
@@ -10,13 +10,13 @@
 			consoleElement.className = "js-console";
 		}
 
-		var textArea = document.createElement("p");
+		let textArea = document.createElement("p");
 		consoleElement.appendChild(textArea);
 
 		self.write = function jsConsoleWrite(text) {
-			var textLine = document.createElement("span");
+			let textLine = document.createElement("span");
 			if (text !== "" && text !== undefined) {
-				var toWrite = text.toString();
+				let toWrite = text.toString();
 				textLine.innerHTML = toWrite;
 				textArea.appendChild(textLine);
 				consoleElement.scrollTop = consoleElement.scrollHeight;
@@ -29,7 +29,7 @@
 		};
 
 		self.read = function readText(inputSelector) {
-			var element = document.querySelector(inputSelector);
+			let element = document.querySelector(inputSelector);
 			if (element.innerHTML) {
 				return element.innerHTML;
 			} else {
@@ -38,12 +38,12 @@
 		};
 
 		self.readInteger = function readInteger(inputSelector) {
-			var text = self.read(inputSelector);
+			let text = self.read(inputSelector);
 			return parseInt(text, 10);
 		};
 
 		self.readFloat = function readFloat(inputSelector) {
-			var text = self.read(inputSelector);
+			let text = self.read(inputSelector);
 			return parseFloat(text);
 		};
 
