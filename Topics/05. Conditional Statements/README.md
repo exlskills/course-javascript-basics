@@ -1,5 +1,5 @@
 <!-- section start -->
-<!-- attr: { hasScriptWrapper:true } -->
+<!-- attr: { hasScriptWrapper:true, class:'slide-section' } -->
 # Conditional Statements
 ## Implementing Control Logic in JavaScript
 <!-- <img class="slide-image" showInPresentation="true" src="imgs/pic00.png" style="top:54.30%; left:51.46%; width:54.21%; z-index:-1" /> -->
@@ -25,7 +25,7 @@
 <!-- <img class="slide-image" showInPresentation="true" src="imgs/pic05.png" style="top:51.13%; left:73.92%; width:29.09%; z-index:-1" /> -->
 
 <!-- section start -->
-<!-- attr: { hasScriptWrapper:true } -->
+<!-- attr: { hasScriptWrapper:true, class:'slide-section' } -->
 # if and if-else
 ## Implementing Conditional Logic
 <!-- <img class="slide-image" showInPresentation="true" src="imgs/pic06.png" style="top:44.96%; left:36.85%; width:36.27%; z-index:-1" /> -->
@@ -149,7 +149,7 @@ if (+str) {
 <!-- <img class="slide-image" showInPresentation="true" src="imgs/pic11.png" style="top:42.07%; left:29.01%; width:50.25%; z-index:-1" /> -->
 
 <!-- section start -->
-<!-- attr: { hasScriptWrapper:true } -->
+<!-- attr: { hasScriptWrapper:true, class:'slide-section' } -->
 # Nested if Statements 
 ## Creating More Complex Logic
 <!-- <img class="slide-image" showInPresentation="true" src="imgs/pic12.png" style="top:41.44%; left:30.68%; width:47.96%; z-index:-1" /> -->
@@ -339,14 +339,10 @@ switch (false) {
   - Supports the fall-though behavior
   - Can contain expressions in the case value
 
-<!-- attr: { hasScriptWrapper:true } -->
+<!-- section start -->
+<!-- attr: { hasScriptWrapper:true, class:'slide-section' } -->
 # Conditional Statements
-<!-- <img class="slide-image" showInPresentation="true" src="imgs/pic18.png" style="top:50.77%; left:44.91%; width:27.33%; z-index:-1" /> -->
-<!-- <img class="slide-image" showInPresentation="true" src="imgs/pic19.png" style="top:12.77%; left:12.68%; width:19.37%; z-index:-1" /> -->
-<!-- <img class="slide-image" showInPresentation="true" src="imgs/pic20.png" style="top:14.31%; left:78.41%; width:20.24%; z-index:-1" /> -->
-<!-- <img class="slide-image" showInPresentation="true" src="imgs/pic21.png" style="top:20.43%; left:46.01%; width:10.20%; z-index:-1" /> -->
-<!-- <img class="slide-image" showInPresentation="true" src="imgs/pic22.png" style="top:52.81%; left:9.27%; width:17.23%; z-index:-1" /> -->
-<!-- <img class="slide-image" showInPresentation="true" src="imgs/pic23.png" style="top:54.67%; left:87.89%; width:13.30%; z-index:-1" /> -->
+## Questions?
 
 <!-- attr: { hasScriptWrapper:true } -->
 # Free Trainings @ Telerik Academy
