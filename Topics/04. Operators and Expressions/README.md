@@ -9,9 +9,7 @@
 	<a href="https://telerikacademy.com" class="signature-link">https://telerikacademy.com</a>
 </div>
 
-
 <!-- <img class="slide-image" showInPresentation="true" src="imgs/this-is-javascript.gif" style="top:55%; right:5%; width:35%; z-index:-1; border-radius: 15px" /> -->
-
 
 <!-- section start -->
 <!-- attr: { hasScriptWrapper: true } -->
@@ -28,7 +26,6 @@
 
 <!-- <img class="slide-image" showInPresentation="true" src="imgs/pic01.png" style="top:24.24%; left:73.92%; width:29.84%; z-index:-1" /> -->
 
-
 <!-- section start -->
 <!-- attr: { showInPresentation:true, hasScriptWrapper: true, style:'font-size: 0.9em' } -->
 <!-- # Operators in JavaScript
@@ -37,7 +34,6 @@
 <!-- <img class="slide-image" showInPresentation="true" src="imgs/pic02.png" style="top:45.09%; left:71.11%; width:29.97%; z-index:-1" /> -->
 <!-- <img class="slide-image" showInPresentation="true" src="imgs/pic03.png" style="top:45.84%; left:11.23%; width:39.56%; z-index:-1; border-radius: 15px" /> -->
 
-
 # What is an Operator?
 -  An operator is a symbol that represents an **operation performed over data** at runtime
   - Takes **one or more arguments** (operands)
@@ -45,7 +41,6 @@
 - **Operators have precedence** (priority)
   - Precedence defines which will be evaluated first
 - Expressions are sequences of operators and operands that are evaluated to a single value
-
 
 <!-- attr: { id:'operators-in-js', hasScriptWrapper: true } -->
 # <a id="operators-in-js"></a>Operators in JavaScript
@@ -71,15 +66,11 @@
 | Concatenation        | `+`                                                                     |
 | Other                | `.` `[]` `()` `?:` `new` `in` `,` `delete` `void` `typeof` `instanceof` |                       |
 
-
-
-
 <!-- section start -->
 <!-- attr: { id:'arithmetic-operators', class:'slide-section', showInPresentation:true, hasScriptWrapper: true } -->
 <!-- # <a id="arithmetic-operators"></a>Arithmetic Operators -->
 
 <!-- <img class="slide-image" showInPresentation="true" src="imgs/pic05.png" style="top:50%; left:30%; width:40%; z-index:-1; border-radius: 15px" /> -->
-
 
 # Arithmetic Operators
 - Arithmetic operators `+`, `-`, `*`, `/` are the same as in math 
@@ -87,7 +78,6 @@
 - Remainder operator `%` returns the remainder from division of numbers
   - Even on real (floating-point) numbers
 - The special addition operator `++` increments a variable
-
 
 <!-- attr: { hasScriptWrapper: true } -->
 # Arithmetic Operators – _Example_
@@ -113,10 +103,8 @@ console.log(12 / 3); // 4
 console.log(11 / 3); // 3.6666666666666665
 ```
 
-
 <!-- attr: { hasScriptWrapper: true, showInPresentation: true } -->
 <!-- # Arithmetic Operators – _Example_ -->
-
 
 ```js
 console.log(11 % 3);   // 2
@@ -131,22 +119,17 @@ let x = 0;
 console.log(5 / x);
 ```
 
-
 <!-- attr: { class:'slide-section demo', showInPresentation: true, hasScriptWrapper: true } -->
 <!-- # Arithmetic Operators
 ## [Demo]() -->
 
 <!-- <img class="slide-image" showInPresentation="true" src="imgs/pic06.png" style="top:55%; left:32.5%; width:35%; z-index:-1; border-radius: 15px" /> -->
 
-
-
-
 <!-- section start -->
 <!-- attr: { id:'logical-operators', class:'slide-section', showInPresentation: true, hasScriptWrapper: true } -->
 <!-- # <a id="logical-operators"></a>Logical Operators-->
 
 <!-- <img class="slide-image" showInPresentation="true" src="imgs/pic07.png" style="top:50%; left:35%; width:30%; z-index:-1; border-radius: 15px" /> -->
-
 
 <!-- attr: { showInPresentation: true, hasScriptWrapper: true, style:'font-size: 0.9em' } -->
 # Logical Operators
@@ -176,7 +159,6 @@ console.log(!a); // False
 console.log((5 > 7) ^ (a == b)); // False
 ```
 
-
 <!-- attr: { class:'slide-section demo', showInPresentation: true, hasScriptWrapper: true } -->
 <!-- # Logical Operators
 ## [Demo]() -->
@@ -184,16 +166,11 @@ console.log((5 > 7) ^ (a == b)); // False
 <!-- <img class="slide-image" showInPresentation="true" src="imgs/pic08.png" style="top:55%; left:68.24%; width:20%; z-index:-1; border-radius: 15px" /> -->
 <!-- <img class="slide-image" showInPresentation="true" src="imgs/pic09.png" style="top:55%; left:10.29%; width:25%; z-index:-1; border-radius: 15px" /> -->
 
-
-
-
 <!-- section start -->
 <!-- attr: { id:'bitwise-operators', class:'slide-section', showInPresentation: true, hasScriptWrapper: true } -->
 <!-- # <a id="bitwise-operators"></a>Bitwise Operators -->
 
 <!-- <img class="slide-image" showInPresentation="true" src="imgs/pic10.png" style="top:47.5%; left:35%; width:30%; z-index:-1; border-radius: 15px" /> -->
-
-
 
 <!-- attr: { showInPresentation: true, style:'font-size: 0.9em' } -->
 # Bitwise Operators
@@ -219,12 +196,9 @@ console.log(true << 1);  // 00000000 00000010
 console.log(true >> 1);  // 00000000 00000000
 ```
 
-
 <!-- attr: { class:'slide-section demo', showInPresentation: true, hasScriptWrapper: true } -->
 <!-- # Bitwise Operators
 ## [Demo]() -->
-
-
 
 <!-- section start -->
 <!-- attr: { id:'comparison-operators', class:'slide-section', showInPresentation: true, hasScriptWrapper: true } -->
@@ -269,13 +243,9 @@ console.log(x += 3); // 10
 console.log(x /= 2); // 5
 ```
 
-
-
 <!-- attr: { class:'slide-section demo', showInPresentation: true, hasScriptWrapper: true } -->
 <!-- # Comparison and Assignment Operators
 ## [Demo]() -->
-
-
 
 <!-- section start -->
 <!-- attr: { id:'other-operators', class:'slide-section', showInPresentation: true, hasScriptWrapper: true } -->
@@ -314,8 +284,6 @@ b ? x : y
 - The `new` operator is used to create new objects 
 - The `typeof` operator returns the type of the value
 
-
-
 <!-- attr: { showInPresentation: true } -->
 <!-- # Other Operators – _Example_ -->
 - Using some other operators:
@@ -335,12 +303,9 @@ console.log(typeof c); // number
 console.log(void(3 + 4)); // undefined
 ```
 
-
-
 <!-- attr: { class:'slide-section demo', showInPresentation: true, hasScriptWrapper: true } -->
 <!-- # Other Operators
 ## [Demo]() -->
-
 
 <!-- section start -->
 <!-- attr: { id:'operator-precedence', class:'slide-section', showInPresentation: true, hasScriptWrapper: true } -->
@@ -354,14 +319,11 @@ console.log(void(3 + 4)); // undefined
 - _Note_: it's considered a good practice to use parentheses, even when it's not necessary
   - Improves code readability
 
-
-
 <!-- section start -->
 <!-- attr: { id:'expressions', class:'slide-section demo', showInPresentation: true, hasScriptWrapper: true } -->
 <!-- # <a id="expressions"></a>Expressions -->
 
 <!-- <img class="slide-image" showInPresentation="true" src="imgs/pic21.png" style="top:45%; left:30%; width:40%; z-index:-1; border-radius: 15px" /> -->
-
 
 <!-- attr: { hasScriptWrapper: true } -->
 # Expressions
@@ -392,19 +354,16 @@ let b = (a + 3) * (a - 4) + (2 * a + 7) / 4;  // b = 12
 let greater = (a > b) || ((a == 0) && (b == 0));
 ```
 
-
 <!-- attr: { class:'slide-section demo', showInPresentation: true, hasScriptWrapper: true } -->
 <!-- # Expressions
 ## [Demo]() -->
 
 <!-- <img class="slide-image" showInPresentation="true" src="imgs/pic22.png" style="top:55%; left:30%; width:40%; z-index:-1; border-radius: 15px" /> -->
 
-
 <!-- section start -->
 <!-- attr: { class:'slide-section', showInPresentation: true } -->
 <!-- # Operators and Expressions
 ## Questions? -->
-
 
 <!-- attr: { showInPresentation: true, hasScriptWrapper: true, style:'font-size: 0.9em' } -->
 # Free Trainings @ Telerik Academy
@@ -419,5 +378,3 @@ let greater = (a > b) || ((a == 0) && (b == 0));
 
 <!-- <img class="slide-image" showInPresentation="true"  src="imgs/pic24.png" style="top:58.18%; left:90.52%; width:16.97%; z-index:-1" /> -->
 <!-- <img class="slide-image" showInPresentation="true"  src="imgs/pic26.png" style="top:30%; left:68.14%; width:20%; z-index:-1" /> -->
-
-
