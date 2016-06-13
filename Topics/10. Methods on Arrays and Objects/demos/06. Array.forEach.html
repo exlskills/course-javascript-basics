@@ -1,0 +1,33 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Array Methods - forEach</title>
+    <link href="styles/js-console.css" rel="stylesheet" />
+</head>
+<body>
+    <div id="js-console"></div>
+    <script src="scripts/js-console.js"></script>
+    <script type="text/javascript">
+        var numbers = ['One', 'Two', 'Three', 'Four', 'Five'];
+        numbers.forEach(function(item, index) {
+            jsConsole.writeLine('Item at' + index + 'has value' + item);
+        });
+
+        function createPerson(name, age) {
+            return { name: name,
+                     age: age,
+                     introduce: function () {
+                        jsConsole.writeLine('Hi, my name is ' + this.name);
+                    }
+                };
+        };
+
+        var people = [createPerson('Peter', 13),
+            createPerson('John', 18),
+            createPerson('Susan', 21)];
+        people.forEach(function(person) {
+            person.introduce();
+        });
+    </script>
+</body>
+</html>

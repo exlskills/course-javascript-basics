@@ -1,0 +1,28 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Array Methods - map</title>
+    <link href="styles/js-console.css" rel="stylesheet" />
+</head>
+<body>
+    <div id="js-console"></div>
+    <script src="scripts/js-console.js"></script>
+    <script type="text/javascript">
+        var squares = [1, 2, 3, 4, 5].map(function(number) {
+            return number * number;
+        });
+
+        jsConsole.writeLine('Squares = [' + squares + ']');
+
+        var lines = ['1 2 3',
+                     '4 5 6'];
+        var matrix = lines.map(function(line) {
+            return line.split(' ')
+                    .map(Number);
+        });
+
+        jsConsole.writeLine(matrix);// [[1, 2, 3],
+        console.log(matrix);        //  [4, 5, 6]]
+    </script>
+</body>
+</html>
