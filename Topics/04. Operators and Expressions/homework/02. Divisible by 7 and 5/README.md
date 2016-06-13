@@ -30,3 +30,5 @@ Implement a javascript function that does the following:
 | 35              | true 35         |
 | 140             | true 140        |
 
+## Submission
+- Submit your code [here](http://bgcoder.com/Contests/Compete/Index/357#1)

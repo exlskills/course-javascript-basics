@@ -26,3 +26,5 @@ Implement a javascript function that accepts an array containing an integer **N*
 | 0              | false          |
 | 1              | false          |
 
+## Submission
+- Submit your code [here](http://bgcoder.com/Contests/Compete/Index/357#6)

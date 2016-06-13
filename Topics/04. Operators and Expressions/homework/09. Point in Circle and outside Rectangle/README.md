@@ -25,3 +25,6 @@ Implement a javascript function that accepts an array with a pair of coordinates
 | 0<br/>1         | inside circle inside rectangle     |
 | 2.5<br/>1       | inside circle inside rectangle     |
 | 1<br/>2         | inside circle outside rectangle    |
+
+## Submission
+- Submit your code [here](http://bgcoder.com/Contests/Compete/Index/357#8)

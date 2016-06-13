@@ -26,3 +26,6 @@ Implement a javascript function that takes an array with a single element - an i
 | 877             | false 8         |
 | 777877          | false 8         |
 | 9999799         | true            |
+
+## Submission
+- Submit your code [here](http://bgcoder.com/Contests/Compete/Index/357#3)

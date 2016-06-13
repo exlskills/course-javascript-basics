@@ -23,3 +23,6 @@ Using bitwise operators, write a javascript function(that accepts a single array
 |----------------|----------------|
 | 15             | 1              |
 | 1024           | 0              |
+
+## Submission
+- Submit your code [here](http://bgcoder.com/Contests/Compete/Index/357#4)

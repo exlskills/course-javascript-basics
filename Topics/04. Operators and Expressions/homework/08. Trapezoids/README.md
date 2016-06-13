@@ -25,3 +25,6 @@ The three values should be read from the console in the order shown below. All t
 | 8.5<br/>4.3<br/>2.7       | 17.2800000      |
 | 100<br/>200<br/>300       | 45000.0000000   |
 | 0.222<br/>0.333<br/>0.555 | 0.1540125       |
+
+## Submission
+- Submit your code [here](http://bgcoder.com/Contests/Compete/Index/357#7)

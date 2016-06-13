@@ -26,3 +26,6 @@ The **width** and **height** will both be passed in the argument array.
 | 2.5<br/>3       | 7.50 11.00      |
 | 5<br/>5         | 25.00 20.00     |
 | 3<br/>4         | 12.00 14.00     |
+
+## Submission
+- Submit your code [here](http://bgcoder.com/Contests/Compete/Index/357#2)
