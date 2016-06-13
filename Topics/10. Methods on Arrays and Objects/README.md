@@ -1,5 +1,5 @@
 <!-- section start -->
-# Array Methods
+# Methods on Arrays and Objects
 ## Using array methods for cleaner JavaScript code
 <!-- <img class="slide-image" showInPresentation="true" src="imgs/pic00.png" style="top:52.01%; left:52.40%; width:50.48%; z-index:-1" /> -->
 <div class="signature">
@@ -480,7 +480,7 @@ In ES6:
 
 
 
-# Array Methods
+# Methods on Arrays and Objects
 <!-- <img class="slide-image" showInPresentation="true" src="imgs/pic01.png" style="top:48.48%; left:76.72%; width:23.80%; z-index:-1" /> -->
 <!-- <img class="slide-image" showInPresentation="true" src="imgs/pic02.png" style="top:48.74%; left:15.79%; width:20.90%; z-index:-1" /> -->
 <!-- <img class="slide-image" showInPresentation="true" src="imgs/pic03.png" style="top:4.86%; left:32.29%; width:23.51%; z-index:-1" /> -->
