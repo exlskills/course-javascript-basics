@@ -68,11 +68,11 @@ Course Program, Examination
 
 ##### [<img src="https://raw.githubusercontent.com/TelerikAcademy/Common/master/icons/presentation.png" height="18"/>Slides](https://rawgit.com/TelerikAcademy/JavaScript-Fundamentals/master/Topics/09. Using Objects/index.html) / [<img src="https://raw.githubusercontent.com/TelerikAcademy/Common/master/icons/code.png" height="15"> Demos](/Topics/09. Using Objects/demos) / [<img src="https://raw.githubusercontent.com/TelerikAcademy/Common/master/icons/homework.png" height="15">Tasks](/Topics/09. Using Objects/homework) / [<img src="https://raw.githubusercontent.com/TelerikAcademy/Common/master/icons/video.png" height="15"> Videos](/Topics/09. Using Objects/VIDEOS.md)
 
-### [10. Array Methods](/Topics/10. Array Methods)
+### [10. Methods on Arrays and Objects](/Topics/10. Methods on Arrays and Objects)
 
 
 
-##### [<img src="https://raw.githubusercontent.com/TelerikAcademy/Common/master/icons/presentation.png" height="18"/>Slides](https://rawgit.com/TelerikAcademy/JavaScript-Fundamentals/master/Topics/10. Array Methods/index.html) / [<img src="https://raw.githubusercontent.com/TelerikAcademy/Common/master/icons/code.png" height="15"> Demos](/Topics/10. Array Methods/demos) / [<img src="https://raw.githubusercontent.com/TelerikAcademy/Common/master/icons/homework.png" height="15">Tasks](/Topics/10. Array Methods/homework) / [<img src="https://raw.githubusercontent.com/TelerikAcademy/Common/master/icons/video.png" height="15"> Videos](/Topics/10. Array Methods/VIDEOS.md)
+##### [<img src="https://raw.githubusercontent.com/TelerikAcademy/Common/master/icons/presentation.png" height="18"/>Slides](https://rawgit.com/TelerikAcademy/JavaScript-Fundamentals/master/Topics/10. Methods on Arrays and Objects/index.html) / [<img src="https://raw.githubusercontent.com/TelerikAcademy/Common/master/icons/code.png" height="15"> Demos](/Topics/10. Methods on Arrays and Objects/demos) / [<img src="https://raw.githubusercontent.com/TelerikAcademy/Common/master/icons/homework.png" height="15">Tasks](/Topics/10. Methods on Arrays and Objects/homework) / [<img src="https://raw.githubusercontent.com/TelerikAcademy/Common/master/icons/video.png" height="15"> Videos](/Topics/10. Methods on Arrays and Objects/VIDEOS.md)
 
 ### [11. Strings](/Topics/11. Strings)
 
