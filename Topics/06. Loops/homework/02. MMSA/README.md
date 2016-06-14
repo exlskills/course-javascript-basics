@@ -1,7 +1,7 @@
 # MMSA (Min, Max, Sum, Average) of N Numbers
 
 ## Description
-Implement a javascript function that accepts an array floating-point numbers as strings and returns the **minimal**, the **maximal** number, the **sum** 
+Implement a javascript function that accepts an array of floating-point numbers as strings and returns the **minimal**, the **maximal** number, the **sum** 
 and the **average** of all numbers (displayed with 2 digits after the decimal point).
 
 ## Input
