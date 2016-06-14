@@ -1,15 +1,27 @@
-### Problem 6. Quadratic equation
-*	Write a script that reads the coefficients `a`, `b` and `c` of a quadratic equation ax<sup>2</sup> + bx + c = 0 and solves it (prints its real roots).
-*	Calculates and prints its real roots.
+# Quadratic equation
+
+## Description
+Write a script that reads the coefficients `a`, `b` and `c` of a quadratic equation <code>ax<sup>2</sup> + bx + c = 0</code> and solves it (prints its real roots).
+Calculates and prints its real roots.
 
 _Note: Quadratic equations may have 0, 1 or 2 real roots._
 
-_Examples:_
+## Input
+- The input will consist of an array containing three values - `a`, `b` and `c` represented as strings
 
-|   a  |  b  |  c  |     roots     |
-|:----:|:---:|:---:|---------------|
-| 2    | 5   | -3  | x1=-3; x2=0.5 |
-| -1   | 3   | 0   | x1=3; x2=0    |
-| -0.5 | 4   | -8  | x1=x2=4       |
-| 5    | 2   | 8   | no real roots |
+## Output
+- The output should be a single line containing the real roots (see sample tests)
+  - If there are two roots then `x1 < x2`
 
+## Constraints
+- Time limit: **0.2s**
+- Memory limit: **16MB**
+
+## Sample tests
+
+| Input            | Output        |
+|:-----------------|:--------------|
+| 2<br>5<br>-3     | x1=-3; x2=0.5 |
+| -1<br>3<br>0     | x1=0; x2=3    |
+| -0.5<br>4<br>-8  | x1=x2=4       |
+| 5<br>2<br>8      | no real roots |
