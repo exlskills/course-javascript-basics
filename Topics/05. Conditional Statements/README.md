@@ -20,7 +20,7 @@
 - The `if-else` Statement
 - Nested `if` Statements
 - The `switch-case` Statement
-  - The fall-though behavior
+  - The fall-through behavior
   - Expressions in the case
 
 <!-- <img class="slide-image" showInPresentation="true" src="imgs/pic04.png" style="top:25.56%; left:77.66%; width:25.56%; z-index:-1" /> -->
@@ -345,7 +345,7 @@ switch (false) {
   - Constantly used in computer programming
   - Conditional statements can be nested
 - The `switch` statement easily and elegantly checks an expression for a sequence of values
-  - Supports the fall-though behavior
+  - Supports the fall-through behavior
   - Can contain expressions in the case value
 
 <!-- section start -->
