@@ -16,12 +16,12 @@
 <!-- section start -->
 <!-- attr: { hasScriptWrapper:true } -->
 # Table of Contents
-- The `if` Statement
-- The `if-else` Statement
-- Nested `if` Statements
-- The `switch-case` Statement
-  - The fall-through behavior
-  - Expressions in the case
+- [The `if` Statement](#if-statement)
+- [The `if-else` Statement](#if-else)
+- [Nested `if` Statements](#nested-if)
+- [The `switch-case` Statement](#switch-case)
+  - [The fall-through behavior](#fall-through)
+  - [Expressions in the case](#expressions-case)
 
 <!-- <img class="slide-image" showInPresentation="true" src="imgs/pic04.png" style="top:25.56%; left:77.66%; width:25.56%; z-index:-1" /> -->
 <!-- <img class="slide-image" showInPresentation="true" src="imgs/pic05.png" style="top:51.13%; left:73.92%; width:29.09%; z-index:-1" /> -->
@@ -33,8 +33,8 @@
 
 <!-- <img class="slide-image" showInPresentation="true" src="imgs/pic06.png" style="top:55%; left:36; width:36%; z-index:-1" /> -->
 
-<!-- attr: { hasScriptWrapper:true } -->
-# The `if` Statement
+<!-- attr: { hasScriptWrapper:true, id:'if-statement' } -->
+# <a id="if-statement"></a>The `if` Statement
 - The most simple conditional statement
 - Enables you to test for a condition
 - Branch to different parts of the code depending on the result
@@ -95,8 +95,8 @@ if(!(+str)){ // if str is not a number, +str is NaN
 <!-- <img class="slide-image" showInPresentation="true" src="imgs/pic09.png" style="top:57.60%; left:48.26%; width:24.13%; z-index:-1" /> -->
 <!-- <img class="slide-image" showInPresentation="true" src="imgs/pic10.png" style="top:17.39%; left:74.64%; width:33.32%; z-index:-1" /> -->
 
-<!-- attr: { hasScriptWrapper:true } -->
-# The `if-else` Statement
+<!-- attr: { hasScriptWrapper:true, id:'if-else' } -->
+# <a id="if-else"></a> The `if-else` Statement
 - More complex and useful conditional statement
 - Executes one branch if the condition is true, and another if it is false
 - The simplest form of an `if-else` statement:
@@ -145,8 +145,8 @@ if (+str) {
 ## [Demo]()
 
 <!-- section start -->
-<!-- attr: { hasScriptWrapper:true, class:'slide-section' } -->
-# Nested `if` Statements
+<!-- attr: { hasScriptWrapper:true, class:'slide-section', id:'nested-if' } -->
+# <a id="nested-if"></a>Nested `if` Statements
 ## Creating More Complex Logic
 
 <!-- <img class="slide-image" showInPresentation="true" src="imgs/pic12.png" style="top:55%; left:30%; width:40%; z-index:-1" /> -->
@@ -229,8 +229,8 @@ else …
 ## [Demo]()
 
 <!-- section start -->
-<!-- attr: { hasScriptWrapper:true, class: 'slide-section' } -->
-# `switch-case`
+<!-- attr: { hasScriptWrapper:true, class: 'slide-section', id:'switch-case' } -->
+# <a id="switch-case"></a>`switch-case`
 ## Making Several Comparisons at Once
 
 <!-- attr: { hasScriptWrapper:true } -->
@@ -263,8 +263,8 @@ switch (day) {
 # The `switch-case` Statement
 ## [Demo]()
 
-<!-- attr: { hasScriptWrapper:true } -->
-#  The Fall-through Behavior in `switch`
+<!-- attr: { hasScriptWrapper:true, id:'fall-through' } -->
+# <a id="fall-through"></a>The Fall-through Behavior in `switch`
 - JavaScript supports the fall-through behavior
   - i.e. if a `case` statement misses a `break`, the code for the next cases is also executed
     - Until a `break` is found
@@ -283,8 +283,8 @@ switch (day) {
 }
 ```
 
-<!-- attr: { hasScriptWrapper:true, style:'font-size:0.85em' } -->
-# Expressions in the Case Label
+<!-- attr: { hasScriptWrapper:true, style:'font-size:0.85em', id:'expressions-case' } -->
+# <a id="expressions-case"></a>Expressions in the Case Label
 - In JavaScript, the `case` label can be an expression
   - Useful when in need to check ranges
     - Yet, kind of confusing, better use `if-else` statements
