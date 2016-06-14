@@ -15,13 +15,13 @@
 	</script>
 	<script>
 		function onDrawTriangleBtnClick() {
-			var n = jsConsole.readInteger('#tb-number'),
-				row, column;
+			const n = jsConsole.readInteger('#tb-number');
 
-			for (row = 1; row <= n; row+=1) {
-				for (column = 1; column <= row; column+=1) {
+			for (let row = 1; row <= n; row += 1) {
+				for (let column = 1; column <= row; column += 1) {
 					jsConsole.write(column + ' ');
 				}
+				
 				jsConsole.writeLine()
 			}						 
 		}

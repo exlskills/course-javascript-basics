@@ -2,6 +2,7 @@
 <!-- attr: { hasScriptWrapper:true, class:'slide-section' } -->
 # Conditional Statements
 ## Implementing Control Logic in JavaScript
+
 <!-- <img class="slide-image" showInPresentation="true" src="imgs/pic00.png" style="top:54.30%; left:51.46%; width:54.21%; z-index:-1" /> -->
 <!-- <img class="slide-image" showInPresentation="true" src="imgs/pic01.png" style="top:5%; left:35.56%; width:20%; z-index:-1" /> -->
 <!-- <img class="slide-image" showInPresentation="true" src="imgs/pic02.png" style="top:5%; left:68.77%; width:34%; z-index:-1" /> -->
@@ -15,23 +16,25 @@
 <!-- section start -->
 <!-- attr: { hasScriptWrapper:true } -->
 # Table of Contents
-- The `if` Statement
-- The `if-else` Statement
-- Nested `if` Statements
-- The `switch-case` Statement
-  - The fall-though behavior
-  - Expressions in the case
+- [The `if` Statement](#if-statement)
+- [The `if-else` Statement](#if-else)
+- [Nested `if` Statements](#nested-if)
+- [The `switch-case` Statement](#switch-case)
+  - [The fall-through behavior](#fall-through)
+  - [Expressions in the case](#expressions-case)
+
 <!-- <img class="slide-image" showInPresentation="true" src="imgs/pic04.png" style="top:25.56%; left:77.66%; width:25.56%; z-index:-1" /> -->
 <!-- <img class="slide-image" showInPresentation="true" src="imgs/pic05.png" style="top:51.13%; left:73.92%; width:29.09%; z-index:-1" /> -->
 
 <!-- section start -->
 <!-- attr: { hasScriptWrapper:true, class:'slide-section' } -->
-# if and if-else
+# `if` and `if-else`
 ## Implementing Conditional Logic
+
 <!-- <img class="slide-image" showInPresentation="true" src="imgs/pic06.png" style="top:55%; left:36; width:36%; z-index:-1" /> -->
 
-<!-- attr: { hasScriptWrapper:true } -->
-# The if Statement
+<!-- attr: { hasScriptWrapper:true, id:'if-statement' } -->
+# <a id="if-statement"></a>The `if` Statement
 - The most simple conditional statement
 - Enables you to test for a condition
 - Branch to different parts of the code depending on the result
@@ -54,21 +57,17 @@ if (condition) {
 - The statement can be:
   - Single statement ending with a semicolon
   - Block enclosed in braces
+
 <!-- <img class="slide-image" showInPresentation="true" src="imgs/pic07.png" style="top:13.22%; left:81.46%; width:24.64%; z-index:-1" /> -->
 
 <!-- attr: { hasScriptWrapper:true } -->
 # How It Works?
 - The condition is evaluated
-  - If it is true-like, the statement is executed
-  - If it is false-like, the statement is skipped
-- true
-- condition
-- statement
-- false
-<!-- Check this slide in pptx -->
+  - If it is `true`-like, the statement is executed
+  - If it is `false`-like, the statement is skipped
 
 <!-- attr: { hasScriptWrapper:true } -->
-# The if Statement – _Example_
+# The `if` Statement - _Example_
 - _Examples_ with `if` statements
   - The expression evaluates for `true`-like or `false`-like values
 
@@ -88,14 +87,16 @@ if(!(+str)){ // if str is not a number, +str is NaN
 }
 ```
 
-<!-- attr: { hasScriptWrapper:true } -->
-# The if Statement
+<!-- attr: { hasScriptWrapper:true, showInPresentation:true, class:'slide-section demo' } -->
+<!-- # The `if` Statement
+## [Demo](demos/1. if-statement.html) -->
+
 <!-- <img class="slide-image" showInPresentation="true" src="imgs/pic08.png" style="top:47.20%; left:7.45%; width:27.57%; z-index:-1" /> -->
-<!-- <img class="slide-image" showInPresentation="true" src="imgs/pic09.png" style="top:47.60%; left:48.26%; width:24.13%; z-index:-1" /> -->
+<!-- <img class="slide-image" showInPresentation="true" src="imgs/pic09.png" style="top:57.60%; left:48.26%; width:24.13%; z-index:-1" /> -->
 <!-- <img class="slide-image" showInPresentation="true" src="imgs/pic10.png" style="top:17.39%; left:74.64%; width:33.32%; z-index:-1" /> -->
 
-<!-- attr: { hasScriptWrapper:true } -->
-# The if-else Statement
+<!-- attr: { hasScriptWrapper:true, id:'if-else' } -->
+# <a id="if-else"></a> The `if-else` Statement
 - More complex and useful conditional statement
 - Executes one branch if the condition is true, and another if it is false
 - The simplest form of an `if-else` statement:
@@ -109,19 +110,13 @@ if (expression) {
 ```
 
 <!-- attr: { hasScriptWrapper:true } -->
-# How It Works ?
+# How It Works?
 - The condition is evaluated
   - If it is `true`-like, the first statement is executed
   - If it is `false`-like, the second statement is executed
-- condition
-- first
-- statement
-- true
-- second
-- statement
 
-<!-- attr: { hasScriptWrapper:true } -->
-# if-else Statement – _Example_
+<!-- attr: { hasScriptWrapper:true, showInPresentation:true } -->
+<!-- # `if-else` Statement - _Example_ -->
 - Checking a number if it is odd or even
 
 ```js
@@ -145,18 +140,19 @@ if (+str) {
 <div class="fragment balloon" style="top:73.29%; left:29.97%; width:42.31%">If 'str' is not a Number, the result will be NaN (FALSE-like)</div>
 <div class="fragment balloon" style="top:23.02%; left:35.65%; width:42.31%">The same as if(number % 2 === 1)</div>
 
-<!-- attr: { hasScriptWrapper:true } -->
-# The if-else Statement
-<!-- <img class="slide-image" showInPresentation="true" src="imgs/pic11.png" style="top:42.07%; left:29.01%; width:50.25%; z-index:-1" /> -->
+<!-- attr: { hasScriptWrapper:true, class:'slide-section demo', showInPresentation:true } -->
+<!-- # The `if-else` Statement
+## [Demo](demos/2. if-else.html) -->
 
 <!-- section start -->
-<!-- attr: { hasScriptWrapper:true, class:'slide-section' } -->
-# Nested if Statements
+<!-- attr: { hasScriptWrapper:true, class:'slide-section', id:'nested-if' } -->
+# <a id="nested-if"></a>Nested `if` Statements
 ## Creating More Complex Logic
+
 <!-- <img class="slide-image" showInPresentation="true" src="imgs/pic12.png" style="top:55%; left:30%; width:40%; z-index:-1" /> -->
 
 <!-- attr: { hasScriptWrapper:true } -->
-# Nested if Statements
+# Nested `if` Statements
 - `if` and `if-else` statements can be **nested**, i.e. used inside another `if` or `else` statement
 - Every `else` corresponds to its closest preceding `if`
 
@@ -172,17 +168,17 @@ if (expression) {
 }
 ```
 
-<!-- attr: { hasScriptWrapper:true } -->
-# Nested if – Good Practices
+<!-- attr: { hasScriptWrapper:true, showInPresentation:true } -->
+<!-- # Nested `if` - Good Practices -->
 - Always use `{ … }` blocks to avoid ambiguity
   - Even when a single statement follows
 - Avoid using more than three levels of nested `if` statements
 - Put the case you normally expect to process first, then write the unusual cases
 - Arrange the code to make it more readable
 
-<!-- attr: { hasScriptWrapper:true, style:'font-size:0.8em' } -->
-# Nested if Statements – _Example_
-- _Examples_ with nested if statements
+<!-- attr: { hasScriptWrapper:true, style:'font-size:0.8em', showInPresentation:true } -->
+<!-- # Nested `if` Statements - _Example_ -->
+- _Examples_ with nested `if` statements
 
 ```js
 if (first === second) {
@@ -209,12 +205,12 @@ if (n) {
 }
 ```
 
-<!-- attr: { hasScriptWrapper:true } -->
-# Nested if Statements
-<!-- <img class="slide-image" showInPresentation="true" src="imgs/pic13.png" style="top:23.90%; left:15.92%; width:31.17%; z-index:-1" /> -->
+<!-- attr: { hasScriptWrapper:true, class:'slide-section demo', showInPresentation:true } -->
+<!-- # Nested `if` Statements
+## [Demo](demos/3. nested-if-else.html) -->
 
 <!-- attr: { hasScriptWrapper:true } -->
-# Multiple if-else-if-else-…
+# Multiple `if-else-if-else-…`
 - Sometimes we need to use another `if` construction in the `else` block
   - Thus `else if` can be used:
 
@@ -228,18 +224,17 @@ if (ch === 'A' || ch === 'a') {
 else …
 ```
 
-<!-- attr: { hasScriptWrapper:true } -->
-# Multiple if-else Statements
-<!-- <img class="slide-image" showInPresentation="true" src="imgs/pic14.png" style="top:7.05%; left:31.81%; width:45.46%; z-index:-1" /> -->
+<!-- attr: { hasScriptWrapper:true, class:'slide-section demo', showInPresentation:true } -->
+<!-- # Multiple `if-else` Statements
+## [Demo](demos/4. multiple-if-else.html) -->
 
 <!-- section start -->
-<!-- attr: { hasScriptWrapper:true } -->
-# switch-case
-- Making Several Comparisons at Once
-<!-- <img class="slide-image" showInPresentation="true" src="imgs/pic15.png" style="top:47.71%; left:20.64%; width:65.41%; z-index:-1" /> -->
+<!-- attr: { hasScriptWrapper:true, class: 'slide-section', id:'switch-case' } -->
+# <a id="switch-case"></a>`switch-case`
+## Making Several Comparisons at Once
 
-<!-- attr: { hasScriptWrapper:true } -->
-# The switch-case Statement
+<!-- attr: { hasScriptWrapper:true, showInPresentation:true } -->
+<!-- # The `switch-case` Statement -->
 - Selects for execution a statement from a list depending on the value of the `switch` expression
 
 ```js
@@ -255,8 +250,8 @@ switch (day) {
 }
 ```
 
-<!-- attr: { hasScriptWrapper:true } -->
-# How switch-case Works?
+<!-- attr: { hasScriptWrapper:true, showInPresentation:true } -->
+<!-- # How `switch-case` Works? -->
 - The expression is evaluated
 - When one of the constants specified in a case label is equal to the expression
   - The statement that corresponds to that case is executed
@@ -264,15 +259,15 @@ switch (day) {
   - If there is default case, it is executed
   - Otherwise the control is transferred to the end point of the switch statement
 
-<!-- attr: { hasScriptWrapper:true } -->
-# The switch-case Statement
-<!-- <img class="slide-image" showInPresentation="true" src="imgs/pic16.png" style="top:10.58%; left:25.22%; width:57.22%; z-index:-1" /> -->
+<!-- attr: { hasScriptWrapper:true, showInPresentation:true, class:'slide-section demo' } -->
+<!-- # The `switch-case` Statement
+## [Demo](demos/5. switch-case.html) -->
 
-<!-- attr: { hasScriptWrapper:true } -->
-#  The Fall-through Behavior in Switch
+<!-- attr: { hasScriptWrapper:true, id:'fall-through', style:'font-size:0.9em' } -->
+# <a id="fall-through"></a>The Fall-through Behavior in `switch`
 - JavaScript supports the fall-through behavior
-  - i.e. if a case statement misses a break, the code for the next cases is also executed
-    - Until a break is found
+  - i.e. if a `case` statement misses a `break`, the code for the next cases is also executed
+    - Until a `break` is found
 
 ```js
 switch (day) {
@@ -288,13 +283,13 @@ switch (day) {
 }
 ```
 
-<!-- attr: { hasScriptWrapper:true } -->
-# Expressions in the Case Label
-- In JavaScript, the case label can be an expression
+<!-- attr: { hasScriptWrapper:true, style:'font-size:0.85em', id:'expressions-case' } -->
+# <a id="expressions-case"></a>Expressions in the Case Label
+- In JavaScript, the `case` label can be an expression
   - Useful when in need to check ranges
-    - Yet, kind of confusing, better use if-else statements
+    - Yet, kind of confusing, better use `if-else` statements
   - The cases are evaluated from top to bottom
-    - The first reached break exits the switch
+    - The first reached break exits the `switch`
 
 ```js
 switch (false) {
@@ -312,22 +307,22 @@ switch (false) {
 ```
 
 <!-- section start -->
-<!-- attr: { hasScriptWrapper:true } -->
+<!-- attr: { hasScriptWrapper:true, class:'slide-section' } -->
 # Truthy and Falsy Values
-- First steps in the dynamic beauty of JavaScript
+## First steps in the dynamic beauty of JavaScript
 
-<!-- attr: { hasScriptWrapper:true } -->
-# Truthy and Falsy Values
+<!-- attr: { hasScriptWrapper:true, showInPresentation:true } -->
+<!-- # Truthy and Falsy Values -->
 - Every type in JavaScript has a inherent Boolean value
   - So called truthy (TRUE-like) and falsy (FALSE-like) values
 - These values are falsy
-  - false, 0 (zero), "" (empty string), null, undefined, NaN
+  -	`false`, `0`, `""` / `''`, `null`, `undefined`, `NaN`
 - All other values are truthy
 - Info: http://www.sitepoint.com/javascript-truthy-falsy/
 
-<!-- attr: { hasScriptWrapper:true } -->
-# Truthy and Falsy Values
-<!-- <img class="slide-image" showInPresentation="true" src="imgs/pic17.png" style="top:11.46%; left:33.33%; width:42.31%; z-index:-1" /> -->
+<!-- attr: { hasScriptWrapper:true, showInPresentation:true, class:'slide-section demo' } -->
+<!-- # Truthy and Falsy Values
+## [Demo](demos/6. switch-case-extended.html) -->
 
 <!-- attr: { hasScriptWrapper:true } -->
 # Summary
@@ -336,26 +331,26 @@ switch (false) {
   - Constantly used in computer programming
   - Conditional statements can be nested
 - The `switch` statement easily and elegantly checks an expression for a sequence of values
-  - Supports the fall-though behavior
+  - Supports the fall-through behavior
   - Can contain expressions in the case value
 
 <!-- section start -->
-<!-- attr: { hasScriptWrapper:true, class:'slide-section' } -->
-# Conditional Statements
-## Questions?
+<!-- attr: { hasScriptWrapper:true, showInPresentation:true, class:'slide-section' } -->
+<!-- # Conditional Statements
+## Questions? -->
 
 <!-- attr: { hasScriptWrapper:true } -->
 # Free Trainings @ Telerik Academy
 - "Web Design with HTML 5, CSS 3 and JavaScript" course @ Telerik Academy
     - [javascript course](http://academy.telerik.com/student-courses/web-design-and-ui/javascript-fundamentals/about)
-  - Telerik Software Academy
-    - [academy.telerik.com](academy.telerik.com)
-  - Telerik Academy @ Facebook
-    - [facebook.com/TelerikAcademy](facebook.com/TelerikAcademy)
-  - Telerik Software Academy Forums
-    - [forums.academy.telerik.com](http://telerikacademy.com/Forum/Home)
+- Telerik Software Academy
+  - [academy.telerik.com](http://academy.telerik.com)
+- Telerik Academy @ Facebook
+  - [facebook.com/TelerikAcademy](https://facebook.com/TelerikAcademy)
+- Telerik Software Academy Forums
+  - [forums.academy.telerik.com](https://telerikacademy.com/Forum/Home)
 
-<!-- <img class="slide-image" showInPresentation="true" src="imgs/pic24.png" style="top:58.18%; left:90.52%; width:16.97%; z-index:-1" /> -->
-<!-- <img class="slide-image" showInPresentation="true" src="imgs/pic25.png" style="top:34.35%; left:68.14%; width:36.30%; z-index:-1" /> -->
-<!-- <img class="slide-image" showInPresentation="true" src="imgs/pic26.png" style="top:48.92%; left:75.91%; width:10.85%; z-index:-1" /> -->
-<!-- <img class="slide-image" showInPresentation="true" src="imgs/pic27.png" style="top:11.88%; left:91.56%; width:14.23%; z-index:-1" /> -->
+<!-- <img class="slide-image" showInPresentation="true" src="imgs/pic24.png" style="top:65%; left:90.52%; width:16.97%; z-index:-1" /> -->
+<!-- <img class="slide-image" showInPresentation="true" src="imgs/pic25.png" style="top:40%; left:68.14%; width:36.30%; z-index:-1" /> -->
+<!-- <img class="slide-image" showInPresentation="true" src="imgs/pic26.png" style="top:55%; left:75.91%; width:10.85%; z-index:-1" /> -->
+<!-- <img class="slide-image" showInPresentation="true" src="imgs/pic27.png" style="top:22%; left:91.56%; width:14.23%; z-index:-1" /> -->

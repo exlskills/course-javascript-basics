@@ -17,26 +17,30 @@
 	</script>
 	<script>
 		function onFindPrimesBtnClick() {
-			var start = jsConsole.readInteger('#tb-range-start'),
-				end = jsConsole.readInteger('#tb-range-end'),
-				number, isPrime, divider, maxDivider;
+			const start = jsConsole.readInteger('#tb-range-start'),
+				end = jsConsole.readInteger('#tb-range-end');
 
-			for (number = start; number <= end; number+=1) {
-				isPrime = true;
-				divider = 2;
-				maxDivider = Math.sqrt(number);
+			for (let number = start; number <= end; number+=1) {
+
+				const maxDivider = Math.sqrt(number);
+
+				let isPrime = true,
+					divider = 2;
 
 				while (divider <= maxDivider) {
 					if (number % divider === 0) {
 						isPrime = false;
 						break;
 					}
+
 					divider += 1;
 				}
+
 				if (isPrime) {
 					jsConsole.write(number + ', ');
 				}
 			}
+
 			jsConsole.writeLine();
 		}
 		

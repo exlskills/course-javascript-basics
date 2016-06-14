@@ -13,7 +13,7 @@
 	<script src="scripts/js-console.js">	  
 	</script>
 	<script>
-		var number = Math.floor((Math.random() * 10000));
+		let number = Math.floor((Math.random() * 10000));
 
 		while (number % 10) {
 			jsConsole.writeLine(number);
@@ -37,11 +37,11 @@
 				divider++;
 			}
 
-			jsConsole.writeLine('The number ' + number + ' is ' + (isPrime ? '' : ' not ') + ' prime');
+			jsConsole.writeLine(`The number ${number} is ${isPrime ? '' : ' not '} prime`);
 		}
 
 		function onPrintSumBtnClick() {
-			var n = jsConsole.readInteger('#tb-number'),
+			let n = jsConsole.readInteger('#tb-number'),
 				number = 1,
 				sum = 1,
 				result = 'The sum 1';
