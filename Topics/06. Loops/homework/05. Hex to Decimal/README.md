@@ -1,23 +1,23 @@
-# Decimal to Hex
+# Hex to Decimal
 
 ## Description
-Using loops javascript function that converts an integer number to its hexadecimal representation.
+Using loops implement a javascript function that converts a hex number number to its decimal representation.
 
 ## Input
-- As an only element of the input array you will receive the decimal integer.
+- The input will consists of a single line containing a single hexadecimal number as string.
 
 ## Output
-- On the only output line write the hexadecimal representation of the input number.
+- The output should consist of a single line - the decimal representation of the number as string.
 
 ## Constraints
-- All numbers will always be valid 64-bit integers.
-- Time limit: **0.2s**
-- Memory limit: **32MB**
+- All numbers will be valid 64-bit integers.
+- Time limit: **0.1s**
+- Memory limit: **16MB**
 
 ## Sample tests
 
-|      Input      |      Output     |
-|-----------------|-----------------|
-| 254             | FE              |
-| 6883            | 1AE3            |
-| 338583669684    | 4ED528CBB4      |
+|      Input        |      Output                  |
+|-------------------|------------------------------|
+| FE                | 254                          |
+| 1AE3              | 6883                         |
+| 4ED528CBB4        | 338583669684                 |
