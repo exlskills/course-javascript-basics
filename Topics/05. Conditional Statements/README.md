@@ -89,7 +89,7 @@ if(!(+str)){ // if str is not a number, +str is NaN
 
 <!-- attr: { hasScriptWrapper:true, showInPresentation:true, class:'slide-section demo' } -->
 <!-- # The `if` Statement
-## [Demo]() -->
+## [Demo](demos/1. if-statement.html) -->
 
 <!-- <img class="slide-image" showInPresentation="true" src="imgs/pic08.png" style="top:47.20%; left:7.45%; width:27.57%; z-index:-1" /> -->
 <!-- <img class="slide-image" showInPresentation="true" src="imgs/pic09.png" style="top:57.60%; left:48.26%; width:24.13%; z-index:-1" /> -->
@@ -142,7 +142,7 @@ if (+str) {
 
 <!-- attr: { hasScriptWrapper:true, class:'slide-section demo', showInPresentation:true } -->
 <!-- # The `if-else` Statement
-## [Demo]() -->
+## [Demo](demos/2. if-else.html) -->
 
 <!-- section start -->
 <!-- attr: { hasScriptWrapper:true, class:'slide-section', id:'nested-if' } -->
@@ -207,7 +207,7 @@ if (n) {
 
 <!-- attr: { hasScriptWrapper:true, class:'slide-section demo', showInPresentation:true } -->
 <!-- # Nested `if` Statements
-## [Demo]() -->
+## [Demo](demos/3. nested-if-else.html) -->
 
 <!-- attr: { hasScriptWrapper:true } -->
 # Multiple `if-else-if-else-…`
@@ -226,7 +226,7 @@ else …
 
 <!-- attr: { hasScriptWrapper:true, class:'slide-section demo', showInPresentation:true } -->
 <!-- # Multiple `if-else` Statements
-## [Demo]() -->
+## [Demo](demos/4. multiple-if-else.html) -->
 
 <!-- section start -->
 <!-- attr: { hasScriptWrapper:true, class: 'slide-section', id:'switch-case' } -->
@@ -261,7 +261,7 @@ switch (day) {
 
 <!-- attr: { hasScriptWrapper:true, showInPresentation:true, class:'slide-section demo' } -->
 <!-- # The `switch-case` Statement
-## [Demo]() -->
+## [Demo](demos/5. switch-case.html) -->
 
 <!-- attr: { hasScriptWrapper:true, id:'fall-through' } -->
 # <a id="fall-through"></a>The Fall-through Behavior in `switch`
@@ -322,7 +322,7 @@ switch (false) {
 
 <!-- attr: { hasScriptWrapper:true, showInPresentation:true, class:'slide-section demo' } -->
 <!-- # Truthy and Falsy Values
-## [Demo]() -->
+## [Demo](demos/6. switch-case-extended.html) -->
 
 <!-- attr: { hasScriptWrapper:true } -->
 # Summary
