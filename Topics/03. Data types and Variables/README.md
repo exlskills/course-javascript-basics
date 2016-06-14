@@ -296,10 +296,10 @@ console.log((a !== b) && (b > 0));
 
 ```js
 let s = 'Welcome to JavaScript';
-let name = 'Ivaylo' + ' ' + 'Kenov';
+let name = 'John' + ' ' + 'Doe';
 let greeting = `${s}, ${name}`;
 
-console.log(greeting); // Welcome to JavaScript, Ivaylo Kenov
+console.log(greeting); // Welcome to JavaScript, John Doe
 ```
 
 <!-- attr: { hasScriptWrapper:true } -->
