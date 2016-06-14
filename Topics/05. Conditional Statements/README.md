@@ -355,11 +355,11 @@ switch (false) {
 - "Web Design with HTML 5, CSS 3 and JavaScript" course @ Telerik Academy
     - [javascript course](http://academy.telerik.com/student-courses/web-design-and-ui/javascript-fundamentals/about)
   - Telerik Software Academy
-    - [academy.telerik.com](academy.telerik.com)
+    - [academy.telerik.com](http://academy.telerik.com)
   - Telerik Academy @ Facebook
-    - [facebook.com/TelerikAcademy](facebook.com/TelerikAcademy)
+    - [facebook.com/TelerikAcademy](https://facebook.com/TelerikAcademy)
   - Telerik Software Academy Forums
-    - [forums.academy.telerik.com](http://telerikacademy.com/Forum/Home)
+    - [forums.academy.telerik.com](https://telerikacademy.com/Forum/Home)
 
 <!-- <img class="slide-image" showInPresentation="true" src="imgs/pic24.png" style="top:65%; left:90.52%; width:16.97%; z-index:-1" /> -->
 <!-- <img class="slide-image" showInPresentation="true" src="imgs/pic25.png" style="top:40%; left:68.14%; width:36.30%; z-index:-1" /> -->
