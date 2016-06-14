@@ -65,11 +65,6 @@ if (condition) {
 - The condition is evaluated
   - If it is `true`-like, the statement is executed
   - If it is `false`-like, the statement is skipped
-- true
-- condition
-- statement
-- false
-<!-- Check this slide in pptx -->
 
 <!-- attr: { hasScriptWrapper:true } -->
 # The `if` Statement - _Example_
@@ -119,12 +114,6 @@ if (expression) {
 - The condition is evaluated
   - If it is `true`-like, the first statement is executed
   - If it is `false`-like, the second statement is executed
-- condition
-- first
-- statement
-- true
-- second
-- statement
 
 <!-- attr: { hasScriptWrapper:true } -->
 # `if-else` Statement - _Example_
@@ -354,12 +343,12 @@ switch (false) {
 # Free Trainings @ Telerik Academy
 - "Web Design with HTML 5, CSS 3 and JavaScript" course @ Telerik Academy
     - [javascript course](http://academy.telerik.com/student-courses/web-design-and-ui/javascript-fundamentals/about)
-  - Telerik Software Academy
-    - [academy.telerik.com](http://academy.telerik.com)
-  - Telerik Academy @ Facebook
-    - [facebook.com/TelerikAcademy](https://facebook.com/TelerikAcademy)
-  - Telerik Software Academy Forums
-    - [forums.academy.telerik.com](https://telerikacademy.com/Forum/Home)
+- Telerik Software Academy
+  - [academy.telerik.com](http://academy.telerik.com)
+- Telerik Academy @ Facebook
+  - [facebook.com/TelerikAcademy](https://facebook.com/TelerikAcademy)
+- Telerik Software Academy Forums
+  - [forums.academy.telerik.com](https://telerikacademy.com/Forum/Home)
 
 <!-- <img class="slide-image" showInPresentation="true" src="imgs/pic24.png" style="top:65%; left:90.52%; width:16.97%; z-index:-1" /> -->
 <!-- <img class="slide-image" showInPresentation="true" src="imgs/pic25.png" style="top:40%; left:68.14%; width:36.30%; z-index:-1" /> -->
