@@ -66,7 +66,7 @@ let count = 5;
   - allows most operations on values without regards to their types
   - values have types, variables don't
   - variables can hold any type of value
-  - All variables are declared with the keywords `var`(kind of deprecated in **ES6** standard), `let` or `const`
+  - All variables are declared with the keywords `var`, `let` or `const`
 
 ```js
 var count = 5; // variable holds an integer value
@@ -77,8 +77,8 @@ var name = 'Telerik Academy'; // variable holds a string
 let mark = 5.25 // mark holds a floating-point number
 mark = true; // mark now holds a boolean value
 
-const name = 'penka'; // name is a constant variable that holds a string
-name = 0; // error, cannot assign to a constant variable
+const MAX_COUNT = 250; // name is a constant variable that holds a string
+MAX_COUNT = 0; // error, cannot assign to a constant variable
 ```
 
 <!-- section start -->
