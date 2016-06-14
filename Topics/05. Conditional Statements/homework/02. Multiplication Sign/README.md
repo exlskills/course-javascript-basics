@@ -8,7 +8,7 @@ Use a sequence of `if` operators.
 - The input will consist of an array containing three values - `a`, `b` and `c` represented as strings
 
 ## Output
-- The output should be a single line containing two numbers
+- The output should be a single line containing `+`, `-` or `0`
 
 ## Constraints
 - Time limit: **0.2s**
