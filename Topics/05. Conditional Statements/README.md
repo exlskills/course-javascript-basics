@@ -87,9 +87,9 @@ if(!(+str)){ // if str is not a number, +str is NaN
 }
 ```
 
-<!-- attr: { hasScriptWrapper:true, class:'slide-section demo' } -->
-# The `if` Statement
-## [Demo]()
+<!-- attr: { hasScriptWrapper:true, showInPresentation:true, class:'slide-section demo' } -->
+<!-- # The `if` Statement
+## [Demo]() -->
 
 <!-- <img class="slide-image" showInPresentation="true" src="imgs/pic08.png" style="top:47.20%; left:7.45%; width:27.57%; z-index:-1" /> -->
 <!-- <img class="slide-image" showInPresentation="true" src="imgs/pic09.png" style="top:57.60%; left:48.26%; width:24.13%; z-index:-1" /> -->
@@ -115,8 +115,8 @@ if (expression) {
   - If it is `true`-like, the first statement is executed
   - If it is `false`-like, the second statement is executed
 
-<!-- attr: { hasScriptWrapper:true } -->
-# `if-else` Statement - _Example_
+<!-- attr: { hasScriptWrapper:true, showInPresentation:true } -->
+<!-- # `if-else` Statement - _Example_ -->
 - Checking a number if it is odd or even
 
 ```js
@@ -140,9 +140,9 @@ if (+str) {
 <div class="fragment balloon" style="top:73.29%; left:29.97%; width:42.31%">If 'str' is not a Number, the result will be NaN (FALSE-like)</div>
 <div class="fragment balloon" style="top:23.02%; left:35.65%; width:42.31%">The same as if(number % 2 === 1)</div>
 
-<!-- attr: { hasScriptWrapper:true, class:'slide-section demo' } -->
-# The `if-else` Statement
-## [Demo]()
+<!-- attr: { hasScriptWrapper:true, class:'slide-section demo', showInPresentation:true } -->
+<!-- # The `if-else` Statement
+## [Demo]() -->
 
 <!-- section start -->
 <!-- attr: { hasScriptWrapper:true, class:'slide-section', id:'nested-if' } -->
@@ -168,17 +168,17 @@ if (expression) {
 }
 ```
 
-<!-- attr: { hasScriptWrapper:true } -->
-# Nested `if` - Good Practices
+<!-- attr: { hasScriptWrapper:true, showInPresentation:true } -->
+<!-- # Nested `if` - Good Practices -->
 - Always use `{ … }` blocks to avoid ambiguity
   - Even when a single statement follows
 - Avoid using more than three levels of nested `if` statements
 - Put the case you normally expect to process first, then write the unusual cases
 - Arrange the code to make it more readable
 
-<!-- attr: { hasScriptWrapper:true, style:'font-size:0.8em' } -->
-# Nested `if` Statements - _Example_
-- _Examples_ with nested if statements
+<!-- attr: { hasScriptWrapper:true, style:'font-size:0.8em', showInPresentation:true } -->
+<!-- # Nested `if` Statements - _Example_ -->
+- _Examples_ with nested `if` statements
 
 ```js
 if (first === second) {
@@ -205,9 +205,9 @@ if (n) {
 }
 ```
 
-<!-- attr: { hasScriptWrapper:true, class:'slide-section demo' } -->
-# Nested `if` Statements
-## [Demo]()
+<!-- attr: { hasScriptWrapper:true, class:'slide-section demo', showInPresentation:true } -->
+<!-- # Nested `if` Statements
+## [Demo]() -->
 
 <!-- attr: { hasScriptWrapper:true } -->
 # Multiple `if-else-if-else-…`
@@ -224,17 +224,17 @@ if (ch === 'A' || ch === 'a') {
 else …
 ```
 
-<!-- attr: { hasScriptWrapper:true, class:'slide-section demo' } -->
-# Multiple `if-else` Statements
-## [Demo]()
+<!-- attr: { hasScriptWrapper:true, class:'slide-section demo', showInPresentation:true } -->
+<!-- # Multiple `if-else` Statements
+## [Demo]() -->
 
 <!-- section start -->
 <!-- attr: { hasScriptWrapper:true, class: 'slide-section', id:'switch-case' } -->
 # <a id="switch-case"></a>`switch-case`
 ## Making Several Comparisons at Once
 
-<!-- attr: { hasScriptWrapper:true } -->
-# The `switch-case` Statement
+<!-- attr: { hasScriptWrapper:true, showInPresentation:true } -->
+<!-- # The `switch-case` Statement -->
 - Selects for execution a statement from a list depending on the value of the `switch` expression
 
 ```js
@@ -250,8 +250,8 @@ switch (day) {
 }
 ```
 
-<!-- attr: { hasScriptWrapper:true } -->
-# How `switch-case` Works?
+<!-- attr: { hasScriptWrapper:true, showInPresentation:true } -->
+<!-- # How `switch-case` Works? -->
 - The expression is evaluated
 - When one of the constants specified in a case label is equal to the expression
   - The statement that corresponds to that case is executed
@@ -259,9 +259,9 @@ switch (day) {
   - If there is default case, it is executed
   - Otherwise the control is transferred to the end point of the switch statement
 
-<!-- attr: { hasScriptWrapper:true, class:'slide-section demo' } -->
-# The `switch-case` Statement
-## [Demo]()
+<!-- attr: { hasScriptWrapper:true, showInPresentation:true, class:'slide-section demo' } -->
+<!-- # The `switch-case` Statement
+## [Demo]() -->
 
 <!-- attr: { hasScriptWrapper:true, id:'fall-through' } -->
 # <a id="fall-through"></a>The Fall-through Behavior in `switch`
@@ -311,8 +311,8 @@ switch (false) {
 # Truthy and Falsy Values
 ## First steps in the dynamic beauty of JavaScript
 
-<!-- attr: { hasScriptWrapper:true } -->
-# Truthy and Falsy Values
+<!-- attr: { hasScriptWrapper:true, showInPresentation:true } -->
+<!-- # Truthy and Falsy Values -->
 - Every type in JavaScript has a inherent Boolean value
   - So called truthy (TRUE-like) and falsy (FALSE-like) values
 - These values are falsy
@@ -320,9 +320,9 @@ switch (false) {
 - All other values are truthy
 - Info: http://www.sitepoint.com/javascript-truthy-falsy/
 
-<!-- attr: { hasScriptWrapper:true, class:'slide-section demo' } -->
-# Truthy and Falsy Values
-## [Demo]()
+<!-- attr: { hasScriptWrapper:true, showInPresentation:true, class:'slide-section demo' } -->
+<!-- # Truthy and Falsy Values
+## [Demo]() -->
 
 <!-- attr: { hasScriptWrapper:true } -->
 # Summary
@@ -335,9 +335,9 @@ switch (false) {
   - Can contain expressions in the case value
 
 <!-- section start -->
-<!-- attr: { hasScriptWrapper:true, class:'slide-section' } -->
-# Conditional Statements
-## Questions?
+<!-- attr: { hasScriptWrapper:true, showInPresentation:true, class:'slide-section' } -->
+<!-- # Conditional Statements
+## Questions? -->
 
 <!-- attr: { hasScriptWrapper:true } -->
 # Free Trainings @ Telerik Academy
