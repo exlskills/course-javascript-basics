@@ -1,7 +1,7 @@
 Homework: Methods on Arrays and Objects
 =======================================
 
-### [Submit homework in bgcoder](http://bgcoder.com/Contests/)
+### [Submit homework in bgcoder](http://bgcoder.com/Contests/363/JavaScript-Fundamentals-10-Methods-on-Arrays-and-Objects)
 
 ### Problem List
 

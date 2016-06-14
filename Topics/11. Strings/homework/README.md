@@ -1,7 +1,7 @@
 Homework: Strings
 =================
 
-### [Submit homework in bgcoder](http://bgcoder.com/Contests/)
+### [Submit homework in bgcoder](http://bgcoder.com/Contests/364/JavaScript-Fundamentals-11-Strings)
 
 ### Problem List
 

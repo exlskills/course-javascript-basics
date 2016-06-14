@@ -1,7 +1,7 @@
 Homework: Functions
 ===================
 
-### [Submit homework in bgcoder](http://bgcoder.com/Contests/)
+### [Submit homework in bgcoder](http://bgcoder.com/Contests/361/JavaScript-Fundamentals-08-Functions)
 
 ### Problem List
 

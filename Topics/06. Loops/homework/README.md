@@ -1,7 +1,7 @@
 Homework: Loops
 ===============
 
-### [Submit homework in bgcoder](http://bgcoder.com/Contests/)
+### [Submit homework in bgcoder](http://bgcoder.com/Contests/359/JavaScript-Fundamentals-06-Loops)
 
 ### Problem List
 

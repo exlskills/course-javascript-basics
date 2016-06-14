@@ -1,7 +1,7 @@
 Homework: Using Objects
 =======================
 
-### [Submit homework in bgcoder](http://bgcoder.com/Contests/)
+### [Submit homework in bgcoder](http://bgcoder.com/Contests/362/JavaScript-Fundamentals-09-Using-Objects)
 
 ### Problem List
 

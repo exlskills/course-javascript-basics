@@ -1,7 +1,7 @@
 Homework: Regular Expressions
 =============================
 
-### [Submit homework in bgcoder](http://bgcoder.com/Contests/)
+### [Submit homework in bgcoder](http://bgcoder.com/Contests/365/JavaScript-Fundamentals-12-Regular-Expressions)
 
 ### Problem List
 

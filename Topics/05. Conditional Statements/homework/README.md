@@ -1,7 +1,7 @@
 Homework: Conditional statements
 ================================
 
-### [Submit homework in bgcoder](http://bgcoder.com/Contests/)
+### [Submit homework in bgcoder](http://bgcoder.com/Contests/358/JavaScript-Fundamentals-05-Conditional-Statements)
 
 ### Problem List
 

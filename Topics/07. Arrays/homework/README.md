@@ -1,7 +1,7 @@
 Homework: Arrays
 ================
 
-### [Submit homework in bgcoder](http://bgcoder.com/Contests/)
+### [Submit homework in bgcoder](http://bgcoder.com/Contests/360/JavaScript-Fundamentals-07-Arrays)
 
 ### Problem List
 
