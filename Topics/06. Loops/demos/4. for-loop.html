@@ -18,15 +18,16 @@
 	</script>
 	<script>
 		function onPowerBtnClick() {
-			var n = +jsConsole.readInteger('#tb-number'),
-				m = +jsConsole.readInteger('#tb-power'),
-				product = 1,
+			const N = +jsConsole.readInteger('#tb-number'),
+				  M = +jsConsole.readInteger('#tb-power');
+
+			let	product = 1,
 				productStr = "";
 
-			for (var power = 0; power < m; power+=1) {
-				product *= n;
-				productStr += n;
-				if (power != m - 1) {
+			for (let power = 0; power < M; power+=1) {
+				product *= N;
+				productStr += N;
+				if (power != M - 1) {
 					productStr += '*';
 				}
 			}
