@@ -17,7 +17,7 @@ Use a sequence of `if` operators.
 ## Sample tests
 
 | Input              | Output |
-|:-------------------|--------|
+|:-------------------|:-------|
 | 5<br>2<br>2        | +      |
 | -2<br>-2<br>1      | +      |
 | -2<br>4<br>3       | -      |

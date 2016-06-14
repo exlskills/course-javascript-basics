@@ -19,7 +19,7 @@ _Note: Don’t use arrays and the built-in sorting functionality._
 ## Sample tests
 
 | Input                | Output         |
-|:---------------------|----------------|
+|:---------------------|:---------------|
 | 5<br>1<br>2          | 5 2 1          |
 | -2<br>-2<br>1        | 1 -2 -2        |
 | -2<br>4<br>3         | 4 3 -2         |

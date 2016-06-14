@@ -17,7 +17,7 @@ As a result print the values `a` and `b`, separated by a space.
 ## Sample tests
 
 | Input      | Output  |
-|:-----------|---------|
+|:-----------|:--------|
 | 5<br>2     | 2 5     |
 | 3<br>4     | 3 4     |
 | 5.5<br>4.5 | 4.5 5.5 |

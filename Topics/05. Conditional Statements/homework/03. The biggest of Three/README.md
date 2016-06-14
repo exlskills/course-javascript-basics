@@ -17,7 +17,7 @@ Use nested `if` statements.
 ## Sample tests
 
 | Input                | Output |
-|:---------------------|--------|
+|:---------------------|:-------|
 | 5<br>2<br>2          | 5      |
 | -2<br>-2<br>1        | 1      |
 | -2<br>4<br>3         | 4      |
