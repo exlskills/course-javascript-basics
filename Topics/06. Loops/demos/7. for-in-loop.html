@@ -13,18 +13,21 @@
 
 		function printAll(obj) {
 			jsConsole.writeLine('--------------------------');
-			for (var property in obj) {
-				jsConsole.writeLine('obj[' + property + '] = ' + obj[property]);
+
+			for (const propertyName in obj) {
+				jsConsole.writeLine('obj[' + propertyName + '] = ' + obj[propertyName]);
 			}
+
 			jsConsole.writeLine('--------------------------');
 		}
 
-		var arr = [1, 2, 3, 4, 5, 6, 7, 8, 9];
-		printAll(arr);
-		var doc = document;
-		printAll(doc);
+		const arr = [1, 2, 3, 4, 5, 6, 7, 8, 9];
 
-		var obj = {
+		printAll(arr);
+
+		printAll(document);
+
+		let obj = {
 			firstName: 'Doncho',
 			lastName: 'Minkov',
 			age: 23,
@@ -38,15 +41,18 @@
 
 		function printObject(obj) {
 			jsConsole.writeLine('--------------------------');
-			for (var property in obj) {
-				if (typeof(obj[property]) != 'function') {
-					jsConsole.writeLine('obj[' + property + '] = ' + obj[property]);
+
+			for (const propertyName in obj) {
+				if ((typeof obj[propertyName]) != 'function') {
+					jsConsole.writeLine('obj[' + propertyName + '] = ' + obj[propertyName]);
 				} else{
-					jsConsole.writeLine('obj[' + property + '] = ' + obj[property]());
+					jsConsole.writeLine('obj[' + propertyName + '] = ' + obj[propertyName]());
 				}
 			}
+
 			jsConsole.writeLine('--------------------------');
 		}
+
 		printObject(obj);
 	</script>
 </body>
