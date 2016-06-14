@@ -263,7 +263,7 @@ switch (day) {
 <!-- # The `switch-case` Statement
 ## [Demo](demos/5. switch-case.html) -->
 
-<!-- attr: { hasScriptWrapper:true, id:'fall-through' } -->
+<!-- attr: { hasScriptWrapper:true, id:'fall-through', style:'font-size:0.9em' } -->
 # <a id="fall-through"></a>The Fall-through Behavior in `switch`
 - JavaScript supports the fall-through behavior
   - i.e. if a `case` statement misses a `break`, the code for the next cases is also executed
