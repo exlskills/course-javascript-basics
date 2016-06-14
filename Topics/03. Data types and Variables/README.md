@@ -290,7 +290,6 @@ console.log((a !== b) && (b > 0));
 - Represents a **sequence of characters**
 - Strings are enclosed in quotes:
   - **Both `'` and `"` work correctly**
-    - Best practices suggest using single quotes
   - **ES6** also includes <code>`</code> (ticks) for string interpolation
 - Strings can be concatenated
   - Using the `+` operator
