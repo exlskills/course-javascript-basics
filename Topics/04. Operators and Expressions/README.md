@@ -1,5 +1,5 @@
 <!-- section start -->
-<!-- attr: {  class:'slide-title', showInPresentation:true, hasScriptWrapper:true, style:'font-size: 0.9em' } -->
+<!-- attr: {  class:'slide-title', hasScriptWrapper:true } -->
 # Operators and Expressions
 ## Performing Simple Calculations with JavaScript
 
