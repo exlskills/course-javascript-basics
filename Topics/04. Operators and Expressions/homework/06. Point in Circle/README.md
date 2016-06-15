@@ -7,10 +7,10 @@ The program should then print **"yes DISTANCE"** if the point is inside the circ
   - In place of **DISTANCE** print the distance from the beginning of the coordinate system - **(0, 0)** - to the given point.
 
 ## Input
-- You will an array as a parameter. The array will contain exactly 2 string elements, the first being the **x** coordinate, the second - the **y** coordinate.
+- You will receive an array as a parameter. The array will contain exactly 2 string elements, the first being the **x** coordinate and the second - the **y** coordinate.
 
 ## Output
-- Output a single line in the format described above. The distance should be always printed with _2-digit precision_ after the floating point.
+- Output a single line in the format described above. The distance should always be printed with _2-digits of precision_ after the floating point.
 - You can use `console.log` to print the results or you can use `return` to return the answer. Both are correct.
 
 ## Constraints
