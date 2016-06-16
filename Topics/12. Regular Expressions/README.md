@@ -26,7 +26,8 @@
 
 <!-- section start -->
 <!-- attr: { id:'regex-overview', class:'slide-section', showInPresentation: true } -->
-<!-- # <a id="regex-overview"></a>Regular Expressions Overview -->
+<!-- # <a id="regex-overview"></a>Regular Expressions Overview
+## What is a RegEx and what is it useful for? -->
 
 <!-- attr: { style:'font-size: 0.9em' } -->
 # Regular Expressions Overview
@@ -52,8 +53,9 @@
 
 
 <!-- section start -->
-<!-- attr: { id:'regex-in-javascript', class:'slide-section' } -->
-# <a id="regex-in-javascript"></a>Regex in JavaScript
+<!-- attr: { id:'regex-in-javascript', class:'slide-section', showInPresentation: true } -->
+<!-- # <a id="regex-in-javascript"></a>Regex in JavaScript
+## Using Regular Expressions in Javascript -->
 
 <!-- attr: { id:'creating-a-regex', showInPresentation: true } -->
 <!-- # <a id="creating-a-regex"></a>Creating Regex in JavaScript -->
@@ -78,39 +80,83 @@ const literalRegex = /y$/g;
 const constructorRegex = new RegExp('^T', 'g');
 ```
 
-<!-- attr: { id:'methods-and-properties' } -->
+<!-- attr: { id:'methods-and-properties', style: 'font-size: 0.9em' } -->
 # <a id="methods-and-properties"></a>Regex methods and properties
-- In JavaScript, the regex is used over strings
-  - Useful/important regex methods:
-    - `RegExp.test` – searches for a match in a given string. Returns `true` or `false`.
-    - `String.match` – searches for a match in a string
-      - Returns an array of information or `null` on a mismatch
-    - `String.replace` – replaces the matched substring with a replacement substring
-      - Returns the new string
+- Full list of properties and methods on [MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/RegExp)
+- `RegExp.test` – searches for a match in a given string. Returns `true` or `false`
+- `RegExp.exec` - searches for the next match in a given string
+  - Returns an array of all captured groups for the found match or `null`.
+- `String.match` – searches for a match in a string
+  - Returns an array of information or `null` on a mismatch
 
-<!-- attr: { showInPresentation: true } -->
+
+<!-- attr: { showInPresentation: true, style: 'font-size: 0.9em' } -->
 <!-- # Regex methods and properties -->
+- `String.replace` – replaces the matched substring with a replacement substring
+  - Returns the new string
 - `String.split` – breaks a string into an array of substrings, using a regex or a string search for matches
   - Returns an array
 - `String.search` – tests for a match in a string
   - It returns the index of the match, or -1 if the search fails
 
-<!-- attr: { id:'use' } -->
-# <a id="use"></a>Using Regex in JavaScript
-## TODO
 
 <!-- attr: { id:'flags', showInPresentation: true, hasScriptWrapper: true } -->
 # <a id="flags"></a>Regular Expression Flags
 - Regular expression have optional flags that allow for global and case insensitive searching
   - These flags can be used separately or together in any order
 
-<!-- <img class="slide-image" showInPresentation="true" src="imgs/pic00.png" style="top:45%; left:5%; width:90%; z-index:-1" /> -->
+<img class="slide-image" showInPresentation="true" src="imgs/pic00.png" style="top:45%; left:5%; width:90%; z-index:-1" />
+
+<!-- attr: { id:'use', style: 'font-size: 0.9em' } -->
+# <a id="use"></a>Using Regex in JavaScript
+- Match all mentions of **Telerik Academy** initiatives
+  - `RegExp.test`, `String.match`, `RegExp.exec`
+
+```js
+let academyRegex = /telerik\s(software\s|algo\s|kids\s)?academy/gi;
+
+// true
+let isMatch = 'John goes telerik Kids academy'.test(academyRegex);
+
+let peshoGosho = 'Az sym gosho i ucha javascript v Telerik Academy'
+                + ', a gosho hodi na telerik algo academy';
+
+// will contain array of matches substrings
+let matches = peshoAndGosho.match(academyRegex);
+
+// get matches and matched groups one by one
+let currentMatch;
+while(currentMatch = academyRegex.exec(peshoGosho)) {
+    console.log(currentMatch);
+}
+```
+
+<!-- attr: { id:'use', style: 'font-size: 0.9em', showInPresentation: true } -->
+<!-- # Using Regex in JavaScript -->
+- Helping people have fun(RegExps are cool)
+  - `String.replace`, `String.split`, `String.search`
+
+```js
+let notFunRegex = /univesity|school|exam|work/gi;
+let fun = 'kopon';
+
+let plans = 'Stamat and Ivan are going to university'
+              + ', Yana is going to work'
+              + 'and Joro to work and then he has an exam';
+
+let funPlans = plans.replace(notFunRegex, fun);
+let splitPlans = plans.split(notFunRegex);
+let firstBoringActivityIndex = plans.search(notFunRegex);
+
+```
+
 
 
 
 <!-- section start -->
 <!-- attr: { id:'special-characters', class:'slide-section', showInPresentation: true } -->
-<!-- # <a id="special-characters"></a>Regex Special Characters -->
+<!-- # <a id="special-characters"></a>Regex Special Characters
+## Groups, ranges, word boundaries... -->
 
 <!-- attr: { hasScriptWrapper: true, style:'font-size: 0.9em' } -->
 # Special Characters in Regex
@@ -159,7 +205,30 @@ const constructorRegex = new RegExp('^T', 'g');
 - `\w` – matches any alphanumeric character including the underscore
 - `\W` – matches any non-alphanumeric or underscore character
 
+<!-- section start -->
+<!-- attr: { class:'slide-section', showInPresentation: true } -->
+<!-- # Using Regular Expressions in practice
+## Solving practical problems -->
 
+<!-- attr: { style: 'font-size: 0.9em' } -->
+# Username validation
+- The username:
+  - can contain only lower or capital latin letters, digits and underscore `_`
+  - it's length must be between `4` and `15`, inclusive
+  - must start with a capital letter
+- Test your regular expression with the following:
+
+```js
+['Kucii1', 'kon_simeonov', 'Kon', 'Doncho_Minkov33', '123gosho',
+ '__proto__', 'ImOkayButKindaTooLong15', 'Pip3r4o', '<h1>penka</h1>']
+```
+
+# Extract all image sources
+- Extract all image source from given HTML markup
+  - No matter relative or absolute
+- Test your regex on the HTML of [telerikacademy.com](https://telerikacademy.com)
+
+<!-- section start -->
 <!-- attr: { class:'slide-section', showInPresentation: true } -->
 <!-- # Regular Expressions in JavaScript
 ## Questions? -->
