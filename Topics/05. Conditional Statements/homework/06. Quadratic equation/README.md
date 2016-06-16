@@ -11,6 +11,7 @@ _Note: Quadratic equations may have 0, 1 or 2 real roots._
 
 ## Output
 - The output should be a single line containing the real roots (see sample tests)
+  - Print numbers with **two digits of precision** after the floating point
   - If there are two roots then `x1 < x2`
 
 ## Constraints
@@ -19,9 +20,10 @@ _Note: Quadratic equations may have 0, 1 or 2 real roots._
 
 ## Sample tests
 
-| Input            | Output        |
-|:-----------------|:--------------|
-| 2<br>5<br>-3     | x1=-3; x2=0.5 |
-| -1<br>3<br>0     | x1=0; x2=3    |
-| -0.5<br>4<br>-8  | x1=x2=4       |
-| 5<br>2<br>8      | no real roots |
+| Input               | Output              |
+|:--------------------|:--------------------|
+| 2<br>5<br>-3        | x1=-3.00; x2=0.50   |
+| -1<br>3<br>0        | x1=0.00; x2=3.00    |
+| -0.5<br>4<br>-8     | x1=x2=4.00          |
+| 5<br>2<br>8         | no real roots       |
+| 0.2<br>9.572<br>0.2 | x1=-47.84; x2=-0.02 |
