@@ -37,7 +37,7 @@ Course Program, Examination
 
 
 ##### [<img src="https://raw.githubusercontent.com/TelerikAcademy/Common/master/icons/presentation.png" height="18"/>Slides](https://rawgit.com/TelerikAcademy/JavaScript-Fundamentals/master/Topics/04. Operators and Expressions/index.html) / [<img src="https://raw.githubusercontent.com/TelerikAcademy/Common/master/icons/code.png" height="15"> Demos](/Topics/04. Operators and Expressions/demos) / [<img src="https://raw.githubusercontent.com/TelerikAcademy/Common/master/icons/homework.png" height="15">Tasks](/Topics/04. Operators and Expressions/homework) / [<img src="https://raw.githubusercontent.com/TelerikAcademy/Common/master/icons/video.png" height="15"> Videos](/Topics/04. Operators and Expressions/VIDEOS.md)
-<!--
+
 ### [05. Conditional Statements](/Topics/05. Conditional Statements)
 
 
@@ -50,6 +50,7 @@ Course Program, Examination
 
 ##### [<img src="https://raw.githubusercontent.com/TelerikAcademy/Common/master/icons/presentation.png" height="18"/>Slides](https://rawgit.com/TelerikAcademy/JavaScript-Fundamentals/master/Topics/06. Loops/index.html) / [<img src="https://raw.githubusercontent.com/TelerikAcademy/Common/master/icons/code.png" height="15"> Demos](/Topics/06. Loops/demos) / [<img src="https://raw.githubusercontent.com/TelerikAcademy/Common/master/icons/homework.png" height="15">Tasks](/Topics/06. Loops/homework) / [<img src="https://raw.githubusercontent.com/TelerikAcademy/Common/master/icons/video.png" height="15"> Videos](/Topics/06. Loops/VIDEOS.md)
 
+<!--
 ### [07. Arrays](/Topics/07. Arrays)
 
 
