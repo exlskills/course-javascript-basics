@@ -25,31 +25,35 @@ var result = html.bind(data);
 ## Output
 - Output the html code with the binded values.
 
+## Constraints
+- Time limit: **0.2s**
+- Memory limit: **16MB**
+
 ## Sample Tests
 
-#### Input
+#### Input 1 
 ```js
 [
-	'{ name: "Steven" }',
+	'{ "name": "Steven" }',
 	'<div data-bind-content="name"></div>'
 ]
 ```
 
-#### Output
+#### Output 1
 ```html
 <div data-bind-content="name">Steven</div>
 ```
 
-#### Input
+#### Input 1
 
 ```js
 [
-	'{ name: "Elena", link: "http://telerikacademy.com" }',
+	'{ "name": "Elena", "link": "http://telerikacademy.com" }',
 	'<a data-bind-content="name" data-bind-href="link" data-bind-class="name"></а>'
 ]
 ```
 
-#### Output
+#### Output 1
 
 ```html
 <a data-bind-content="name" data-bind-href="link" data-bind-class="name" href="http://telerikacademy.com" class="Elena">Elena</а>
