@@ -1,25 +1,56 @@
-### Problem 2. HTML binding
-*	Write a function that puts the value of an object into the content/attributes of HTML tags.
-	*	Add the function to the **String.prototype**
+# HTML binding
 
-_Example 1:_
+## Description
 
-**input**
+- Write a function that puts the value of an object into the content/attributes of HTML tags.
+  - Add the function to the `String.prototype` and use it in the following way:
 
-		var str = '<div data-bind-content="name"></div>';
-		str.bind(str, {name: 'Steven'});
+```js
+var html = '<div data-bind-content="name"></div>';
+var data = { name: 'Pesho' };
 
-**output**
+var result = html.bind(data);
+```
 
-		<div data-bind-content="name">Steven</div>
+## Input
+- The input array will look like this:
 
-_Example 2:_
+```js
+[
+	'{ name: "Steven" }',
+	'<div data-bind-content="name"></div>'
+]
+```
 
-**input**
-		
-		var bindingString = '<a data-bind-content="name" data-bind-href="link" data-bind-class="name"></а>'
-		str.bind(str, {name: 'Elena', link: 'http://telerikacademy.com'});
+## Output
+- Output the html code with the binded values.
 
-**output**
+## Sample Tests
 
-		<a data-bind-content="name" data-bind-href="link" data-bind-class="name" href="http://telerikacademy.com" class="Elena">Elena</а>
+#### Input
+```js
+[
+	'{ name: "Steven" }',
+	'<div data-bind-content="name"></div>'
+]
+```
+
+#### Output
+```html
+<div data-bind-content="name">Steven</div>
+```
+
+#### Input
+
+```js
+[
+	'{ name: "Elena", link: "http://telerikacademy.com" }',
+	'<a data-bind-content="name" data-bind-href="link" data-bind-class="name"></а>'
+]
+```
+
+#### Output
+
+```html
+<a data-bind-content="name" data-bind-href="link" data-bind-class="name" href="http://telerikacademy.com" class="Elena">Elena</а>
+```
