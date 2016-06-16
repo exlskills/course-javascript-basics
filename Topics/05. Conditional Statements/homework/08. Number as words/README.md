@@ -1,7 +1,7 @@
 # Number as words
 
 ## Description
-Write a script that converts a number in the range [0…999] to words, corresponding to its English pronunciation.
+Write a script that converts a number in the range `[0…999]` to words, corresponding to its English pronunciation.
 
 ## Input
 - The input will consist of an array containing the number as a string
