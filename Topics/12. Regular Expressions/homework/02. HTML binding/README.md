@@ -33,7 +33,7 @@ var result = html.bind(data);
   - **Not possible**: `['{ "name": "cyki" }', '<cyki data-bind-name="name" name="cyki"/>']`
 - The input strings will never contain more than 500 symbols
 - Time limit: **0.2s**
-- Memory limit: **16MB**
+- Memory limit: **32MB**
 
 ## Sample Tests
 
