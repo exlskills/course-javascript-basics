@@ -15,16 +15,17 @@
 <!-- section start -->
 <!-- attr: { hasScriptWrapper:true } -->
 # Table of Contents
-- Object Types and Objects
-- JavaScript Objects Overview
-- Object and Primitive Types
-- JavaScript Object Literal
-- JavaScript Object Properties
-- Associative Arrays
+- [Object Types and Objects](#objects)
+- [JavaScript Objects Overview](#js-objects)
+- [Object and Primitive Types](#object-primitives)
+- [JavaScript Object Literal](#object-literal)
+- [JavaScript Object Properties](#object-props)
+  - [Dot notation](#dot-notation)
+  - [Associative Arrays](#assoc-arrays)
 
 <!-- section start -->
-<!-- attr: { hasScriptWrapper:true, class:'slide-section' } -->
-# Object Types and Objects
+<!-- attr: { hasScriptWrapper:true, class:'slide-section', id:'objects' } -->
+# <a id="objects"></a>Object Types and Objects
 ## Modeling Real-world Entities with Objects
 
 <!-- <img class="slide-image" showInPresentation="true" src="imgs/pic02.png" style="top:52%; left:35%; width:30%; z-index:-1" /> -->
@@ -155,8 +156,8 @@ kirilAccount
 <div class="fragment balloon" style="top:57.61%; left:87.27%; width:14.10%">Object</div>
 
 <!-- section start -->
-<!-- attr: { hasScriptWrapper:true, class:'slide-section' } -->
-# Objects
+<!-- attr: { hasScriptWrapper:true, class:'slide-section', id:'js-objects' } -->
+# <a id="js-objects"></a>Objects
 ## Collection of fields and methods
 
 <!-- attr: { hasScriptWrapper:true } -->
@@ -182,8 +183,8 @@ let words = text.split(' ');
 ```
 
 <!-- section start -->
-<!-- attr: { hasScriptWrapper:true, class:'slide-section' } -->
-# Reference and Primitive Types
+<!-- attr: { hasScriptWrapper:true, class:'slide-section', id:'object-primitives' } -->
+# <a id="object-primitives"></a>Reference and Primitive Types
 ## Copy by value, copy by reference
 
 <!-- attr: { hasScriptWrapper:true, showInPresentation:true, style:'font-size:0.9em' } -->
@@ -263,8 +264,8 @@ console.log(student.marks);
 ```
 
 <!-- section start -->
-<!-- attr: { hasScriptWrapper:true, class:'slide-section' } -->
-# JavaScript Object Literal
+<!-- attr: { hasScriptWrapper:true, class:'slide-section', id:'object-literal' } -->
+# <a id="object-literal"></a>JavaScript Object Literal
 ## Curly brackets `{}`
 
 <!-- attr: { hasScriptWrapper:true, showInPresentation:true } -->
@@ -333,12 +334,12 @@ georgiev = makePerson('Georgi', 'Georgiev');
 - Much cooler, right?
 
 <!-- section start -->
-<!-- attr: { hasScriptWrapper:true, class:'slide-section' } -->
-# JS Object Properties
+<!-- attr: { hasScriptWrapper:true, class:'slide-section', id:'object-props' } -->
+# <a id="object-props"></a>JS Object Properties
 ## Dot-notation, associative arrays
 
-<!-- attr: { hasScriptWrapper:true, showInPresentation:true } -->
-<!-- # JS Object Properties -->
+<!-- attr: { hasScriptWrapper:true, showInPresentation:true, id:'dot-notation' } -->
+# <a id="dot-notation"></a>JS Object Properties
 - JavaScript objects are just a set of key/value pairs
   - Each value can be accessed by its key
   - Properties in objects are accessed using the dot-notation (`obj.property`)
@@ -349,8 +350,8 @@ georgiev = makePerson('Georgi', 'Georgiev');
 document.write === document['write']
 ```
 
-<!-- attr: { hasScriptWrapper:true, style:'font-size:0.9em' } -->
-# Associative Arrays
+<!-- attr: { hasScriptWrapper:true, style:'font-size:0.9em', id:'assoc-arrays' } -->
+# <a id="assoc-arrays"></a>Associative Arrays
 - Objects can be used as **associative arrays**
   - The key (index) is string instead of number
     - Also called **dictionaries** or **maps**
