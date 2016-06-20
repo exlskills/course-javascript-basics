@@ -25,14 +25,14 @@
   - Concatenation
   - Slicing
   - Manipulation
+
 <!-- <img class="slide-image" showInPresentation="true" src="imgs/pic02.png" style="top:44.08%; left:74.85%; width:27.99%; z-index:-1" /> -->
 
 <!-- section start -->
 
-<!-- attr: {class: 'slide-section'}  -->
-
-# Arrays Overview
-##  What are arrays? How to use arrays?
+<!-- attr: {class: 'slide-section', showInPresentation: true}  -->
+<!-- # Arrays Overview
+##  What are arrays? How to use arrays? -->
 
 <!-- <img class="slide-image" showInPresentation="true" src="imgs/pic03.png" style="top:7.93%; left:73.92%; width:29.97%; z-index:-1" /> -->
 <!-- <img class="slide-image" showInPresentation="true" src="imgs/pic04.png" style="top:43.97%; left:10.48%; width:58.75%; z-index:-1" /> -->
@@ -70,7 +70,8 @@ var matrix = [
   ['2,0', '2,1', '2,2']];			
 ```
 
-# Declare and Initialize Arrays
+<!-- attr: {showInPresentation: true} -->
+<!-- # Declare and Initialize Arrays -->
 
 - Initializing an array in JavaScript can be done in three ways:
   - Using `new Array(elements)`:
@@ -93,8 +94,8 @@ var matrix = [
 
 <!-- <img class="slide-image" showInPresentation="true" src="imgs/pic06.png" style="top:50.25%; left:86.49%; width:18.74%; z-index:-1" /> -->
 
-<!-- attr: {class: 'slide-section'} -->
-# Creating Arrays
+<!-- attr: {class: 'slide-section', showInPresentation: true} -->
+<!-- # Creating Arrays -->
 ## [Demo]()
 <!-- <img class="slide-image" showInPresentation="true" src="imgs/pic07.png" style="top:35.26%; left:59.88%; width:38.48%; z-index:-1" /> -->
 <!-- <img class="slide-image" showInPresentation="true" src="imgs/pic08.png" style="top:12.64%; left:15.37%; width:20.78%; z-index:-1" /> -->
@@ -102,9 +103,9 @@ var matrix = [
 
 <!-- section start -->
 
-<!-- attr: {class: 'slide-section'} -->
-# Using arrays
-## Read and Modify Elements by Index
+<!-- attr: {class: 'slide-section', showInPresentation: true} -->
+<!-- # Using arrays
+## Read and Modify Elements by Index -->
 <!-- <img class="slide-image" showInPresentation="true" src="imgs/pic10.png" style="top:41.43%; left:34.38%; width:41.09%; z-index:-1" /> -->
 
 # How to Access Array Element?
@@ -115,8 +116,8 @@ var matrix = [
   - The last element has index `length-1`
 - Array elements can be retrieved and changed by the `[]` (indexer) operator
 
-
-# Reversing an Array – _Example_
+<!-- attr: {showInPresentation: true} -->
+<!-- # Reversing an Array – _Example_ -->
 
 - _Example:_ Reversing the elements of an array
 
@@ -137,8 +138,8 @@ for (i = 0, len = array.length; i < len; i += 1) {
 }
 ```
 
-<!-- attr: {class: 'slide-section'} -->
-# Reversing an Array
+<!-- attr: {class: 'slide-section', showInPresentation: true} -->
+<!-- # Reversing an Array -->
 ## [Demo]()
 <!-- <img class="slide-image" showInPresentation="true" src="imgs/pic11.png" style="top:37.34%; left:67.54%; width:34.31%; z-index:-1" /> -->
 <!-- <img class="slide-image" showInPresentation="true" src="imgs/pic12.png" style="top:38.76%; left:9.12%; width:41.03%; z-index:-1" /> -->
@@ -147,12 +148,12 @@ for (i = 0, len = array.length; i < len; i += 1) {
 
 <!-- section start -->
 
-<!-- attr: {class: 'slide-section'} -->
-# Iterating Arrays
+<!-- attr: {class: 'slide-section', showInPresentation: true} -->
+<!-- # Iterating Arrays -->
 
 <!-- <img class="slide-image" showInPresentation="true" src="imgs/pic14.png" style="top:39.67%; left:30.28%; width:48.88%; z-index:-1" /> -->
 
-# Iterating Arrays with `for` Loop
+# Iterating Arrays with `for`
 - Use `for` loop to process an array when you need to keep track of the index
 - In the loop body use the element at the loop index (`array[index]`):
 
@@ -163,8 +164,8 @@ for (i = 0, len = array.length; i < len; i += 1) {
 }
 ```
 
-<!-- attr: { style: 'font-size:0.9em'} -->
-# Iterating Arrays with `for`
+<!-- attr: { style: 'font-size:0.9em', showInPresentation: true} -->
+<!-- # Iterating Arrays with `for` -->
 - _Example:_ Printing array of numbers in reversed order:
 
 ```js
@@ -222,17 +223,18 @@ for (i in capitals) {
 ```
 
 
-<!-- attr: {class: 'slide-section'} -->
-# Processing Arrays
+<!-- attr: {class: 'slide-section', showInPresentation: true} -->
+<!-- # Processing Arrays -->
 ## [Demo]()
 <!-- <img class="slide-image" showInPresentation="true" src="imgs/pic16.png" style="top:13.22%; left:30.88%; width:46.50%; z-index:-1" /> -->
 
 
 <!-- section start -->
 
-<!-- attr: {class: 'slide-section'} -->
-# Inserting and Removing Elements from Arrays
-##  `push`, `pop`, `shift`, `unshift`
+<!-- attr: {class: 'slide-section', showInPresentation: true} -->
+<!-- # Inserting and Removing Elements from Arrays
+##  `push`, `pop`, `shift`, `unshift` -->
+
 <!-- <img class="slide-image" showInPresentation="true" src="imgs/pic17.png" style="top:8.82%; left:41.88%; width:61.04%; z-index:-1" /> -->
 <!-- <img class="slide-image" showInPresentation="true" src="imgs/pic18.png" style="top:50.25%; left:62.95%; width:24.44%; z-index:-1" /> -->
 <!-- <img class="slide-image" showInPresentation="true" src="imgs/pic19.png" style="top:27.10%; left:-3.24%; width:46.02%; z-index:-1" /> -->
@@ -246,9 +248,8 @@ for (i in capitals) {
   - Elements can be removed from the array
 
 <!-- attr: {showInPresentation: true} -->
-<!-- # Inserting and Removing Elements from Arrays -->
-
-- Methods for array manipulation:
+<!-- # Inserting and Removing Elements from Arrays
+- Methods for array manipulation: -->
   - `Array#push(element)`
     - **Inserts** a new element at the **tail** of the array
   - `Array#pop()`
@@ -264,17 +265,17 @@ for (i in capitals) {
     - **Removes** the element at the **head**
     - **Returns** the remove element
 
-<!-- attr: {class: 'slide-section'} -->
-# Inserting and Removing Elements from Arrays
+<!-- attr: {class: 'slide-section', showInPresentation: true} -->
+<!-- # Inserting and Removing Elements from Arrays -->
 ## [Demo](/)
 <!-- <img class="slide-image" showInPresentation="true" src="imgs/pic20.png" style="top:12.54%; left:22.71%; width:72.44%; z-index:-1" /> -->
 
 
 <!-- section start -->
 
-<!-- attr: {class: 'slide-section'} -->
-# Array Manipulations
-##  Reversing, joining, etc...
+<!-- attr: {class: 'slide-section', showInPresentation: true} -->
+<!-- # Array Manipulations
+##  Reversing, joining, etc... -->
 <!-- <img class="slide-image" showInPresentation="true" src="imgs/pic21.png" style="top:25.98%; left:5.49%; width:88.46%; z-index:-1" /> -->
 <!-- <img class="slide-image" showInPresentation="true" src="imgs/pic22.png" style="top:10.58%; left:47.72%; width:48.00%; z-index:-1" /> -->
 
@@ -340,7 +341,7 @@ for (i in capitals) {
 
 # Splicing Arrays
 
-- `#splice(index, count, elements)`
+- `Array#splice(index, count, elements)`
   - Removes `count` elements, starting from `index` position
   - Adds `elements` at position `index`
   - Returns a new array, containing the removed elements
@@ -354,7 +355,7 @@ for (i in capitals) {
 
 <!-- attr: {showInPresentation: true} -->
 <!-- # Splicing Arrays
-- `#splice(index, count, elements)` -->
+- `Array#splice(index, count, elements)` -->
 
   - Example uses:
     - Remove elements from any index of the array:
