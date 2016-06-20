@@ -4,7 +4,7 @@
 ## Objects, Properties, Primitive and Reference Types
 
 <!-- <img class="slide-image" showInPresentation="true" src="imgs/pic00.png" style="top:55%; left:62%; width:40%; z-index:-1" /> -->
-<!-- <img class="slide-image" showInPresentation="true" src="imgs/pic01.png" style="top:0%; left:0%; width:25%; z-index:-1" /> -->
+<!-- <img class="slide-image" showInPresentation="true" src="imgs/pic01.png" style="top:0%; left:77%; width:25%; z-index:-1" /> -->
 
 <div class="signature">
 	<p class="signature-course">Javascript Fundamentals</p>
