@@ -379,7 +379,7 @@ function countWords(words) {
 <!-- attr: { hasScriptWrapper:true } -->
 # Free Trainings @ Telerik Academy
 - "Web Design with HTML 5, CSS 3 and JavaScript" course @ Telerik Academy
-    - [javascript course](http://academy.telerik.com/student-courses/web-design-and-ui/javascript-fundamentals/about)
+  - [javascript course](http://academy.telerik.com/student-courses/web-design-and-ui/javascript-fundamentals/about)
 - Telerik Software Academy
   - [academy.telerik.com](http://academy.telerik.com)
 - Telerik Academy @ Facebook
