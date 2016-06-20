@@ -1,0 +1,2 @@
+{ "name": "Elena", "link": "http://telerikacademy.com" }
+<a data-bind-content="name" data-bind-href="link" data-bind-class="name"></а>

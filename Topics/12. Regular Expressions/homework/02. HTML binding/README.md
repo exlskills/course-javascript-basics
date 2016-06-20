@@ -23,11 +23,17 @@ var result = html.bind(data);
 ```
 
 ## Output
-- Output the html code with the binded values.
+- Output the html code with the bind values.
 
 ## Constraints
+- The html tags may have other attributes. Other attributes, if any, will always come after the `data-bind-*` attributes.
+  - _Example_: `'<a data-bind-content="songName" href="https://www.youtube.com/watch?v=84m4hjF39A4"></a>`
+- There will never be duplicating attributes for binding
+  - **Not possible**: `['{ "name": "cyki", "os": "linux" }', '<cyki data-bind-os="os" data-bind-name="cyki" data-bind-os="os"/>'`
+  - **Not possible**: `['{ "name": "cyki" }', '<cyki data-bind-name="name" name="cyki"/>']`
+- The input strings will never contain more than 500 symbols
 - Time limit: **0.2s**
-- Memory limit: **16MB**
+- Memory limit: **32MB**
 
 ## Sample Tests
 
