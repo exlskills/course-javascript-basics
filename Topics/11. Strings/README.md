@@ -1,16 +1,18 @@
 <!-- section start -->
+<!-- attr: { hasScriptWrapper:true } -->
 # Strings
 ## Working with strings in JavaScript
 <!-- <img class="slide-image" showInPresentation="true" src="imgs/pic00.png" style="top:13.85%; left:7.51%; width:25.82%; z-index:-1" /> -->
 <!-- <img class="slide-image" showInPresentation="true" src="imgs/pic01.png" style="top:53.83%; left:64.98%; width:37.97%; z-index:-1" /> -->
 <!-- <img class="slide-image" showInPresentation="true" src="imgs/pic02.png" style="top:6.52%; left:63.53%; width:39.33%; z-index:-1" /> -->
 <div class="signature">
-	<p class="signature-course"></p>
-	<p class="signature-initiative"></p>
-	<a href="" class="signature-link"></a>
+	<p class="signature-course">Javascript Fundamentals</p>
+	<p class="signature-initiative">Telerik Software Academy</p>
+	<a href="https://telerikacademy.com" class="signature-link">https://telerikacademy.com</a>
 </div>
 
 <!-- section start -->
+<!-- attr: { hasScriptWrapper:true } -->
 # Table of Contents
 - Strings in JavaScript
 - String Wrapper
@@ -23,7 +25,7 @@
   - Padding
 
 <!-- section start -->
-
+<!-- attr: { hasScriptWrapper:true } -->
 # String in JavaScript
 - A string is a sequence of characters
   - Text enclosed in single (**' '**) or double quotes (**" "**)
@@ -39,7 +41,7 @@ var str2 = 'text enclosed in single quotes';
   - Every time a string is changed, a new string is created
 
 <!-- section start -->
-
+<!-- attr: { hasScriptWrapper:true } -->
 # String Wrapper
 - As string is a primitive type, it has an object wrapper type
 - Primitive types keep only their value
@@ -61,6 +63,7 @@ tempStr.length;
 same as
 ```
 
+<!-- attr: { hasScriptWrapper:true } -->
 # From Object to Primitive Type
 - JavaScript have a simple parsing
   - From string to number
@@ -75,7 +78,7 @@ var str = String(strObj);
 ```
 
 <!-- section start -->
-
+<!-- attr: { hasScriptWrapper:true } -->
 # String Methods
 - **string.length**
   - Returns the number of characters in the string
@@ -120,7 +123,7 @@ var str = String(strObj);
   - Returns the primitive value of the object string
 
 <!-- section start -->
-
+<!-- attr: { hasScriptWrapper:true } -->
 # String Concatenation
 - String is an immutable type
   - A value cannot be changed
@@ -148,7 +151,7 @@ var strConcat2 = str.concat(str2);
 ```
 
 <!-- section start -->
-
+<!-- attr: { hasScriptWrapper:true } -->
 # String Escape
 - What is escaping?
   - Replacing reserved characters with their escape sequence
@@ -177,7 +180,7 @@ String.prototype.htmlEscape = function (){
 ```
 
 <!-- section start -->
-
+<!-- attr: { hasScriptWrapper:true } -->
 # String Extensions - Trim
 - **string.trim()**, **string.trimLeft()**, **string.trimRight()**
   - Supported in all modern browsers
@@ -186,6 +189,7 @@ String.prototype.htmlEscape = function (){
   - Trim no-whitespace characters
   - No native implementation
 
+<!-- attr: { hasScriptWrapper:true } -->
 # Padding
 - **str.padLeft(count [,char])**, **str.padRight(count [,char])**
   - Pads a string to the left/right
@@ -205,18 +209,20 @@ String.prototype.paddLeft = function (count, char) {
 }
 ```
 
+<!-- attr: { hasScriptWrapper:true } -->
 # Strings
-- http://academy.Telerik.com
+## Questions?
 
+<!-- attr: { hasScriptWrapper:true } -->
 # Free Trainings @ Telerik Academy
 - "Web Design with HTML 5, CSS 3 and JavaScript" course @ Telerik Academy
-    - html5course.telerik.com
-  - Telerik Software Academy
-    - academy.telerik.com
-  - Telerik Academy @ Facebook
-    - facebook.com/TelerikAcademy
-  - Telerik Software Academy Forums
-    - forums.academy.telerik.com
+  - [javascript course](http://academy.telerik.com/student-courses/web-design-and-ui/javascript-fundamentals/about)
+- Telerik Software Academy
+  - [academy.telerik.com](http://academy.telerik.com)
+- Telerik Academy @ Facebook
+  - [facebook.com/TelerikAcademy](https://facebook.com/TelerikAcademy)
+- Telerik Software Academy Forums
+  - [forums.academy.telerik.com](https://telerikacademy.com/Forum/Home)
 
 <!-- <img class="slide-image" showInPresentation="true" src="imgs/pic03.png" style="top:58.18%; left:90.52%; width:16.97%; z-index:-1" /> -->
 <!-- <img class="slide-image" showInPresentation="true" src="imgs/pic04.png" style="top:34.35%; left:68.14%; width:36.30%; z-index:-1" /> -->
