@@ -7,7 +7,7 @@
 <div class="signature">
 	<p class="signature-course"></p>
 	<p class="signature-initiative"></p>
-	<a href="" class="signature-link"></a>
+	<a href="https://telerikacademy.com" class="signature-link"></a>
 </div>
 
 <!-- section start -->
@@ -363,13 +363,14 @@ function countWords(words) {
 <!-- attr: { hasScriptWrapper:true } -->
 # Free Trainings @ Telerik Academy
 - "Web Design with HTML 5, CSS 3 and JavaScript" course @ Telerik Academy
-    - html5course.telerik.com
-  - Telerik Software Academy
-    - academy.telerik.com
-  - Telerik Academy @ Facebook
-    - facebook.com/TelerikAcademy
-  - Telerik Software Academy Forums
-    - forums.academy.telerik.com
+    - [javascript course](http://academy.telerik.com/student-courses/web-design-and-ui/javascript-fundamentals/about)
+- Telerik Software Academy
+  - [academy.telerik.com](http://academy.telerik.com)
+- Telerik Academy @ Facebook
+  - [facebook.com/TelerikAcademy](https://facebook.com/TelerikAcademy)
+- Telerik Software Academy Forums
+  - [forums.academy.telerik.com](https://telerikacademy.com/Forum/Home)
+
 <!-- <img class="slide-image" showInPresentation="true" src="imgs/pic04.png" style="top:58.18%; left:90.52%; width:16.97%; z-index:-1" /> -->
 <!-- <img class="slide-image" showInPresentation="true" src="imgs/pic05.png" style="top:34.35%; left:68.14%; width:36.30%; z-index:-1" /> -->
 <!-- <img class="slide-image" showInPresentation="true" src="imgs/pic06.png" style="top:48.92%; left:75.91%; width:10.85%; z-index:-1" /> -->
