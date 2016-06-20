@@ -32,12 +32,12 @@
 <!-- attr: { hasScriptWrapper:true } -->
 # What are Objects?
 - Software objects model real-world objects or abstract concepts
-  - _Examples_: 
-    - bank, account, customer, dog, bicycle, queue 
+  - _Examples_:
+    - bank, account, customer, dog, bicycle, queue
 - Real-world objects have **states** and **behaviors**
-  - Account states: 
+  - Account states:
     - holder, balance, type
-  - Account behaviors: 
+  - Account behaviors:
     - withdraw, deposit, suspend
 
 <!-- attr: { hasScriptWrapper:true } -->
@@ -200,7 +200,7 @@ var words = text.split(' ');
 ```js
 console.log(typeof new Object() === typeof new Array()); // true
 console.log(typeof new Object() === typeof new Date()); // true
-console.log(typeof new Array() === typeof new Date()); // true 
+console.log(typeof new Array() === typeof new Date()); // true
 ```
 
 - All types derive from `Object`
@@ -297,7 +297,7 @@ georgiev = {
   toString: function() {
     return this.fname + ' ' + this.lname;
   }
-};  
+};
 ```
 
 <!-- attr: { hasScriptWrapper:true, style:'font-size:0.9em' } -->
@@ -310,7 +310,7 @@ georgiev = {
 var minkov, georgiev;
 function makePerson(fname, lname) {
   return {
-    fname: fname, 
+    fname: fname,
     lname: lname,
     toString: function () {
       return this.fname + ' ' + this.lname;
@@ -347,7 +347,7 @@ document.write === document['write']
 ```js
 function countWords(words) {
   var word, i,
-      wordsCount = {};       
+      wordsCount = {};
   for (i in words) {
     word = words[i].toLowerCase();
     if (!wordsCount[word]) { wordsCount[word] = 0; }
