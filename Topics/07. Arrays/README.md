@@ -1,4 +1,6 @@
 <!-- section start -->
+
+<!-- attr: { class:'slide-title', showInPresentation: true, hasScriptWrapper: true} -->
 # Arrays
 ## Processing Sequences of Elements
 
