@@ -5,7 +5,7 @@
 
 <!-- <img class="slide-image" showInPresentation="true" src="imgs/pic00.png" style="top:13.85%; left:7.51%; width:20%; z-index:-1" /> -->
 <!-- <img class="slide-image" showInPresentation="true" src="imgs/pic01.png" style="top:55%; left:66%; width:35%; z-index:-1" /> -->
-<!-- <img class="slide-image" showInPresentation="true" src="imgs/pic02.png" style="top:0%; left:66%; width:35%; z-index:-1" /> -->
+<!-- <img class="slide-image" showInPresentation="true" src="imgs/pic02.png" style="top:5%; left:75%; width:25%; z-index:-1" /> -->
 
 <div class="signature">
 	<p class="signature-course">Javascript Fundamentals</p>
@@ -29,10 +29,10 @@
 <!-- section start -->
 <!-- attr: { hasScriptWrapper:true, class:'slide-section' } -->
 # String in JavaScript
-## TODO
+## `'This is a String'`
 
-<!-- attr: { hasScriptWrapper:true } -->
-# String in JavaScript
+<!-- attr: { hasScriptWrapper:true, showInPresentation:true } -->
+<!-- # String in JavaScript -->
 - A string is a sequence of characters
   - Text enclosed in single (`''`) or double quotes (`""`)
 
@@ -49,10 +49,10 @@ var str2 = 'text enclosed in single quotes';
 <!-- section start -->
 <!-- attr: { hasScriptWrapper:true, class:'slide-section' } -->
 # String Wrapper
-## TODO
+## `new String`
 
-<!-- attr: { hasScriptWrapper:true, style:'font-size:0.8em' } -->
-# String Wrapper
+<!-- attr: { hasScriptWrapper:true, showInPresentation:true, style:'font-size:0.8em' } -->
+<!-- # String Wrapper -->
 - As string is a primitive type, it has an object wrapper type
 - Primitive types keep only their value
   - When a property is called, the JS engine converts the primitive into its corresponding object type and calls the property
@@ -72,10 +72,10 @@ tempStr.length;
 <!-- attr: { hasScriptWrapper:true } -->
 # From Object to Primitive Type
 - JavaScript have a simple parsing
-  - From string to number
+  - From `string` to `number`
 - Conversion from primitive to object type is introduced
-  - `new String('…')` creates a string object
-  - `String(strObject)` creates a primitive string
+  - `new String('…')` - creates a string object
+  - `String(strObject)` - creates a primitive string
 
 ```js
 let base = 'string';
@@ -86,7 +86,7 @@ let str = String(strObj);
 <!-- section start -->
 <!-- attr: { hasScriptWrapper:true, class:'slide-section' } -->
 # String Methods
-## TODO
+## Operations with strings
 
 <!-- attr: { hasScriptWrapper:true, showInPresentation:true } -->
 <!-- # String Methods -->
@@ -143,7 +143,7 @@ let str = String(strObj);
 <!-- section start -->
 <!-- attr: { hasScriptWrapper:true, class:'slide-section' } -->
 # String Concatenation
-## TODO
+## `'Firstname' + ' ' + 'Lastname'`
 
 <!-- attr: { hasScriptWrapper:true, showInPresentation:true } -->
 <!-- # String Concatenation -->
@@ -177,7 +177,7 @@ var strConcat2 = str.concat(str2);
 <!-- section start -->
 <!-- attr: { hasScriptWrapper:true, class:'slide-section' } -->
 # String Escape
-## TODO
+## Preventing injection
 
 <!-- attr: { hasScriptWrapper:true, showInPresentation:true } -->
 <!-- # String Escape -->
@@ -213,7 +213,7 @@ String.prototype.htmlEscape = function () {
 <!-- section start -->
 <!-- attr: { hasScriptWrapper:true, class:'slide-section' } -->
 # String Extensions
-## TODO
+## Writing useful methods
 
 <!-- attr: { hasScriptWrapper:true } -->
 # String Extensions - Trim
@@ -232,7 +232,7 @@ String.prototype.htmlEscape = function () {
   - No native implementation
 
 ```js
-String.prototype.paddLeft = function (count, char) {
+String.prototype.padLeft = function (count, char) {
   char = char || ' ';
   if(char.length > 1) return String(this);
   if(str.length >= count) return String(this);
@@ -245,7 +245,7 @@ String.prototype.paddLeft = function (count, char) {
 ```
 
 <!-- section start -->
-<!-- attr: { hasScriptWrapper:true, showInPresentation:true } -->
+<!-- attr: { hasScriptWrapper:true, showInPresentation:true, class:'slide-section' } -->
 <!-- # Strings
 ## Questions? -->
 
@@ -260,7 +260,7 @@ String.prototype.paddLeft = function (count, char) {
 - Telerik Software Academy Forums
   - [forums.academy.telerik.com](https://telerikacademy.com/Forum/Home)
 
-<!-- <img class="slide-image" showInPresentation="true" src="imgs/pic03.png" style="top:58.18%; left:90.52%; width:16.97%; z-index:-1" /> -->
-<!-- <img class="slide-image" showInPresentation="true" src="imgs/pic04.png" style="top:34.35%; left:68.14%; width:36.30%; z-index:-1" /> -->
-<!-- <img class="slide-image" showInPresentation="true" src="imgs/pic05.png" style="top:48.92%; left:75.91%; width:10.85%; z-index:-1" /> -->
-<!-- <img class="slide-image" showInPresentation="true" src="imgs/pic06.png" style="top:11.88%; left:91.56%; width:14.23%; z-index:-1" /> -->
+<!-- <img class="slide-image" showInPresentation="true" src="imgs/pic03.png" style="top:66%; left:90.52%; width:16.97%; z-index:-1" /> -->
+<!-- <img class="slide-image" showInPresentation="true" src="imgs/pic04.png" style="top:42%; left:68.14%; width:36.30%; z-index:-1" /> -->
+<!-- <img class="slide-image" showInPresentation="true" src="imgs/pic05.png" style="top:57%; left:75.91%; width:10.85%; z-index:-1" /> -->
+<!-- <img class="slide-image" showInPresentation="true" src="imgs/pic06.png" style="top:22%; left:91.56%; width:14.23%; z-index:-1" /> -->
