@@ -16,19 +16,19 @@
 <!-- section start -->
 <!-- attr: { hasScriptWrapper:true } -->
 # Table of Contents
-- Strings in JavaScript
-- String Wrapper
-- String Methods
+- [Strings in JavaScript](#strings-js)
+- [String Wrapper](#string-wrapper)
+- [String Methods](#string-methods)
   - `trim`, `concat`, `charAt`, `substr`, `indexOf`
-- String Concatenation
-- Escaping
-- Useful Extensions
-  - Trimming
-  - Padding
+- [String Concatenation](#string-concat)
+- [Escaping](#string-escape)
+- [Useful Extensions](#string-extensions)
+  - [Trimming](#string-trim)
+  - [Padding](#string-padding)
 
 <!-- section start -->
-<!-- attr: { hasScriptWrapper:true, class:'slide-section' } -->
-# String in JavaScript
+<!-- attr: { hasScriptWrapper:true, class:'slide-section', id:'strings-js' } -->
+# <a id="strings-js"></a>String in JavaScript
 ## `'This is a String'`
 
 <!-- attr: { hasScriptWrapper:true, showInPresentation:true } -->
@@ -51,8 +51,8 @@ var str2 = 'text enclosed in single quotes';
 ## [Demo]() -->
 
 <!-- section start -->
-<!-- attr: { hasScriptWrapper:true, class:'slide-section' } -->
-# String Wrapper
+<!-- attr: { hasScriptWrapper:true, class:'slide-section', id:'string-wrapper' } -->
+# <a id="string-wrapper"></a>String Wrapper
 ## `new String`
 
 <!-- attr: { hasScriptWrapper:true, showInPresentation:true, style:'font-size:0.8em' } -->
@@ -92,8 +92,8 @@ let str = String(strObj);
 ## [Demo](demos/1. string-wrapper.html) -->
 
 <!-- section start -->
-<!-- attr: { hasScriptWrapper:true, class:'slide-section' } -->
-# String Methods
+<!-- attr: { hasScriptWrapper:true, class:'slide-section', id:'string-methods' } -->
+# <a id="string-methods"></a>String Methods
 ## Operations with strings
 
 <!-- attr: { hasScriptWrapper:true, showInPresentation:true } -->
@@ -153,8 +153,8 @@ let str = String(strObj);
 ## [Demo](demos/2. string-methods.html) -->
 
 <!-- section start -->
-<!-- attr: { hasScriptWrapper:true, class:'slide-section' } -->
-# String Concatenation
+<!-- attr: { hasScriptWrapper:true, class:'slide-section', id:'string-concat' } -->
+# <a id="string-concat"></a>String Concatenation
 ## `'Firstname' + ' ' + 'Lastname'`
 
 <!-- attr: { hasScriptWrapper:true, showInPresentation:true } -->
@@ -191,8 +191,8 @@ var strConcat2 = str.concat(str2);
 ## [Demo](demos/3. string-concatenation.html) -->
 
 <!-- section start -->
-<!-- attr: { hasScriptWrapper:true, class:'slide-section' } -->
-# String Escape
+<!-- attr: { hasScriptWrapper:true, class:'slide-section', id:'string-escape' } -->
+# <a id="string-escape"></a>String Escape
 ## Preventing injection
 
 <!-- attr: { hasScriptWrapper:true, showInPresentation:true } -->
@@ -231,12 +231,12 @@ String.prototype.htmlEscape = function () {
 ## [Demo](demos/4. string-escape.html) -->
 
 <!-- section start -->
-<!-- attr: { hasScriptWrapper:true, class:'slide-section' } -->
-# String Extensions
+<!-- attr: { hasScriptWrapper:true, class:'slide-section', id:'string-extensions' } -->
+# <a id="string-extensions"></a>String Extensions
 ## Writing useful methods
 
-<!-- attr: { hasScriptWrapper:true } -->
-# String Extensions - Trim
+<!-- attr: { hasScriptWrapper:true, id:'string-trim' } -->
+# <a id="string-trim"></a>String Extensions - Trim
 - `string.trim()`, `string.trimLeft()`, `string.trimRight()`
   - Supported in all modern browsers
   - For older browsers use shim
@@ -244,8 +244,8 @@ String.prototype.htmlEscape = function () {
   - Trim no-whitespace characters
   - No native implementation
 
-<!-- attr: { hasScriptWrapper:true, style:'font-size:0.9em' } -->
-# String Extensions - Padding
+<!-- attr: { hasScriptWrapper:true, style:'font-size:0.9em', id:'string-padding' } -->
+# <a id="string-padding"></a>String Extensions - Padding
 - `str.padLeft(count [,char])`, `str.padRight(count [,char])`
   - Pads a string to the left/right
   - Fills the padding with whitespace or character
