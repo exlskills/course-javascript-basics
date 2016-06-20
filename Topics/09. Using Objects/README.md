@@ -40,8 +40,8 @@
   - Account behaviors:
     - withdraw, deposit, suspend
 
-<!-- attr: { hasScriptWrapper:true } -->
-# What are Objects?
+<!-- attr: { hasScriptWrapper:true, showInPresentation:true } -->
+<!-- # What are Objects? -->
 - How do software objects implement real-world objects?
   - Use variables/data to implement states
   - Use methods/functions to implement behaviors
@@ -66,10 +66,8 @@
 - The formal definition of an **object type**:
   - Definition by Google
 
-```
 **Object types** act as templates from which an instance of an object is created at run time.
 Types define the properties of the object and the methods used to control the object's behavior.
-```
 
 <!-- attr: { hasScriptWrapper:true } -->
 # Object Types
@@ -83,8 +81,8 @@ Types define the properties of the object and the methods used to control the ob
     - Represented by methods
 - A type defines the methods and types of data associated with an object
 
-<!-- attr: { hasScriptWrapper:true } -->
-# Object Types – _Example_
+<!-- attr: { hasScriptWrapper:true, showInPresentation:true } -->
+<!-- # Object Types – _Example_ -->
 
 ```js
 Account
@@ -115,8 +113,8 @@ Account
   - _Type:_ Account
   - _Objects:_ Ivan's account, Peter's account
 
-<!-- attr: { hasScriptWrapper:true } -->
-# Objects – _Example_
+<!-- attr: { hasScriptWrapper:true, showInPresentation:true } -->
+<!-- # Objects – _Example_ -->
 
 ```js
 Account
@@ -157,6 +155,9 @@ kirilAccount
 <div class="fragment balloon" style="top:57.61%; left:87.27%; width:14.10%">Object</div>
 
 <!-- section start -->
+<!-- attr: { hasScriptWrapper:true, class:'slide-section' } -->
+# Objects
+
 <!-- attr: { hasScriptWrapper:true } -->
 # Objects Overview
 - JavaScript is designed on a simple object-based paradigm
@@ -180,8 +181,11 @@ var words = text.split(' ');
 ```
 
 <!-- section start -->
-<!-- attr: { hasScriptWrapper:true, style:'font-size:0.9em' } -->
+<!-- attr: { hasScriptWrapper:true, class:'slide-section' } -->
 # Reference and Primitive Types
+
+<!-- attr: { hasScriptWrapper:true, showInPresentation:true, style:'font-size:0.9em' } -->
+<!-- # Reference and Primitive Types -->
 - JavaScript is a typeless language
   - Variables don’t have type, but their values do
 - JavaScript has **six** different types:
@@ -191,8 +195,8 @@ var words = text.split(' ');
 - `Number`, `String`, `Boolean`, `Null`, `Undefined` are **primitive** types
   - Copied by **value**
 
-<!-- attr: { hasScriptWrapper:true, style:'font-size:0.8em' } -->
-# Reference and Primitive Types
+<!-- attr: { hasScriptWrapper:true, showInPresentation:true, style:'font-size:0.8em' } -->
+<!-- # Reference and Primitive Types -->
 - The primitive types are `Boolean`, `Number`, `String`, `Undefined` and `Null`
   - All the other types are actually of type object
     - Including arrays, dates, custom types, etc…
@@ -222,8 +226,8 @@ var number = 5, // Holds a primitive value of 5
     numberObj = new Number(5); // Holds an object value of 5
 ```
 
-<!-- attr: { hasScriptWrapper:true } -->
-# Primitive Types – _Example_
+<!-- attr: { hasScriptWrapper:true, showInPresentation:true } -->
+<!-- # Primitive Types – _Example_ -->
 - Assign string values to two variables
   - Create an object using their value
   - Change the value of the variables
@@ -258,8 +262,11 @@ console.log(student.marks);
 ```
 
 <!-- section start -->
-<!-- attr: { hasScriptWrapper:true } -->
+<!-- attr: { hasScriptWrapper:true, class:'slide-section' } -->
 # JavaScript Object Literal
+
+<!-- attr: { hasScriptWrapper:true, showInPresentation:true } -->
+<!-- # JavaScript Object Literal -->
 - JavaScript object literal is a simplified way to create objects
   - Using curly brackets:
 
@@ -324,8 +331,11 @@ georgiev = makePerson('Georgi', 'Georgiev');
 - Much cooler, right?
 
 <!-- section start -->
-<!-- attr: { hasScriptWrapper:true } -->
+<!-- attr: { hasScriptWrapper:true, class:'slide-section' } -->
 # JS Object Properties
+
+<!-- attr: { hasScriptWrapper:true, showInPresentation:true } -->
+<!-- # JS Object Properties -->
 - JavaScript objects are just a set of key/value pairs
   - Each value can be accessed by its key
   - Properties in objects are accessed using the dot-notation (`obj.property`)
@@ -358,9 +368,9 @@ function countWords(words) {
 ```
 
 <!-- section start -->
-<!-- attr: { hasScriptWrapper:true, class:'slide-section' } -->
-# Using Objects
-## Questions?
+<!-- attr: { hasScriptWrapper:true, showInPresentation:true, class:'slide-section' } -->
+<!-- # Using Objects
+## Questions? -->
 
 <!-- attr: { hasScriptWrapper:true } -->
 # Free Trainings @ Telerik Academy
