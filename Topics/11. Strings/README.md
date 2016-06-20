@@ -1,19 +1,18 @@
 <!-- section start -->
+<!-- attr: { hasScriptWrapper:true } -->
 # Strings
 ## Working with strings in JavaScript
 <!-- <img class="slide-image" showInPresentation="true" src="imgs/pic00.png" style="top:13.85%; left:7.51%; width:25.82%; z-index:-1" /> -->
 <!-- <img class="slide-image" showInPresentation="true" src="imgs/pic01.png" style="top:53.83%; left:64.98%; width:37.97%; z-index:-1" /> -->
 <!-- <img class="slide-image" showInPresentation="true" src="imgs/pic02.png" style="top:6.52%; left:63.53%; width:39.33%; z-index:-1" /> -->
 <div class="signature">
-	<p class="signature-course"></p>
-	<p class="signature-initiative"></p>
-	<a href="" class="signature-link"></a>
+	<p class="signature-course">Javascript Fundamentals</p>
+	<p class="signature-initiative">Telerik Software Academy</p>
+	<a href="https://telerikacademy.com" class="signature-link">https://telerikacademy.com</a>
 </div>
 
-
-
-
 <!-- section start -->
+<!-- attr: { hasScriptWrapper:true } -->
 # Table of Contents
 - Strings in JavaScript
 - String Wrapper
@@ -25,12 +24,8 @@
   - Trimming
   - Padding
 
-
-
-
 <!-- section start -->
-
-
+<!-- attr: { hasScriptWrapper:true } -->
 # String in JavaScript
 - A string is a sequence of characters
   - Text enclosed in single (**' '**) or double quotes (**" "**)
@@ -45,12 +40,8 @@ var str2 = 'text enclosed in single quotes';
 - String is also **immutable**
   - Every time a string is changed, a new string is created
 
-
-
-
 <!-- section start -->
-
-
+<!-- attr: { hasScriptWrapper:true } -->
 # String Wrapper
 - As string is a primitive type, it has an object wrapper type
 - Primitive types keep only their value
@@ -62,22 +53,17 @@ var str = 'sample';
 str.length;
 ```
 
-
 ```js
 var str = 'sample';
 var tempStr = new String(str);
 tempStr.length;
 ```
 
-
 ```js
 same as
 ```
 
-
-
-
-
+<!-- attr: { hasScriptWrapper:true } -->
 # From Object to Primitive Type
 - JavaScript have a simple parsing
   - From string to number
@@ -91,13 +77,8 @@ var strObj = new String(base);
 var str = String(strObj);
 ```
 
-
-
-
-
 <!-- section start -->
-
-
+<!-- attr: { hasScriptWrapper:true } -->
 # String Methods
 - **string.length**
   - Returns the number of characters in the string
@@ -109,16 +90,12 @@ var str = String(strObj);
   - Gets a single-character string at location **index**
   - Much like the indexer
 
-
-
 - **string.concat(string2)**
   - Returns a new string – the concatenation of the two strings
 - string.replace(str1, str2)
   - Replaces first occurrence of str1 with str2
 - string.search(regex)
   - Searches for a substring based on regular expression
-
-
 
 - **string.indexOf(substring [,position])**
   - Returns the **left-most** occurrence of substring in string, that is after **position**
@@ -129,8 +106,6 @@ var str = String(strObj);
     - Position is optional, default value is string.length
   - If string doesn't contain substring, returns **-****1**
 
-
-
 - **string.split(separator)**
   - Splits the string by separator and returns an array of strings, containing the separated parts
   - Separator can be a regular expression
@@ -138,8 +113,6 @@ var str = String(strObj);
   - Removes whitespace from the beginning and end of the string
 - **str.trimLeft()**, **str.trimRight()**
   - Remove whitespace from the left/right side of the string
-
-
 
 - **string.substr(start, length)**
   - Returns a substring, starting from start and counting length characters
@@ -149,14 +122,8 @@ var str = String(strObj);
 - **string.valueOf()**
   - Returns the primitive value of the object string
 
-
-
-
-
-
 <!-- section start -->
-
-
+<!-- attr: { hasScriptWrapper:true } -->
 # String Concatenation
 - String is an immutable type
   - A value cannot be changed
@@ -171,8 +138,6 @@ var strConcat2 = str.concat(str2);
 - Concatenating strings is slow operation
   - Each concatenation allocates new memory
 
-
-
 - String concatenation is one of the most used operations with strings
   - Yet it is hard to optimize it
   - Each browser makes optimizations of its own
@@ -185,15 +150,8 @@ var strConcat2 = str.concat(str2);
 [].push(srt1,str2,str3,…).join('');
 ```
 
-
-
-
-
-
-
 <!-- section start -->
-
-
+<!-- attr: { hasScriptWrapper:true } -->
 # String Escape
 - What is escaping?
   - Replacing reserved characters with their escape sequence
@@ -202,13 +160,10 @@ var strConcat2 = str.concat(str2);
 
 ```js
 var script = document.createElement('script');
-script.innerHTML = 
-       'document.location = 'http://bad_place.com'; 
+script.innerHTML =
+       'document.location = 'http://bad_place.com';
 document.body.appendChild(script);
 ```
-
-
-
 
 - Escaping is done by just replacing the reserved characters with their escape sequence
   - Can be attached to the string prototype
@@ -224,15 +179,8 @@ String.prototype.htmlEscape = function (){
 }
 ```
 
-
-
-
-
-
-
 <!-- section start -->
-
-
+<!-- attr: { hasScriptWrapper:true } -->
 # String Extensions - Trim
 - **string.trim()**, **string.trimLeft()**, **string.trimRight()**
   - Supported in all modern browsers
@@ -241,9 +189,7 @@ String.prototype.htmlEscape = function (){
   - Trim no-whitespace characters
   - No native implementation
 
-
-
-
+<!-- attr: { hasScriptWrapper:true } -->
 # Padding
 - **str.padLeft(count [,char])**, **str.padRight(count [,char])**
   - Pads a string to the left/right
@@ -263,28 +209,22 @@ String.prototype.paddLeft = function (count, char) {
 }
 ```
 
-
-
-
-
+<!-- attr: { hasScriptWrapper:true } -->
 # Strings
-- http://academy.Telerik.com
+## Questions?
 
-
+<!-- attr: { hasScriptWrapper:true } -->
 # Free Trainings @ Telerik Academy
 - "Web Design with HTML 5, CSS 3 and JavaScript" course @ Telerik Academy
-    - html5course.telerik.com
-  - Telerik Software Academy
-    - academy.telerik.com
-  - Telerik Academy @ Facebook
-    - facebook.com/TelerikAcademy
-  - Telerik Software Academy Forums
-    - forums.academy.telerik.com
+  - [javascript course](http://academy.telerik.com/student-courses/web-design-and-ui/javascript-fundamentals/about)
+- Telerik Software Academy
+  - [academy.telerik.com](http://academy.telerik.com)
+- Telerik Academy @ Facebook
+  - [facebook.com/TelerikAcademy](https://facebook.com/TelerikAcademy)
+- Telerik Software Academy Forums
+  - [forums.academy.telerik.com](https://telerikacademy.com/Forum/Home)
+
 <!-- <img class="slide-image" showInPresentation="true" src="imgs/pic03.png" style="top:58.18%; left:90.52%; width:16.97%; z-index:-1" /> -->
 <!-- <img class="slide-image" showInPresentation="true" src="imgs/pic04.png" style="top:34.35%; left:68.14%; width:36.30%; z-index:-1" /> -->
 <!-- <img class="slide-image" showInPresentation="true" src="imgs/pic05.png" style="top:48.92%; left:75.91%; width:10.85%; z-index:-1" /> -->
 <!-- <img class="slide-image" showInPresentation="true" src="imgs/pic06.png" style="top:11.88%; left:91.56%; width:14.23%; z-index:-1" /> -->
-
-
-
-
