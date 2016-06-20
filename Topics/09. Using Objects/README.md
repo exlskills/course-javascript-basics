@@ -2,6 +2,7 @@
 <!-- attr: { hasScriptWrapper:true, class:'slide-section' } -->
 # Using Objects
 ## Objects, Properties, Primitive and Reference Types
+
 <!-- <img class="slide-image" showInPresentation="true" src="imgs/pic00.png" style="top:54.58%; left:61.09%; width:42.94%; z-index:-1" /> -->
 <!-- <img class="slide-image" showInPresentation="true" src="imgs/pic01.png" style="top:11.35%; left:9.28%; width:36.65%; z-index:-1" /> -->
 <div class="signature">
@@ -24,6 +25,7 @@
 <!-- attr: { hasScriptWrapper:true, class:'slide-section' } -->
 # Object Types and Objects
 ## Modeling Real-world Entities with Objects
+
 <!-- <img class="slide-image" showInPresentation="true" src="imgs/pic02.png" style="top:36.00%; left:31.31%; width:42.55%; z-index:-1" /> -->
 
 <!-- attr: { hasScriptWrapper:true } -->
@@ -41,6 +43,7 @@
   - Use variables/data to implement states
   - Use methods/functions to implement behaviors
 - An object is a software bundle of variables and related methods
+
 <!-- <img class="slide-image" showInPresentation="true" src="imgs/pic03.png" style="top:49.37%; left:60.82%; width:41.43%; z-index:-1" /> -->
 
 <!-- attr: { hasScriptWrapper:true } -->
