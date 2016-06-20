@@ -157,11 +157,12 @@ kirilAccount
 <!-- section start -->
 <!-- attr: { hasScriptWrapper:true, class:'slide-section' } -->
 # Objects
+## Collection of fields and methods
 
 <!-- attr: { hasScriptWrapper:true } -->
 # Objects Overview
 - JavaScript is designed on a simple object-based paradigm
-  - An object is a collection of properties
+  - An object is a collection of **properties**
 - An object property is association between a name and a value
   - A value of property can be either a **method** (function) or a **field** (variable)
 - Lots of predefined objects available in JS
@@ -175,14 +176,15 @@ kirilAccount
   - Properties of an object can be accessed with a dot-notation:
 
 ```js
-var arrStr = arr.join(', '); // property join of Array
-var length = arr.length;  // property length of Array
-var words = text.split(' ');
+let arrStr = arr.join(', '); // property join of Array
+let length = arr.length;  // property length of Array
+let words = text.split(' ');
 ```
 
 <!-- section start -->
 <!-- attr: { hasScriptWrapper:true, class:'slide-section' } -->
 # Reference and Primitive Types
+## Copy by value, copy by reference
 
 <!-- attr: { hasScriptWrapper:true, showInPresentation:true, style:'font-size:0.9em' } -->
 <!-- # Reference and Primitive Types -->
@@ -221,7 +223,7 @@ console.log(typeof new Array() === typeof new Date()); // true
 - Primitive types have a object type **wrapper**
 
 ```js
-var number = 5, // Holds a primitive value of 5
+let number = 5, // Holds a primitive value of 5
     text = 'Hello there!', // Holds a primitive value
     numberObj = new Number(5); // Holds an object value of 5
 ```
@@ -234,7 +236,7 @@ var number = 5, // Holds a primitive value of 5
   - Each object has its own value
 
 ```js
-var fname = 'Peter',
+let fname = 'Peter',
     lname = 'Johnson',
     person = { firstName: fname, lastName: lname };
 lname = 'Peterson';
@@ -247,14 +249,13 @@ console.log(person.lastName) // logged 'Johnson'
   - When passed to a function the value is not copied, but instead a reference of it is passed
 
 ```js
-var marks, student;
-marks = [
+let marks = [
   { subject : 'JavaScript', score : 4.50 },
   { subject : 'OOP', score : 5.00 },
   { subject : 'HTML5', score : 6.00 },
   { subject : 'Photoshop', score : 4.00 }];
 
-student = { name: 'Doncho Minkov', marks: marks };
+let student = { name: 'Doncho Minkov', marks: marks };
 marks[2].score = 5.50;
 
 console.log(student.marks);
@@ -264,6 +265,7 @@ console.log(student.marks);
 <!-- section start -->
 <!-- attr: { hasScriptWrapper:true, class:'slide-section' } -->
 # JavaScript Object Literal
+## Curly brackets `{}`
 
 <!-- attr: { hasScriptWrapper:true, showInPresentation:true } -->
 <!-- # JavaScript Object Literal -->
@@ -271,13 +273,13 @@ console.log(student.marks);
   - Using curly brackets:
 
 ```js
-var person = {
+let person = {
   firstName: 'Doncho',
   lastName: 'Minkov',
   toString: function () {
     return this.firstName + ' ' + this.lastName;
   }
-}
+};
 
 // object properties can be used:
 console.log(person.toString());
@@ -290,7 +292,7 @@ console.log(person.toString());
   - Lets make two people:
 
 ```js
-var minkov, georgiev;
+let minkov, georgiev;
 minkov = {
   fname: 'Doncho',
   lname: 'Minkov',
@@ -314,7 +316,7 @@ georgiev = {
     - Something like a constructor
 
 ```js
-var minkov, georgiev;
+let minkov, georgiev;
 function makePerson(fname, lname) {
   return {
     fname: fname,
@@ -333,6 +335,7 @@ georgiev = makePerson('Georgi', 'Georgiev');
 <!-- section start -->
 <!-- attr: { hasScriptWrapper:true, class:'slide-section' } -->
 # JS Object Properties
+## Dot-notation, associative arrays
 
 <!-- attr: { hasScriptWrapper:true, showInPresentation:true } -->
 <!-- # JS Object Properties -->
@@ -356,9 +359,9 @@ document.write === document['write']
 
 ```js
 function countWords(words) {
-  var word, i,
+  let word,
       wordsCount = {};
-  for (i in words) {
+  for (let i in words) {
     word = words[i].toLowerCase();
     if (!wordsCount[word]) { wordsCount[word] = 0; }
     wordsCount[word] += 1;
