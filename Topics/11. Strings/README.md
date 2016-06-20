@@ -46,6 +46,10 @@ var str2 = 'text enclosed in single quotes';
 - String is also **immutable**
   - Every time a string is changed, a new string is created
 
+<!-- attr: { hasScriptWrapper:true, showInPresentation:true, class:'slide-section demo' } -->
+<!-- # String in JavaScript
+## [Demo]() -->
+
 <!-- section start -->
 <!-- attr: { hasScriptWrapper:true, class:'slide-section' } -->
 # String Wrapper
@@ -82,6 +86,10 @@ let base = 'string';
 let strObj = new String(base);
 let str = String(strObj);
 ```
+
+<!-- attr: { hasScriptWrapper:true, showInPresentation:true, class:'slide-section demo' } -->
+<!-- # String Wrapper
+## [Demo](demos/1. string-wrapper.html) -->
 
 <!-- section start -->
 <!-- attr: { hasScriptWrapper:true, class:'slide-section' } -->
@@ -140,6 +148,10 @@ let str = String(strObj);
 - `string.valueOf()`
   - Returns the primitive value of the object string
 
+<!-- attr: { hasScriptWrapper:true, showInPresentation:true, class:'slide-section demo' } -->
+<!-- # String Methods
+## [Demo](demos/2. string-methods.html) -->
+
 <!-- section start -->
 <!-- attr: { hasScriptWrapper:true, class:'slide-section' } -->
 # String Concatenation
@@ -173,6 +185,10 @@ var strConcat2 = str.concat(str2);
 ```js
 [].push(srt1, str2, str3, …).join('');
 ```
+
+<!-- attr: { hasScriptWrapper:true, showInPresentation:true, class:'slide-section demo' } -->
+<!-- # String Concatenation
+## [Demo](demos/3. string-concatenation.html) -->
 
 <!-- section start -->
 <!-- attr: { hasScriptWrapper:true, class:'slide-section' } -->
@@ -210,6 +226,10 @@ String.prototype.htmlEscape = function () {
 }
 ```
 
+<!-- attr: { hasScriptWrapper:true, showInPresentation:true, class:'slide-section demo' } -->
+<!-- # String Escape
+## [Demo](demos/4. string-escape.html) -->
+
 <!-- section start -->
 <!-- attr: { hasScriptWrapper:true, class:'slide-section' } -->
 # String Extensions
@@ -243,6 +263,10 @@ String.prototype.padLeft = function (count, char) {
   return s;
 }
 ```
+
+<!-- attr: { hasScriptWrapper:true, showInPresentation:true, class:'slide-section demo' } -->
+<!-- # String Extensions
+## [Demo](demos/5. trim-extensions.html) -->
 
 <!-- section start -->
 <!-- attr: { hasScriptWrapper:true, showInPresentation:true, class:'slide-section' } -->
