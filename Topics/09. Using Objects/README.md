@@ -3,8 +3,8 @@
 # Using Objects
 ## Objects, Properties, Primitive and Reference Types
 
-<!-- <img class="slide-image" showInPresentation="true" src="imgs/pic00.png" style="top:54.58%; left:61.09%; width:42.94%; z-index:-1" /> -->
-<!-- <img class="slide-image" showInPresentation="true" src="imgs/pic01.png" style="top:11.35%; left:9.28%; width:36.65%; z-index:-1" /> -->
+<!-- <img class="slide-image" showInPresentation="true" src="imgs/pic00.png" style="top:55%; left:62%; width:40%; z-index:-1" /> -->
+<!-- <img class="slide-image" showInPresentation="true" src="imgs/pic01.png" style="top:0%; left:0%; width:25%; z-index:-1" /> -->
 
 <div class="signature">
 	<p class="signature-course">Javascript Fundamentals</p>
@@ -27,12 +27,12 @@
 # Object Types and Objects
 ## Modeling Real-world Entities with Objects
 
-<!-- <img class="slide-image" showInPresentation="true" src="imgs/pic02.png" style="top:36.00%; left:31.31%; width:42.55%; z-index:-1" /> -->
+<!-- <img class="slide-image" showInPresentation="true" src="imgs/pic02.png" style="top:52%; left:35%; width:30%; z-index:-1" /> -->
 
 <!-- attr: { hasScriptWrapper:true } -->
 # What are Objects?
 - Software objects model real-world objects or abstract concepts
-  - _Example_s: 
+  - _Examples_: 
     - bank, account, customer, dog, bicycle, queue 
 - Real-world objects have **states** and **behaviors**
   - Account states: 
@@ -40,32 +40,35 @@
   - Account behaviors: 
     - withdraw, deposit, suspend
 
+<!-- attr: { hasScriptWrapper:true } -->
+# What are Objects?
 - How do software objects implement real-world objects?
   - Use variables/data to implement states
   - Use methods/functions to implement behaviors
 - An object is a software bundle of variables and related methods
 
-<!-- <img class="slide-image" showInPresentation="true" src="imgs/pic03.png" style="top:49.37%; left:60.82%; width:41.43%; z-index:-1" /> -->
+<!-- <img class="slide-image" showInPresentation="true" src="imgs/pic03.png" style="top:55%; left:60%; width:38%; z-index:-1" /> -->
 
 <!-- attr: { hasScriptWrapper:true } -->
 # Objects Represent
-- **** checks
-- **** people
-- **** shopping list
-- …
-- **** numbers
-- **** characters
-- **** queues
-- **** arrays
 - Things from the real world
+  - checks
+  - people
+  - shopping list
+- Things from the computer world
+  - numbers
+  - characters
+  - queues
+  - arrays
 
 <!-- attr: { hasScriptWrapper:true } -->
 # What is a Object Type?
-- The formal definition of a**object type**:
-- Definition by Google
+- The formal definition of an **object type**:
+  - Definition by Google
 
-```js
-**Object types** act as templates from which an instance of an object is created at run time. Types define the properties of the object and the methods used to control the object's behavior.
+```
+**Object types** act as templates from which an instance of an object is created at run time.
+Types define the properties of the object and the methods used to control the object's behavior.
 ```
 
 <!-- attr: { hasScriptWrapper:true } -->
@@ -98,11 +101,9 @@ Account
 +Withdraw(sum:double)
 ```
 
-<div class="fragment balloon" style="top:19.65%; left:37.97%; width:23.80%">Type Name</div>
-<div class="fragment balloon" style="top:19.95%; left:66.83%; width:25.03%">Attributes</div>
-<div class="fragment balloon" style="top:19.95%; left:66.83%; width:25.03%">(Properties and Fields)</div>
-<div class="fragment balloon" style="top:50.83%; left:67.71%; width:24.85%">Operations</div>
-<div class="fragment balloon" style="top:50.83%; left:67.71%; width:24.85%">(Methods)</div>
+<div class="balloon" style="top:16%; left:20%">Type Name</div>
+<div class="balloon" style="top:28%; left:35%; width:23%">Attributes (Properties and Fields)</div>
+<div class="balloon" style="top:43%; left:42%">Operations (Methods)</div>
 
 <!-- attr: { hasScriptWrapper:true } -->
 # Objects
@@ -111,22 +112,18 @@ Account
 - Objects have state
   - Set of values associated to their attributes
 - _Example_:
-  - Type: Account
-  - Objects: Ivan's account, Peter's account
+  - _Type:_ Account
+  - _Objects:_ Ivan's account, Peter's account
 
 <!-- attr: { hasScriptWrapper:true } -->
 # Objects – _Example_
 
 ```js
 Account
-```
 
-```js
 +Owner: Person
 +Ammount: double
-```
 
-```js
 +Suspend()
 +Deposit(sum:double)
 +Withdraw(sum:double)
@@ -136,27 +133,21 @@ Account
 
 ```js
 ivanAccount
-```
 
-```js
 +Owner="Ivan Kolev"
 +Ammount=5000.0
 ```
 
 ```js
 peterAccount
-```
 
-```js
 +Owner="Peter Kirov"
 +Ammount=1825.33
 ```
 
 ```js
 kirilAccount
-```
 
-```js
 +Owner="Kiril Kirov"
 +Ammount=25.0
 ```
@@ -173,7 +164,7 @@ kirilAccount
 - An object property is association between a name and a value
   - A value of property can be either a **method** (function) or a **field** (variable)
 - Lots of predefined objects available in JS
-  - Math, document, window, etc…
+  - `Math`, `document`, `window`, etc…
 - Objects can be created by the developer
 
 <!-- attr: { hasScriptWrapper:true } -->
@@ -189,31 +180,33 @@ var words = text.split(' ');
 ```
 
 <!-- section start -->
-<!-- attr: { hasScriptWrapper:true } -->
+<!-- attr: { hasScriptWrapper:true, style:'font-size:0.9em' } -->
 # Reference and Primitive Types
 - JavaScript is a typeless language
   - Variables don’t have type, but their values do
 - JavaScript has **six** different types:
-  - **Number**, **String**, **Boolean**, **Null**, **Undefined** and **Object**
-- **Object** is the only **o****bject**type
+  - `Number`, `String`, `Boolean`, `Null`, `Undefined` and `Object`
+- `Object` is the only `object` type
   - It is copied by **reference**
-- **Number**, **String**, **Boolean**, **Null**, **Undefined** are **primitive** types
+- `Number`, `String`, `Boolean`, `Null`, `Undefined` are **primitive** types
   - Copied by **value**
 
-- The primitive types are **Boolean**, **Number**, **String**, **Undefined** and **Null**
+<!-- attr: { hasScriptWrapper:true, style:'font-size:0.8em' } -->
+# Reference and Primitive Types
+- The primitive types are `Boolean`, `Number`, `String`, `Undefined` and `Null`
   - All the other types are actually of type object
     - Including arrays, dates, custom types, etc…
 
 ```js
-console.log(typeof **new** **Object()** === typeof **new** **Array****()**); // true
-console.log(typeof **new** **Object()**=== typeof **new** **Date****()**); // true
-console.log(typeof **new** **Array()**=== typeof **new** **Date****()**); // true 
+console.log(typeof new Object() === typeof new Array()); // true
+console.log(typeof new Object() === typeof new Date()); // true
+console.log(typeof new Array() === typeof new Date()); // true 
 ```
 
-- All types derive from object
-  - Their type is object
+- All types derive from `Object`
+  - Their type is `object`
 
-<!-- attr: { hasScriptWrapper:true } -->
+<!-- attr: { hasScriptWrapper:true, style:'font-size:0.9em' } -->
 # Primitive Types
 - Primitive types are passed **by value**
   - When passed as argument
@@ -224,13 +217,9 @@ console.log(typeof **new** **Array()**=== typeof **new** **Date****()**); // tru
 - Primitive types have a object type **wrapper**
 
 ```js
-var number = 5,
-    text = 'Hello there!';
-```
-
-```js
 var number = 5, // Holds a primitive value of 5
-    numberObj = new Number(5); // Holds a object value of 5
+    text = 'Hello there!', // Holds a primitive value
+    numberObj = new Number(5); // Holds an object value of 5
 ```
 
 <!-- attr: { hasScriptWrapper:true } -->
@@ -250,7 +239,7 @@ console.log(person.lastName) // logged 'Johnson'
 
 <!-- attr: { hasScriptWrapper:true } -->
 # Reference Type
-- Object is the only **object type**
+- `Object` is the only **object type**
   - When passed to a function the value is not copied, but instead a reference of it is passed
 
 ```js
@@ -264,7 +253,8 @@ marks = [
 student = { name: 'Doncho Minkov', marks: marks };
 marks[2].score = 5.50;
 
-console.log(student.marks); // logs 5.50 for HTML5 score
+console.log(student.marks);
+// logs 5.50 for HTML5 score
 ```
 
 <!-- section start -->
@@ -281,31 +271,36 @@ var person = {
     return this.firstName + ' ' + this.lastName;
   }
 }
+
+// object properties can be used:
+console.log(person.toString());
+// writes 'Doncho Minkov'
 ```
 
-```js
-console.log(person.toString()); // writes 'Doncho Minkov'
-```
-
-  - Then the object properties can be used:
-
-<!-- attr: { hasScriptWrapper:true } -->
+<!-- attr: { hasScriptWrapper:true, style:'font-size:0.9em' } -->
 # Creating Objects
-- Object notations are great, but **repeating code**is not, right?
-  - Lets make two persons:
-  - Lots of repeating code
-    - Can't we use a constructor or function to create an object?
+- Object notations are great, but **repeating code** is not, right?
+  - Lets make two people:
 
 ```js
 var minkov, georgiev;
-minkov = {fname: 'Doncho', lname: 'Minkov',
-  toString: function(){ return this.fname + ' ' + this.lname;}
-}
-georgiev = { fname: 'Georgi', lname: 'Georgiev',   toString: function(){ return this.fname + ' ' + this.lname;}
-}   
+minkov = {
+  fname: 'Doncho',
+  lname: 'Minkov',
+  toString: function() {
+    return this.fname + ' ' + this.lname;
+  }
+};
+georgiev = {
+  fname: 'Georgi',
+  lname: 'Georgiev',
+  toString: function() {
+    return this.fname + ' ' + this.lname;
+  }
+};  
 ```
 
-<!-- attr: { hasScriptWrapper:true } -->
+<!-- attr: { hasScriptWrapper:true, style:'font-size:0.9em' } -->
 # Object Building Function
 - A function for building objects
   - Just pass first and last name and get a object
@@ -317,7 +312,9 @@ function makePerson(fname, lname) {
   return {
     fname: fname, 
     lname: lname,
-    toString: function (){return this.fname + ' ' + this.lname;}
+    toString: function () {
+      return this.fname + ' ' + this.lname;
+	}
   }
 }
 minkov = makePerson('Doncho', 'Minkov');
@@ -331,21 +328,21 @@ georgiev = makePerson('Georgi', 'Georgiev');
 # JS Object Properties
 - JavaScript objects are just a set of key/value pairs
   - Each value can be accessed by its key
-  - Properties in objects are accessed using the dot-notation (**obj.property**)
+  - Properties in objects are accessed using the dot-notation (`obj.property`)
   - Yet properties can be used with brackets
     - Like an array
 
 ```js
-document.write === document['write'] // results in true
+document.write === document['write']
 ```
 
-<!-- attr: { hasScriptWrapper:true } -->
+<!-- attr: { hasScriptWrapper:true, style:'font-size:0.9em' } -->
 # Associative Arrays
 - Objects can be used as **associative arrays**
   - The key (index) is string instead of number
     - Also called **dictionaries** or **maps**
 - Associative arrays don't have array properties
-  - **length**, **indexOf**, etc…
+  - `length`, `indexOf`, etc…
 
 ```js
 function countWords(words) {
@@ -360,9 +357,10 @@ function countWords(words) {
 }
 ```
 
-<!-- attr: { hasScriptWrapper:true } -->
+<!-- section start -->
+<!-- attr: { hasScriptWrapper:true, class:'slide-section' } -->
 # Using Objects
-- http://academy.telerik.com
+## Questions?
 
 <!-- attr: { hasScriptWrapper:true } -->
 # Free Trainings @ Telerik Academy
