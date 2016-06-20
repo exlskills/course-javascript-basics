@@ -4,13 +4,10 @@
 # Arrays
 ## Processing Sequences of Elements
 
-<!-- <img class="slide-image" showInPresentation="true" src="imgs/pic00.png" style="top:52.01%; left:52.40%; width:51.13%; z-index:-1" /> -->
-<!-- <img class="slide-image" showInPresentation="true" src="imgs/pic01.png" style="top:9.59%; left:8.80%; width:58.75%; z-index:-1" /> -->
-
 <div class="signature">
-	<p class="signature-course"></p>
-	<p class="signature-initiative"></p>
-	<a href="" class="signature-link"></a>
+	<p class="signature-course">JavaScript Fundamentals</p>
+	<p class="signature-initiative">Telerik Software Academy</p>
+	<a href="https://telerikacademy.com" class="signature-link">https://telerikacademy.com</a>
 </div>
 
 <!-- section start -->
@@ -30,22 +27,22 @@
 
 <!-- section start -->
 
-<!-- attr: {class: 'slide-section', showInPresentation: true}  -->
-<!-- # Arrays Overview
-##  What are arrays? How to use arrays? -->
+<!-- attr: {class: 'slide-section', showInPresentation: true, hasScriptWrapper: true}  -->
+# Arrays Overview
+##  What are arrays? How to use arrays?
 
-<!-- <img class="slide-image" showInPresentation="true" src="imgs/pic03.png" style="top:7.93%; left:73.92%; width:29.97%; z-index:-1" /> -->
-<!-- <img class="slide-image" showInPresentation="true" src="imgs/pic04.png" style="top:43.97%; left:10.48%; width:58.75%; z-index:-1" /> -->
-<!-- <img class="slide-image" showInPresentation="true" src="imgs/pic05.png" style="top:44.70%; left:21.95%; width:29.56%; z-index:-1" /> -->
-
+<!-- attr: {hasScriptWrapper: true} -->
 # What are Arrays?
 - An **array** is a sequence of elements
   - The order of the elements is fixed
   - Does not have fixed size
     - Can get the current length (`Array.length`)
-<div class="fragment balloon" style="top:60.12%; left:7.05%; width:20.83%">Array of 5 elements</div>
-<div class="fragment balloon" style="top:58.24%; left:81.21%; width:18.33%">Element index</div>
-<div class="fragment balloon" style="top:44.21%; left:25.69%; width:22.17%">Element of an array</div>
+
+<img class="slide-image" src="imgs/pic01.png" style="width: 400px; left: 23%" />
+
+<div class="fragment balloon" style="top:43%; left:30%; width:20.83%">Array of 5 elements</div>
+<div class="fragment balloon" style="top:50%; left:64%; width:18.33%">Element index</div>
+<div class="fragment balloon" style="top:70%; left:25.69%; width:22.17%">Element of an array</div>
 
 
 
@@ -274,13 +271,13 @@ for (i in capitals) {
 <!-- section start -->
 
 <!-- attr: {class: 'slide-section', showInPresentation: true} -->
-<!-- # Array Manipulations
+<!-- # Array Methods
 ##  Reversing, joining, etc... -->
 <!-- <img class="slide-image" showInPresentation="true" src="imgs/pic21.png" style="top:25.98%; left:5.49%; width:88.46%; z-index:-1" /> -->
 <!-- <img class="slide-image" showInPresentation="true" src="imgs/pic22.png" style="top:10.58%; left:47.72%; width:48.00%; z-index:-1" /> -->
 
 <!-- attr: { style: 'font-size: 0.8em'} -->
-# Array Manipulations
+# Array Methods
 
 - `Array#reverse()`
   - **Reverses** the elements of the array
