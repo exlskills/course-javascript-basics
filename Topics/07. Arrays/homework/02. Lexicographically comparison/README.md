@@ -23,4 +23,4 @@ Write a program that compares two `char` arrays lexicographically (letter by let
 | food<br>food | = |
 
 ## Submission
-- Submit your code [here](http://bgcoder.com/Contests/Compete/Index/315#1)
+- Submit your code [here](http://bgcoder.com/Contests/Compete/Index/360#1)

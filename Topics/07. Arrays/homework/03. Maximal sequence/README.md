@@ -22,4 +22,4 @@ Write a program that finds the length of the **maximal sequence** of equal eleme
 | 10<br>2<br>1<br>1<br>2<br>3<br>3<br>**2<br>2<br>2**<br>1 | 3      |
 
 ## Submission
-- Submit your code [here](http://bgcoder.com/Contests/Compete/Index/315#2)
+- Submit your code [here](http://bgcoder.com/Contests/Compete/Index/360#2)

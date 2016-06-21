@@ -25,4 +25,4 @@ Use the [Selection sort](http://en.wikipedia.org/wiki/Selection_sort) algorithm:
 | 10<br>**36<br>10<br>1<br>34<br>28<br>38<br>31<br>27<br>30<br>20** | 1<br>10<br>20<br>27<br>28<br>30<br>31<br>34<br>36<br>38 |
 
 ## Submission
-- Submit your code [here](http://bgcoder.com/Contests/Compete/Index/315#4)
+- Submit your code [here](http://bgcoder.com/Contests/Compete/Index/360#4)
