@@ -1,4 +1,5 @@
 <!-- section start -->
+<!-- attr: {class: 'slide-title', hasScriptWrapper: true} -->
 # Functions
 ## Reusable parts of Code
 
@@ -38,7 +39,7 @@
 
 - More **manageable** programming
   - **Split large** problems into **small pieces**
-  - **Better****organization** of the program
+  - **Better organization** of the program
   - Improve code **readability** and **understandability**
   - Enhance **abstraction**
 - Avoiding repeating code
@@ -54,6 +55,7 @@
 <!-- <img class="slide-image" showInPresentation="true" src="imgs/pic07.png" style="top:17.63%; left:18.71%; width:29.09%; z-index:-1" /> -->
 
 
+<!-- attr: {hasScriptWrapper: true} -->
 # Declaring and Creating Functions
 
 - Each function has a **name**
@@ -68,8 +70,6 @@ function printLogo() {
     console.log("Telerik Software Academy");
 }
 ```
-
-<div class="fragment balloon" style="top:52.58%; left:68.43%; width:20.28%">Function name</div>
 
 <!-- attr: {class: "slide-section", showInPresentation: true} -->
 <!-- # Declaring and Creating Functions -->
@@ -100,6 +100,7 @@ function printLogo() {
 
 <!-- section start -->
 
+<!-- attr: {class: 'slide-section'} -->
 # Calling Functions
 ##  Executing the Function Code
 
@@ -118,6 +119,9 @@ printLogo();
 //Telerik Software Academy
 ```
 
+<!-- attr: {showInPresentation: true} -->
+<!-- # Calling Functions -->
+
 - A function can be called from:
   - Any other function
   - Itself (process known as **recursion**)
@@ -133,8 +137,7 @@ function anotherPrint(){
 }
 ```
 
-<div class="fragment balloon" style="top:63.03%; left:39.87%; width:20.28%">Don"t do this at home</div>
-
+<!-- attr: {class: 'slide-section'} -->
 # Declaring and Calling Functions
 ##  [Demo](/)
 
@@ -170,6 +173,8 @@ function printSign(number) {
 }
 ```
 
+<!-- attr: {showInPresentation: true} -->
+<!-- # Defining and Using Function Parameters -->
 - Functions can have as many parameters as needed:
 
 ```js
@@ -186,7 +191,7 @@ function printMax(x, y) {
 }
 ```
 
-# Calling Functionswith Parameters
+# Calling Functions with Parameters
 - To call a function and pass values to its parameters:
   - Use the function's name, followed by a list of expressions for each parameter
 - _Example_:
@@ -216,6 +221,8 @@ function printSign(number) {
   }
 }
 ```
+<!-- attr: {showInPresentation: true} -->
+<!-- # Functions Parameters – _Example_ -->
 
 - _Example:_ print the max between 2 numbers
 
@@ -231,6 +238,7 @@ function printMax(x, y) {
 }
 ```
 
+<!-- attr: {class: 'slide-section'} -->
 # Function Parameters
 ##  [Demo](/)
 
@@ -238,36 +246,24 @@ function printMax(x, y) {
 
 - Creating a program for printing triangles as shown below:
 
-```js
-n = 5
-1
-1 2
-1 2 3
-1 2 3 4
-1 2 3 4 5
-1 2 3 4
-1 2 3
-1 2
-1
-```
+  ```js
+  n = 6                  n = 5
 
+  1                 
+  1 2                    1
+  1 2 3                  1 2
+  1 2 3 4                1 2 3
+  1 2 3 4 5              1 2 3 4
+  1 2 3 4 5 6            1 2 3 4 5
+  1 2 3 4 5              1 2 3 4
+  1 2 3 4                1 2 3
+  1 2 3                  1 2
+  1 2                    1
+  1              
+  ```
 
-```js
-n = 6
-1
-1 2
-1 2 3
-1 2 3 4
-1 2 3 4 5
-1 2 3 4 5 6
-1 2 3 4 5
-1 2 3 4
-1 2 3
-1 2
-1
-```
-
-# Printing Triangle: _Example_
+<!-- attr: {style: 'font-size: 0.8em', showInPresentation: true} -->
+<!-- # Printing Triangle: _Example_ -->
 
 - _Example:_ Printing the Triangle:
 
@@ -279,6 +275,7 @@ function pringTriangle(n) {
   for (line = 1; line <= n; line += 1) {
     printLine(1, line);
   }
+
   for (line = n-1; line >= 1; line -= 1) {
     printLine(1, line);
   }
@@ -294,13 +291,13 @@ function printLine(start, end) {
 }
 ```
 
+<!-- attr: {class: 'slide-section'} -->
 # Printing Triangle
 ## [Demo]()
 
-
-<!-- section start -->
-
+<!-- attr: {class: 'slide-section'} -->
 # The `arguments` Object
+##  Access to all function parameters
 
 # `arguments` Object
 
@@ -340,6 +337,7 @@ printArguments(1, 2, 3, 4); //1, 2, 3, 4
 
 <!-- section start -->
 
+<!-- attr: { class:'slide-section'} -->
 # Returning Values From Functions
 
 # Returning Values from Functions
@@ -356,8 +354,10 @@ printArguments(1, 2, 3, 4); //1, 2, 3, 4
       var noValue = arr.sort();
       ```
 
+<!-- attr: {style: 'font-size: 0.9em'} -->
 # Defining Functions That Return a Value
-- Functions can return any type of data (`Number`, `String`, `Object`, etc...)
+- Functions can return any type of data:
+  - `Number`, `String`, `Object`, etc...
 - Use `return` keyword to return a result
 
 ```js
@@ -366,15 +366,16 @@ function multiply (firstNum, secondNum) {
 }
 
 function sum (numbers) {
-  var sum = 0, i, len;
-  for(i = 0, len = numbers.length; i < len; i += 1){
-    sum += numbers[i];
+  var sum = 0, number;
+  for(number of numbers){
+    sum += number;
   }
   return sum;
 }
 ```
 
 # The `return` Statement
+
 - The `return` statement:
   - Immediately terminates function's execution
   - Returns specified expression to the caller  
@@ -387,6 +388,7 @@ return;
 - Return can be used several times in a function body
   - To return a different value in different cases
 
+<!-- attr: {style: 'font-size: 0.9em'} -->
 # The return Statement: _Example_
 - _Example:_ Check if a number is prime:
 
@@ -411,6 +413,7 @@ function isPrime(number){
 }
 ```
 
+<!-- attr: { class:'slide-section'} -->
 # Return Value
 ## [Demo]()
 
@@ -430,14 +433,18 @@ function sum(numbers) {
   return sum;
 }
 ```
+
+<!-- attr: { class:'slide-section'} -->
 # Sum of Even Numbers
 - [Demo](/)
 
 <!-- section start -->
 
+<!-- attr: { class:'slide-section'} -->
 # Function Scope
 ## Scope of variables and functions
 
+<!-- attr: {hasScriptWrapper: true} -->
 # Function Scope
 
 - Every variable has its scope of usage
@@ -460,15 +467,18 @@ function countOccurences (value) {
 }
 ```
 
-<div class="fragment balloon" style="top:34.64%; left:62.76%; width:38.85%">`arr` is in the global scope (it is accessible from anywhere)</div>
-<div class="fragment balloon" style="top:48.23%; left:62.76%; width:38.85%">`count` is declared inside `countOccurences` and it can be used only inside it</div>
-<div class="fragment balloon" style="top:64.73%; left:62.76%; width:38.85%">Try removing the `var` before count</div>
+<div class="fragment balloon" style="top:45%; left:62.76%; width:38.85%">`arr` is in the global scope (it is accessible from anywhere)</div>
+<div class="fragment balloon" style="top:60%; left:62.76%; width:38.85%">`count` is declared inside `countOccurences` and it can be used only inside it</div>
+<div class="fragment balloon" style="top:80%; left:62.76%; width:38.85%">Try removing the `var` before count</div>
 
+<!-- attr: {class: 'slide-section'} -->
 # Function Scope
 ## [Demo]()
 <!-- <img class="slide-image" showInPresentation="true" src="imgs/pic27.png" style="top:32.53%; left:26.51%; width:55.83%; z-index:-1" /> -->
 
 <!-- section start -->
+
+<!-- attr: {class: 'slide-section'} -->
 # Function Overloading
 ## Many functions with the same name
 
@@ -501,8 +511,10 @@ print(2);
   - Different type of parameters
   - Options parameter (preferred)
 
+<!-- attr: {style: 'font-size: 0.9em'} -->
 # Function Overloading: Different Number of Parameters
-- Overloading functions with different number of parameters is done by a simple switch by the length of the arguments
+- Different number of parameters:
+  - A simple switch by the length of the arguments
 
 ```js
 function printText (number, text) {
@@ -520,24 +532,18 @@ printText (5); //logs 5
 printText (5, "Lorem Ipsum"); //logs 5 and Lorem Ipsum
 ```
 
+<!-- attr: {style: 'font-size: 0.9em'} -->
 # Function Overloading: Different Types of Parameters
-- Overloading functions with different type of the parameters is done with a switch on the type of the parameter
+- Different type of the parameters:
+  - A switch on the type of the parameter
 
 ```js
 function printValue (value) {
   switch (typeof value) {
-    case "number" :
-      console.log (`Number: ${value}`);
-      break;
-    case "string" :
-      console.log (`String: ${value}`);
-      break;
-    case "object" :
-      console.log (`Object: ${value}`);
-      break;
-    case "boolean" :
-      console.log (`Number: ${value}`);
-      break;
+    case "number" : console.log (`Number: ${value}`); break;
+    case "string" : console.log (`String: ${value}`); break;
+    case "object" : console.log (`Object: ${value}`); break;
+    case "boolean" : console.log (`Number: ${value}`); break;
   }
 }
 
@@ -553,6 +559,9 @@ printValue (true);
 - Yet, there is a reason behind requesting parameters
   - Maybe the function's behavior depends on it?
 
+
+# Function Overloading with Default Parameters
+
 - Default parameters are checked in the function body
   - If the parameter is not present - assign a value
 
@@ -565,6 +574,7 @@ function getRandomValue(str, start, end){
 }
 ```
 
+<!-- attr: {style: 'font-size: 0.9em'} -->
 # Function Overloading: Options parameter
 
 - To create functions with options parameter
@@ -584,6 +594,8 @@ console.log(getRandomValue({min:0, max: 15}));
 
 ```
 
+<!-- section start -->
+<!-- attr: {class: 'slide-section'} -->
 # Functions
 ##  Questions
 
