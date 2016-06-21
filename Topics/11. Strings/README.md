@@ -1,10 +1,12 @@
 <!-- section start -->
-<!-- attr: { hasScriptWrapper:true } -->
+<!-- attr: { hasScriptWrapper:true, class:'slide-section' } -->
 # Strings
 ## Working with strings in JavaScript
-<!-- <img class="slide-image" showInPresentation="true" src="imgs/pic00.png" style="top:13.85%; left:7.51%; width:25.82%; z-index:-1" /> -->
-<!-- <img class="slide-image" showInPresentation="true" src="imgs/pic01.png" style="top:53.83%; left:64.98%; width:37.97%; z-index:-1" /> -->
-<!-- <img class="slide-image" showInPresentation="true" src="imgs/pic02.png" style="top:6.52%; left:63.53%; width:39.33%; z-index:-1" /> -->
+
+<!-- <img class="slide-image" showInPresentation="true" src="imgs/pic00.png" style="top:13.85%; left:7.51%; width:20%; z-index:-1" /> -->
+<!-- <img class="slide-image" showInPresentation="true" src="imgs/pic01.png" style="top:55%; left:66%; width:35%; z-index:-1" /> -->
+<!-- <img class="slide-image" showInPresentation="true" src="imgs/pic02.png" style="top:5%; left:75%; width:25%; z-index:-1" /> -->
+
 <div class="signature">
 	<p class="signature-course">Javascript Fundamentals</p>
 	<p class="signature-initiative">Telerik Software Academy</p>
@@ -14,21 +16,25 @@
 <!-- section start -->
 <!-- attr: { hasScriptWrapper:true } -->
 # Table of Contents
-- Strings in JavaScript
-- String Wrapper
-- String Methods
-  - **trim**, **concat**, **charAt**, **substr**, **indexOf**
-- String Concatenation
-- Escaping
-- Useful Extensions
-  - Trimming
-  - Padding
+- [Strings in JavaScript](#strings-js)
+- [String Wrapper](#string-wrapper)
+- [String Methods](#string-methods)
+  - `trim`, `concat`, `charAt`, `substr`, `indexOf`
+- [String Concatenation](#string-concat)
+- [Escaping](#string-escape)
+- [Useful Extensions](#string-extensions)
+  - [Trimming](#string-trim)
+  - [Padding](#string-padding)
 
 <!-- section start -->
-<!-- attr: { hasScriptWrapper:true } -->
-# String in JavaScript
+<!-- attr: { hasScriptWrapper:true, class:'slide-section', id:'strings-js' } -->
+# <a id="strings-js"></a>String in JavaScript
+## `'This is a String'`
+
+<!-- attr: { hasScriptWrapper:true, showInPresentation:true } -->
+<!-- # String in JavaScript -->
 - A string is a sequence of characters
-  - Text enclosed in single (**' '**) or double quotes (**" "**)
+  - Text enclosed in single (`''`) or double quotes (`""`)
 
 ```js
 var str1 = "Some text saved in a string variable";
@@ -40,91 +46,119 @@ var str2 = 'text enclosed in single quotes';
 - String is also **immutable**
   - Every time a string is changed, a new string is created
 
+<!-- attr: { hasScriptWrapper:true, showInPresentation:true, class:'slide-section demo' } -->
+<!-- # String in JavaScript
+## [Demo]() -->
+
 <!-- section start -->
-<!-- attr: { hasScriptWrapper:true } -->
-# String Wrapper
+<!-- attr: { hasScriptWrapper:true, class:'slide-section', id:'string-wrapper' } -->
+# <a id="string-wrapper"></a>String Wrapper
+## `new String`
+
+<!-- attr: { hasScriptWrapper:true, showInPresentation:true, style:'font-size:0.8em' } -->
+<!-- # String Wrapper -->
 - As string is a primitive type, it has an object wrapper type
 - Primitive types keep only their value
   - When a property is called, the JS engine converts the primitive into its corresponding object type and calls the property
 - Since primitive type wrappers are of type object, properties can be attached to them
 
 ```js
-var str = 'sample';
+let str = 'sample';
 str.length;
 ```
 
 ```js
-var str = 'sample';
-var tempStr = new String(str);
+let str = 'sample';
+let tempStr = new String(str);
 tempStr.length;
-```
-
-```js
-same as
 ```
 
 <!-- attr: { hasScriptWrapper:true } -->
 # From Object to Primitive Type
 - JavaScript have a simple parsing
-  - From string to number
+  - From `string` to `number`
 - Conversion from primitive to object type is introduced
-  - **new String('…')** creates a string object
-  - **String(****strObject****)** creates a primitive string
+  - `new String('…')` - creates a string object
+  - `String(strObject)` - creates a primitive string
 
 ```js
-var base = 'string';
-var strObj = new String(base);
-var str = String(strObj);
+let base = 'string';
+let strObj = new String(base);
+let str = String(strObj);
 ```
 
+<!-- attr: { hasScriptWrapper:true, showInPresentation:true, class:'slide-section demo' } -->
+<!-- # String Wrapper
+## [Demo](demos/1. string-wrapper.html) -->
+
 <!-- section start -->
-<!-- attr: { hasScriptWrapper:true } -->
-# String Methods
-- **string.length**
+<!-- attr: { hasScriptWrapper:true, class:'slide-section', id:'string-methods' } -->
+# <a id="string-methods"></a>String Methods
+## Operations with strings
+
+<!-- attr: { hasScriptWrapper:true, showInPresentation:true } -->
+<!-- # String Methods -->
+- `string.length`
   - Returns the number of characters in the string
-- Indexer (**string[index]**)
-  - Gets a single-character string at location **index**
-  - If index is outside the range of string characters, the indexer returns **undefined**
-    - **string[-1]** or **string[****string.length****]**
-- **charAt(index)**
-  - Gets a single-character string at location **index**
+- Indexer (`string[index]`)
+  - Gets a single-character string at location `index`
+  - If `index` is outside the range of string characters, the indexer returns `undefined`
+    - `string[-1]` or `string[string.length]`
+- `charAt(index)`
+  - Gets a single-character string at location `index`
   - Much like the indexer
 
-- **string.concat(string2)**
+<!-- attr: { hasScriptWrapper:true, showInPresentation:true } -->
+<!-- # String Methods -->
+- `string.concat(string2)`
   - Returns a new string – the concatenation of the two strings
-- string.replace(str1, str2)
-  - Replaces first occurrence of str1 with str2
-- string.search(regex)
+- `string.replace(str1, str2)`
+  - Replaces first occurrence of `str1` with `str2`
+- `string.search(regex)`
   - Searches for a substring based on regular expression
 
-- **string.indexOf(substring [,position])**
-  - Returns the **left-most** occurrence of substring in string, that is after **position**
-    - Position is optional and has default value of **0**
-  - If string doesn't contain substring, returns **-1**
-- **string.lastIndexOf(substring****[,position])**
-  - Returns the **right-most** occurrence of substring in string, that is before **position**
-    - Position is optional, default value is string.length
-  - If string doesn't contain substring, returns **-****1**
+<!-- attr: { hasScriptWrapper:true, showInPresentation:true, style:'font-size:0.8em' } -->
+<!-- # String Methods -->
+- `string.indexOf(substring [,position])`
+  - Returns the **left-most** occurrence of `substring` in a string, that is after `position`
+    - Position is optional and has default value of `0`
+  - If string doesn't contain `substring`, returns `-1`
+- `string.lastIndexOf(substring [,position])`
+  - Returns the **right-most** occurrence of `substring` in a string, that is before `position`
+    - Position is optional, default value is `string.length`
+  - If string doesn't contain `substring`, returns `-1`
 
-- **string.split(separator)**
-  - Splits the string by separator and returns an array of strings, containing the separated parts
+<!-- attr: { hasScriptWrapper:true, showInPresentation:true } -->
+<!-- # String Methods -->
+- `string.split(separator)`
+  - Splits the string by `separator` and returns an array of strings, containing the separated parts
   - Separator can be a regular expression
-- **string.trim()**
+- `string.trim()`
   - Removes whitespace from the beginning and end of the string
-- **str.trimLeft()**, **str.trimRight()**
+- `str.trimLeft()`, `str.trimRight()`
   - Remove whitespace from the left/right side of the string
 
-- **string.substr(start, length)**
-  - Returns a substring, starting from start and counting length characters
-  - length is optional
-- **string.substring(start, end)**
-  - Returns a substring, starting from start and ending at end
-- **string.valueOf()**
+<!-- attr: { hasScriptWrapper:true, showInPresentation:true } -->
+<!-- # String Methods -->
+- `string.substr(start, length)`
+  - Returns a substring, starting from `start` and counting `length` characters
+  - `length` is optional
+- `string.substring(start, end)`
+  - Returns a substring, starting from `start` and ending at `end`
+- `string.valueOf()`
   - Returns the primitive value of the object string
 
+<!-- attr: { hasScriptWrapper:true, showInPresentation:true, class:'slide-section demo' } -->
+<!-- # String Methods
+## [Demo](demos/2. string-methods.html) -->
+
 <!-- section start -->
-<!-- attr: { hasScriptWrapper:true } -->
-# String Concatenation
+<!-- attr: { hasScriptWrapper:true, class:'slide-section', id:'string-concat' } -->
+# <a id="string-concat"></a>String Concatenation
+## `'Firstname' + ' ' + 'Lastname'`
+
+<!-- attr: { hasScriptWrapper:true, showInPresentation:true } -->
+<!-- # String Concatenation -->
 - String is an immutable type
   - A value cannot be changed
   - Instead a new string is created
@@ -135,69 +169,90 @@ var strConcat1 = str1 + str2;
 var strConcat2 = str.concat(str2);
 ```
 
-- Concatenating strings is slow operation
+- Concatenating strings is a slow operation
   - Each concatenation allocates new memory
 
+<!-- attr: { hasScriptWrapper:true, showInPresentation:true, style:'font-size:0.9em' } -->
+<!-- # String Concatenation -->
 - String concatenation is one of the most used operations with strings
   - Yet it is hard to optimize it
   - Each browser makes optimizations of its own
-  - Old browsers concatenate very slow with **+**
-- If you support older browsers, use array.join("") for concatenation
+  - Old browsers concatenate very slow with `+`
+- If you support older browsers, use `array.join("")` for concatenation
 - Works like string builder
   - Slower in modern browsers
 
 ```js
-[].push(srt1,str2,str3,…).join('');
+[].push(srt1, str2, str3, …).join('');
 ```
 
+<!-- attr: { hasScriptWrapper:true, showInPresentation:true, class:'slide-section demo' } -->
+<!-- # String Concatenation
+## [Demo](demos/3. string-concatenation.html) -->
+
 <!-- section start -->
-<!-- attr: { hasScriptWrapper:true } -->
-# String Escape
+<!-- attr: { hasScriptWrapper:true, class:'slide-section', id:'string-escape' } -->
+# <a id="string-escape"></a>String Escape
+## Preventing injection
+
+<!-- attr: { hasScriptWrapper:true, showInPresentation:true } -->
+<!-- # String Escape -->
 - What is escaping?
   - Replacing reserved characters with their escape sequence
   - Prevents JavaScript injection
-- When using JavaScript client-side reserved characters are '**<**', '**>**', '**&**', "**'**" and "**"**"
+- When using JavaScript client-side reserved characters are `<`, `>`, `&`, `'` and `"`
 
 ```js
 var script = document.createElement('script');
 script.innerHTML =
-       'document.location = 'http://bad_place.com';
+       'document.location = \'http://bad_place.com\'';
 document.body.appendChild(script);
 ```
 
+<!-- attr: { hasScriptWrapper:true, showInPresentation:true } -->
+<!-- # String Escape -->
 - Escaping is done by just replacing the reserved characters with their escape sequence
   - Can be attached to the string prototype
 
 ```js
-String.prototype.htmlEscape = function (){
-  var escapedStr = String(this).replace(/**&**/g, **'&amp;**');
-  escapedStr = escapedStr.replace(/**<**/g, '**&****lt****;**');
-  escapedStr = escapedStr.replace(/**>**/g, '**&****gt****;**');
-  escapedStr = escapedStr.replace(/**"**/g, '**&****quot****;**');
-  escapedStr = escapedStr.replace(/**'**/g, '**&#39**');
+String.prototype.htmlEscape = function () {
+  let escapedStr = String(this)
+      .replace(/&/g, '&amp;');
+      .replace(/</g, '&lt;');
+      .replace(/>/g, '&gt;');
+      .replace(/"/g, '&quot;');
+      .replace(/'/g, '&#39');
   return escapedStr;
 }
 ```
 
+<!-- attr: { hasScriptWrapper:true, showInPresentation:true, class:'slide-section demo' } -->
+<!-- # String Escape
+## [Demo](demos/4. string-escape.html) -->
+
 <!-- section start -->
-<!-- attr: { hasScriptWrapper:true } -->
-# String Extensions - Trim
-- **string.trim()**, **string.trimLeft()**, **string.trimRight()**
+<!-- attr: { hasScriptWrapper:true, class:'slide-section', id:'string-extensions' } -->
+# <a id="string-extensions"></a>String Extensions
+## Writing useful methods
+
+<!-- attr: { hasScriptWrapper:true, id:'string-trim' } -->
+# <a id="string-trim"></a>String Extensions - Trim
+- `string.trim()`, `string.trimLeft()`, `string.trimRight()`
   - Supported in all modern browsers
   - For older browsers use shim
-- **string.trimChars(chars)**, **string.trimLeftChars(chars)**, **string.trimRightChars(chars)**
+- `string.trimChars(chars)`, `string.trimLeftChars(chars)`, `string.trimRightChars(chars)`
   - Trim no-whitespace characters
   - No native implementation
 
-<!-- attr: { hasScriptWrapper:true } -->
-# Padding
-- **str.padLeft(count [,char])**, **str.padRight(count [,char])**
+<!-- attr: { hasScriptWrapper:true, style:'font-size:0.9em', id:'string-padding' } -->
+# <a id="string-padding"></a>String Extensions - Padding
+- `str.padLeft(count [,char])`, `str.padRight(count [,char])`
   - Pads a string to the left/right
   - Fills the padding with whitespace or character
   - No native implementation
 
 ```js
-String.prototype.paddLeft = function (count, char) {
+String.prototype.padLeft = function (count, char) {
   char = char || ' ';
   if(char.length > 1) return String(this);
   if(str.length >= count) return String(this);
@@ -209,9 +264,14 @@ String.prototype.paddLeft = function (count, char) {
 }
 ```
 
-<!-- attr: { hasScriptWrapper:true } -->
-# Strings
-## Questions?
+<!-- attr: { hasScriptWrapper:true, showInPresentation:true, class:'slide-section demo' } -->
+<!-- # String Extensions
+## [Demo](demos/5. trim-extensions.html) -->
+
+<!-- section start -->
+<!-- attr: { hasScriptWrapper:true, showInPresentation:true, class:'slide-section' } -->
+<!-- # Strings
+## Questions? -->
 
 <!-- attr: { hasScriptWrapper:true } -->
 # Free Trainings @ Telerik Academy
@@ -224,7 +284,7 @@ String.prototype.paddLeft = function (count, char) {
 - Telerik Software Academy Forums
   - [forums.academy.telerik.com](https://telerikacademy.com/Forum/Home)
 
-<!-- <img class="slide-image" showInPresentation="true" src="imgs/pic03.png" style="top:58.18%; left:90.52%; width:16.97%; z-index:-1" /> -->
-<!-- <img class="slide-image" showInPresentation="true" src="imgs/pic04.png" style="top:34.35%; left:68.14%; width:36.30%; z-index:-1" /> -->
-<!-- <img class="slide-image" showInPresentation="true" src="imgs/pic05.png" style="top:48.92%; left:75.91%; width:10.85%; z-index:-1" /> -->
-<!-- <img class="slide-image" showInPresentation="true" src="imgs/pic06.png" style="top:11.88%; left:91.56%; width:14.23%; z-index:-1" /> -->
+<!-- <img class="slide-image" showInPresentation="true" src="imgs/pic03.png" style="top:66%; left:90.52%; width:16.97%; z-index:-1" /> -->
+<!-- <img class="slide-image" showInPresentation="true" src="imgs/pic04.png" style="top:42%; left:68.14%; width:36.30%; z-index:-1" /> -->
+<!-- <img class="slide-image" showInPresentation="true" src="imgs/pic05.png" style="top:57%; left:75.91%; width:10.85%; z-index:-1" /> -->
+<!-- <img class="slide-image" showInPresentation="true" src="imgs/pic06.png" style="top:22%; left:91.56%; width:14.23%; z-index:-1" /> -->
