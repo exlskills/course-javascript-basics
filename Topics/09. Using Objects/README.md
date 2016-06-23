@@ -85,24 +85,7 @@ Types define the properties of the object and the methods used to control the ob
 <!-- attr: { hasScriptWrapper:true, showInPresentation:true } -->
 <!-- # Object Types – _Example_ -->
 
-```js
-Account
-```
-
-```js
-+Owner: Person
-+Ammount: double
-```
-
-```js
-+Suspend()
-+Deposit(sum:double)
-+Withdraw(sum:double)
-```
-
-<div class="balloon" style="top:16%; left:20%">Type Name</div>
-<div class="balloon" style="top:28%; left:35%; width:23%">Attributes (Properties and Fields)</div>
-<div class="balloon" style="top:43%; left:42%">Operations (Methods)</div>
+<!-- <img class="slide-image" showInPresentation="true" src="imgs/types.png" style="top:15%; left:10%; width:80%; z-index:-1" /> -->
 
 <!-- attr: { hasScriptWrapper:true } -->
 # Objects
@@ -117,43 +100,7 @@ Account
 <!-- attr: { hasScriptWrapper:true, showInPresentation:true } -->
 <!-- # Objects – _Example_ -->
 
-```js
-Account
-
-+Owner: Person
-+Ammount: double
-
-+Suspend()
-+Deposit(sum:double)
-+Withdraw(sum:double)
-```
-
-<div class="fragment balloon" style="top:18.01%; left:19.01%; width:25.51%">Object Type</div>
-
-```js
-ivanAccount
-
-+Owner="Ivan Kolev"
-+Ammount=5000.0
-```
-
-```js
-peterAccount
-
-+Owner="Peter Kirov"
-+Ammount=1825.33
-```
-
-```js
-kirilAccount
-
-+Owner="Kiril Kirov"
-+Ammount=25.0
-```
-
-<div class="fragment balloon" style="top:12.86%; left:87.07%; width:14.10%">Object</div>
-<div class="fragment balloon" style="top:34.82%; left:87.07%; width:14.10%">Object</div>
-<div class="fragment balloon" style="top:57.61%; left:87.27%; width:14.10%">Object</div>
+<!-- <img class="slide-image" showInPresentation="true" src="imgs/example.png" style="top:15%; left:10%; width:80%; z-index:-1" /> -->
 
 <!-- section start -->
 <!-- attr: { hasScriptWrapper:true, class:'slide-section', id:'js-objects' } -->

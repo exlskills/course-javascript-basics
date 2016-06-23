@@ -436,7 +436,7 @@ function sum(numbers) {
 
 <!-- attr: { class:'slide-section'} -->
 # Sum of Even Numbers
-- [Demo](/)
+## [Demo](/)
 
 <!-- section start -->
 
