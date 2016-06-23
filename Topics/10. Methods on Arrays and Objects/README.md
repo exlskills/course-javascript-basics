@@ -37,6 +37,7 @@
 # Methods for Conditions
 ##  `every`, `some`
 
+<!-- attr: {style: 'font-size: 0.9em'} -->
 # Array Methods for Conditions: `Array#every`
 - `Array#every`
   - Signature: `[].every(callback);`
@@ -72,6 +73,7 @@
     console.log([19, 18].every(isGreaterThan18)); //false
     ```
 
+<!-- attr: {style: 'font-size: 0.9em'} -->
 # Array Methods for Conditions: `Array#some`
 
 - `Array#some`
