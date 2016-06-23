@@ -1,6 +1,9 @@
-### Problem 4. Has property
-*	Write a function that checks if a given object contains a given property.
+# Has property
 
-		var obj  = …;
-		var hasProp = hasProperty(obj, 'length');
+## Description
+Write a function that checks if a given object contains a given property.
 
+```js
+var obj  = …;
+var hasProp = hasProperty(obj, 'length');
+```
