@@ -389,24 +389,22 @@
   - Fills an array with the number 1
 
     ```js
-    var arr = [],
-        count = 15;
-    arr[count – 1] = undefined;
-    arr.fill(1);
+    var count = 15,
+      arr = Array.from({length: count})
+        .fill(1);
     console.log(arr);
     ```
 
   - Create array of arrays
 
     ```js
-    var arr = [],               // [ [ 1, 2, 3, 4, 5 ],
-      count = 5;                //   [ 1, 2, 3, 4, 5 ],
-    arr[count - 1] = undefined; //   [ 1, 2, 3, 4, 5 ],
-                                //   [ 1, 2, 3, 4, 5 ],
-    arr.fill([1, 2, 3, 4, 5]);  //   [ 1, 2, 3, 4, 5 ] ]
-    console.log(arr);
+    var count = 5,
+      arr = Array.from({length: count}) // [ [ 1, 2, 3, 4, 5 ],
+        .fill([1, 2, 3, 4, 5]);         // [ 1, 2, 3, 4, 5 ],
+                                        // [ 1, 2, 3, 4, 5 ],
+    arr.fill([1, 2, 3, 4, 5]);          // [ 1, 2, 3, 4, 5 ],
+    console.log(arr);                   // [ 1, 2, 3, 4, 5 ] ]
 ```
-
 
 <!-- section start -->
 
@@ -436,14 +434,14 @@
 - Solution:
 
 ```js
-var n = 10, digits = [];
-digits[n - 1] = undefined;
+var n = 10;
 function getRandomDigit() { return (Math.random() * 10) | 0; }
 function isOdd(item) { return !!(item % 2); }
 function digitToDigitName(digit) {
   return ['Zero', 'One', /* … */, 'Nine'][digit];
 }
-  var digitNames = digits.fill(0)
+  var digitNames = Array.from({length: n})
+    .fill(0)
     .map(getRandomDigit)
     .filter(isOdd)
     .map(digitToDigitName);
