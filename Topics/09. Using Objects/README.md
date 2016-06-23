@@ -1,10 +1,9 @@
 <!-- section start -->
-<!-- attr: { hasScriptWrapper:true, class:'slide-section' } -->
+<!-- attr: { hasScriptWrapper:true, class:'slide-title' } -->
 # Using Objects
 ## Objects, Properties, Primitive and Reference Types
 
-<!-- <img class="slide-image" showInPresentation="true" src="imgs/pic00.png" style="top:55%; left:62%; width:40%; z-index:-1" /> -->
-<!-- <img class="slide-image" showInPresentation="true" src="imgs/pic01.png" style="top:0%; left:77%; width:25%; z-index:-1" /> -->
+<!-- <img class="slide-image" showInPresentation="true" src="imgs/pic01.png" style="top:55%; left:77%; width:25%; z-index:-1" /> -->
 
 <div class="signature">
 	<p class="signature-course">Javascript Fundamentals</p>
@@ -44,7 +43,7 @@
 <!-- attr: { hasScriptWrapper:true, showInPresentation:true } -->
 <!-- # What are Objects? -->
 - How do software objects implement real-world objects?
-  - Use variables/data to implement states
+  - Use variables/data/properties to implement states
   - Use methods/functions to implement behaviors
 - An object is a software bundle of variables and related methods
 
@@ -78,14 +77,14 @@ Types define the properties of the object and the methods used to control the ob
   - Set of **attributes**
     - Represented by variables and properties
     - Hold their **state**
-  - Set of actions (**behavior**)
+  - Set of actions - their **behavior**
     - Represented by methods
 - A type defines the methods and types of data associated with an object
 
 <!-- attr: { hasScriptWrapper:true, showInPresentation:true } -->
 <!-- # Object Types – _Example_ -->
 
-<!-- <img class="slide-image" showInPresentation="true" src="imgs/types.png" style="top:15%; left:10%; width:80%; z-index:-1" /> -->
+<img class="slide-image" showInPresentation="true" src="imgs/types.png" style="top:15%; left:10%; width:80%; z-index:-1" />
 
 <!-- attr: { hasScriptWrapper:true } -->
 # Objects
@@ -100,12 +99,12 @@ Types define the properties of the object and the methods used to control the ob
 <!-- attr: { hasScriptWrapper:true, showInPresentation:true } -->
 <!-- # Objects – _Example_ -->
 
-<!-- <img class="slide-image" showInPresentation="true" src="imgs/example.png" style="top:15%; left:10%; width:80%; z-index:-1" /> -->
+<img class="slide-image" showInPresentation="true" src="imgs/example.png" style="top:15%; left:10%; width:80%; z-index:-1" />
 
 <!-- section start -->
-<!-- attr: { hasScriptWrapper:true, class:'slide-section', id:'js-objects' } -->
-# <a id="js-objects"></a>Objects
-## Collection of fields and methods
+<!-- attr: { hasScriptWrapper:true, class:'slide-section', id:'js-objects', showInPresentation: true } -->
+<!-- # <a id="js-objects"></a>Objects
+## Collection of fields and methods -->
 
 <!-- attr: { hasScriptWrapper:true } -->
 # Objects Overview
@@ -120,45 +119,52 @@ Types define the properties of the object and the methods used to control the ob
 <!-- attr: { hasScriptWrapper:true } -->
 # Object Properties
 - Each object has **properties**
-  - Properties are variables attached to the object
-  - Properties of an object can be accessed with a dot-notation:
+  - Properties are values attached to the object
+  - Properties of an object can be accessed with a dot-notation(`.` operator) or with `[]` - indexer:
 
 ```js
 let arrStr = arr.join(', '); // property join of Array
 let length = arr.length;  // property length of Array
 let words = text.split(' ');
+let words = text['split'](' ');
 ```
 
 <!-- section start -->
-<!-- attr: { hasScriptWrapper:true, class:'slide-section', id:'object-primitives' } -->
-# <a id="object-primitives"></a>Reference and Primitive Types
-## Copy by value, copy by reference
+<!-- attr: { hasScriptWrapper:true, class:'slide-section', id:'object-primitives', showInPresentation: true } -->
+<!-- # <a id="object-primitives"></a>Reference and Primitive Types
+## Passing by value, passing by reference -->
 
-<!-- attr: { hasScriptWrapper:true, showInPresentation:true, style:'font-size:0.9em' } -->
-<!-- # Reference and Primitive Types -->
-- JavaScript is a typeless language
+<!-- attr: { hasScriptWrapper:true, style:'font-size:0.9em' } -->
+# Reference and Primitive Types
+- JavaScript is a **weakly typed** language
   - Variables don’t have type, but their values do
 - JavaScript has **six** different types:
   - `Number`, `String`, `Boolean`, `Null`, `Undefined` and `Object`
-- `Object` is the only `object` type
-  - It is copied by **reference**
+- `Object` is the only reference type
+  - It is passed by **reference**(every time an object's value is used, it's used through a reference)
 - `Number`, `String`, `Boolean`, `Null`, `Undefined` are **primitive** types
-  - Copied by **value**
+  - Passed by **value**(they're copied each time their value is used)
 
 <!-- attr: { hasScriptWrapper:true, showInPresentation:true, style:'font-size:0.8em' } -->
 <!-- # Reference and Primitive Types -->
 - The primitive types are `Boolean`, `Number`, `String`, `Undefined` and `Null`
-  - All the other types are actually of type object
+  - All the other types are actually of type `object`
     - Including arrays, dates, custom types, etc…
 
 ```js
-console.log(typeof new Object() === typeof new Array()); // true
-console.log(typeof new Object() === typeof new Date()); // true
-console.log(typeof new Array() === typeof new Date()); // true
+// all of those are true
+console.log(typeof new Object() === typeof new Array());
+console.log(typeof new Object() === typeof new Date()); 
+console.log(typeof new Array() === typeof new Date());
 ```
 
 - All types derive from `Object`
   - Their type is `object`
+
+<!-- attr: { hasScriptWrapper: true } -->
+# Pass by value vs. Pass by reference
+
+<img class="slide-image" showInPresentation="true" src="imgs/pass-by-value-vs-pass-by-reference.gif" style="top:25%; left:10%; width:80%; z-index:-1; border-radius: 10px" />
 
 <!-- attr: { hasScriptWrapper:true, style:'font-size:0.9em' } -->
 # Primitive Types
@@ -193,8 +199,8 @@ console.log(person.lastName) // logged 'Johnson'
 
 <!-- attr: { hasScriptWrapper:true } -->
 # Reference Type
-- `Object` is the only **object type**
-  - When passed to a function the value is not copied, but instead a reference of it is passed
+- `Object` is the only **reference type**
+  - When passed it's value is used somewhere, it is not copied, but instead a reference to it is passed
 
 ```js
 let marks = [
@@ -211,12 +217,12 @@ console.log(student.marks);
 ```
 
 <!-- section start -->
-<!-- attr: { hasScriptWrapper:true, class:'slide-section', id:'object-literal' } -->
-# <a id="object-literal"></a>JavaScript Object Literal
-## Curly brackets `{}`
+<!-- attr: { hasScriptWrapper:true, class:'slide-section', id:'object-literal', showInPresentation:true } -->
+<!-- # <a id="object-literal"></a>JavaScript Object Literal
+## Curly brackets `{}` -->
 
-<!-- attr: { hasScriptWrapper:true, showInPresentation:true } -->
-<!-- # JavaScript Object Literal -->
+<!-- attr: { hasScriptWrapper:true } -->
+# JavaScript Object Literal
 - JavaScript object literal is a simplified way to create objects
   - Using curly brackets:
 
@@ -234,10 +240,9 @@ console.log(person.toString());
 // writes 'Doncho Minkov'
 ```
 
-<!-- attr: { hasScriptWrapper:true, style:'font-size:0.9em' } -->
+<!-- attr: { hasScriptWrapper:true, style:'font-size:0.8em' } -->
 # Creating Objects
-- Object notations are great, but **repeating code** is not, right?
-  - Lets make two people:
+- Lets make two people:
 
 ```js
 let minkov, georgiev;
@@ -257,9 +262,11 @@ georgiev = {
 };
 ```
 
+- Object notations are great, but **repeating code** is not, right?
+
 <!-- attr: { hasScriptWrapper:true, style:'font-size:0.9em' } -->
 # Object Building Function
-- A function for building objects
+- Using a function for building objects
   - Just pass first and last name and get a object
     - Something like a constructor
 
@@ -281,9 +288,9 @@ georgiev = makePerson('Georgi', 'Georgiev');
 - Much cooler, right?
 
 <!-- section start -->
-<!-- attr: { hasScriptWrapper:true, class:'slide-section', id:'object-props' } -->
-# <a id="object-props"></a>JS Object Properties
-## Dot-notation, associative arrays
+<!-- attr: { hasScriptWrapper:true, class:'slide-section', id:'object-props', showInPresentation:true } -->
+<!-- # <a id="object-props"></a>JS Object Properties
+## Dot-notation, associative arrays -->
 
 <!-- attr: { hasScriptWrapper:true, showInPresentation:true, id:'dot-notation' } -->
 # <a id="dot-notation"></a>JS Object Properties
