@@ -23,9 +23,9 @@
   - [Associative Arrays](#assoc-arrays)
 
 <!-- section start -->
-<!-- attr: { hasScriptWrapper:true, class:'slide-section', id:'objects' } -->
-# <a id="objects"></a>Object Types and Objects
-## Modeling Real-world Entities with Objects
+<!-- attr: { hasScriptWrapper:true, class:'slide-section', id:'objects', showInPresentation: true } -->
+<!-- # <a id="objects"></a>Object Types and Objects
+## Modeling Real-world Entities with Objects -->
 
 <!-- <img class="slide-image" showInPresentation="true" src="imgs/pic02.png" style="top:52%; left:35%; width:30%; z-index:-1" /> -->
 
