@@ -11,7 +11,7 @@ Write a program to test this method.
 - Print `Hello, <name>!`
 
 ## Constraints
-- Time limit: **0.1s**
+- Time limit: **0.2s**
 - Memory limit: **16MB**
 
 ## Sample tests

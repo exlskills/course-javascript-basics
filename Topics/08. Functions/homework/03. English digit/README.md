@@ -11,7 +11,7 @@ Write a program that reads a number and prints the result of the method.
 - Print the last digit of the number as an English word
 
 ## Constraints
-- Time limit: **0.1s**
+- Time limit: **0.2s**
 - Memory limit: **16MB**
 
 ## Sample tests
