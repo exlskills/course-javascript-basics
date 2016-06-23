@@ -67,3 +67,6 @@ Triangle can be built
 96.08
 Triangle can not be built
 ```
+
+## Submission
+- Submit your code [here](http://bgcoder.com/Contests/Compete/Index/362#0)
