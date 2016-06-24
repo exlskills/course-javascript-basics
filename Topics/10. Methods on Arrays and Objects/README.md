@@ -121,7 +121,7 @@
 # Array Methods for Transformation: `Array#filter`
 
 - `Array#filter`
-  - Signature: `].filter(callback);`
+  - Signature: `[].filter(callback);`
   - Callback: `callback(item [, index [, arr]])`
   - Returns: `Array`
   - Behavior: **extracts** in a new array only the elements that **meet the criteria** in `callback()`
