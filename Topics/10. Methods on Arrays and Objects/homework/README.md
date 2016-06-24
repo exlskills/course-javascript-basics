@@ -1,8 +1,6 @@
 Homework: Methods on Arrays and Objects
 =======================================
 
-### [Submit homework in bgcoder](http://bgcoder.com/Contests/363/JavaScript-Fundamentals-10-Methods-on-Arrays-and-Objects)
-
 ### Problem List
 
 1. [Make person](./01. Make person)
