@@ -43,8 +43,8 @@
   - Signature: `[].every(callback);`
   - Callback: `callback(item [, index [,arr]])`
   - Returns: `Boolean`
-  - Behavior: returns `TRUE` if **ALL** the elements of the array meets the criteria in `callback()`
-    - Returns `FALSE` if **ANY** of the elements does not meet the criteria in `callback()`
+  - Behavior: returns `true` if **ALL** the elements of the array meets the criteria in `callback()`
+    - Returns `false` if **ANY** of the elements does not meet the criteria in `callback()`
   - Support: everywhere
 
 
@@ -80,8 +80,8 @@
   - Signature: `[].some(callback);`
   - Callback: `callback(item [, index [,arr]])`
   - Returns: `Boolean`
-  - Behavior: returns `TRUE` if **ANY** of the elements of the array meets the criteria in `callback()`
-    - Returns `FALSE` if **NONE** of the elements meets the criteria in `callback()`
+  - Behavior: returns `true` if **ANY** of the elements of the array meets the criteria in `callback()`
+    - Returns `false` if **NONE** of the elements meets the criteria in `callback()`
   - Support: everywhere
 
 
