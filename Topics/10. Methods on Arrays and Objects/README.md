@@ -19,14 +19,14 @@
 - Array methods for:
   - Conditions:
     - `Array#every`, `Array#some`
-  - TransformationF
+  - Transformation
     - `Array#filter`, `Array#reduce`, `Array#map`
   - Iteration
     - `Array#forEach`
   - Searching
     -  `Array#find`, `Array#findIndex`
   - Others
-    - `Array#fill`, `Array$sort`
+    - `Array#fill`, `Array#sort`
 - Polyfills for the missing array methods
 
 
