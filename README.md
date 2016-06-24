@@ -62,7 +62,6 @@ Course Program, Examination
 
 ##### [<img src="https://raw.githubusercontent.com/TelerikAcademy/Common/master/icons/presentation.png" height="18"/>Slides](https://rawgit.com/TelerikAcademy/JavaScript-Fundamentals/master/Topics/08. Functions/index.html) / [<img src="https://raw.githubusercontent.com/TelerikAcademy/Common/master/icons/code.png" height="15"> Demos](/Topics/08. Functions/demos) / [<img src="https://raw.githubusercontent.com/TelerikAcademy/Common/master/icons/homework.png" height="15">Tasks](/Topics/08. Functions/homework) / [<img src="https://raw.githubusercontent.com/TelerikAcademy/Common/master/icons/video.png" height="15"> Videos](/Topics/08. Functions/VIDEOS.md)
 
-<!--
 ### [09. Using Objects](/Topics/09. Using Objects)
 
 
@@ -86,7 +85,6 @@ Course Program, Examination
 
 
 ##### [<img src="https://raw.githubusercontent.com/TelerikAcademy/Common/master/icons/presentation.png" height="18"/>Slides](https://rawgit.com/TelerikAcademy/JavaScript-Fundamentals/master/Topics/12. Regular Expressions/index.html) / [<img src="https://raw.githubusercontent.com/TelerikAcademy/Common/master/icons/code.png" height="15"> Demos](/Topics/12. Regular Expressions/demos) / [<img src="https://raw.githubusercontent.com/TelerikAcademy/Common/master/icons/homework.png" height="15">Tasks](/Topics/12. Regular Expressions/homework) / [<img src="https://raw.githubusercontent.com/TelerikAcademy/Common/master/icons/video.png" height="15"> Videos](/Topics/12. Regular Expressions/VIDEOS.md)
--->
 
 <!--
 ### [13. Exam preparation](/Topics/13. Exam preparation)
