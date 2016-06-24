@@ -19,10 +19,29 @@ Using bitwise operators, write a javascript function(that accepts a single array
 
 ## Sample tests
 
-|     Input      |     Output     |
-|----------------|----------------|
-| 15             | 1              |
-| 1024           | 0              |
+### Sample test 1
+
+#### Input
+```js
+['15']
+```
+
+#### Output
+```
+1
+```
+
+### Sample test 2
+
+#### Input
+```js
+['1024']
+```
+
+#### Output
+```
+0
+```
 
 ## Submission
 - Submit your code [here](http://bgcoder.com/Contests/Compete/Index/357#4)

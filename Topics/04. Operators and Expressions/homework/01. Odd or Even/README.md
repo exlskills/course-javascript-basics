@@ -28,13 +28,65 @@ function solve(args) {
 
 ## Sample tests
 
-|      Input      |      Output     |
-|-----------------|-----------------|
-| 3               | odd 3           |
-| 2               | even 2          |
-| -2              | even -2         |
-| -1              | odd -1          |
-| 0               | even 0          |
+### Sample Test 1
+
+#### Input
+```js
+['3               ']
+```
+
+#### Output
+```
+odd 3
+```
+
+### Sample Test 2
+
+#### Input
+```js
+['2']
+```
+
+#### Output
+```
+even 2
+```
+
+### Sample Test 3
+
+#### Input
+```js
+['-2']
+```
+
+#### Output
+```
+even -2
+```
+
+### Sample Test 4
+
+#### Input
+```js
+['-1']
+```
+
+#### Output
+```
+odd -1
+```
+
+### Sample Test 5
+
+#### Input
+```js
+['0']
+```
+
+#### Output
+```
+even 0
+```
 
 ## Submission
 - Submit your code [here](http://bgcoder.com/Contests/Compete/Index/357#0)

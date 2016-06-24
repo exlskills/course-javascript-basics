@@ -5,7 +5,7 @@ Implement a javascript function that does the following:
   - Accepts an array containing a single integer number as string.
   - Stores in a variable if the number can be divided by 7 and 5 without remainder.
   - Prints on the console **"true NUMBER"** if the number is divisible without remainder by **7** and **5**. Otherwise prints **"false NUMBER"**.
-   In place of **NUMBER** print the value of the input number. 
+   In place of **NUMBER** print the value of the input number.
 
 ## Input
 - The input will consist of an array containing a single integer value as a string.
@@ -21,14 +21,77 @@ Implement a javascript function that does the following:
 
 ## Sample tests
 
-|      Input      |      Output     |
-|-----------------|-----------------|
-| 3               | false 3         |
-| 0               | true 0          |
-| 5               | false 5         |
-| 7               | false 7         |
-| 35              | true 35         |
-| 140             | true 140        |
+### Sample test 1
+
+#### Input
+```js
+['3']
+```
+
+#### Output
+```
+false 3
+```
+
+### Sample test 2
+
+#### Input
+```js
+['0']
+```
+
+#### Output
+```
+true 0
+```
+
+### Sample test 3
+
+#### Input
+```js
+['5']
+```
+
+#### Output
+```
+false 5
+```
+
+### Sample test 4
+
+#### Input
+```js
+['7']
+```
+
+#### Output
+```
+false 7
+```
+
+### Sample test 5
+
+#### Input
+```js
+['35']
+```
+
+#### Output
+```
+true 35
+```
+
+### Sample test 6
+
+#### Input
+```js
+['140']
+```
+
+#### Output
+```
+true 140
+```
 
 ## Submission
 - Submit your code [here](http://bgcoder.com/Contests/Compete/Index/357#1)

@@ -21,11 +21,40 @@ The **width** and **height** will both be passed in the argument array.
 
 ## Sample tests
 
-|      Input      |      Output     |
-|-----------------|-----------------|
-| 2.5<br/>3       | 7.50 11.00      |
-| 5<br/>5         | 25.00 20.00     |
-| 3<br/>4         | 12.00 14.00     |
+### Sample test 1
+
+#### Input
+```js
+[ '2.5', '3' ]
+```
+
+#### Output
+```
+7.50 11.00
+```
+
+### Sample test 2
+
+#### Input
+```js
+[ '5', '5' ]
+```
+
+#### Output
+```
+25.00 20.00
+```
+### Sample test 3
+
+#### Input
+```js
+[ '3', '4' ]
+```
+
+#### Output
+```
+12.00 14.00
+```
 
 ## Submission
 - Submit your code [here](http://bgcoder.com/Contests/Compete/Index/357#2)

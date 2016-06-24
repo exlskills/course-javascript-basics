@@ -18,13 +18,65 @@ Implement a javascript function that accepts an array containing an integer **N*
 
 ## Sample tests
 
-|     Input      |     Output     |
-|----------------|----------------|
-| 2              | true           |
-| 23             | true           |
-| -3             | false          |
-| 0              | false          |
-| 1              | false          |
+### Sample test 1
+
+#### Input
+```js
+['2']
+```
+
+#### Output
+```
+true
+```
+
+### Sample test 2
+
+#### Input
+```js
+['23']
+```
+
+#### Output
+```
+true
+```
+
+### Sample test 3
+
+#### Input
+```js
+['-3']
+```
+
+#### Output
+```
+false
+```
+
+### Sample test 4
+
+#### Input
+```js
+['0']
+```
+
+#### Output
+```
+false
+```
+
+### Sample test 5
+
+#### Input
+```js
+['1']
+```
+
+#### Output
+```
+false
+```
 
 ## Submission
 - Submit your code [here](http://bgcoder.com/Contests/Compete/Index/357#6)

@@ -18,14 +18,77 @@ Implement a javascript function that takes an array with a single element - an i
 
 ## Sample tests
 
-|      Input      |      Output     |
-|-----------------|-----------------|
-| 5               | false 0         |
-| 701             | true            |
-| 9703            | true            |
-| 877             | false 8         |
-| 777877          | false 8         |
-| 9999799         | true            |
+### Sample test 1
+
+#### Input
+```js
+['5']
+```
+
+#### Output
+```
+false 0
+```
+
+### Sample test 2
+
+#### Input
+```js
+['701']
+```
+
+#### Output
+```
+true
+```
+
+### Sample test 3
+
+#### Input
+```js
+['9703']
+```
+
+#### Output
+```
+true
+```
+
+### Sample test 4
+
+#### Input
+```js
+['877']
+```
+
+#### Output
+```
+false 8
+```
+
+### Sample test 5
+
+#### Input
+```js
+['777877']
+```
+
+#### Output
+```
+false 8
+```
+
+### Sample test 6
+
+#### Input
+```js
+['9999799']
+```
+
+#### Output
+```
+true
+```
 
 ## Submission
 - Submit your code [here](http://bgcoder.com/Contests/Compete/Index/357#3)

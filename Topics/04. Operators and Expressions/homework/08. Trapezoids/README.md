@@ -18,13 +18,65 @@ The three values should be read from the console in the order shown below. All t
 
 ## Sample tests
 
-|     Input                 |     Output      |
-|---------------------------|-----------------|
-| 5<br/>7<br/>12            | 72.0000000      |
-| 2<br/>1<br/>33            | 49.5000000      |
-| 8.5<br/>4.3<br/>2.7       | 17.2800000      |
-| 100<br/>200<br/>300       | 45000.0000000   |
-| 0.222<br/>0.333<br/>0.555 | 0.1540125       |
+### Sample test 1
+
+#### Input
+```js
+['5', '7', '12']
+```
+
+#### Output
+```
+72.0000000
+```
+
+### Sample test 2
+
+#### Input
+```js
+['2', '1', '33']
+```
+
+#### Output
+```
+49.5000000
+```
+
+### Sample test 3
+
+#### Input
+```js
+['8.5', '4.3', '2.7']
+```
+
+#### Output
+```
+17.2800000
+```
+
+### Sample test 4
+
+#### Input
+```js
+['100', '200', '300']
+```
+
+#### Output
+```
+45000.0000000
+```
+
+### Sample test 5
+
+#### Input
+```js
+['0.222', '0.333', '0.555']
+```
+
+#### Output
+```
+0.1540125
+```
 
 ## Submission
 - Submit your code [here](http://bgcoder.com/Contests/Compete/Index/357#7)
