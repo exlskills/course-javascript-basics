@@ -120,7 +120,7 @@ Types define the properties of the object and the methods used to control the ob
 # Object Properties
 - Each object has **properties**
   - Properties are values attached to the object
-  - Properties of an object can be accessed with a dot-notation(`.` operator) or with `[]` - indexer:
+  - Properties of an object can be accessed with a dot-notation (`.` operator) or with `[]` - indexer:
 
 ```js
 let arrStr = arr.join(', '); // property join of Array
@@ -141,9 +141,9 @@ let words = text['split'](' ');
 - JavaScript has **six** different types:
   - `Number`, `String`, `Boolean`, `Null`, `Undefined` and `Object`
 - `Object` is the only reference type
-  - It is passed by **reference**(every time an object's value is used, it's used through a reference)
+  - It is passed by **reference** (every time an object's value is used, it's used through a reference)
 - `Number`, `String`, `Boolean`, `Null`, `Undefined` are **primitive** types
-  - Passed by **value**(they're copied each time their value is used)
+  - Passed by **value** (they're copied each time their value is used)
 
 <!-- attr: { hasScriptWrapper:true, showInPresentation:true, style:'font-size:0.8em' } -->
 <!-- # Reference and Primitive Types -->
