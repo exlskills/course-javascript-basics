@@ -18,9 +18,21 @@ Write a program that allocates array of **N** integers, initializes each element
 
 ## Sample tests
 
-| Input | Output |
-|:-----:|:------:|
-| 5     | 0<br>5<br>10<br>15<br>20 |
+### Sample test 1
+
+#### Input
+```js
+['5']
+```
+
+#### Output
+```
+0
+5
+10
+15
+20
+```
 
 ## Submission
 - Submit your code [here](http://bgcoder.com/Contests/Compete/Index/360#0)

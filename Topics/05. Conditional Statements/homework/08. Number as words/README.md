@@ -15,18 +15,158 @@ Write a script that converts a number in the range `[0…999]` to words, corresp
 
 ## Sample tests
 
-| Input   | Output                        | 
-|:--------|:------------------------------|
-| 0       | Zero                          | 
-| 9       | Nine                          | 
-| 10      | Ten                           | 
-| 12      | Twelve                        | 
-| 19      | Nineteen                      | 
-| 25      | Twenty five                   | 
-| 98      | Ninety eight                  | 
-| 273     | Two hundred and seventy three | 
-| 400     | Four hundred                  | 
-| 501     | Five hundred and one          | 
-| 617     | Six hundred and seventeen     | 
-| 711     | Seven hundred and eleven      | 
-| 999     | Nine hundred and ninety nine  |
+### Sample test 1
+
+#### Input
+```js
+['0']
+```
+
+#### Output
+```
+Zero 
+```
+
+### Sample test 2
+
+#### Input
+```js
+['9']
+```
+
+#### Output
+```
+Nine 
+```
+
+### Sample test 3
+
+#### Input
+```js
+['10']
+```
+
+#### Output
+```
+Ten 
+```
+
+### Sample test 4
+
+#### Input
+```js
+['12']
+```
+
+#### Output
+```
+Twelve 
+```
+
+### Sample test 5
+
+#### Input
+```js
+['19']
+```
+
+#### Output
+```
+Nineteen 
+```
+
+### Sample test 6
+
+#### Input
+```js
+['25']
+```
+
+#### Output
+```
+Twenty five 
+```
+
+### Sample test 7
+
+#### Input
+```js
+['98']
+```
+
+#### Output
+```
+Ninety eight 
+```
+
+### Sample test 8
+
+#### Input
+```js
+['273']
+```
+
+#### Output
+```
+Two hundred and seventy three 
+```
+
+### Sample test 9
+
+#### Input
+```js
+['400']
+```
+
+#### Output
+```
+Four hundred 
+```
+
+### Sample test 10
+
+#### Input
+```js
+['501']
+```
+
+#### Output
+```
+Five hundred and one 
+```
+
+### Sample test 11
+
+#### Input
+```js
+['617']
+```
+
+#### Output
+```
+Six hundred and seventeen 
+```
+
+### Sample test 12
+
+#### Input
+```js
+['711']
+```
+
+#### Output
+```
+Seven hundred and eleven 
+```
+
+### Sample test 13
+
+#### Input
+```js
+['999']
+```
+
+#### Output
+```
+Nine hundred and ninety nine
+```

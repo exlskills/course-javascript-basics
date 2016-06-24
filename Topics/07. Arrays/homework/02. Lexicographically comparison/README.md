@@ -17,10 +17,29 @@ Write a program that compares two `char` arrays lexicographically (letter by let
 
 ## Sample tests
 
-| Input | Output |
-|:-----:|:------:|
-| hello<br>halo | > |
-| food<br>food | = |
+### Sample test 1
+
+#### Input
+```js
+['hello', 'halo']
+```
+
+#### Output
+```
+>
+```
+
+### Sample test 2
+
+#### Input
+```js
+['food', 'food']
+```
+
+#### Output
+```
+=
+```
 
 ## Submission
 - Submit your code [here](http://bgcoder.com/Contests/Compete/Index/360#1)

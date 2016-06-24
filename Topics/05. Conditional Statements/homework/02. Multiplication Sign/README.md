@@ -16,10 +16,62 @@ Use a sequence of `if` operators.
 
 ## Sample tests
 
-| Input              | Output |
-|:-------------------|:-------|
-| 5<br>2<br>2        | +      |
-| -2<br>-2<br>1      | +      |
-| -2<br>4<br>3       | -      |
-| 0<br>-2.5<br>4     | 0      |
-| -1<br>-0.5<br>-5.1 | -      |
+### Sample test 1
+
+#### Input
+```js
+['5', '2', '2']
+```
+
+#### Output
+```
++
+```
+
+### Sample test 2
+
+#### Input
+```js
+['-2', '-2', '1']
+```
+
+#### Output
+```
++
+```
+
+### Sample test 3
+
+#### Input
+```js
+['-2', '4', '3']
+```
+
+#### Output
+```
+-
+```
+
+### Sample test 4
+
+#### Input
+```js
+['0', '-2.5', '4']
+```
+
+#### Output
+```
+0
+```
+
+### Sample test 5
+
+#### Input
+```js
+['-1', '-0.5', '-5.1']
+```
+
+#### Output
+```
+-
+```

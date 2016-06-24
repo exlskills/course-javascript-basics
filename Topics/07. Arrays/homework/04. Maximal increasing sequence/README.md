@@ -17,9 +17,17 @@ Write a program that finds the length of the **maximal increasing sequence** in 
 
 ## Sample tests
 
-| Input                                         | Output |
-|:---------------------------------------------:|:------:|
-| 8<br>7<br>3<br>**2<br>3<br>4**<br>2<br>2<br>4 | 3      |
+### Sample test 1
+
+#### Input
+```js
+['8', '7', '3', '2', '3', '4', '2', '2', '4']
+```
+
+#### Output
+```
+3
+```
 
 ## Submission
 - Submit your code [here](http://bgcoder.com/Contests/Compete/Index/360#3)

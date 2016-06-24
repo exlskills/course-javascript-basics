@@ -20,10 +20,62 @@ _Note: Quadratic equations may have 0, 1 or 2 real roots._
 
 ## Sample tests
 
-| Input               | Output              |
-|:--------------------|:--------------------|
-| 2<br>5<br>-3        | x1=-3.00; x2=0.50   |
-| -1<br>3<br>0        | x1=0.00; x2=3.00    |
-| -0.5<br>4<br>-8     | x1=x2=4.00          |
-| 5<br>2<br>8         | no real roots       |
-| 0.2<br>9.572<br>0.2 | x1=-47.84; x2=-0.02 |
+### Sample test 1
+
+#### Input
+```js
+['2', '5', '-3']
+```
+
+#### Output
+```
+x1=-3.00; x2=0.50
+```
+
+### Sample test 2
+
+#### Input
+```js
+['-1', '3', '0']
+```
+
+#### Output
+```
+x1=0.00; x2=3.00
+```
+
+### Sample test 3
+
+#### Input
+```js
+['-0.5', '4', '-8']
+```
+
+#### Output
+```
+x1=x2=4.00
+```
+
+### Sample test 4
+
+#### Input
+```js
+['5', '2', '8']
+```
+
+#### Output
+```
+no real roots
+```
+
+### Sample test 5
+
+#### Input
+```js
+['0.2', '9.572', '0.2']
+```
+
+#### Output
+```
+x1=-47.84; x2=-0.02
+```

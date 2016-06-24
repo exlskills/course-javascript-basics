@@ -16,10 +16,62 @@ Use nested `if` statements.
 
 ## Sample tests
 
-| Input                | Output |
-|:---------------------|:-------|
-| 5<br>2<br>2          | 5      |
-| -2<br>-2<br>1        | 1      |
-| -2<br>4<br>3         | 4      |
-| 0<br>-2.5<br>5       | 5      |
-| -0.1<br>-0.5<br>-1.1 | -0.1   |
+### Sample test 1
+
+#### Input
+```js
+['5', '2', '2']
+```
+
+#### Output
+```
+5
+```
+
+### Sample test 2
+
+#### Input
+```js
+['-2', '-2', '1']
+```
+
+#### Output
+```
+1
+```
+
+### Sample test 3
+
+#### Input
+```js
+['-2', '4', '3']
+```
+
+#### Output
+```
+4
+```
+
+### Sample test 4
+
+#### Input
+```js
+['0', '-2.5', '5']
+```
+
+#### Output
+```
+5
+```
+
+### Sample test 5
+
+#### Input
+```js
+['-0.1', '-0.5', '-1.1']
+```
+
+#### Output
+```
+-0.1
+```

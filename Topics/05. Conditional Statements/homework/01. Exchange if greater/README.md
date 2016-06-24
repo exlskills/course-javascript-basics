@@ -16,8 +16,38 @@ As a result print the values `a` and `b`, separated by a space.
 
 ## Sample tests
 
-| Input      | Output  |
-|:-----------|:--------|
-| 5<br>2     | 2 5     |
-| 3<br>4     | 3 4     |
-| 5.5<br>4.5 | 4.5 5.5 |
+### Sample test 1
+
+#### Input
+```js
+['5', '2']
+```
+
+#### Output
+```
+2 5
+```
+
+### Sample test 2
+
+#### Input
+```js
+['3', '4']
+```
+
+#### Output
+```
+3 4
+```
+
+### Sample test 3
+
+#### Input
+```js
+['5.5', '4.5']
+```
+
+#### Output
+```
+4.5 5.5
+```

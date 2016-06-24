@@ -18,8 +18,44 @@ Write a javascript function that prints a matrix like in the examples below by a
 
 ## Sample tests
 
-|     Input      |                  Output                      |
-|----------------|----------------------------------------------|
-| 2              | 1 2<br/>2 3                                  |
-| 3              | 1 2 3<br/>2 3 4<br/>3 4 5                    |
-| 4              | 1 2 3 4<br/>2 3 4 5<br/>3 4 5 6<br/>4 5 6 7  |
+### Sample test 1
+
+#### Input
+```js
+['2']
+```
+
+#### Output
+```
+1 2
+2 3
+```
+
+### Sample test 2
+
+#### Input
+```js
+['3']
+```
+
+#### Output
+```
+1 2 3
+2 3 4
+3 4 5
+```
+
+### Sample test 3
+
+#### Input
+```js
+['4']
+```
+
+#### Output
+```
+1 2 3 4
+2 3 4 5
+3 4 5 6
+4 5 6 7
+```

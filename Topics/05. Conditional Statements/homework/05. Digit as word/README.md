@@ -17,13 +17,98 @@ Use a `switch` statement.
 
 ## Sample tests
 
-| Input | Output      |
-|:------|:------------|
-| 2     | two         |
-| 1     | one         |
-| 0     | zero        |
-| 5     | five        |
-| -0.1  | not a digit |
-| hi    | not a digit |
-| 9     | nine        |
-| 10    | not a digit |
+### Sample test 1
+
+#### Input
+```js
+['2']
+```
+
+#### Output
+```
+two
+```
+
+### Sample test 2
+
+#### Input
+```js
+['1']
+```
+
+#### Output
+```
+one
+```
+
+### Sample test 3
+
+#### Input
+```js
+['0']
+```
+
+#### Output
+```
+zero
+```
+
+### Sample test 4
+
+#### Input
+```js
+['5']
+```
+
+#### Output
+```
+five
+```
+
+### Sample test 5
+
+#### Input
+```js
+['-0.1']
+```
+
+#### Output
+```
+not a digit
+```
+
+### Sample test 6
+
+#### Input
+```js
+['hi']
+```
+
+#### Output
+```
+not a digit
+```
+
+### Sample test 7
+
+#### Input
+```js
+['9']
+```
+
+#### Output
+```
+nine
+```
+
+### Sample test 8
+
+#### Input
+```js
+['10']
+```
+
+#### Output
+```
+not a digit
+```

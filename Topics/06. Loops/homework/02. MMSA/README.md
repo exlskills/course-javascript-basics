@@ -24,7 +24,32 @@ avg=4.50
 
 ## Sample tests
 
-|       Input  |                    Output                     |
-|--------------|-----------------------------------------------|
-| 2<br>5<br>1  | min=1.00<br>max=5.00<br>sum=8.00<br>avg=2.67  |
-| 2<br>-1<br>4 | min=-1.00<br>max=4.00<br>sum=5.00<br>avg=1.67 |
+### Sample test 1
+
+#### Input
+```js
+['2', '5', '1']
+```
+
+#### Output
+```
+min=1.00
+max=5.00
+sum=8.00
+avg=2.67
+```
+
+### Sample test 2
+
+#### Input
+```js
+['2', '-1', '4']
+```
+
+#### Output
+```
+min=-1.00
+max=4.00
+sum=5.00
+avg=1.67
+```

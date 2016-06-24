@@ -20,9 +20,17 @@ Write a program that finds the most frequent number in an array of **N** element
 
 ## Sample tests
 
-| Input | Output |
-|:-----:|:------:|
-| 13<br>**4**<br>1<br>1<br>**4**<br>2<br>3<br>**4**<br>**4**<br>1<br>2<br>**4**<br>9<br>3 | 4 (5 times) |
+### Sample test 1
+
+#### Input
+```js
+['13', '4', '1', '1', '4', '2', '3', '4', '4', '1', '2', '4', '9', '3']
+```
+
+#### Output
+```
+4 (5 times)
+```
 
 ## Submission
 - Submit your code [here](http://bgcoder.com/Contests/Compete/Index/360#5)

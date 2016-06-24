@@ -19,10 +19,43 @@ Use the [Selection sort](http://en.wikipedia.org/wiki/Selection_sort) algorithm:
 
 ## Sample tests
 
-| Input | Output |
-|:-----:|:------:|
-| 6<br>**3<br>4<br>1<br>5<br>2<br>6** | 1<br>2<br>3<br>4<br>5<br>6 |
-| 10<br>**36<br>10<br>1<br>34<br>28<br>38<br>31<br>27<br>30<br>20** | 1<br>10<br>20<br>27<br>28<br>30<br>31<br>34<br>36<br>38 |
+### Sample test 1
+
+#### Input
+```js
+['6', '3', '4', '1', '5', '2', '6']
+```
+
+#### Output
+```
+1
+2
+3
+4
+5
+6
+```
+
+### Sample test 2
+
+#### Input
+```js
+['10', '36', '10', '1', '34', '28', '38', '31', '27', '30', '20']
+```
+
+#### Output
+```
+1
+10
+20
+27
+28
+30
+31
+34
+36
+38
+```
 
 ## Submission
 - Submit your code [here](http://bgcoder.com/Contests/Compete/Index/360#4)

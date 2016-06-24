@@ -16,7 +16,26 @@ Implement a javascript function that accepts an array with a single element - po
 
 ## Sample tests
 
-|     Input      |     Output     |
-|----------------|----------------|
-| 5              | 1 2 3 4 5      |
-| 1              | 1              |
+### Sample test 1
+
+#### Input
+```js
+['5']
+```
+
+#### Output
+```
+1 2 3 4 5
+```
+
+### Sample test 2
+
+#### Input
+```js
+['1']
+```
+
+#### Output
+```
+1
+```

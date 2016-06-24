@@ -16,8 +16,38 @@ Using loops implement a javascript function that converts a hex number number to
 
 ## Sample tests
 
-|      Input        |      Output                  |
-|-------------------|------------------------------|
-| FE                | 254                          |
-| 1AE3              | 6883                         |
-| 4ED528CBB4        | 338583669684                 |
+### Sample test 1
+
+#### Input
+```js
+['FE']
+```
+
+#### Output
+```
+254
+```
+
+### Sample test 2
+
+#### Input
+```js
+['1AE3']
+```
+
+#### Output
+```
+6883
+```
+
+### Sample test 3
+
+#### Input
+```js
+['4ED528CBB4']
+```
+
+#### Output
+```
+338583669684
+```

@@ -17,9 +17,17 @@ Write a program that finds the length of the **maximal sequence** of equal eleme
 
 ## Sample tests
 
-| Input                                                    | Output |
-|:--------------------------------------------------------:|:------:|
-| 10<br>2<br>1<br>1<br>2<br>3<br>3<br>**2<br>2<br>2**<br>1 | 3      |
+### Sample test 1
+
+#### Input
+```js
+['10', '2', '1', '1', '2', '3', '3', '2', '2', '2', '1']
+```
+
+#### Output
+```
+3
+```
 
 ## Submission
 - Submit your code [here](http://bgcoder.com/Contests/Compete/Index/360#2)
