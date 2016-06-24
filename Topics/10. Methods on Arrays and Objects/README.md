@@ -344,7 +344,7 @@ console.log(numbers.findIndex(function(item, index) {
 - `Array#sort`
   - Signature: `[].sort(callback);`
   - Callback: `callback(obj1, obj2)`
-  - Returns: `undefined`
+  - Returns: `Array`
   - Behavior: **sorts the items** from the array, based on the `callback()`
   - Support: everywhere
 
