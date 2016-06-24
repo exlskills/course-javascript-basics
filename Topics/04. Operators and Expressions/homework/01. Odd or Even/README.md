@@ -32,7 +32,7 @@ function solve(args) {
 
 #### Input
 ```js
-['3               ']
+['3']
 ```
 
 #### Output
