@@ -54,24 +54,24 @@
 - _Examples_:
   - Check if all the numbers in the array are odd?
 
-    ```js
-    function isOdd(number) {
-      return !!(number % 2);
-    }
-    console.log([1, 2, 3, 4].every(isOdd)); //false
-    console.log([1, 3, 5, 7].every(isOdd)); //true
-    ```
+```js
+function isOdd(number) {
+  return !!(number % 2);
+}
+console.log([1, 2, 3, 4].every(isOdd)); //false
+console.log([1, 3, 5, 7].every(isOdd)); //true
+```
 
   - Check if all the numbers are greater than 18
 
-    ```js
-    function isGreaterThan18(number) {
-      return number > 18;
-    }
+```js
+function isGreaterThan18(number) {
+  return number > 18;
+}
 
-    console.log([22, 23].every(isGreaterThan18)); //true
-    console.log([19, 18].every(isGreaterThan18)); //false
-    ```
+console.log([22, 23].every(isGreaterThan18)); //true
+console.log([19, 18].every(isGreaterThan18)); //false
+```
 
 <!-- attr: {style: 'font-size: 0.9em'} -->
 # Array Methods for Conditions: `Array#some`
@@ -91,25 +91,25 @@
 - _Examples_:
   - Check if there is at least one odd number
 
-    ```js
-    function isOdd(number) {
-      return !!(number % 2);
-    }
-    console.log([1, 2, 3, 4].some(isOdd)); //true
-    console.log([1, 3, 5, 7].some(isOdd)); //true
-    console.log([2, 4, 6, 8].some(isOdd)); //false
-    ```
+```js
+function isOdd(number) {
+  return !!(number % 2);
+}
+console.log([1, 2, 3, 4].some(isOdd)); //true
+console.log([1, 3, 5, 7].some(isOdd)); //true
+console.log([2, 4, 6, 8].some(isOdd)); //false
+```
 
   - Check if at least one number greater than 18
 
-    ```js
-    function isGreaterThan18(number) {
-      return number > 18;
-    }
-    console.log([22, 23].some(isGreaterThan18)); //true
-    console.log([19, 18].some(isGreaterThan18)); //true
-    console.log([17, 18].some(isGreaterThan18)); //false
-    ```
+```js
+function isGreaterThan18(number) {
+  return number > 18;
+}
+console.log([22, 23].some(isGreaterThan18)); //true
+console.log([19, 18].some(isGreaterThan18)); //true
+console.log([17, 18].some(isGreaterThan18)); //false
+```
 
 <!-- section start -->
 
@@ -135,25 +135,25 @@
 - _Examples_:
   - Extract the odd numbers from the array
 
-    ```js
-    function isOdd(number) {
-      return !!(number % 2);
-    }
-    console.log([1, 2, 3, 4].filter(isOdd)); // [1, 3]
-    console.log([1, 3, 5, 7].filter(isOdd)); // [1, 3, 5, 7]
-    console.log([2, 4, 6, 8].filter(isOdd)); // []
-    ```
+```js
+function isOdd(number) {
+  return !!(number % 2);
+}
+console.log([1, 2, 3, 4].filter(isOdd)); // [1, 3]
+console.log([1, 3, 5, 7].filter(isOdd)); // [1, 3, 5, 7]
+console.log([2, 4, 6, 8].filter(isOdd)); // []
+```
 
   - Returns the numbers in a given range
 
-    ```js
-    function InRange(min, max) {
-      return function(item) { return min <= item && item <= max; };
-    }
-    var numbers = [2, 3, 4, 5, 6, 7, 8];
-    console.log(numbers.filter(inRange(4, 7))); // [4, 5, 6, 7]
-    console.log(numbers.filter(inRange(2, 4))); // [2, 3, 4]
-    ```
+```js
+function InRange(min, max) {
+  return function(item) { return min <= item && item <= max; };
+}
+var numbers = [2, 3, 4, 5, 6, 7, 8];
+console.log(numbers.filter(inRange(4, 7))); // [4, 5, 6, 7]
+console.log(numbers.filter(inRange(2, 4))); // [2, 3, 4]
+```
 
 <!-- attr: {style: 'font-size: 0.9em'} -->
 # Array Methods for Transformation: `Array#reduce`
@@ -172,16 +172,16 @@
 - _Examples_:
   - Calculates the sum and product on numbers
 
-    ```js
-    var sum = [1, 2, 3, 4].reduce(function(sum, number) {
-      return sum + number;
-    }, 0);
-    var product = [1, 2, 3, 4].reduce(function(sum, number) {
-      return sum * number;
-    }, 1);
-    console.log(sum);               //10
-    console.log(product);           //24
-    ```
+```js
+var sum = [1, 2, 3, 4].reduce(function(sum, number) {
+  return sum + number;
+}, 0);
+var product = [1, 2, 3, 4].reduce(function(sum, number) {
+  return sum * number;
+}, 1);
+console.log(sum);               //10
+console.log(product);           //24
+```
 
 <!-- attr: {style: 'font-size: 0.9em'} -->
 # Array Methods for Transformation: `Array#map`
@@ -199,24 +199,24 @@
 - _Examples_:
   - Calculates squares of an array of numbers
 
-    ```js
-    var squares = [1, 2, 3, 4, 5].map(function(number) {
-      return number * number;
-    });
-    console.log(squares); //prints [ 1, 4, 9, 16, 25 ]
-    ```
+```js
+var squares = [1, 2, 3, 4, 5].map(function(number) {
+  return number * number;
+});
+console.log(squares); //prints [ 1, 4, 9, 16, 25 ]
+```
 
   - Parses a matrix given as an array of rows into an array of arrays of numbers
 
-    ```js
-    var lines = ['1 2 3',
-                 '4 5 6'];
-    var matrix = lines.map(function(line) {
-      return line.split(' ')
-                 .map(Number);                      
-    });                                             // [[1, 2, 3],
-    console.dir(matrix);                            //  [4, 5, 6]]
-    ```
+```js
+var lines = ['1 2 3',
+             '4 5 6'];
+var matrix = lines.map(function(line) {
+  return line.split(' ')
+             .map(Number);                      
+});                                             // [[1, 2, 3],
+console.dir(matrix);                            //  [4, 5, 6]]
+```
 
 <!-- section start -->
 
@@ -241,24 +241,24 @@
 - _Examples_:
   - Print the elements of an array with their index
 
-    ```js
-    var numbers = ['One', 'Two', 'Three', 'Four', 'Five'];
-    numbers.forEach(function(item, index) {
-      console.log('Item at' + index + 'has value' + item);
-    });
-    ```
+```js
+var numbers = ['One', 'Two', 'Three', 'Four', 'Five'];
+numbers.forEach(function(item, index) {
+  console.log('Item at' + index + 'has value' + item);
+});
+```
 
   - Call a method for each object in an array
 
-    ```js
-    function createPerson(name, age) { //… }
-    var people = [createPerson('Peter', 13),
-                  createPerson('John', 18),
-                  createPerson('Susan', 21)];
-    people.forEach(function(person) {
-      person.introduce();
-    });
-    ```
+```js
+function createPerson(name, age) { //… }
+var people = [createPerson('Peter', 13),
+              createPerson('John', 18),
+              createPerson('Susan', 21)];
+people.forEach(function(person) {
+   person.introduce();
+});
+```
 
 <!-- section start -->
 
@@ -283,21 +283,21 @@
 - _Examples_
   - Find the leftmost odd number, greater than 5
 
-    ```js
-    var numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
-    console.log(numbers.find(function(item) {
-      return !!(item % 2) && item > 5;
-    }));            //prints 7
-    ```
+```js
+var numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+console.log(numbers.find(function(item) {
+  return !!(item % 2) && item > 5;
+}));            //prints 7
+```
 
   - Find the leftmost odd number, that is after index 3
 
-    ```js
-    var numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
-    console.log(numbers.find(function(item, index) {
-      return index > 3 && !!(item % 2);
-    }));            //prints 5
-    ```
+```js
+var numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+console.log(numbers.find(function(item, index) {
+  return index > 3 && !!(item % 2);
+}));            //prints 5
+```
 
 <!-- attr: {style: 'font-size: 0.9em'}-->
 # Array Methods for Searching: `Array#findIndex`
@@ -316,21 +316,21 @@
 - _Examples_:
   - Find the index of leftmost odd number, greater than 5
 
-    ```js
-    var numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
-    console.log(numbers.findIndex(function(item) {
-      return !!(item % 2) && item > 5;
-    }));            //prints 6(element 7)
-    ```
+```js
+var numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+console.log(numbers.findIndex(function(item) {
+  return !!(item % 2) && item > 5;
+}));            //prints 6(element 7)
+```
 
   - Find the index of the leftmost odd number, that is after index 3
 
-    ```js
-    var numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
-    console.log(numbers.findIndex(function(item, index) {
-      return index > 3 && !!(item % 2);
-    }));            //prints 4(element 5)
-    ```
+```js
+var numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+console.log(numbers.findIndex(function(item, index) {
+  return index > 3 && !!(item % 2);
+}));            //prints 4(element 5)
+```
 
 
 <!-- section start -->
@@ -354,23 +354,23 @@
 - _Examples_:
   - Sorts an array of numbers descending
 
-    ```js
-    var numbers = [5, 1, 2, 4, 6];
-    numbers.sort(function(x, y) {
-      return y - x;
-    });
-    console.log(numbers);             //[ 6, 5, 4, 2, 1 ]
-    ```
+```js
+var numbers = [5, 1, 2, 4, 6];
+numbers.sort(function(x, y) {
+  return y - x;
+});
+console.log(numbers);             //[ 6, 5, 4, 2, 1 ]
+```
 
   - Sorts array of people by name
 
-    ```js
-    var people = [createPerson('Peter', 13), createPerson('John', 18), ..];
-    people.sort(function(p1, p2) {
-      return p1.name > p2.name;
-    });
-    console.log(people);              // John, Peter, Susan
-    ```
+```js
+var people = [createPerson('Peter', 13), createPerson('John', 18), ..];
+people.sort(function(p1, p2) {
+  return p1.name > p2.name;
+});
+console.log(people);              // John, Peter, Susan
+```
 
 # Other Array Methods: `Array#fill`
 
@@ -388,22 +388,22 @@
 - _Examples_:
   - Fills an array with the number 1
 
-    ```js
-    var count = 15,
-      arr = Array.from({length: count})
-        .fill(1);
-    console.log(arr);
-    ```
+```js
+var count = 15,
+  arr = Array.from({length: count})
+    .fill(1);
+console.log(arr);
+```
 
   - Create array of arrays
 
-    ```js
-    var count = 5,
-      arr = Array.from({length: count}) // [ [ 1, 2, 3, 4, 5 ],
-        .fill([1, 2, 3, 4, 5]);         // [ 1, 2, 3, 4, 5 ],
-                                        // [ 1, 2, 3, 4, 5 ],
-    arr.fill([1, 2, 3, 4, 5]);          // [ 1, 2, 3, 4, 5 ],
-    console.log(arr);                   // [ 1, 2, 3, 4, 5 ] ]
+```js
+var count = 5,
+  arr = Array.from({length: count}) // [ [ 1, 2, 3, 4, 5 ],
+    .fill([1, 2, 3, 4, 5]);         // [ 1, 2, 3, 4, 5 ],
+                                    // [ 1, 2, 3, 4, 5 ],
+arr.fill([1, 2, 3, 4, 5]);          // [ 1, 2, 3, 4, 5 ],
+console.log(arr);                   // [ 1, 2, 3, 4, 5 ] ]
 ```
 
 <!-- section start -->
