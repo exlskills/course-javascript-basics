@@ -1,21 +1,40 @@
-### Problem 6. Extract text from HTML
-*	Write a function that extracts the content of a html page given as text.
-*	The function should return anything that is in a tag, without the tags.
+# Extract text from HTML
 
-_Example:_
+## Description
+Write a function that extracts the content of a html page given as text.
+The function should return anything that is in a tag, without the tags.
 
-	<html>
-	  <head>
-	    <title>Sample site</title>
-	  </head>
-	  <body>
-	    <div>text
-	      <div>more text</div>
-	      and more...
-	    </div>
-	    in body
-	  </body>
-	</html>
+## Input
+- The input will consist of an array of strings
 
-_Result:_ Sample sitetextmore textand more...in body
+## Output
+- The output should be consisted of one line - text inside tags
 
+## Constraints
+- Time limit: **0.2s**
+- Memory limit: **16MB**
+
+## Sample tests
+
+#### Input
+```js
+[
+	'<html>',
+	'  <head>',
+	'    <title>Sample site</title>',
+	'  </head>',
+	'  <body>',
+	'    <div>text',
+	'      <div>more text</div>',
+	'      and more...',
+	'    </div>',
+	'    in body',
+	'  </body>',
+	'</html>'
+]
+```
+
+#### Output
+```
+Sample sitetextmore textand more...in body
+```
