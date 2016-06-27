@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+
+<head>
+    <title>Students</title>
+    <link href="http://getbootstrap.com/dist/css/bootstrap.min.css" rel="stylesheet" />
+</head>
+
+<body>
+    <h1>Students: {{count}}</h1>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="table-responsive">
+                <table class="table table-striped">
+                    <thead>
+                        {{columns}}
+                    </thead>
+                    <tbody>
+                        {{rows}}
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+    <script>
+        function toggle(dataId) {
+            const element = document.querySelectorAll(`[data-id="${dataId}"]`)[0];
+            
+            if(element.className.indexOf('hidden') + 1) {
+                element.className = element.className.replace('hidden', '');
+            } else {
+                element.className += ' hidden';
+            }
+        }
+
+        [].slice.call(document.getElementsByTagName('button')).forEach(x => x.addEventListener('click', ev => toggle(ev.target.getAttribute('view-toggle'))));
+    </script>
+</body>
