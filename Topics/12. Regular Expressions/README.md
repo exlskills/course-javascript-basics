@@ -37,7 +37,7 @@
   - Find and extract data from a document
     - Extract image source from HTML, extract exceptions/errors from logs
   - Validate data provided as text:
-    - Passwords, emails, mobile numbers, urls
+    - Passwords, emails, mobile numbers, url
 
 
 # Regex Syntax
@@ -66,14 +66,14 @@
 
 <!-- attr: { showInPresentation: true, style:'font-size: 0.9em' } -->
 <!-- # Creating Regex in JavaScript -->
-- The following will match 'Telerik Academ**y**', 'Dumm**y**', 'Kitt**y**', 'yumm**y**'
+- The following will match 'Telerik Academ**y**', 'Academ**y**', 'kitt**y**', 'yumm**y**'
 
 ```js
 // literal syntax
 const literalRegex = /y$/g;
 ```
 
-- The following will match '**T**elerik Academy', '**T**osho'
+- The following will match '**T**elerik Academy', '**T**odor'
 
 ```js
 // function constructor syntax
@@ -115,43 +115,51 @@ const constructorRegex = new RegExp('^T', 'g');
 ```js
 let academyRegex = /telerik\s(software\s|algo\s|kids\s)?academy/gi;
 
+let text = 'George is studying JavaScript at Telerik Academy ',
+          'while Jimmy goes to Telerik Kids Academy.';
 // true
-let isMatch = 'John goes telerik Kids academy'.test(academyRegex);
+let isMatch = text.test(academyRegex);
 
-let peshoGosho = 'Az sym gosho i ucha javascript v Telerik Academy'
-                + ', a gosho hodi na telerik algo academy';
-
-// will contain array of matches substrings
-let matches = peshoAndGosho.match(academyRegex);
+// will contain array of matches substrings or null
+let matches = text.match(academyRegex);
 
 // get matches and matched groups one by one
 let currentMatch;
-while(currentMatch = academyRegex.exec(peshoGosho)) {
+while(currentMatch = academyRegex.exec(text)) {
     console.log(currentMatch);
 }
 ```
 
 <!-- attr: { id:'use', style: 'font-size: 0.9em', showInPresentation: true } -->
 <!-- # Using Regex in JavaScript -->
-- Helping people have fun(RegExps are cool)
-  - `String.replace`, `String.split`, `String.search`
+- Replace all whitespaces, tabs and newlines with a single space
+  - `String.replace`
 
 ```js
-let notFunRegex = /univesity|school|exam|work/gi;
-let fun = 'kopon';
-
-let plans = 'Stamat and Ivan are going to university'
-              + ', Yana is going to work'
-              + 'and Joro to work and then he has an exam';
-
-let funPlans = plans.replace(notFunRegex, fun);
-let splitPlans = plans.split(notFunRegex);
-let firstBoringActivityIndex = plans.search(notFunRegex);
-
+let text = 'text    with    lots of       spaces\n' +
+           '      and lots of tabulations    ';
+console.log(text.replace(/\s\s+/g, ' '));
 ```
 
+- Split a JavaScript expression to get it's operands
+  - `String.split`
 
+```js
+let expression = '4+5*count-initialCount+1';
+let operands = expression.split(/\+|\*|-/);
+console.log(operands);
+```
 
+<!-- attr: { id:'use', style: 'font-size: 0.9em', showInPresentation: true } -->
+<!-- # Using Regex in JavaScript -->
+- Search for the first occurence of a pattern match
+  - `String.search`
+
+```js
+let text = 'JavaScript is awesome!';
+let index = text.search(/is/);
+console.log(index);
+```
 
 <!-- section start -->
 <!-- attr: { id:'special-characters', class:'slide-section', showInPresentation: true } -->
@@ -160,13 +168,13 @@ let firstBoringActivityIndex = plans.search(notFunRegex);
 
 <!-- attr: { hasScriptWrapper: true, style:'font-size: 0.9em' } -->
 # Special Characters in Regex
-- The regular expressions have a set of special characters,<br> that have a different behavior
+- Regular expressions have a set of special characters,<br> that have a different behavior
   - Characters for matching multiple characters
   - Characters for matching whitespace
   - Characters for matching digits
   - Characters for matching letters
   - Etc…
-- Full list of special characters can be found [here](https://developer.mozilla.org/en/docs/Web/JavaScript/Guide/Regular_Expressions#Using_special_characters)
+- Complete list of special characters can be found [here](https://developer.mozilla.org/en/docs/Web/JavaScript/Guide/Regular_Expressions#Using_special_characters)
 
 
 <!-- attr: { showInPresentation: true } -->
@@ -174,7 +182,7 @@ let firstBoringActivityIndex = plans.search(notFunRegex);
 - `*` – The preceding character/group is matched 0 or more times
 - `+` – Almost the same behaviour as `*` - the preceding character/group is matched 1 or more times
 - `?` – The preceding character/group is matched 0 or 1 times
-- .(dot) – matches any single character except the newline character
+- `.`(dot) – matches any single character except the newline character
 
 <!-- attr: { showInPresentation: true } -->
 <!-- # Special Characters in Regex  -->
@@ -207,7 +215,7 @@ let firstBoringActivityIndex = plans.search(notFunRegex);
 
 <!-- section start -->
 <!-- attr: { class:'slide-section', showInPresentation: true } -->
-<!-- # Using Regular Expressions in practice
+<!-- # Using Regular Expressions in Practice
 ## Solving practical problems -->
 
 <!-- attr: { style: 'font-size: 0.9em' } -->
@@ -219,8 +227,8 @@ let firstBoringActivityIndex = plans.search(notFunRegex);
 - Test your regular expression with the following:
 
 ```js
-['Kucii1', 'kon_simeonov', 'Kon', 'Doncho_Minkov33', '123gosho',
- '__proto__', 'ImOkayButKindaTooLong15', 'Pip3r4o', '<h1>penka</h1>']
+['Chris11', '', 'Joe', 'Peter_356', '123george',
+ '__proto__', 'ImATooLongUsername15', 'J0hn_', '<h1>scripter</h1>']
 ```
 
 # Extract all image sources
