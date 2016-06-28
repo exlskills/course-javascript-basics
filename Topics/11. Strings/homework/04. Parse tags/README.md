@@ -30,5 +30,5 @@ _Note: Regions can be nested._
 
 #### Output
 ```
-We are LiVinG in a YELLOW SUBMARINE. We dOn'T have anything else.
+We are lIvInG in a YELLOW SUBMARINE. We dOn't have anything else.
 ```
