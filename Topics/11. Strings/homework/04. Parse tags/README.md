@@ -6,7 +6,7 @@ You are given a text. Write a function that changes the text in all regions:
 ```
 <upcase>text</upcase> to uppercase.
 <lowcase>text</lowcase> to lowercase
-<mixcase>text</mixcase> to mix casing (alternating lowercase-uppercase)
+<orgcase>text</orgcase> does not change casing
 ```
 
 _Note: Regions can be nested._
@@ -25,10 +25,10 @@ _Note: Regions can be nested._
 
 #### Input
 ```js
-[ 'We are <mixcase>living</mixcase> in a <upcase>yellow submarine</upcase>. We <mixcase>don\'t</mixcase> have <lowcase>anything</lowcase> else.' ]
+[ 'We are <orgcase>liViNg</orgcase> in a <upcase>yellow submarine</upcase>. We <orgcase>doN\'t</orgcase> have <lowcase>anything</lowcase> else.' ]
 ```
 
 #### Output
 ```
-We are lIvInG in a YELLOW SUBMARINE. We dOn't have anything else.
+We are liViNg in a YELLOW SUBMARINE. We doN't have anything else.
 ```
