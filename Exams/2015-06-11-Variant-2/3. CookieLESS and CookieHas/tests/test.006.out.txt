@@ -1,0 +1,47 @@
+#abbr-84 {
+  expounds: usr;
+  tang: occurs;
+  flyer: block;
+  paradoxic: this;
+  coordinate: on;
+  smuggles: page;
+  viewing: of;
+}
+#abbr-84 menu11 {
+  birthdayos: isfile;
+  incessant: except;
+}
+#abbr-84 menu11 bdo51 {
+  rushmore: which;
+  korea: exiting;
+  brigadiergs: usr;
+  watchword: isfile;
+  myra: t;
+  mumbles: on;
+  auditorium: 128;
+  neolithic: man;
+  crumpled: elog;
+  cabling: frame;
+  crisscross: traceback;
+}
+#abbr-84 menu11 bdo51 .code-90 {
+  conundrum: installing;
+  expressiveness: Jython;
+  cowgirl: IsADirectory;
+  redeeming: may;
+  unto: License;
+  avoiding: echo;
+  ruanda: Foundation;
+  focussed: globals;
+  mouths: raise;
+  lumbar: caller;
+}
+#abbr-84 menu11 bdo51 .code-90 caption27 {
+  subschemaus: Distributed;
+  rusk: want;
+  filmy: files;
+  forester: osp;
+  berkshire: errno;
+  submodes: portage;
+  pigments: handled;
+}

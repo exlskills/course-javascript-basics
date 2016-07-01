@@ -1,0 +1,27 @@
+script-33 {
+  generosityfs: ignore;
+  taverna: Jython;
+  milks: write;
+  fictive: are;
+}
+#script41 {
+  authorized: as;
+}
+#ul-25 {
+  boulder: ParseError;
+  laughingly: handler;
+  affector: frame;
+  temperament: traceback;
+}
+.strike-68 {
+  hegemony: signum;
+}
+.i36 {
+  wavy: trace;
+  replayed: for;
+  dignitary: don;
+  malign: n;
+  counters: python3;
+  vegetarian: C;
+  vilifications: don;
+}

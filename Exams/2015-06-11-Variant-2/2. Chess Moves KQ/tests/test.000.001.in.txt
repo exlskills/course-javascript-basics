@@ -1,0 +1,18 @@
+3
+4
+--K-
+K--K
+Q--Q
+12
+d1 b3
+a1 a3
+c3 b2
+a1 c1
+a1 b2
+a1 c3
+a2 c1
+d2 b1
+b1 b2
+c3 a3
+a2 a3
+d1 d3

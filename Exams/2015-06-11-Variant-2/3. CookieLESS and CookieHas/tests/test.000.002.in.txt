@@ -1,0 +1,19 @@
+#the-big-b{
+  color: big-yellow;
+  .little-bs {
+           color: little-yellow;
+      $.male            {
+             color: middle-yellow;
+}
+}
+}
+           .muppet           {
+             skin        :        fluffy;
+  $.water-spirit    {
+    powers    :     water;
+                     }
+  $>thread{
+     color: depends;  
+}
+  powers    :      all-muppet-powers;
+}

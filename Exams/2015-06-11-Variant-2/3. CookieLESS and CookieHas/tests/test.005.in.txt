@@ -1,0 +1,63 @@
+.iframe3 {
+  pajama: SystemExit;
+  oppress: disable;
+  piazzas: to;
+  ceil: try;
+  headlands: future;
+  mandrake: SystemExit;
+  remunerate: exception;
+  misrepresentation: trace;
+  desynchronize: file;
+}
+.col97 {
+  submode: exithandler;
+  mitks: pym;
+  collusion: if;
+  jakarta: def;
+  .bgsound74 {
+    bellyus: See;
+    whup: bin;
+    broadside: t;
+    alarmed: platform;
+    workbook: realpath;
+    rifler: legacy;
+    swastika: ignore;
+    stairwell: signum;
+    involute: SIGTERM;
+    mannerism: ParseError;
+  }
+  thermoelectric: man;
+  steadfastly: quietly;
+  coulomb: when;
+  arenaceous: pym;
+  constrictor: 2006-2014;
+  braving: remove;
+  pluggable: man;
+  transmitters: occurs;
+  portrait: sys;
+  picket: exc;
+  drinker: signal;
+  gallium: python;
+  #hr-22 {
+    combatants: SIGUSR2;
+    clouding: e;
+    #legend-30 {
+      defined: the;
+      proximity: except;
+      frenzied: t;
+      atrocity: unexpected;
+      sealer: 128;
+      electrician: don;
+      interchangeable: for;
+      casket: which;
+      myocardium: insert;
+    }
+    boardinghouse: sys;
+    segregates: SIGPIPE;
+    floors: SIGTERM;
+    euripides: osp;
+    minerals: mod;
+    compared: 1;
+  }
+  renames: are;
+}
