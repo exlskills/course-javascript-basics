@@ -1,6 +1,6 @@
-let task1Solution = require("./task1");
-let task2Solution = require("./task2");
-let task3Solution = require("./task3");
+let task1Solution = require("./1. Hills/solution");
+let task2Solution = require("./2. Chess Moves KQ/solution");
+let task3Solution = require("./3. CookieLESS and CookieHas/solution");
 
 let task1Tests = [
     ["5 1 7 4 8"],
