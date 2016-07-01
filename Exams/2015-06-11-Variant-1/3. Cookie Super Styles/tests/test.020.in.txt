@@ -1,0 +1,2937 @@
+selector-165         {             
+  prop-1689             :value-1689-3;
+prop-92:value-92-1;
+    prop-1137:           value-1137-9;
+            prop-2096            :value-2096-9;
+       prop-1100    :value-1100-0;
+}
+selector-100{
+prop-1792        :     value-1792-0;
+           prop-211           : value-211-7;
+     prop-148:value-148-7;
+            prop-120:value-120-1;
+              prop-633            : value-633-4;
+prop-2000              :            value-2000-6;
+}
+selector-75>selector-47 ~ selector-8       {
+      prop-664:value-664-8;
+prop-2144         :             value-2144-9;
+prop-127:           value-127-3;
+     prop-1091:        value-1091-3;
+prop-303   :   value-303-9;
+            prop-1733         :         value-1733-9;
+prop-851:value-851-7;
+}
+selector-279              {          
+     prop-852:  value-852-2;
+prop-107       :value-107-1;
+         prop-722        :          value-722-6;
+ prop-201         :     value-201-4;
+}
+selector-135~   selector-25+            selector-12{
+           prop-1387              :            value-1387-7;
+            prop-1927              :      value-1927-1;
+prop-424   :value-424-3;
+prop-305   :        value-305-7;
+}
+selector-55{         
+   prop-2048    :            value-2048-8;
+      prop-1530:    value-1530-8;
+       prop-1748            :             value-1748-6;
+              prop-1659 :         value-1659-9;
+        prop-965:   value-965-7;
+}
+selector-176         selector-20~selector-16          {            
+prop-554         :              value-554-5;
+            prop-1978              :             value-1978-7;
+prop-424:value-424-0;
+prop-364:value-364-5;
+    prop-1841:           value-1841-0;
+prop-738:       value-738-4;
+              prop-1761:              value-1761-8;
+}
+selector-237{    
+prop-2027:       value-2027-2;
+prop-1587  :value-1587-8;
+   prop-573:value-573-0;
+prop-709:      value-709-3;
+prop-1903:value-1903-0;
+prop-308:         value-308-0;
+prop-2104            :value-2104-3;
+}
+selector-92         {        
+  prop-71:value-71-5;
+   prop-109:value-109-1;
+prop-2039    :     value-2039-3;
+           prop-677         :value-677-3;
+prop-853   :   value-853-9;
+prop-957   :value-957-4;
+}
+selector-170       {            
+prop-434:value-434-3;
+        prop-1477:             value-1477-8;
+prop-2245  :     value-2245-5;
+prop-816:value-816-8;
+prop-1203    :value-1203-5;
+          prop-1104              :value-1104-2;
+        prop-463:value-463-1;
+}
+selector-128                  selector-109    {
+   prop-1017   :value-1017-5;
+   prop-983:      value-983-8;
+prop-1171:value-1171-1;
+prop-2167:             value-2167-7;
+}
+selector-114+selector-64{
+       prop-1704             :           value-1704-7;
+prop-1581           :value-1581-0;
+  prop-1423       :           value-1423-8;
+        prop-214      :value-214-8;
+  prop-2139:              value-2139-8;
+prop-1587 :  value-1587-9;
+prop-191   :         value-191-3;
+  prop-92             :          value-92-3;
+}
+selector-55{    
+prop-429:value-429-7;
+prop-2199:value-2199-1;
+     prop-918:    value-918-4;
+           prop-1804:          value-1804-5;
+             prop-664:        value-664-1;
+prop-865  :       value-865-3;
+          prop-37:      value-37-5;
+prop-558      :            value-558-6;
+}
+selector-128                  selector-109       {
+prop-591: value-591-7;
+prop-379           :           value-379-6;
+prop-1696:            value-1696-8;
+prop-2135   :       value-2135-6;
+}
+selector-85         {
+prop-108:              value-108-7;
+prop-1806      :        value-1806-8;
+prop-1536  :value-1536-2;
+ prop-1624         :             value-1624-5;
+           prop-930              :        value-930-7;
+         prop-1394:     value-1394-7;
+}
+selector-33             selector-10              {
+     prop-2199:value-2199-0;
+          prop-718     :value-718-5;
+prop-1555    :     value-1555-6;
+}
+selector-191      {  
+        prop-1740:      value-1740-2;
+            prop-1494   :  value-1494-3;
+   prop-170:   value-170-9;
+             prop-1727           : value-1727-9;
+prop-1265        :value-1265-5;
+              prop-1448   :         value-1448-6;
+prop-830          :           value-830-1;
+}
+selector-31{
+prop-828              :          value-828-8;
+            prop-887:value-887-9;
+}
+selector-75>selector-47 ~ selector-8{
+        prop-1727  :   value-1727-3;
+         prop-1179:value-1179-0;
+  prop-1737           :    value-1737-4;
+      prop-261  :             value-261-9;
+  prop-191:      value-191-6;
+   prop-1568:value-1568-9;
+}
+selector-227  +selector-143       >           selector-110{  
+prop-1348:            value-1348-2;
+prop-2215    :         value-2215-4;
+      prop-2220      :value-2220-8;
+              prop-1234:value-1234-7;
+            prop-457:              value-457-6;
+           prop-228:value-228-5;
+           prop-1671:    value-1671-0;
+prop-56           :value-56-7;
+}
+selector-98              {
+prop-1785      :value-1785-4;
+prop-858           :value-858-2;
+}
+selector-205    {
+prop-1166         :value-1166-8;
+           prop-1641:       value-1641-1;
+      prop-2037              :value-2037-2;
+prop-1822 :    value-1822-2;
+}
+selector-118       +          selector-95       {
+    prop-2206:  value-2206-3;
+   prop-1423              :value-1423-4;
+          prop-1328:             value-1328-9;
+}
+selector-173>selector-65        {
+prop-441:value-441-9;
+prop-1701:value-1701-9;
+   prop-999 :     value-999-3;
+          prop-559           :  value-559-4;
+   prop-1293:      value-1293-7;
+prop-1807   :value-1807-3;
+}
+selector-126              {     
+           prop-358:value-358-1;
+prop-1811:              value-1811-2;
+           prop-202 :           value-202-3;
+prop-1903:value-1903-8;
+    prop-1840:value-1840-2;
+prop-176:             value-176-0;
+}
+selector-140>selector-127{
+           prop-271:        value-271-0;
+              prop-1904:        value-1904-1;
+prop-861        :value-861-5;
+prop-1475:         value-1475-9;
+prop-231          :   value-231-9;
+prop-1543:value-1543-3;
+prop-1518          :   value-1518-7;
+prop-87:         value-87-3;
+}
+selector-119~selector-102>selector-25+            selector-12{
+     prop-2014            :  value-2014-3;
+prop-474   :value-474-8;
+       prop-1236: value-1236-9;
+             prop-989      :   value-989-5;
+             prop-829            :      value-829-6;
+    prop-733             :     value-733-1;
+}
+selector-43       >selector-11{
+prop-2071        :value-2071-4;
+prop-310      :value-310-1;
+prop-787             :           value-787-9;
+}
+selector-237{
+  prop-474:value-474-3;
+           prop-291:value-291-0;
+prop-2076  :    value-2076-5;
+}
+selector-243              ~selector-239                            selector-75>selector-47 ~ selector-8{   
+prop-277     :           value-277-9;
+prop-1644           :          value-1644-0;
+}
+selector-114+selector-64            {
+prop-1703           :             value-1703-1;
+       prop-33: value-33-2;
+             prop-1752   :     value-1752-3;
+            prop-1205:       value-1205-4;
+       prop-876         :value-876-8;
+ prop-101:    value-101-5;
+prop-1081:value-1081-6;
+}
+selector-68    selector-58+ selector-35{
+prop-1983            :              value-1983-4;
+prop-4:   value-4-2;
+}
+selector-114+selector-64           {   
+prop-2001:      value-2001-6;
+ prop-452      :       value-452-3;
+prop-1763           :value-1763-4;
+  prop-1620    :             value-1620-6;
+}
+selector-54        { 
+      prop-1805:              value-1805-7;
+          prop-91:value-91-8;
+        prop-7             :value-7-7;
+prop-445:             value-445-9;
+    prop-1187          :value-1187-2;
+         prop-784             :value-784-1;
+prop-1617              :value-1617-6;
+}
+selector-133      + selector-11{      
+ prop-2210              :              value-2210-9;
+        prop-1107:value-1107-5;
+     prop-82  :value-82-6;
+prop-1774    :              value-1774-7;
+           prop-1163:value-1163-4;
+prop-1477:         value-1477-7;
+prop-2242:           value-2242-9;
+}
+selector-182        {
+ prop-1564:value-1564-6;
+      prop-113:value-113-5;
+  prop-1009:         value-1009-3;
+prop-292             :value-292-5;
+      prop-210     :value-210-1;
+prop-2138:         value-2138-3;
+             prop-174:value-174-4;
+}
+selector-178             {    
+           prop-163:value-163-0;
+        prop-183:        value-183-1;
+              prop-1549     :    value-1549-9;
+prop-1801:         value-1801-6;
+}
+selector-187      { 
+           prop-255           :value-255-6;
+prop-1480 :          value-1480-4;
+}
+selector-49>    selector-11{    
+prop-138:   value-138-0;
+prop-667:value-667-1;
+      prop-111            :   value-111-3;
+prop-1977:value-1977-1;
+}
+selector-152{
+            prop-1638         :  value-1638-6;
+prop-113       :      value-113-0;
+}
+selector-120          {
+            prop-1538:value-1538-1;
+  prop-917        :  value-917-1;
+        prop-853 :   value-853-7;
+  prop-1125: value-1125-8;
+prop-530  :value-530-4;
+}
+selector-251{            
+      prop-1500            :value-1500-3;
+      prop-692:value-692-9;
+prop-1740:           value-1740-4;
+     prop-1564:value-1564-2;
+}
+selector-50         {
+           prop-770   :value-770-9;
+           prop-2057             :    value-2057-9;
+             prop-1141             :   value-1141-8;
+prop-2160:value-2160-0;
+      prop-1506:value-1506-4;
+     prop-1142            :value-1142-0;
+prop-2067: value-2067-1;
+}
+selector-69+    selector-25+            selector-12{ 
+prop-1701:value-1701-2;
+prop-1982       :            value-1982-9;
+prop-1353             :            value-1353-1;
+prop-2052    :        value-2052-8;
+          prop-2200   :           value-2200-0;
+prop-1048:              value-1048-9;
+prop-1850   :  value-1850-7;
+}
+selector-113{  
+      prop-357         :          value-357-9;
+          prop-1395     :value-1395-7;
+  prop-891  : value-891-8;
+}
+selector-128                  selector-109    {
+prop-1399:           value-1399-8;
+prop-1684:  value-1684-4;
+prop-1879:         value-1879-0;
+}
+selector-50     {   
+     prop-1195      :            value-1195-2;
+             prop-728          :value-728-5;
+            prop-1829:   value-1829-8;
+             prop-1998 :value-1998-9;
+         prop-1411 :value-1411-1;
+prop-911           :    value-911-3;
+prop-160:value-160-2;
+ prop-158:value-158-6;
+}
+selector-57{              
+prop-910:value-910-1;
+        prop-878:     value-878-3;
+prop-874:          value-874-6;
+        prop-770            :  value-770-5;
+ prop-1771  :   value-1771-4;
+prop-20:     value-20-7;
+prop-1058 :value-1058-7;
+}
+selector-280        >             selector-227  +selector-143       >           selector-110   {      
+prop-1107:value-1107-5;
+     prop-1126    :value-1126-1;
+prop-1534:    value-1534-5;
+}
+selector-94         selector-23              selector-9    ~            selector-0{        
+        prop-1 :         value-1-9;
+      prop-1592      :       value-1592-0;
+    prop-1266        :           value-1266-0;
+prop-232:          value-232-4;
+prop-1292:value-1292-4;
+           prop-53:value-53-4;
+}
+selector-132{ 
+prop-1148:value-1148-1;
+       prop-440       :value-440-1;
+          prop-758        :           value-758-2;
+  prop-735          :            value-735-7;
+           prop-1872    :           value-1872-6;
+    prop-1761           :value-1761-9;
+}
+selector-154   {   
+prop-708:     value-708-5;
+prop-909:value-909-7;
+prop-1960        :      value-1960-2;
+         prop-1055:      value-1055-1;
+prop-1598              :           value-1598-9;
+prop-2045  :             value-2045-8;
+}
+selector-107    >selector-4            {          
+             prop-1140        :value-1140-8;
+           prop-1175             :     value-1175-8;
+prop-1756              :      value-1756-1;
+              prop-740:     value-740-7;
+    prop-1694             :              value-1694-4;
+            prop-54          :              value-54-2;
+           prop-2226       :       value-2226-1;
+prop-2061 :value-2061-6;
+}
+selector-59     +selector-12{             
+prop-1446:              value-1446-8;
+prop-1659:value-1659-6;
+prop-1556  :value-1556-6;
+    prop-1203         :          value-1203-4;
+prop-990             :  value-990-9;
+}
+selector-274~selector-39    {         
+prop-2149:value-2149-4;
+prop-1630:            value-1630-8;
+         prop-167   :        value-167-2;
+}
+selector-171          selector-113         {       
+      prop-380  :            value-380-3;
+          prop-632:    value-632-2;
+              prop-1385              :value-1385-4;
+        prop-1086        :       value-1086-4;
+            prop-2248:value-2248-7;
+           prop-2077              :value-2077-6;
+prop-27:value-27-7;
+         prop-553     :value-553-2;
+}
+selector-249{             
+prop-1078     :        value-1078-6;
+prop-1107      :         value-1107-6;
+prop-895        :          value-895-8;
+      prop-262             :value-262-2;
+    prop-148:            value-148-4;
+  prop-1691:  value-1691-2;
+   prop-524:value-524-7;
+prop-2153     :value-2153-8;
+}
+selector-265          selector-207         {       
+            prop-838  :value-838-3;
+       prop-458            : value-458-1;
+           prop-1400            :       value-1400-1;
+              prop-1240:       value-1240-2;
+prop-518:value-518-3;
+prop-91          :value-91-8;
+    prop-1276:value-1276-8;
+prop-137:         value-137-8;
+}
+selector-120{     
+             prop-54:    value-54-3;
+  prop-1710     :value-1710-5;
+   prop-551   :value-551-2;
+            prop-1153:    value-1153-8;
+     prop-479:   value-479-3;
+}
+selector-194~         selector-00000{ 
+prop-107           :value-107-5;
+     prop-1868          :value-1868-2;
+prop-1776:            value-1776-2;
+            prop-2248              :       value-2248-1;
+prop-1956:              value-1956-4;
+   prop-878   : value-878-9;
+        prop-1463 :           value-1463-7;
+}
+selector-87              +   selector-45         selector-11{
+prop-1943:value-1943-4;
+  prop-169:    value-169-8;
+prop-901       :      value-901-3;
+}
+selector-23              selector-9    ~            selector-0{
+prop-2219        :        value-2219-9;
+            prop-821            :             value-821-1;
+}
+selector-164{ 
+prop-1114:        value-1114-7;
+  prop-314    :value-314-2;
+  prop-1922:value-1922-6;
+              prop-1987:   value-1987-0;
+prop-1978:value-1978-3;
+prop-1100:          value-1100-6;
+prop-1165  :value-1165-3;
+}
+selector-55{        
+prop-1718  :      value-1718-7;
+     prop-963      :value-963-4;
+}
+selector-205{ 
+         prop-1381 :          value-1381-4;
+prop-531              :  value-531-2;
+prop-2229:      value-2229-7;
+              prop-889:     value-889-3;
+  prop-1            :value-1-4;
+prop-70:value-70-7;
+prop-853      :value-853-2;
+}
+selector-59     +selector-12{
+ prop-1671:value-1671-7;
+prop-1041:           value-1041-6;
+          prop-1824  :     value-1824-6;
+prop-697:value-697-8;
+prop-1601:          value-1601-3;
+          prop-1141          :value-1141-1;
+prop-653          :          value-653-7;
+prop-935  :value-935-1;
+}
+selector-241{             
+      prop-1328:   value-1328-2;
+    prop-106   :   value-106-4;
+              prop-1446:value-1446-5;
+             prop-1902:value-1902-2;
+    prop-144:      value-144-7;
+prop-890           :  value-890-7;
+}
+selector-32  {
+prop-553  :value-553-1;
+prop-255            :   value-255-0;
+              prop-357      :value-357-4;
+prop-1766      :       value-1766-1;
+prop-893:             value-893-7;
+prop-548:value-548-7;
+}
+selector-33             selector-10             {             
+            prop-253:value-253-2;
+prop-1717:value-1717-6;
+prop-38          :        value-38-0;
+         prop-281:    value-281-0;
+           prop-1022         :          value-1022-9;
+  prop-1417             :    value-1417-2;
+}
+selector-153~          selector-42              {            
+prop-413             :value-413-0;
+prop-997   :  value-997-7;
+prop-943    :     value-943-7;
+prop-665:              value-665-9;
+}
+selector-190             selector-111{              
+prop-279:   value-279-3;
+           prop-1400         :    value-1400-9;
+}
+selector-183 {
+  prop-998: value-998-7;
+       prop-1160:value-1160-3;
+      prop-144             :value-144-4;
+        prop-936 :   value-936-3;
+prop-93              :value-93-8;
+              prop-939:value-939-9;
+prop-1364:     value-1364-0;
+}
+selector-264>       selector-236                 selector-16{
+prop-254:value-254-5;
+prop-2186 :value-2186-6;
+           prop-1461            :value-1461-2;
+            prop-1469:       value-1469-1;
+}
+selector-100              {
+prop-1400: value-1400-3;
+     prop-806     :value-806-1;
+prop-2036: value-2036-6;
+         prop-1719          :     value-1719-0;
+  prop-1548   :value-1548-5;
+            prop-84         :         value-84-7;
+}
+selector-173>selector-65{      
+        prop-681      :          value-681-2;
+prop-1566:         value-1566-9;
+}
+selector-21>           selector-20~selector-16{
+   prop-1902             :value-1902-1;
+             prop-1202    :         value-1202-9;
+prop-217      :     value-217-1;
+}
+selector-166 selector-52             {    
+prop-1494    :value-1494-6;
+prop-1783              :   value-1783-3;
+              prop-2218:         value-2218-1;
+       prop-1898              :           value-1898-9;
+prop-821:value-821-0;
+}
+selector-249{
+prop-1522       :value-1522-1;
+prop-857 :value-857-6;
+}
+selector-39{
+          prop-1307:           value-1307-3;
+prop-786:  value-786-6;
+           prop-124            :     value-124-1;
+prop-725           :      value-725-7;
+prop-952     :          value-952-9;
+         prop-999     :       value-999-0;
+prop-996:value-996-7;
+prop-1959:     value-1959-2;
+}
+selector-24{          
+       prop-79      :          value-79-7;
+prop-1114:              value-1114-0;
+ prop-25      :value-25-6;
+         prop-2102         :value-2102-0;
+}
+selector-43       >selector-11{      
+    prop-1568           :             value-1568-2;
+            prop-1603           :value-1603-4;
+}
+selector-97            selector-39{
+             prop-476        :         value-476-7;
+prop-275              :        value-275-2;
+}
+selector-219            {    
+    prop-749:      value-749-7;
+prop-1747:value-1747-2;
+    prop-1696         :value-1696-8;
+prop-1463:             value-1463-9;
+prop-669:value-669-1;
+}
+selector-148{
+            prop-1387 :          value-1387-2;
+prop-1867:value-1867-5;
+prop-375   :      value-375-3;
+              prop-702         :         value-702-1;
+prop-1838      :value-1838-0;
+}
+selector-89      {            
+  prop-2069:         value-2069-7;
+prop-1673:   value-1673-4;
+prop-1935      :      value-1935-6;
+            prop-241   :        value-241-3;
+}
+selector-125     {    
+prop-1227        :value-1227-7;
+   prop-1486          :         value-1486-3;
+prop-1735  :      value-1735-2;
+              prop-477    :value-477-5;
+prop-467:value-467-8;
+prop-2172         :      value-2172-2;
+}
+selector-77 {             
+        prop-521   :value-521-0;
+        prop-74:              value-74-9;
+  prop-1231              :         value-1231-7;
+prop-770  : value-770-1;
+prop-1303              :             value-1303-7;
+}
+selector-19         {     
+prop-940:              value-940-5;
+prop-1384:         value-1384-7;
+      prop-656:           value-656-8;
+      prop-1948            :value-1948-3;
+        prop-1580              :           value-1580-2;
+      prop-557     :          value-557-3;
+   prop-1417:      value-1417-4;
+}
+selector-74{
+prop-1225          :  value-1225-7;
+             prop-519  :value-519-5;
+              prop-556:value-556-1;
+prop-1347         :value-1347-2;
+  prop-790           : value-790-1;
+prop-1107             :value-1107-3;
+prop-932  :value-932-6;
+prop-1671:value-1671-6;
+}
+selector-238           {         
+prop-455:value-455-1;
+      prop-602    :value-602-4;
+prop-469        :value-469-7;
+prop-305       :           value-305-1;
+          prop-1472     :value-1472-2;
+}
+selector-238{          
+prop-1142:     value-1142-3;
+prop-1117          :  value-1117-7;
+             prop-688        :         value-688-9;
+              prop-946   :value-946-6;
+prop-1902:   value-1902-1;
+            prop-1501  :             value-1501-9;
+ prop-1318             :      value-1318-8;
+prop-1429:     value-1429-0;
+}
+selector-129       {     
+prop-588:           value-588-9;
+       prop-2045    :  value-2045-5;
+        prop-908:value-908-8;
+              prop-1242     :              value-1242-4;
+              prop-525:         value-525-2;
+      prop-2050             :value-2050-3;
+prop-728:          value-728-3;
+prop-202:value-202-7;
+}
+selector-12{           
+              prop-686             :   value-686-9;
+prop-607:value-607-4;
+prop-1746           :     value-1746-0;
+prop-1878:value-1878-7;
+             prop-1008   :value-1008-6;
+}
+selector-132{     
+prop-1884      :value-1884-5;
+          prop-2163 :value-2163-7;
+    prop-143      :      value-143-6;
+          prop-1848          :        value-1848-2;
+prop-1990:value-1990-7;
+prop-2182:value-2182-5;
+}
+selector-13     {            
+       prop-658   :      value-658-9;
+        prop-1975              :value-1975-5;
+        prop-565:value-565-1;
+   prop-741:value-741-3;
+}
+selector-218{      
+              prop-1307:          value-1307-4;
+          prop-766:      value-766-5;
+prop-1628  :value-1628-3;
+prop-1799:          value-1799-8;
+           prop-1597              :         value-1597-2;
+   prop-559:         value-559-0;
+}
+selector-82{
+ prop-1473        :value-1473-3;
+           prop-1029:            value-1029-0;
+         prop-1683     :value-1683-1;
+prop-54            :value-54-1;
+}
+selector-13    {       
+              prop-257    :    value-257-0;
+prop-367:         value-367-6;
+prop-685    :value-685-0;
+prop-1403:     value-1403-9;
+            prop-225:value-225-2;
+}
+selector-150   {
+            prop-154:value-154-0;
+         prop-1325             :    value-1325-6;
+prop-1491       :  value-1491-7;
+           prop-1949:    value-1949-8;
+            prop-1220 :     value-1220-5;
+prop-2074          :value-2074-8;
+   prop-1580:value-1580-8;
+prop-144             :   value-144-1;
+}
+selector-54   {
+prop-1948:value-1948-0;
+prop-1134       :      value-1134-9;
+          prop-856:value-856-6;
+prop-118           :        value-118-2;
+prop-1754:             value-1754-4;
+}
+selector-42{
+prop-834    :value-834-0;
+    prop-1008         :        value-1008-0;
+ prop-2202:value-2202-2;
+prop-182   : value-182-4;
+  prop-1056:value-1056-0;
+}
+selector-131             { 
+     prop-106  :           value-106-0;
+          prop-1630             : value-1630-6;
+    prop-832:        value-832-1;
+  prop-2233:   value-2233-0;
+prop-2124:       value-2124-5;
+}
+selector-84   {
+        prop-2124          :value-2124-5;
+   prop-1545:value-1545-3;
+             prop-42:value-42-3;
+      prop-1691              :             value-1691-9;
+prop-364             :  value-364-5;
+prop-913:         value-913-6;
+prop-1894:          value-1894-3;
+}
+selector-69+    selector-25+            selector-12{     
+    prop-1416:  value-1416-6;
+            prop-618         :       value-618-7;
+          prop-1602            :value-1602-0;
+}
+selector-93>selector-54{              
+prop-1981        :value-1981-7;
+        prop-1089 :       value-1089-0;
+prop-1044:value-1044-0;
+prop-1537     :value-1537-1;
+              prop-967:value-967-6;
+prop-1065            :        value-1065-0;
+}
+selector-58+ selector-35          {
+         prop-1392          :value-1392-1;
+  prop-658    :        value-658-1;
+}
+selector-17                             selector-4        {            
+prop-1152: value-1152-8;
+      prop-1183:             value-1183-2;
+}
+selector-9    ~            selector-0          {  
+              prop-69:value-69-8;
+      prop-2163           :              value-2163-2;
+}
+selector-270{
+              prop-889      :  value-889-8;
+prop-1092       :            value-1092-5;
+}
+selector-141    {             
+prop-918       :value-918-8;
+prop-793 :            value-793-6;
+ prop-574:value-574-1;
+prop-744:    value-744-0;
+              prop-728:value-728-0;
+}
+selector-58+ selector-35{            
+prop-225            :value-225-9;
+prop-182          :value-182-1;
+          prop-1668         :value-1668-5;
+        prop-515:value-515-0;
+}
+selector-41   {
+             prop-987          :             value-987-6;
+            prop-1828:value-1828-8;
+prop-767              : value-767-3;
+}
+selector-99  +selector-90+   selector-6+ selector-2{           
+prop-295:value-295-9;
+       prop-959 :       value-959-6;
+}
+selector-147          {
+prop-783        :           value-783-7;
+ prop-1853:value-1853-4;
+prop-310:         value-310-3;
+}
+selector-194~         selector-00000{
+              prop-1055            :        value-1055-7;
+prop-1472          :value-1472-9;
+   prop-1282:value-1282-9;
+         prop-2228:              value-2228-4;
+}
+selector-182{
+prop-1774:value-1774-7;
+       prop-670:value-670-4;
+          prop-2204:          value-2204-2;
+prop-440:         value-440-1;
+prop-589:value-589-8;
+prop-635:value-635-8;
+     prop-1996           : value-1996-3;
+   prop-230:        value-230-1;
+}
+selector-6+ selector-2      {           
+  prop-1173      :value-1173-0;
+prop-1278:           value-1278-3;
+prop-1674:  value-1674-3;
+prop-16    :          value-16-8;
+prop-874      :   value-874-1;
+}
+selector-240             {           
+prop-1287              :value-1287-2;
+prop-209:     value-209-6;
+    prop-474        :value-474-0;
+}
+selector-150{              
+prop-1759:            value-1759-2;
+prop-1195    :value-1195-9;
+prop-2154:value-2154-6;
+}
+selector-246            {
+prop-1471       :   value-1471-0;
+    prop-866     :value-866-0;
+            prop-1143:    value-1143-5;
+ prop-643:          value-643-0;
+   prop-1911             :            value-1911-2;
+}
+selector-199      {              
+      prop-947   :       value-947-5;
+prop-656:value-656-9;
+    prop-581            :value-581-1;
+prop-257:value-257-6;
+          prop-790:value-790-2;
+       prop-1738 :        value-1738-8;
+            prop-376            :value-376-2;
+}
+selector-32   {    
+prop-2132:      value-2132-2;
+prop-1860  :      value-1860-1;
+      prop-931      :value-931-2;
+}
+selector-169{         
+prop-1126          :value-1126-8;
+prop-297       :        value-297-3;
+      prop-512:      value-512-8;
+       prop-1659  :              value-1659-2;
+            prop-2238:value-2238-4;
+          prop-1899            :      value-1899-8;
+prop-2056             :              value-2056-4;
+      prop-38:     value-38-5;
+}
+selector-198{          
+prop-1996:        value-1996-7;
+  prop-1538:      value-1538-6;
+prop-1491           :           value-1491-3;
+prop-19:        value-19-2;
+         prop-1494           :value-1494-1;
+}
+selector-3{           
+prop-1731     :             value-1731-9;
+      prop-1912    :    value-1912-0;
+      prop-1714 :value-1714-3;
+prop-1265:value-1265-2;
+             prop-1791:value-1791-6;
+     prop-536    :value-536-4;
+           prop-7             :value-7-8;
+            prop-961          :      value-961-7;
+}
+selector-202{
+             prop-1634             :value-1634-4;
+prop-1345:   value-1345-5;
+prop-1250:        value-1250-0;
+}
+selector-67      + selector-18            {
+  prop-404:value-404-5;
+prop-2065:value-2065-7;
+prop-522        :value-522-5;
+         prop-397          :             value-397-3;
+prop-475:value-475-3;
+prop-866:            value-866-3;
+}
+selector-88    {         
+           prop-2177:       value-2177-1;
+      prop-1653:    value-1653-3;
+     prop-1509  :             value-1509-8;
+     prop-1163           :         value-1163-9;
+prop-1775     :          value-1775-8;
+}
+selector-198{              
+             prop-96:              value-96-6;
+prop-1678          :       value-1678-7;
+       prop-117   :value-117-4;
+}
+selector-257      ~         selector-116{       
+prop-323:   value-323-3;
+           prop-682  :     value-682-2;
+}
+selector-259                          selector-81{
+    prop-40           :value-40-8;
+prop-2212        :         value-2212-6;
+  prop-731:           value-731-2;
+     prop-1604: value-1604-9;
+}
+selector-83              {
+    prop-2102:     value-2102-5;
+prop-1331        :value-1331-1;
+        prop-1002          :value-1002-2;
+}
+selector-207{     
+prop-2136:        value-2136-6;
+prop-1958:        value-1958-7;
+          prop-1635:  value-1635-6;
+          prop-1832    :value-1832-9;
+        prop-1301:value-1301-8;
+prop-1166:value-1166-6;
+}
+selector-124  {
+prop-1684  :value-1684-3;
+prop-333  :  value-333-4;
+prop-1459:value-1459-4;
+prop-553     :            value-553-8;
+}
+selector-279{            
+prop-971         :         value-971-8;
+prop-903:         value-903-6;
+prop-2111       :         value-2111-5;
+      prop-650  :value-650-1;
+              prop-545:  value-545-2;
+}
+selector-112+   selector-38            selector-6+ selector-2        {   
+   prop-316:              value-316-2;
+prop-874:value-874-1;
+prop-1666:value-1666-4;
+}
+selector-211              selector-44         +selector-36              {
+            prop-521:value-521-0;
+prop-614:              value-614-0;
+prop-529:         value-529-8;
+}
+selector-77         {     
+     prop-493      :       value-493-3;
+  prop-473         :     value-473-3;
+}
+selector-137       >            selector-21>           selector-20~selector-16            {
+prop-1790:    value-1790-8;
+prop-1099:  value-1099-3;
+   prop-1140  :value-1140-4;
+prop-902:value-902-2;
+}
+selector-8{       
+prop-1730           :value-1730-6;
+prop-2236:              value-2236-6;
+              prop-706           :    value-706-2;
+    prop-2111            :value-2111-6;
+ prop-2030:      value-2030-5;
+prop-122          :value-122-9;
+prop-112       :             value-112-1;
+}
+selector-00000{             
+prop-387           :              value-387-8;
+        prop-1621           :value-1621-4;
+prop-268     :value-268-2;
+prop-824:        value-824-6;
+}
+selector-178      {
+    prop-2224             :value-2224-5;
+         prop-623             :value-623-2;
+prop-1010      :              value-1010-2;
+prop-1952:    value-1952-4;
+        prop-744:            value-744-4;
+       prop-1183             :       value-1183-0;
+prop-791:    value-791-7;
+}
+selector-206 +selector-7{              
+         prop-1254      :value-1254-0;
+prop-394:       value-394-7;
+}
+selector-79         {
+prop-1434             :  value-1434-3;
+prop-1316:    value-1316-0;
+   prop-500          :           value-500-3;
+   prop-1759  :         value-1759-9;
+}
+selector-174{    
+ prop-215:value-215-0;
+ prop-906      :value-906-4;
+         prop-819:   value-819-3;
+prop-1076:value-1076-7;
+prop-1919:value-1919-3;
+prop-1071            :      value-1071-4;
+              prop-417:value-417-7;
+  prop-672:value-672-3;
+}
+selector-239                            selector-75>selector-47 ~ selector-8{
+prop-2157:value-2157-8;
+  prop-632:     value-632-1;
+prop-163       :value-163-7;
+  prop-1934            :           value-1934-1;
+prop-1163        :value-1163-8;
+prop-859         :value-859-6;
+prop-847    : value-847-7;
+prop-1063:     value-1063-1;
+}
+selector-247{ 
+            prop-257      :   value-257-2;
+prop-1363        :value-1363-7;
+       prop-290:            value-290-9;
+prop-2026             :          value-2026-3;
+ prop-1849            :value-1849-9;
+            prop-1490            :             value-1490-4;
+}
+selector-32           {
+prop-831:         value-831-4;
+     prop-801              :           value-801-5;
+           prop-341        :   value-341-1;
+}
+selector-85            {         
+prop-2038     :     value-2038-5;
+prop-116:   value-116-7;
+prop-1197              :    value-1197-8;
+prop-1678:              value-1678-5;
+prop-2018            :value-2018-2;
+prop-1142:    value-1142-8;
+            prop-1181:         value-1181-2;
+       prop-1978    :value-1978-8;
+}
+selector-59     +selector-12 {
+    prop-1320       :             value-1320-0;
+   prop-1375:value-1375-5;
+prop-575:          value-575-9;
+        prop-1967    :            value-1967-7;
+}
+selector-110      {         
+prop-796:value-796-3;
+   prop-43        :         value-43-6;
+}
+selector-65      {
+              prop-1371             :value-1371-5;
+        prop-447       :value-447-9;
+prop-1461:value-1461-4;
+prop-600:      value-600-2;
+}
+selector-251        {
+      prop-1842:value-1842-7;
+        prop-566       :     value-566-3;
+prop-1492            :value-1492-6;
+             prop-1264        :   value-1264-3;
+            prop-1812:      value-1812-8;
+      prop-592        :           value-592-4;
+    prop-75:  value-75-1;
+prop-1280:   value-1280-1;
+}
+selector-93>selector-54{              
+      prop-302:        value-302-2;
+prop-1689  :        value-1689-4;
+prop-1523          :value-1523-0;
+prop-969  :             value-969-6;
+     prop-965             :value-965-8;
+    prop-144:value-144-4;
+prop-1403      :value-1403-2;
+}
+selector-259                          selector-81  {          
+prop-1:value-1-3;
+prop-361:    value-361-6;
+}
+selector-125            {              
+ prop-1967:value-1967-5;
+ prop-1056       :value-1056-5;
+prop-1822          : value-1822-9;
+}
+selector-264>       selector-236                 selector-16{
+             prop-412:         value-412-3;
+          prop-165    :              value-165-2;
+prop-1781          :value-1781-4;
+              prop-759:            value-759-5;
+}
+selector-190             selector-111      {      
+prop-753: value-753-0;
+prop-1527:value-1527-7;
+prop-1266:value-1266-2;
+            prop-109:value-109-9;
+}
+selector-262~           selector-249{              
+prop-125:value-125-6;
+              prop-1799:            value-1799-5;
+  prop-646 :value-646-1;
+}
+selector-159{       
+       prop-1727:value-1727-8;
+            prop-212:     value-212-1;
+prop-2220    :          value-2220-8;
+ prop-690:      value-690-8;
+prop-1345:              value-1345-1;
+}
+selector-95          {
+prop-48:              value-48-9;
+prop-819    :        value-819-6;
+}
+selector-105             {      
+prop-773         :value-773-4;
+prop-53:              value-53-8;
+prop-3   :value-3-3;
+    prop-1500:value-1500-4;
+   prop-235       :           value-235-2;
+       prop-1928:    value-1928-1;
+prop-936:value-936-2;
+}
+selector-129{   
+prop-1907:value-1907-4;
+         prop-486       :value-486-6;
+       prop-337:     value-337-4;
+    prop-1711:           value-1711-0;
+       prop-72:             value-72-6;
+prop-1378           :       value-1378-7;
+  prop-64:             value-64-3;
+}
+selector-152              {       
+   prop-1197              :value-1197-4;
+              prop-1584    :          value-1584-7;
+prop-2151:     value-2151-0;
+prop-1352           : value-1352-5;
+prop-1520   :value-1520-6;
+prop-323   :value-323-7;
+}
+selector-31        {            
+prop-505            :value-505-2;
+        prop-743:         value-743-9;
+prop-1715:value-1715-9;
+           prop-1582        :              value-1582-2;
+       prop-1372:           value-1372-5;
+     prop-1792:          value-1792-8;
+}
+selector-60{
+prop-2105:             value-2105-5;
+prop-822             :         value-822-7;
+prop-251           :value-251-5;
+prop-328       :              value-328-1;
+          prop-1623         :      value-1623-8;
+      prop-1096             :value-1096-1;
+}
+selector-76        {
+       prop-1350:value-1350-7;
+prop-1154              :  value-1154-8;
+        prop-208   :value-208-8;
+prop-151      :         value-151-4;
+}
+selector-221+             selector-148           {              
+  prop-1193              :value-1193-3;
+        prop-803:  value-803-7;
+prop-344:value-344-0;
+prop-1932: value-1932-8;
+}
+selector-59     +selector-12             {         
+prop-1962   :   value-1962-7;
+            prop-786:        value-786-4;
+prop-738:value-738-8;
+    prop-2242:value-2242-6;
+prop-1518       : value-1518-8;
+prop-81              :value-81-5;
+}
+selector-174      {
+              prop-1408      :      value-1408-2;
+      prop-1054:         value-1054-9;
+ prop-2244       :value-2244-2;
+      prop-67        :             value-67-2;
+prop-575:         value-575-0;
+      prop-163:value-163-0;
+}
+selector-14            +    selector-11{              
+     prop-1108:              value-1108-2;
+  prop-1686      :     value-1686-9;
+    prop-1135              :              value-1135-1;
+}
+selector-262~           selector-249 {         
+prop-1316           :       value-1316-5;
+  prop-1291:    value-1291-9;
+   prop-1150              :value-1150-2;
+prop-187  :value-187-7;
+}
+selector-246 {
+     prop-1795        :value-1795-0;
+prop-1215:value-1215-3;
+              prop-1083  :     value-1083-6;
+        prop-2010:        value-2010-3;
+prop-1712   :   value-1712-6;
+prop-472     :            value-472-2;
+             prop-1310:      value-1310-9;
+}
+selector-21>           selector-20~selector-16 {
+            prop-1823:value-1823-6;
+prop-234:value-234-8;
+prop-807:value-807-5;
+}
+selector-185           >selector-175{         
+             prop-1990           :              value-1990-4;
+              prop-677:          value-677-8;
+prop-605: value-605-6;
+    prop-1336       :         value-1336-5;
+prop-468 :value-468-1;
+             prop-1345: value-1345-0;
+            prop-1389:              value-1389-2;
+prop-1815:value-1815-5;
+}
+selector-274~selector-39      {          
+prop-1445         :   value-1445-0;
+            prop-232:value-232-0;
+prop-1003:value-1003-6;
+           prop-1038:     value-1038-5;
+prop-1220    :          value-1220-0;
+  prop-1331     :       value-1331-8;
+}
+selector-132{
+prop-1747              :       value-1747-7;
+          prop-1826       :value-1826-6;
+prop-1625            :    value-1625-3;
+}
+selector-155             selector-53~selector-29{             
+             prop-1904  :value-1904-9;
+         prop-469:     value-469-0;
+       prop-1540:          value-1540-7;
+prop-953   :value-953-0;
+              prop-1614   :   value-1614-1;
+           prop-2167   :              value-2167-5;
+prop-1008           :       value-1008-1;
+prop-1379      :value-1379-3;
+}
+selector-71{      
+            prop-1345:value-1345-7;
+prop-1408         :           value-1408-0;
+prop-418:       value-418-9;
+prop-1642    :         value-1642-4;
+              prop-1842:             value-1842-8;
+prop-1975             :              value-1975-0;
+}
+selector-2   {
+prop-1459:      value-1459-4;
+              prop-2194:value-2194-0;
+prop-189       :value-189-6;
+}
+selector-161{        
+             prop-995          :       value-995-4;
+           prop-790        :              value-790-9;
+       prop-1843            :value-1843-1;
+prop-582     :value-582-4;
+prop-857:      value-857-2;
+prop-2141            :value-2141-6;
+}
+selector-13{              
+prop-811             :value-811-5;
+prop-46:value-46-7;
+           prop-786  :          value-786-3;
+        prop-1637:    value-1637-3;
+prop-1036:value-1036-2;
+  prop-1536: value-1536-1;
+prop-134 :value-134-4;
+}
+selector-12    {       
+prop-1816:       value-1816-6;
+prop-95          :value-95-7;
+prop-2204:value-2204-0;
+prop-11    :value-11-1;
+prop-976:value-976-8;
+    prop-1483:  value-1483-1;
+           prop-750              :         value-750-9;
+              prop-2029              :value-2029-6;
+}
+selector-217+              selector-193  ~selector-64           {
+             prop-439             :value-439-0;
+    prop-1131:value-1131-8;
+prop-1939 :value-1939-2;
+prop-730:            value-730-3;
+prop-96:   value-96-0;
+}
+selector-120{           
+     prop-1084: value-1084-2;
+       prop-716             :        value-716-2;
+prop-2013:    value-2013-2;
+}
+selector-74{    
+prop-336       :  value-336-0;
+ prop-1040:     value-1040-7;
+}
+selector-259                          selector-81            {              
+    prop-1667          :value-1667-1;
+prop-1419        :value-1419-7;
+             prop-1928             :             value-1928-3;
+         prop-868       :value-868-3;
+           prop-783      :value-783-0;
+      prop-1171:value-1171-5;
+}
+selector-244{         
+         prop-1176:  value-1176-0;
+             prop-2005              :value-2005-3;
+prop-2113:value-2113-0;
+        prop-419         :value-419-5;
+              prop-681:value-681-6;
+              prop-817           :value-817-4;
+}
+selector-31{     
+     prop-1706   :           value-1706-9;
+  prop-2097:value-2097-2;
+prop-1389          :         value-1389-5;
+    prop-1193:     value-1193-0;
+prop-946:           value-946-4;
+}
+selector-40              {
+prop-1123:value-1123-5;
+prop-1737  :      value-1737-2;
+}
+selector-268{        
+    prop-1780     :             value-1780-5;
+       prop-1476  :           value-1476-3;
+prop-1443:            value-1443-3;
+}
+selector-141     {            
+        prop-851     :              value-851-3;
+prop-1976              :         value-1976-6;
+prop-74             :    value-74-1;
+             prop-803   :  value-803-5;
+      prop-1709:           value-1709-8;
+         prop-597     :           value-597-0;
+             prop-347:value-347-6;
+          prop-926       :value-926-0;
+}
+selector-47 ~ selector-8{
+prop-637    :        value-637-2;
+prop-671:value-671-8;
+prop-2115        :       value-2115-8;
+}
+selector-62{              
+          prop-1653             :            value-1653-8;
+prop-464:value-464-2;
+prop-948       :   value-948-6;
+        prop-2025 :      value-2025-6;
+       prop-2016    :  value-2016-2;
+prop-989:value-989-7;
+}
+selector-163            {
+prop-398          :     value-398-6;
+         prop-644: value-644-0;
+       prop-948             :value-948-4;
+prop-625:value-625-8;
+       prop-2111:value-2111-7;
+ prop-344    :value-344-3;
+}
+selector-231    {
+              prop-1623      :         value-1623-3;
+prop-1668     :              value-1668-5;
+prop-605:         value-605-6;
+      prop-1581      :  value-1581-6;
+prop-1683:  value-1683-2;
+prop-907       :value-907-6;
+   prop-532:       value-532-9;
+prop-279    :value-279-6;
+}
+selector-26+selector-11  {           
+prop-1382         : value-1382-7;
+ prop-419:value-419-8;
+          prop-813          :  value-813-9;
+              prop-560    :value-560-6;
+    prop-1149         :value-1149-3;
+         prop-2216            :    value-2216-9;
+}
+selector-273                    selector-159        {
+prop-1941  :value-1941-5;
+prop-256             :        value-256-8;
+          prop-2099    :value-2099-8;
+      prop-1167:value-1167-8;
+prop-359        :          value-359-5;
+prop-1439: value-1439-6;
+}
+selector-110          {             
+     prop-2223  :         value-2223-7;
+prop-1458  :    value-1458-0;
+prop-1749:value-1749-2;
+     prop-772     :  value-772-1;
+}
+selector-184       {    
+        prop-1062:value-1062-9;
+    prop-315    :            value-315-1;
+         prop-840 :            value-840-7;
+prop-2174              :value-2174-4;
+prop-685              :        value-685-8;
+prop-2196:value-2196-5;
+  prop-2077:        value-2077-3;
+             prop-1279:  value-1279-4;
+}
+selector-152        {    
+prop-1166:  value-1166-7;
+        prop-857     :value-857-4;
+              prop-998:     value-998-2;
+             prop-2061    : value-2061-3;
+       prop-1776     : value-1776-9;
+prop-2116:value-2116-8;
+}
+selector-173>selector-65         {  
+prop-1293   :             value-1293-9;
+             prop-681        : value-681-8;
+         prop-1114         : value-1114-6;
+    prop-1803  :             value-1803-2;
+            prop-1476:      value-1476-4;
+  prop-917      :             value-917-6;
+ prop-1954   :value-1954-9;
+}
+selector-212             {
+             prop-633         :value-633-6;
+prop-2071:value-2071-1;
+            prop-1869:     value-1869-1;
+}
+selector-256{ 
+prop-1771:     value-1771-2;
+         prop-1259  :      value-1259-1;
+          prop-193       :          value-193-2;
+    prop-569:            value-569-5;
+ prop-367              :           value-367-0;
+ prop-1707   :  value-1707-7;
+       prop-2165            :         value-2165-7;
+}
+selector-20~selector-16{
+            prop-948              :             value-948-0;
+prop-1299      :value-1299-9;
+     prop-1496:value-1496-6;
+     prop-810     :value-810-4;
+}
+selector-141   {            
+          prop-1039              :             value-1039-7;
+prop-1268:      value-1268-7;
+  prop-1074           :        value-1074-8;
+    prop-416   :value-416-8;
+    prop-884          :    value-884-3;
+}
+selector-138{          
+  prop-1481:          value-1481-0;
+prop-1251:value-1251-4;
+}
+selector-266        {          
+             prop-230:            value-230-4;
+            prop-1811         :            value-1811-1;
+    prop-2072:             value-2072-6;
+}
+selector-98{     
+prop-1950:    value-1950-4;
+     prop-2024          :  value-2024-3;
+}
+selector-119~selector-102>selector-25+            selector-12{          
+      prop-1996:value-1996-3;
+prop-1445       :value-1445-1;
+prop-1492              :         value-1492-5;
+prop-1788:            value-1788-8;
+}
+selector-96   >     selector-77            {          
+     prop-1485           : value-1485-2;
+prop-198:value-198-1;
+ prop-181      :value-181-7;
+prop-1719         :     value-1719-4;
+             prop-943   :value-943-5;
+}
+selector-85       {
+    prop-2106:value-2106-5;
+              prop-1455       :value-1455-4;
+         prop-1868:value-1868-4;
+}
+selector-157{   
+prop-1404    :        value-1404-5;
+       prop-222            :value-222-5;
+}
+selector-247 {
+      prop-1773            : value-1773-7;
+    prop-515           :        value-515-2;
+}
+selector-9    ~            selector-0        {
+   prop-1192:            value-1192-1;
+  prop-1616:  value-1616-6;
+   prop-299            :value-299-8;
+      prop-1237          :           value-1237-2;
+prop-1313           :value-1313-3;
+         prop-575:value-575-9;
+         prop-1012:value-1012-1;
+         prop-175:              value-175-0;
+}
+selector-45         selector-11{        
+prop-2029        :          value-2029-7;
+         prop-144:        value-144-1;
+ prop-323:value-323-6;
+           prop-984:value-984-6;
+}
+selector-171          selector-113    {
+           prop-362              :  value-362-0;
+prop-1410 :value-1410-7;
+           prop-1646            :value-1646-2;
+        prop-268:         value-268-1;
+prop-1287:        value-1287-3;
+   prop-700       :           value-700-7;
+  prop-207  : value-207-7;
+     prop-570:value-570-9;
+}
+selector-7{              
+prop-716:              value-716-3;
+       prop-2138          :value-2138-0;
+}
+selector-164{           
+prop-1346 :  value-1346-4;
+        prop-2218       :value-2218-1;
+prop-107:      value-107-6;
+             prop-1841:       value-1841-4;
+prop-1981:          value-1981-3;
+prop-412:             value-412-8;
+}
+selector-75>selector-47 ~ selector-8{
+  prop-2231        :value-2231-9;
+prop-1970:      value-1970-7;
+}
+selector-123 ~   selector-42            {        
+         prop-146 :value-146-9;
+prop-21       :value-21-5;
+            prop-1461     :value-1461-0;
+ prop-329:value-329-5;
+prop-991:value-991-1;
+              prop-2017            :           value-2017-4;
+prop-1597:value-1597-1;
+prop-118  :value-118-1;
+}
+selector-24{     
+              prop-1780:          value-1780-2;
+    prop-360:      value-360-4;
+             prop-698: value-698-7;
+}
+selector-65{        
+prop-772:value-772-6;
+prop-2177:value-2177-5;
+     prop-1585              :   value-1585-5;
+prop-1038:              value-1038-6;
+              prop-819:            value-819-6;
+}
+selector-15{
+  prop-219:value-219-1;
+     prop-1622:             value-1622-3;
+}
+selector-40{ 
+prop-1416              :value-1416-8;
+      prop-568        :value-568-1;
+   prop-1733              :    value-1733-6;
+          prop-775     :value-775-3;
+       prop-1671:value-1671-3;
+             prop-65         :value-65-2;
+prop-855:value-855-6;
+            prop-1922:        value-1922-5;
+}
+selector-153~          selector-42         {
+           prop-690:  value-690-2;
+    prop-1276:value-1276-6;
+          prop-2048:       value-2048-7;
+prop-227            :     value-227-4;
+          prop-1554            :              value-1554-1;
+         prop-487:   value-487-3;
+}
+selector-00000           {
+prop-2053    : value-2053-0;
+prop-1138          :value-1138-8;
+}
+selector-132{
+       prop-1311         :value-1311-0;
+prop-154:        value-154-9;
+}
+selector-259                          selector-81 {            
+prop-1580              :value-1580-3;
+      prop-1318         :            value-1318-2;
+prop-809:value-809-1;
+prop-971:          value-971-8;
+prop-2201         :     value-2201-9;
+}
+selector-190             selector-111       {      
+            prop-1068      :   value-1068-4;
+prop-2058:value-2058-7;
+}
+selector-186         +  selector-43       >selector-11{              
+           prop-797      :           value-797-0;
+prop-1854    :     value-1854-2;
+prop-2169:  value-2169-1;
+            prop-1816     :value-1816-8;
+prop-1636              :value-1636-5;
+     prop-1471:   value-1471-0;
+}
+selector-83{            
+           prop-773       :              value-773-6;
+prop-1618     :value-1618-3;
+prop-314:        value-314-4;
+              prop-923:      value-923-6;
+  prop-1693     :value-1693-8;
+prop-2122 :         value-2122-7;
+            prop-2190:value-2190-1;
+}
+selector-178{      
+prop-1093:          value-1093-9;
+ prop-708:      value-708-1;
+prop-1360:value-1360-2;
+    prop-173  :        value-173-2;
+prop-2145:   value-2145-7;
+              prop-1358 :value-1358-1;
+prop-169:     value-169-2;
+       prop-2206  :value-2206-1;
+}
+selector-106           {      
+     prop-874:value-874-8;
+prop-735:             value-735-4;
+prop-153        :value-153-9;
+          prop-1795:              value-1795-0;
+}
+selector-178 {
+prop-1508      :         value-1508-7;
+  prop-1798        :value-1798-9;
+}
+selector-80     {
+      prop-1521 :value-1521-6;
+            prop-1366         :        value-1366-4;
+prop-643:        value-643-6;
+}
+selector-63{
+       prop-1643 :  value-1643-1;
+ prop-1969   :     value-1969-0;
+          prop-1731             :value-1731-2;
+}
+selector-75>selector-47 ~ selector-8{
+prop-2144  :value-2144-3;
+       prop-2229  :       value-2229-0;
+}
+selector-205{
+            prop-1280:   value-1280-2;
+            prop-1782:value-1782-1;
+prop-39:   value-39-8;
+    prop-1022:  value-1022-8;
+prop-1267: value-1267-6;
+}
+selector-254    { 
+prop-1642:value-1642-4;
+prop-874:            value-874-7;
+         prop-1278:       value-1278-8;
+prop-1162      :     value-1162-4;
+}
+selector-194~         selector-00000{    
+    prop-745           :value-745-3;
+            prop-25     :     value-25-3;
+prop-1991            :value-1991-9;
+     prop-2153          :  value-2153-3;
+}
+selector-237      {
+       prop-404:value-404-6;
+      prop-1787:value-1787-6;
+prop-432          :     value-432-0;
+prop-742:      value-742-3;
+prop-120             : value-120-0;
+prop-296  :  value-296-7;
+}
+selector-79{  
+prop-1809 :            value-1809-3;
+prop-1948  :   value-1948-6;
+prop-15           :   value-15-6;
+             prop-1557       :value-1557-6;
+}
+selector-248             >selector-160     {
+prop-1911        :value-1911-6;
+ prop-1653         :      value-1653-7;
+}
+selector-175  {
+prop-1309     :value-1309-3;
+              prop-1773      :value-1773-4;
+prop-2202            :value-2202-4;
+}
+selector-243              ~selector-239                            selector-75>selector-47 ~ selector-8{           
+prop-1173     :          value-1173-4;
+ prop-517:       value-517-4;
+         prop-2243:            value-2243-9;
+            prop-1664          :            value-1664-2;
+prop-985              :    value-985-8;
+prop-757      :value-757-0;
+       prop-2004:value-2004-0;
+            prop-871      :value-871-8;
+}
+selector-281{  
+            prop-1681      :value-1681-0;
+prop-1521              :      value-1521-6;
+}
+selector-114+selector-64  {   
+      prop-431   :    value-431-1;
+          prop-2153            :value-2153-6;
+prop-503             :    value-503-8;
+}
+selector-264>       selector-236                 selector-16{
+prop-522:             value-522-2;
+  prop-274 :  value-274-5;
+prop-1065    :value-1065-4;
+prop-337:        value-337-0;
+prop-1440   :value-1440-6;
+       prop-1109:value-1109-8;
+        prop-1284     :value-1284-3;
+}
+selector-147     {       
+  prop-1434       :value-1434-1;
+prop-1445         :value-1445-7;
+prop-237  :value-237-5;
+         prop-179         :value-179-6;
+         prop-1948             :value-1948-9;
+    prop-1160       :      value-1160-6;
+}
+selector-29{
+prop-2004   : value-2004-8;
+prop-1206     :value-1206-7;
+  prop-1362:value-1362-7;
+}
+selector-69+    selector-25+            selector-12{           
+ prop-798:     value-798-6;
+prop-1485:             value-1485-1;
+  prop-1499:  value-1499-2;
+             prop-1458             :             value-1458-1;
+}
+selector-176         selector-20~selector-16           {   
+        prop-1070     :value-1070-4;
+      prop-1141        :    value-1141-4;
+prop-141              : value-141-0;
+}
+selector-116{
+   prop-690:            value-690-6;
+prop-2224          :              value-2224-0;
+          prop-1322:value-1322-1;
+  prop-1055           : value-1055-5;
+prop-1461             :value-1461-2;
+}
+selector-141{
+prop-592:value-592-1;
+           prop-644             :         value-644-7;
+    prop-545:            value-545-4;
+prop-1068:value-1068-0;
+}
+selector-194~         selector-00000{        
+       prop-929:             value-929-5;
+   prop-745          :           value-745-5;
+prop-318:       value-318-7;
+prop-765:             value-765-9;
+}
+selector-155             selector-53~selector-29{
+prop-2061:value-2061-4;
+          prop-1334          :    value-1334-2;
+}
+selector-186         +  selector-43       >selector-11       {     
+prop-1053:      value-1053-7;
+      prop-2193             :      value-2193-8;
+   prop-2112      :value-2112-7;
+prop-850:value-850-1;
+        prop-2057     :     value-2057-4;
+prop-2056:       value-2056-0;
+}
+selector-107    >selector-4     {       
+prop-501:              value-501-0;
+prop-1991:              value-1991-0;
+     prop-2205:  value-2205-2;
+       prop-243           :value-243-1;
+          prop-321           :     value-321-7;
+}
+selector-222          +             selector-37>    selector-5          {             
+  prop-578:   value-578-8;
+prop-1726            :              value-1726-2;
+          prop-891         :     value-891-1;
+              prop-881             :value-881-0;
+         prop-137        :value-137-3;
+prop-1114  :      value-1114-2;
+prop-656        :             value-656-4;
+}
+selector-94         selector-23              selector-9    ~            selector-0     {              
+        prop-1999             :            value-1999-0;
+         prop-171   :              value-171-6;
+prop-347:        value-347-2;
+       prop-1556  :      value-1556-9;
+prop-1766          :value-1766-4;
+  prop-2179:      value-2179-8;
+   prop-296:              value-296-1;
+}
+selector-250{
+prop-2052:value-2052-0;
+prop-1335   :          value-1335-1;
+       prop-1900         :value-1900-1;
+}
+selector-142{
+  prop-1698:value-1698-8;
+prop-1837:             value-1837-5;
+      prop-1887:       value-1887-8;
+prop-692            :value-692-6;
+}
+selector-95             {    
+ prop-2014 :  value-2014-3;
+    prop-765             :value-765-7;
+             prop-1543: value-1543-3;
+prop-735             :       value-735-3;
+          prop-869:value-869-8;
+              prop-1348:        value-1348-0;
+          prop-377:              value-377-7;
+}
+selector-219{
+prop-983:     value-983-0;
+    prop-1706       :value-1706-0;
+}
+selector-34            selector-33             selector-10{
+    prop-768:value-768-2;
+prop-957:             value-957-1;
+             prop-1288       :   value-1288-0;
+prop-417           :value-417-6;
+  prop-120:value-120-8;
+         prop-620           :   value-620-2;
+       prop-169:     value-169-0;
+}
+selector-197{
+prop-874:value-874-8;
+ prop-258:value-258-2;
+            prop-1536             :value-1536-6;
+            prop-590              :value-590-1;
+             prop-1015   :value-1015-0;
+    prop-2036:value-2036-5;
+}
+selector-146 >selector-141             {
+     prop-366            :  value-366-2;
+      prop-62       :      value-62-4;
+prop-324          :        value-324-1;
+       prop-723    : value-723-6;
+              prop-1214        :              value-1214-2;
+prop-1059:value-1059-5;
+}
+selector-90+   selector-6+ selector-2{ 
+           prop-159          :      value-159-9;
+prop-741     :value-741-3;
+              prop-305         :value-305-9;
+            prop-174     :value-174-3;
+             prop-831:        value-831-1;
+      prop-952            :    value-952-7;
+}
+selector-177    {         
+    prop-1296:value-1296-4;
+           prop-1296:   value-1296-5;
+prop-1873:value-1873-4;
+prop-1410:value-1410-5;
+         prop-1631:value-1631-9;
+     prop-401          :      value-401-6;
+     prop-407      :  value-407-8;
+           prop-813             :   value-813-7;
+}
+selector-124         {         
+        prop-1738     :value-1738-0;
+  prop-113:     value-113-8;
+prop-417:     value-417-9;
+}
+selector-166 selector-52       {
+  prop-1497    :value-1497-5;
+         prop-1623              :value-1623-6;
+    prop-2057      :            value-2057-9;
+prop-1056            :value-1056-4;
+prop-908:value-908-3;
+ prop-2146:  value-2146-5;
+  prop-831           :           value-831-3;
+prop-1349        :      value-1349-1;
+}
+selector-205        {           
+       prop-323:            value-323-0;
+             prop-357       :  value-357-8;
+    prop-1656          :        value-1656-1;
+}
+selector-216         {
+prop-1584       :             value-1584-1;
+prop-1318              :             value-1318-1;
+prop-457             :   value-457-6;
+prop-2023:      value-2023-4;
+  prop-773:             value-773-5;
+}
+selector-120     {
+prop-579:value-579-7;
+prop-2120:     value-2120-1;
+prop-801            :   value-801-1;
+             prop-173      :           value-173-3;
+              prop-57:value-57-7;
+}
+selector-37>    selector-5{           
+      prop-2072:value-2072-5;
+         prop-1762           :   value-1762-5;
+}
+selector-46~        selector-44         +selector-36{
+          prop-2161:  value-2161-2;
+          prop-1594:value-1594-7;
+prop-1508     :            value-1508-3;
+prop-1706:value-1706-8;
+prop-2155:value-2155-3;
+  prop-366:          value-366-4;
+}
+selector-253>     selector-231        {
+prop-987:              value-987-4;
+prop-2218       :       value-2218-5;
+}
+selector-93>selector-54        {        
+prop-5              :value-5-6;
+prop-85:           value-85-4;
+      prop-1665:value-1665-1;
+}
+selector-270{
+prop-996            :        value-996-0;
+prop-1380    :   value-1380-2;
+}
+selector-188            {     
+prop-401:value-401-6;
+          prop-572         :value-572-5;
+  prop-1470    :value-1470-3;
+prop-872:              value-872-5;
+prop-733: value-733-1;
+}
+selector-169{              
+prop-816:             value-816-3;
+prop-2184         :       value-2184-7;
+prop-1165:value-1165-5;
+       prop-1916         :     value-1916-1;
+ prop-1740            :          value-1740-5;
+}
+selector-157              {
+prop-1911:             value-1911-1;
+prop-624:         value-624-3;
+     prop-2042:    value-2042-1;
+            prop-105            : value-105-2;
+prop-265:              value-265-6;
+     prop-938              :        value-938-1;
+prop-489        :value-489-7;
+prop-1266:value-1266-5;
+}
+selector-117{           
+       prop-52        :            value-52-9;
+prop-1017:value-1017-4;
+prop-225    :value-225-2;
+  prop-496      :value-496-6;
+prop-223             :    value-223-7;
+    prop-599        :     value-599-8;
+          prop-30:value-30-1;
+prop-868:     value-868-1;
+}
+selector-243              ~selector-239                            selector-75>selector-47 ~ selector-8{              
+   prop-2149:           value-2149-1;
+      prop-498:        value-498-7;
+prop-1662           :value-1662-1;
+         prop-1282:     value-1282-0;
+prop-2097   : value-2097-4;
+prop-489:value-489-2;
+prop-2037:value-2037-2;
+  prop-1056:     value-1056-2;
+}
+selector-230~     selector-11           {         
+    prop-1490     :value-1490-0;
+      prop-2064:              value-2064-6;
+}
+selector-166 selector-52        {      
+prop-1220            :value-1220-9;
+prop-515        :             value-515-1;
+}
+selector-34            selector-33             selector-10{    
+  prop-1977         :        value-1977-5;
+prop-1092          :value-1092-2;
+prop-1557              :   value-1557-2;
+prop-1438: value-1438-0;
+}
+selector-199{
+prop-278  :value-278-6;
+           prop-821        : value-821-8;
+        prop-1537             :         value-1537-7;
+prop-1049:value-1049-5;
+}
+selector-151         {
+prop-1182:value-1182-0;
+prop-2031   :          value-2031-7;
+}
+selector-77 {    
+ prop-1828       :    value-1828-2;
+prop-588         :value-588-8;
+}
+selector-82  {       
+      prop-152:       value-152-1;
+     prop-2151  :        value-2151-3;
+}
+selector-103  ~selector-1{              
+        prop-658         :   value-658-8;
+             prop-2125            :          value-2125-4;
+prop-1553            :value-1553-7;
+}
+selector-97            selector-39         {
+  prop-71     :            value-71-8;
+              prop-882            :      value-882-6;
+             prop-2131   :value-2131-8;
+        prop-1359             : value-1359-2;
+    prop-805:          value-805-8;
+prop-1128     :     value-1128-4;
+prop-2027    :value-2027-1;
+}
+selector-22 {           
+            prop-678:     value-678-9;
+      prop-1901:value-1901-3;
+prop-857:value-857-7;
+prop-2232:value-2232-3;
+ prop-872: value-872-4;
+prop-328      :value-328-4;
+}
+selector-39{
+             prop-1323           :             value-1323-3;
+        prop-309 :value-309-3;
+}
+selector-150      {         
+prop-1753:            value-1753-1;
+ prop-1636              :value-1636-9;
+}
+selector-268      {        
+             prop-1277           :  value-1277-0;
+           prop-144:value-144-8;
+prop-973            :value-973-2;
+  prop-106    :value-106-9;
+         prop-379          :     value-379-9;
+prop-962:value-962-4;
+prop-1193:            value-1193-7;
+prop-2192        :  value-2192-0;
+}
+selector-17                             selector-4         {      
+     prop-373   :          value-373-8;
+prop-244:         value-244-6;
+prop-878            :        value-878-6;
+  prop-640     :           value-640-3;
+}
+selector-207{          
+prop-1979           :value-1979-6;
+             prop-667       :       value-667-8;
+prop-1270              :   value-1270-4;
+         prop-2003           :     value-2003-6;
+              prop-442:      value-442-7;
+prop-1505:value-1505-4;
+}
+selector-220      {
+prop-1408    :value-1408-2;
+    prop-26     :    value-26-5;
+prop-967    : value-967-2;
+prop-1166              : value-1166-1;
+prop-597      :           value-597-0;
+}
+selector-179{           
+prop-1463  :value-1463-5;
+prop-845:   value-845-0;
+prop-555  :           value-555-4;
+    prop-1065:value-1065-4;
+}
+selector-201        {   
+     prop-540: value-540-9;
+prop-1287          :        value-1287-0;
+prop-490:          value-490-8;
+prop-2232:value-2232-3;
+prop-453        :value-453-8;
+}
+selector-105          {            
+prop-2123:    value-2123-8;
+prop-1041:value-1041-7;
+          prop-1152  :value-1152-5;
+              prop-760              :             value-760-0;
+      prop-800:            value-800-5;
+prop-335:value-335-4;
+      prop-1013   :value-1013-5;
+}
+selector-163            {
+      prop-1952:          value-1952-9;
+           prop-1163    :    value-1163-9;
+           prop-1080        :          value-1080-4;
+    prop-273        :     value-273-5;
+  prop-564        :value-564-1;
+   prop-1564:       value-1564-9;
+}
+selector-166 selector-52{         
+prop-101:value-101-0;
+   prop-401    :value-401-1;
+prop-403      :value-403-1;
+prop-2198             :value-2198-9;
+prop-763:value-763-1;
+     prop-1567            :            value-1567-8;
+prop-1586      :value-1586-3;
+prop-516:value-516-5;
+}
+selector-10          {   
+         prop-880:         value-880-7;
+     prop-1704   :           value-1704-9;
+prop-1684    :value-1684-5;
+}
+selector-151       {
+prop-1477           :          value-1477-9;
+prop-666        :              value-666-6;
+prop-193    :     value-193-8;
+prop-1269   :              value-1269-7;
+prop-1543      :           value-1543-0;
+      prop-302   :value-302-6;
+         prop-1153:     value-1153-8;
+            prop-1376:         value-1376-8;
+}
+selector-233>          selector-157         {            
+        prop-2128 :value-2128-6;
+ prop-1888:value-1888-0;
+}
+selector-129  {
+            prop-1352              :       value-1352-3;
+          prop-608           :value-608-3;
+prop-1574:value-1574-7;
+}
+selector-153~          selector-42{
+prop-316            :value-316-3;
+prop-1113:     value-1113-6;
+prop-1475:         value-1475-5;
+prop-425:    value-425-3;
+           prop-314:value-314-1;
+     prop-1697    :        value-1697-7;
+}
+selector-234       {    
+            prop-523 :value-523-5;
+    prop-2083:           value-2083-7;
+       prop-1857:value-1857-1;
+       prop-16:           value-16-7;
+ prop-112        :value-112-6;
+prop-1122   :          value-1122-5;
+}
+selector-192           selector-21>           selector-20~selector-16              { 
+            prop-1373            :             value-1373-6;
+prop-528             : value-528-3;
+  prop-1175          :value-1175-3;
+  prop-916:value-916-8;
+prop-50:     value-50-4;
+prop-238  :value-238-7;
+     prop-1684      :value-1684-6;
+}
+selector-261{   
+prop-1033:value-1033-1;
+prop-1164            :          value-1164-3;
+prop-1999         :value-1999-7;
+prop-235:        value-235-8;
+           prop-2066          :value-2066-7;
+     prop-894           :value-894-9;
+}
+selector-182{          
+       prop-372:value-372-1;
+prop-1063 :value-1063-1;
+    prop-863:value-863-0;
+prop-747:value-747-0;
+        prop-1619           :value-1619-7;
+}
+selector-243              ~selector-239                            selector-75>selector-47 ~ selector-8         {
+prop-1254       :       value-1254-9;
+              prop-1728 :  value-1728-0;
+prop-1375:value-1375-1;
+}
+selector-72              { 
+  prop-2052 :         value-2052-7;
+prop-782:value-782-0;
+        prop-1376              :value-1376-6;
+}
+selector-78             {
+     prop-193     :   value-193-2;
+prop-2180    :value-2180-9;
+ prop-1709           :         value-1709-2;
+     prop-1733:value-1733-5;
+prop-1751:value-1751-3;
+  prop-198:          value-198-0;
+}
+selector-14            +    selector-11     {
+ prop-1422:       value-1422-3;
+prop-1776             :        value-1776-5;
+}
+selector-172        {
+    prop-1675    : value-1675-0;
+prop-1944      :value-1944-7;
+prop-1952      :value-1952-9;
+prop-1689              :     value-1689-1;
+   prop-1565 :value-1565-5;
+            prop-121          :         value-121-9;
+prop-1045:value-1045-7;
+prop-1535:      value-1535-0;
+}
+selector-25+            selector-12{   
+             prop-1310              : value-1310-8;
+prop-1210: value-1210-5;
+}
+selector-171          selector-113         {       
+prop-1305   :value-1305-9;
+          prop-320         :value-320-3;
+prop-2079:value-2079-2;
+prop-931:  value-931-2;
+   prop-126             :value-126-5;
+  prop-98        : value-98-2;
+}
+selector-250  {
+             prop-1352       :value-1352-8;
+              prop-1703              :value-1703-2;
+             prop-2079:         value-2079-5;
+  prop-780           :    value-780-6;
+prop-444              :             value-444-3;
+prop-2034:value-2034-4;
+prop-971:value-971-0;
+prop-1074          :value-1074-7;
+}
+selector-266{
+prop-1642:value-1642-2;
+      prop-490          :              value-490-7;
+    prop-866              :         value-866-9;
+           prop-411  :value-411-4;
+prop-816:value-816-0;
+prop-73:value-73-9;
+}
+selector-6+ selector-2{     
+      prop-1843: value-1843-0;
+             prop-399:           value-399-7;
+prop-189:        value-189-4;
+           prop-216             :value-216-2;
+           prop-127              :           value-127-2;
+     prop-2101:        value-2101-6;
+     prop-220:value-220-4;
+}
+selector-121~ selector-15     {
+prop-71:          value-71-8;
+prop-1287: value-1287-5;
+  prop-512:     value-512-5;
+              prop-867         :            value-867-7;
+      prop-469          :             value-469-7;
+prop-109    :value-109-5;
+}
+selector-40{             
+prop-823    :    value-823-7;
+prop-1516:         value-1516-2;
+}
+selector-115             {
+         prop-310          :              value-310-2;
+prop-48       :value-48-4;
+      prop-1987 : value-1987-5;
+      prop-1388   :value-1388-7;
+prop-1123           :value-1123-2;
+prop-1712: value-1712-9;
+prop-1305    :    value-1305-1;
+       prop-1083           :            value-1083-5;
+}
+selector-93>selector-54    {
+prop-1573:        value-1573-7;
+prop-172              :    value-172-2;
+prop-2151     :value-2151-7;
+              prop-2151            :value-2151-7;
+prop-2233:value-2233-9;
+       prop-2069:         value-2069-9;
+prop-681           :           value-681-2;
+prop-713:           value-713-7;
+}
+selector-90+   selector-6+ selector-2{
+prop-216:value-216-9;
+         prop-2119:value-2119-6;
+             prop-2049:            value-2049-2;
+prop-671    :value-671-6;
+          prop-1530           :value-1530-9;
+           prop-844  :     value-844-1;
+       prop-1447:           value-1447-9;
+}
+selector-266     {
+           prop-1042 :value-1042-8;
+            prop-1885              :   value-1885-5;
+       prop-1192    :value-1192-9;
+            prop-1375:value-1375-9;
+             prop-1211              :        value-1211-0;
+}
+selector-188{
+prop-294            :      value-294-1;
+           prop-1631:value-1631-3;
+            prop-1084: value-1084-8;
+         prop-639            :         value-639-2;
+        prop-1924:value-1924-6;
+          prop-1305              :       value-1305-7;
+        prop-1005             :value-1005-7;
+}
+selector-155             selector-53~selector-29{              
+    prop-1550:value-1550-6;
+prop-926:            value-926-1;
+            prop-1293             :value-1293-6;
+            prop-1490       :value-1490-1;
+prop-1252  :        value-1252-9;
+prop-1713    :         value-1713-2;
+}
+selector-97            selector-39           {
+prop-1522        :            value-1522-5;
+prop-291:  value-291-7;
+  prop-2137   :value-2137-5;
+prop-1927 :value-1927-9;
+prop-2068      :       value-2068-8;
+       prop-1091        : value-1091-0;
+            prop-1092:             value-1092-0;
+}
+selector-198            {   
+   prop-1699      :    value-1699-9;
+    prop-1628           :      value-1628-5;
+              prop-1964    :           value-1964-0;
+prop-173              :value-173-0;
+    prop-1231:             value-1231-2;
+}
+selector-107    >selector-4           {            
+  prop-1853   :value-1853-3;
+   prop-503        :            value-503-4;
+           prop-2191:value-2191-3;
+              prop-2162              :value-2162-2;
+            prop-519:value-519-0;
+              prop-690   :              value-690-5;
+prop-480:   value-480-8;
+       prop-1028             :    value-1028-9;
+}
+selector-206 +selector-7             {        
+   prop-836  :            value-836-7;
+ prop-833:value-833-4;
+}
+selector-179          {
+              prop-209   :  value-209-0;
+prop-671    :     value-671-7;
+prop-2133          :          value-2133-5;
+           prop-877:value-877-5;
+   prop-175  :value-175-1;
+}
+selector-102>selector-25+            selector-12{
+prop-1353:value-1353-7;
+           prop-2185 :          value-2185-7;
+prop-2232          :value-2232-5;
+prop-1251           : value-1251-6;
+          prop-1726      :  value-1726-2;
+   prop-1096:   value-1096-7;
+prop-672:value-672-4;
+  prop-2019:            value-2019-7;
+}
+selector-20~selector-16{
+      prop-1461: value-1461-4;
+prop-2128:         value-2128-6;
+              prop-1843      :value-1843-8;
+prop-816              :value-816-7;
+prop-582:value-582-3;
+             prop-2091         :value-2091-1;
+prop-519     :     value-519-1;
+}
+selector-100{ 
+ prop-1717:              value-1717-2;
+ prop-1777:value-1777-4;
+prop-1544     :value-1544-4;
+prop-270              :          value-270-9;
+prop-1701    :value-1701-2;
+prop-961   :     value-961-2;
+           prop-1376    : value-1376-1;
+            prop-1562:        value-1562-1;
+}
+selector-246         {
+prop-1667:            value-1667-5;
+prop-304             :value-304-7;
+       prop-281         :    value-281-6;
+            prop-358        :           value-358-9;
+       prop-417         : value-417-3;
+            prop-540           :   value-540-6;
+prop-861           :        value-861-4;
+}
+selector-181   ~selector-180               selector-75>selector-47 ~ selector-8            {         
+  prop-1576        :value-1576-3;
+ prop-510           :    value-510-4;
+prop-1162:value-1162-4;
+}
+selector-69+    selector-25+            selector-12             {
+       prop-1401       :            value-1401-7;
+prop-1045:      value-1045-2;
+    prop-1991            :         value-1991-1;
+              prop-1209     :value-1209-6;
+ prop-1485    :value-1485-9;
+prop-1621:value-1621-0;
+prop-1575:   value-1575-6;
+}
+selector-116{
+prop-53:          value-53-7;
+prop-33    : value-33-6;
+     prop-1032            :value-1032-5;
+prop-1050:       value-1050-6;
+          prop-1066:       value-1066-1;
+            prop-1835      :           value-1835-8;
+}
+selector-121~ selector-15{
+     prop-1372           :   value-1372-9;
+   prop-319    :    value-319-6;
+              prop-2089             :   value-2089-7;
+}
+selector-249         {
+              prop-1881:         value-1881-7;
+            prop-2129:       value-2129-8;
+prop-1389:value-1389-6;
+prop-1939    :     value-1939-3;
+    prop-605             :value-605-4;
+  prop-470:      value-470-0;
+            prop-1315           :value-1315-3;
+}
+selector-46~        selector-44         +selector-36           {
+prop-581:  value-581-5;
+     prop-2205:    value-2205-2;
+prop-1842:        value-1842-7;
+          prop-856:value-856-5;
+prop-1151    :        value-1151-2;
+}
+selector-268{       
+          prop-1347 : value-1347-2;
+   prop-396             :    value-396-2;
+             prop-1042              :        value-1042-7;
+prop-725:       value-725-5;
+prop-1491     :value-1491-4;
+prop-1555:              value-1555-5;
+             prop-362          :             value-362-6;
+          prop-359:           value-359-3;
+}
+selector-108{
+      prop-1574          :          value-1574-8;
+   prop-1025:  value-1025-3;
+prop-967:   value-967-5;
+prop-195:           value-195-1;
+}
+selector-188{       
+    prop-121:           value-121-0;
+       prop-1150:value-1150-8;
+}
+selector-76        {
+           prop-1340:value-1340-9;
+           prop-1378  :    value-1378-2;
+}
+selector-175{            
+prop-1128             :value-1128-9;
+            prop-829           :value-829-5;
+prop-2231:        value-2231-1;
+prop-1995 :value-1995-5;
+prop-1598           :        value-1598-8;
+ prop-1925          :value-1925-0;
+ prop-1369:value-1369-0;
+}
+selector-110{            
+prop-1423   :       value-1423-7;
+prop-342:   value-342-9;
+prop-1987   :       value-1987-9;
+       prop-432            :value-432-7;
+prop-591   :value-591-5;
+       prop-575:              value-575-6;
+}
+selector-94         selector-23              selector-9    ~            selector-0  {          
+             prop-458           :       value-458-5;
+     prop-193:      value-193-2;
+         prop-653         :value-653-2;
+       prop-487       :value-487-2;
+            prop-1801       :    value-1801-8;
+     prop-547              :  value-547-7;
+}
+selector-237        {       
+prop-462:    value-462-1;
+          prop-2092:       value-2092-7;
+    prop-399      :       value-399-8;
+     prop-94:value-94-4;
+       prop-1757:              value-1757-0;
+    prop-507:    value-507-0;
+            prop-540           :value-540-3;
+prop-70:            value-70-1;
+}
+selector-274~selector-39  {
+            prop-57       :      value-57-3;
+         prop-1538            :value-1538-0;
+         prop-889       :           value-889-1;
+            prop-1451:value-1451-9;
+}
+selector-154{
+          prop-1989   :     value-1989-1;
+     prop-160         :value-160-0;
+     prop-1986 :value-1986-1;
+        prop-436:value-436-5;
+            prop-2097:          value-2097-1;
+prop-1664       :value-1664-0;
+            prop-744     :   value-744-8;
+}
+selector-253>     selector-231            {  
+      prop-1250:value-1250-3;
+    prop-1795:value-1795-3;
+}
+selector-85{
+prop-1836  :    value-1836-9;
+prop-1556 :value-1556-6;
+      prop-1356     :value-1356-9;
+  prop-1663: value-1663-6;
+}
+selector-114+selector-64     {             
+prop-69 :   value-69-2;
+ prop-914 :           value-914-9;
+}
+selector-196{ 
+prop-1493:    value-1493-8;
+              prop-338    :value-338-8;
+         prop-2216:value-2216-9;
+     prop-540            :        value-540-3;
+   prop-1386          :value-1386-1;
+  prop-853   :             value-853-7;
+prop-652:value-652-6;
+prop-2003        :    value-2003-4;
+}
+selector-217+              selector-193  ~selector-64        {  
+            prop-81:  value-81-9;
+             prop-584     :value-584-8;
+           prop-1297:       value-1297-6;
+}
+selector-255   +selector-215       {              
+      prop-568:    value-568-8;
+prop-598    :value-598-0;
+prop-1107:value-1107-4;
+}
+selector-4 {      
+             prop-95:           value-95-1;
+       prop-26            :value-26-4;
+prop-480:  value-480-9;
+prop-1557:value-1557-2;
+prop-63     :value-63-6;
+   prop-572:value-572-1;
+}
+selector-109    {         
+prop-2057:   value-2057-7;
+         prop-965  :value-965-4;
+prop-2098:              value-2098-4;
+prop-1123             :   value-1123-4;
+      prop-2076          :value-2076-8;
+prop-895       :value-895-8;
+}
+selector-24 {
+prop-1841           :     value-1841-7;
+              prop-871:value-871-4;
+prop-203          :         value-203-7;
+     prop-889:           value-889-5;
+prop-235:     value-235-2;
+   prop-1414      :value-1414-7;
+prop-2079          :value-2079-0;
+         prop-1529:         value-1529-2;
+}
+selector-88              {             
+   prop-122      :value-122-2;
+prop-11            :         value-11-4;
+prop-94       :     value-94-5;
+}
+selector-3{
+prop-1967     :    value-1967-7;
+             prop-249:            value-249-0;
+prop-357  : value-357-3;
+prop-140              :            value-140-5;
+prop-859            :        value-859-5;
+prop-1106:value-1106-1;
+       prop-2154:           value-2154-1;
+}
+selector-18         {         
+              prop-2159          :  value-2159-4;
+              prop-752:      value-752-5;
+prop-1199:value-1199-8;
+}
+selector-217+              selector-193  ~selector-64  {          
+prop-486       :value-486-5;
+prop-1409:value-1409-7;
+prop-1255            :value-1255-1;
+ prop-1401:value-1401-8;
+prop-700 :value-700-1;
+}
+selector-269{       
+prop-1860          :value-1860-8;
+prop-527:           value-527-0;
+}
+selector-14            +    selector-11{
+           prop-2076      :            value-2076-7;
+prop-1893:value-1893-3;
+   prop-1856:         value-1856-2;
+}
+selector-108           {  
+prop-414       :  value-414-2;
+  prop-18:              value-18-9;
+   prop-375:           value-375-1;
+prop-1615:    value-1615-0;
+prop-1955:          value-1955-9;
+prop-2179:value-2179-9;
+}
+selector-194~         selector-00000           {      
+             prop-1478:value-1478-2;
+          prop-1071      :            value-1071-7;
+     prop-1496           :       value-1496-6;
+              prop-1879      :     value-1879-3;
+prop-1063     :value-1063-5;
+prop-1777     :value-1777-1;
+}
+selector-63             {           
+       prop-923            :    value-923-8;
+prop-1167:value-1167-6;
+}
+selector-58+ selector-35       {         
+          prop-636 :value-636-3;
+ prop-102:             value-102-2;
+}
+selector-19           {
+prop-760       :              value-760-1;
+              prop-381             :value-381-4;
+ prop-709             :value-709-5;
+       prop-702         :value-702-6;
+}
+selector-150         {              
+   prop-1492:value-1492-3;
+         prop-287     :value-287-4;
+prop-932:             value-932-8;
+           prop-2199  :value-2199-0;
+prop-1427:value-1427-4;
+prop-2181  :   value-2181-8;
+            prop-528           :   value-528-7;
+prop-1363              :value-1363-6;
+}
+selector-134            {              
+prop-1096            :   value-1096-2;
+      prop-1860     :value-1860-7;
+  prop-797:value-797-8;
+            prop-650   :             value-650-0;
+}
+selector-107    >selector-4{
+prop-1704    : value-1704-0;
+     prop-561            :value-561-2;
+prop-1536:value-1536-6;
+prop-244   :value-244-5;
+            prop-449  :value-449-0;
+        prop-2136:              value-2136-0;
+}
+selector-194~         selector-00000      {              
+    prop-2080:           value-2080-8;
+prop-1601:value-1601-7;
+prop-1264             :          value-1264-4;
+        prop-44: value-44-6;
+prop-1558:  value-1558-6;
+         prop-2140 :    value-2140-8;
+            prop-980   :value-980-1;
+}
+selector-178      {
+prop-2140:value-2140-2;
+            prop-2170:         value-2170-8;
+       prop-1995:    value-1995-3;
+prop-1234        : value-1234-6;
+}
+selector-268      {  
+          prop-1349:      value-1349-5;
+        prop-281: value-281-2;
+            prop-108:value-108-9;
+prop-478          :     value-478-9;
+             prop-82:value-82-4;
+prop-504:       value-504-2;
+}
+selector-59     +selector-12{
+             prop-2219:value-2219-3;
+            prop-2029  :value-2029-9;
+         prop-1814   :             value-1814-2;
+prop-163:value-163-9;
+prop-1883:    value-1883-3;
+            prop-513        :          value-513-0;
+      prop-1323             :   value-1323-9;
+}
+selector-149{
+prop-406:value-406-6;
+       prop-2226:       value-2226-1;
+     prop-652   :value-652-8;
+     prop-1976:value-1976-2;
+prop-1035:value-1035-7;
+       prop-153   :value-153-6;
+   prop-1955:       value-1955-6;
+   prop-546       :     value-546-7;
+}
+selector-70            >    selector-38            selector-6+ selector-2     {
+prop-140             :             value-140-2;
+    prop-1482:         value-1482-5;
+prop-1453          : value-1453-5;
+prop-2128        :value-2128-8;
+prop-1855      :      value-1855-9;
+prop-2021 :value-2021-1;
+}
+selector-149{
+           prop-1921:value-1921-7;
+        prop-477            :value-477-8;
+prop-667:value-667-4;
+}
+selector-7{      
+     prop-1226  :      value-1226-1;
+             prop-859       : value-859-5;
+            prop-1968:      value-1968-3;
+}
+selector-67      + selector-18             {     
+          prop-912:         value-912-7;
+           prop-1888     :   value-1888-3;
+          prop-1698             :value-1698-2;
+  prop-182  :value-182-5;
+prop-174     :value-174-8;
+}
+selector-132{          
+  prop-2133:          value-2133-3;
+         prop-565           :              value-565-9;
+       prop-1457:      value-1457-7;
+prop-200:             value-200-8;
+}
+selector-204>              selector-51   {
+prop-1793       :value-1793-0;
+       prop-635           :     value-635-3;
+prop-601   :value-601-5;
+     prop-795:            value-795-4;
+prop-2200 :          value-2200-8;
+prop-1446        :value-1446-6;
+              prop-1772 :      value-1772-9;
+prop-504           :value-504-9;
+}
+selector-72{
+prop-922    :value-922-3;
+    prop-1562         :value-1562-8;
+ prop-1831:value-1831-9;
+       prop-687:value-687-2;
+prop-382              :    value-382-3;
+prop-1806:            value-1806-4;
+ prop-1894            :           value-1894-7;
+}
+selector-3     {
+prop-1320            :         value-1320-4;
+prop-2215:value-2215-1;
+prop-452:value-452-1;
+prop-1649:value-1649-1;
+}
+selector-251 {       
+ prop-922         :            value-922-0;
+      prop-1030   :value-1030-4;
+           prop-77    :   value-77-9;
+ prop-605          :value-605-0;
+prop-1033:value-1033-0;
+}
+selector-275{
+prop-150:     value-150-7;
+prop-842  :value-842-8;
+   prop-969           :        value-969-3;
+prop-1182          :        value-1182-2;
+prop-1221:          value-1221-8;
+      prop-2010 :         value-2010-7;
+prop-1835:value-1835-3;
+prop-1913 :value-1913-6;
+}
+selector-111{             
+  prop-1279            :value-1279-1;
+   prop-402    : value-402-8;
+          prop-1067:             value-1067-2;
+prop-186       :value-186-7;
+         prop-10:              value-10-8;
+prop-1382:value-1382-3;
+}
+selector-43       >selector-11    {
+prop-786:value-786-0;
+prop-1519             :value-1519-8;
+   prop-1300      :   value-1300-6;
+prop-2200          :          value-2200-8;
+prop-1342:  value-1342-1;
+   prop-1542:  value-1542-3;
+            prop-108         :         value-108-8;
+             prop-2075:     value-2075-9;
+}
+selector-220  {
+prop-200:            value-200-9;
+      prop-16            :         value-16-7;
+       prop-1433     :value-1433-6;
+prop-1084:     value-1084-7;
+prop-1214          :value-1214-9;
+}
+selector-222          +             selector-37>    selector-5{    
+prop-1580:value-1580-0;
+            prop-646             :value-646-7;
+prop-1045 : value-1045-6;
+        prop-1047         :             value-1047-1;
+prop-1067:value-1067-4;
+      prop-1259  :value-1259-1;
+              prop-72:           value-72-1;
+prop-1009:value-1009-1;
+}
+selector-179      { 
+       prop-1935      :value-1935-2;
+prop-1598            :            value-1598-9;
+prop-92:           value-92-3;
+prop-1139:value-1139-2;
+       prop-1814     :value-1814-5;
+}
+selector-273                    selector-159{
+prop-1911    :       value-1911-5;
+      prop-915:value-915-7;
+prop-938      :     value-938-7;
+}
+selector-224{
+prop-490             :   value-490-5;
+           prop-2070             :         value-2070-8;
+}
+selector-243              ~selector-239                            selector-75>selector-47 ~ selector-8{  
+prop-2227           :value-2227-6;
+prop-447:value-447-1;
+ prop-887              :value-887-6;
+prop-1878:value-1878-1;
+    prop-1447           :    value-1447-8;
+           prop-858:        value-858-6;
+          prop-1187:         value-1187-6;
+}
+selector-104{        
+           prop-912 :       value-912-5;
+  prop-280: value-280-3;
+             prop-1978 :        value-1978-6;
+prop-1749       :value-1749-1;
+prop-1378:             value-1378-7;
+prop-384:value-384-1;
+           prop-1497:value-1497-8;
+}
+selector-278            {         
+          prop-415    :         value-415-5;
+             prop-397:      value-397-2;
+             prop-205:              value-205-4;
+}
+selector-153~          selector-42{
+  prop-2181:   value-2181-8;
+prop-1542         :value-1542-4;
+prop-1404     :value-1404-1;
+              prop-1223       :value-1223-2;
+}
+selector-184  {            
+    prop-1196              :             value-1196-9;
+    prop-58     :         value-58-4;
+prop-771:           value-771-2;
+prop-563:value-563-6;
+prop-412:value-412-0;
+prop-1390       : value-1390-3;
+prop-1929:value-1929-3;
+}
+selector-64{
+            prop-1727   :value-1727-2;
+prop-217  :    value-217-0;
+prop-1623:value-1623-6;
+          prop-462  :  value-462-9;
+ prop-764:value-764-6;
+}
+selector-119~selector-102>selector-25+            selector-12{
+prop-815:value-815-5;
+   prop-604:    value-604-0;
+ prop-1673           :      value-1673-5;
+prop-529:value-529-6;
+          prop-2035:              value-2035-9;
+prop-1439:value-1439-2;
+prop-766              : value-766-3;
+}
+selector-156            {
+  prop-854:             value-854-2;
+ prop-586:         value-586-0;
+    prop-899:         value-899-8;
+       prop-700        :              value-700-2;
+prop-2146       :    value-2146-8;
+prop-741:        value-741-3;
+         prop-821:  value-821-0;
+}
+selector-153~          selector-42         {
+prop-357:              value-357-6;
+           prop-1055         :value-1055-1;
+    prop-17     :value-17-0;
+}
+selector-3{
+prop-700             :value-700-2;
+      prop-1604     :       value-1604-9;
+              prop-1202   :              value-1202-0;
+           prop-1868           :value-1868-4;
+  prop-355      :          value-355-2;
+            prop-1820        :              value-1820-7;
+}
+selector-123 ~   selector-42 {
+     prop-516:value-516-1;
+          prop-2167             :       value-2167-2;
+prop-403              :value-403-9;
+             prop-366   :value-366-9;
+prop-1464:value-1464-4;
+       prop-412           :value-412-1;
+}
+selector-41{ 
+         prop-1181     :value-1181-4;
+              prop-1155            :value-1155-3;
+              prop-3            :            value-3-2;
+             prop-531        :value-531-1;
+prop-985  :              value-985-6;
+        prop-1210:    value-1210-8;
+         prop-759         :      value-759-1;
+}
+selector-59     +selector-12{        
+prop-148:             value-148-1;
+       prop-986:    value-986-4;
+            prop-1323    :value-1323-5;
+    prop-1639       :value-1639-4;
+     prop-841:        value-841-4;
+              prop-1633   :        value-1633-3;
+prop-1451:value-1451-4;
+}
+selector-61       {              
+prop-1350             :        value-1350-5;
+prop-1151:           value-1151-3;
+prop-2091:           value-2091-3;
+prop-379:        value-379-2;
+}
+selector-151{
+prop-712         :              value-712-3;
+          prop-954              :value-954-4;
+   prop-1224:value-1224-7;
+}
+selector-31{
+         prop-2037       :           value-2037-7;
+prop-998       :value-998-9;
+       prop-697           :value-697-9;
+}
+selector-149{          
+ prop-1162        :         value-1162-6;
+         prop-2204:value-2204-1;
+              prop-609:value-609-6;
+}
+selector-258     {
+prop-1087             :             value-1087-6;
+           prop-1001:value-1001-2;
+              prop-403:       value-403-4;
+           prop-1824              :             value-1824-1;
+}
+selector-11     {
+prop-321           : value-321-7;
+              prop-1354              :value-1354-3;
+         prop-2210        :value-2210-9;
+         prop-235  :         value-235-2;
+          prop-753  :     value-753-8;
+prop-1677       :       value-1677-7;
+}

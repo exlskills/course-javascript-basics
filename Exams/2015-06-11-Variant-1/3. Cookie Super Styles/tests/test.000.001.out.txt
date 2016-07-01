@@ -1,0 +1,1 @@
+#the-big-b{color:yellow;size:big}.muppet{skin:fluffy;powers:everything}.water-spirit{powers:water;alignment:not-good}all{meant-for:nerdy-children}all .muppet{alignment:good}.muppet+.water-spirit{power:everything-a-muppet-can-do-and-water}
