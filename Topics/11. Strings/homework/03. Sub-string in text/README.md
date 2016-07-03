@@ -7,7 +7,7 @@ Write a JavaScript function that finds how many times a substring is contained i
 - The input will consist of an array containing one string
 
 ## Output
-- The output should be consisted of one line - the number of marches
+- The output should be consisted of one line - the number of matches
 
 ## Constraints
 - Time limit: **0.2s**
