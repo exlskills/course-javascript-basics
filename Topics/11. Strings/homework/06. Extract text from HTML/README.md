@@ -38,3 +38,6 @@ The function should return anything that is in a tag, without the tags.
 ```
 Sample sitetextmore textand more...in body
 ```
+
+## Submission
+- Submit your code [here](http://bgcoder.com/Contests/Compete/Index/364#5)

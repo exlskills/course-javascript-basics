@@ -24,3 +24,6 @@ Write a JavaScript function that replaces in a HTML document given as string all
 ```
 <p>Please visit [our site](http://academy.telerik.com) to choose a training course. Also visit [our forum](www.devbg.org) to discuss the courses.</p>
 ```
+
+## Submission
+- Submit your code [here](http://bgcoder.com/Contests/Compete/Index/364#7)

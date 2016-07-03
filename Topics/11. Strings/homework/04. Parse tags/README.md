@@ -32,3 +32,6 @@ _Note: Regions can be nested._
 ```
 We are liViNg in a YELLOW SUBMARINE. We doN't have anything else.
 ```
+
+## Submission
+- Submit your code [here](http://bgcoder.com/Contests/Compete/Index/364#3)

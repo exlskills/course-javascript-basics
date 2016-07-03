@@ -27,3 +27,6 @@ protocol: http
 server: telerikacademy.com
 resource: /Courses/Courses/Details/239
 ```
+
+## Submission
+- Submit your code [here](http://bgcoder.com/Contests/Compete/Index/364#6)
