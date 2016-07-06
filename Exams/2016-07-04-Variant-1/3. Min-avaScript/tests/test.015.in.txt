@@ -1,5 +1,5 @@
      arguer   {      
-   s-i-sters    :      lxaKUudI     20   
+   s-i-sters    :      lxaKUudI    @ 20   ;
     siza-ble     :      introduced ;  
  }    
    finished      {      
@@ -23,7 +23,7 @@ arti-factually    :  airlocks;
      vacuum {  
      }     
    arguer    {     
-     sharp-en:   IJYZcbs#         18     
+     sharp-en:   IJYZcbs#    @     18     ;
  } 
   addend      {    
 ordinar-il-y :  _33  ;
@@ -35,7 +35,7 @@ ordinar-il-y :  _33  ;
 }
  payments   {      
      i-llumina-ting   :     acute ;     
- sharp-en      :     gsHQ%XWw        3     
+ sharp-en      :     gsHQ%XWw   @     3     ;
 tr-unks      :    cbD8o+  ;     
  sharp-en:     GKmYNo3 ;
   tr-unks  :    foxs     ; 
@@ -43,14 +43,14 @@ tr-unks      :    cbD8o+  ;
    }
      vacuum {
     ordinar-il-y  :      DmGeC  ;   
-ordinar-il-y    :    burdens       13    
+ordinar-il-y    :    burdens       @13    ;
       s-i-sters    : evty     ;   
      stripping :     compellingly  ;
    s-i-sters  : outweighs  ; 
       }      
     rudders    { 
      freshened:     jv+x    ; 
-     sharp-en      : I!mAs    15      
+     sharp-en      : I!mAs   @ 15      ;
  ordinar-il-y  :     boxtops; 
     sharp-en   :     UQC#   ;      
 freshened   :    dolls   ;   
@@ -62,7 +62,7 @@ freshened   :    dolls   ;
       stripping :      EF0vB  ; 
    freshened  :     W&zsrqBq    ;   
       i-llumina-ting :   vaV%niG   ;      
-arti-factually    :      9p1eJ_Z      15   
+arti-factually    :      9p1eJ_Z @     15   ;
     }   
 rudders  {   
 }      
