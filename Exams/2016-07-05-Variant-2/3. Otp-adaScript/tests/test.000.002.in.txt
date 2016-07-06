@@ -1,0 +1,16 @@
+<@Languages>
+	CSharp;
+	JavaScript;
+	Haskell = 42;
+	Rust = 4;
+	CPP;
+</>
+<Result>
+	Failed;
+	Passed;
+	Excellence;
+</>
+<@Insects>
+	Ant;
+	Mosquito = 2;
+</>

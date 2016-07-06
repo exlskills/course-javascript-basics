@@ -1,0 +1,36 @@
+﻿7 7
+0 1;0 2;3 3
+mv Lsjtujzbo l
+lay trap
+mv Lsjtujzbo r
+lay trap
+mv Lsjtujzbo r
+lay trap
+mv Lsjtujzbo d
+mv Lsjtujzbo r
+mv Lsjtujzbo r
+mv Lsjtujzbo r
+mv Lsjtujzbo r
+mv Wboup d
+mv Wboup d
+mv Wboup l
+mv Wboup l
+mv Nbslbub r
+mv Nbslbub r
+mv Nbslbub r
+mv Nbslbub d
+mv Lsjtujzbo d
+mv Lsjtujzbo l
+mv Lsjtujzbo l
+mv Nbslbub l
+mv Nbslbub d
+mv Nbslbub d
+mv Wboup d
+mv Wboup d
+mv Wboup r
+mv Lsjtujzbo d
+mv Wboup d
+mv Wboup d
+mv Wboup r
+mv Lsjtujzbo r
+mv Lsjtujzbo r

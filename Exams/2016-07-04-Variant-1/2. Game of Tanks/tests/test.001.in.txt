@@ -1,0 +1,34 @@
+10 10
+5 0;8 3;2 3;7 2;8 4;6 3;2 2;1 0;1 4;3 2
+31
+mv 7 4 u
+mv 6 4 u
+mv 5 4 u
+mv 4 4 u
+mv 7 1 d
+mv 6 4 l
+mv 1 4 d
+mv 3 4 r
+x 3 d
+x 3 d
+mv 3 1 l
+x 3 d
+mv 3 3 d
+mv 5 2 l
+x 5 u
+mv 5 2 u
+mv 5 3 l
+x 1 r
+mv 6 1 u
+x 6 l
+mv 6 2 l
+mv 0 1 r
+x 0 d
+mv 0 3 d
+x 0 r
+x 5 l
+mv 2 1 r
+x 2 d
+x 2 d
+mv 4 5 u
+x 4 l

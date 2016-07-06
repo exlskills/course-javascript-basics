@@ -1,0 +1,71 @@
+﻿20 2
+0 0;0 1;4 0
+lay trap
+mv Lsjtujzbo d
+mv Lsjtujzbo r
+lay trap
+mv Lsjtujzbo d
+mv Lsjtujzbo l
+lay trap
+mv Lsjtujzbo d
+mv Lsjtujzbo r
+lay trap
+mv Wboup d
+mv Wboup d
+mv Wboup d
+mv Nbslbub d
+mv Nbslbub d
+mv Nbslbub d
+mv Lsjtujzbo d
+mv Lsjtujzbo l
+lay trap
+mv Lsjtujzbo d
+mv Lsjtujzbo r
+lay trap
+mv Lsjtujzbo d
+mv Lsjtujzbo l
+lay trap
+mv Lsjtujzbo d
+mv Lsjtujzbo r
+lay trap
+mv Lsjtujzbo d
+mv Lsjtujzbo l
+lay trap
+mv Wboup d
+mv Nbslbub d
+mv Nbslbub l
+mv Wboup d
+mv Wboup d
+mv Nbslbub d
+mv Nbslbub d
+mv Lsjtujzbo d
+lay trap
+mv Lsjtujzbo d
+lay trap
+mv Lsjtujzbo d
+lay trap
+mv Wboup d
+mv Wboup d
+mv Nbslbub d
+mv Nbslbub d
+mv Nbslbub d
+mv Nbslbub d
+mv Wboup d
+mv Wboup d
+mv Wboup d
+mv Wboup d
+mv Nbslbub d
+mv Nbslbub d
+mv Nbslbub d
+mv Lsjtujzbo d
+mv Lsjtujzbo d
+lay trap
+mv Lsjtujzbo r
+lay trap
+mv Lsjtujzbo d
+mv Wboup d
+mv Wboup d
+mv Nbslbub r
+mv Nbslbub d
+mv Nbslbub d
+mv Lsjtujzbo d

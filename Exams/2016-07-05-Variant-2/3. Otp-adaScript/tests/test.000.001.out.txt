@@ -1,0 +1,5 @@
+Apple = 0 :: Fruit;
+Banana = 1 :: Fruit;
+Cabage = 0 :: Vegetable;
+Cucumber = 1 :: Vegetable;
+Pineapple = 2 :: Fruit;

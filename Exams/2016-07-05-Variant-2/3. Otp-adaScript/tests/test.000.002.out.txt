@@ -1,0 +1,10 @@
+Ant = 5 :: Insects;
+CPP = 3 :: Languages;
+CSharp = 0 :: Languages;
+Excellence = 2 :: Result;
+Failed = 0 :: Result;
+Haskell = 42 :: Languages;
+JavaScript = 1 :: Languages;
+Mosquito = 2 :: Insects;
+Passed = 1 :: Result;
+Rust = 4 :: Languages;

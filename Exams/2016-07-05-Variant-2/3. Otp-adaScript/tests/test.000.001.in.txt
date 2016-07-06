@@ -1,0 +1,9 @@
+<Fruit>
+  Apple;
+  Banana;
+  Pineapple;
+</>
+<Vegetable>
+  Cucumber = 1;
+  Cabage;
+</>

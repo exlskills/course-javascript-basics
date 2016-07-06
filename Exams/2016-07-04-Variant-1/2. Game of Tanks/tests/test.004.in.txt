@@ -1,0 +1,44 @@
+20 20
+8 9;17 15;2 19;11 9;7 2
+41
+mv 0 7 d
+mv 1 7 d
+mv 7 1 l
+mv 7 1 u
+mv 6 8 u
+mv 3 16 r
+mv 3 1 d
+mv 4 6 u
+x 3 d
+mv 4 3 l
+mv 5 2 u
+mv 2 3 d
+mv 1 4 d
+mv 4 2 u
+mv 3 6 d
+mv 6 4 u
+x 6 r
+x 4 l
+x 1 r
+mv 1 16 r
+mv 5 8 u
+x 6 d
+x 0 r
+x 0 r
+mv 2 14 r
+x 2 d
+mv 2 2 l
+x 2 d
+mv 2 1 r
+x 2 d
+mv 7 4 l
+mv 2 15 d
+mv 0 11 d
+x 0 r
+mv 5 8 d
+mv 2 1 u
+x 5 l
+mv 0 10 u
+mv 5 9 u
+x 0 r
+x 0 r

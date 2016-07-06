@@ -1,0 +1,102 @@
+﻿30 6
+0 0;0 1;6 2
+lay trap
+mv Lsjtujzbo r
+lay trap
+mv Lsjtujzbo r
+lay trap
+mv Lsjtujzbo r
+lay trap
+mv Lsjtujzbo l
+mv Lsjtujzbo l
+mv Lsjtujzbo l
+mv Lsjtujzbo l
+lay trap
+mv Lsjtujzbo l
+lay trap
+mv Lsjtujzbo d
+mv Wboup d
+mv Wboup d
+mv Nbslbub r
+mv Nbslbub r
+mv Nbslbub d
+mv Lsjtujzbo d
+mv Lsjtujzbo d
+mv Lsjtujzbo r
+mv Lsjtujzbo d
+mv Wboup d
+mv Wboup d
+mv Nbslbub d
+mv Nbslbub d
+mv Lsjtujzbo d
+mv Lsjtujzbo d
+mv Lsjtujzbo r
+mv Lsjtujzbo r
+mv Wboup r
+mv Nbslbub d
+mv Nbslbub d
+mv Wboup d
+mv Lsjtujzbo d
+mv Lsjtujzbo d
+lay trap
+mv Lsjtujzbo d
+mv Lsjtujzbo d
+mv Lsjtujzbo d
+mv Lsjtujzbo r
+mv Lsjtujzbo d
+mv Lsjtujzbo d
+mv Lsjtujzbo d
+mv Nbslbub r
+mv Nbslbub r
+mv Wboup l
+mv Wboup r
+mv Wboup r
+mv Lsjtujzbo l
+mv Lsjtujzbo l
+mv Lsjtujzbo d
+mv Wboup d
+mv Nbslbub l
+mv Nbslbub l
+mv Nbslbub l
+mv Nbslbub l
+mv Nbslbub r
+mv Nbslbub r
+mv Lsjtujzbo d
+mv Lsjtujzbo d
+mv Lsjtujzbo r
+mv Lsjtujzbo r
+lay trap
+mv Nbslbub l
+mv Nbslbub d
+mv Nbslbub d
+mv Nbslbub d
+mv Nbslbub d
+mv Nbslbub d
+mv Wboup d
+mv Wboup d
+mv Wboup r
+mv Wboup r
+mv Wboup d
+mv Wboup d
+mv Wboup d
+mv Lsjtujzbo d
+mv Lsjtujzbo d
+mv Lsjtujzbo l
+mv Lsjtujzbo d
+mv Lsjtujzbo d
+mv Lsjtujzbo d
+mv Wboup d
+mv Wboup d
+mv Wboup d
+mv Wboup d
+mv Wboup d
+mv Wboup d
+mv Wboup d
+mv Wboup d
+mv Wboup d
+mv Wboup d
+mv Wboup d
+mv Wboup d
+mv Lsjtujzbo d
+mv Lsjtujzbo r
+mv Lsjtujzbo r

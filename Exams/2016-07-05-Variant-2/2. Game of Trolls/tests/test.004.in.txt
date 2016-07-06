@@ -1,0 +1,17 @@
+﻿7 7
+0 0;0 1;3 0
+lay trap
+mv Lsjtujzbo r
+lay trap
+mv Lsjtujzbo r
+lay trap
+mv Lsjtujzbo d
+mv Lsjtujzbo d
+mv Wboup d
+mv Wboup d
+mv Wboup l
+mv Wboup l
+mv Wboup d
+mv Nbslbub d
+mv Nbslbub d
+mv Nbslbub d

@@ -1,0 +1,30 @@
+enthusiasm { @5
+  ap-percept-ion:buying;
+  @2
+  houston:pZ!X;
+  chute-s:accelerometers;
+}
+@9
+molar { @6
+  @15
+  houston:E!NVDt; @7
+  houston:u#It#;
+  ap-percept-ion:Dog; @15
+  chute-s:advises;
+}
+oodles {
+  @13
+  chute-s:perish;
+}
+molar {
+  r-ega-rding:4lXPE;
+  r-ega-rding:digesting;
+  houston:xZAEIh#S;
+  chute-s:benched;
+  @3
+  ap-percept-ion:gssO%FDd;
+}
+enthusiasm { @15
+  houston:NkR99XZ;
+  ap-percept-ion:aPQG;
+}
