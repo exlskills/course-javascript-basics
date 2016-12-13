@@ -101,9 +101,10 @@
 <!-- attr: { id:'exam-and-evaluation', showInPresentation:true, hasScriptWrapper:true } -->
 # <a id="exam-and-evaluation"></a>Javascript Fundamentals – Evaluation
 - Evaluation components
-  - **Practical exam** – 80%
+  - **Practical exam** – 75%
   - **Homework** assignments – 15%
   - **Attendance** in class – 5%
+  - **Helping others** - 5%
 
 <!-- attr: { showInPresentation: true, hasScriptWrapper: true} -->
 # Pass / Excellence / Fail Criteria

@@ -45,7 +45,7 @@
 <!-- <img class="slide-image" showInPresentation="true" src="imgs/pic04.png" style="top:60%; left:63%; width:21.51%; z-index:-1" /> -->
 <!-- <img class="slide-image" showInPresentation="true" src="imgs/pic05.png" style="top:60%; left:18%; width:22%; z-index:-1" /> -->
 
-<!-- attr: { id:'coding-tools', style:'font-size: 0.9em' } -->
+<!-- attr: { id:'coding-tools', style:'font-size: 0.85em' } -->
 # <a id="coding-tools"></a>JavaScript Coding Tools
 - All a developer needs for writing Javascript is a text editor - could be even Notepad/Notepad++
 - Yet, there are a lot of better options
@@ -54,6 +54,7 @@
     - VS Code
     - Sublime
     - Brackets
+    - Vim
   - **IDEs**
     - Visual Studio with Web Essentials
     - Jetbrains Webstorm
@@ -115,37 +116,54 @@
 
 <!-- <img class="slide-image" showInPresentation="true" src="imgs/webstorm-logo.svg" style="top:45%; left:80%; width:15%; z-index:-1" /> -->
 
+<!-- section start -->
 <!-- attr: { id:'debugging', class:'slide-section', showInPresentation: true, hasScriptWrapper: true } -->
 <!-- # <a id="debugging"></a>Debugging Javascript -->
 
 <!-- <img class="slide-image" showInPresentation="true" src="imgs/debugging.jpg" style="top:55%; left:30%; width:40%; z-index:-1" /> -->
 
-<!-- attr: { id:'debugging-tools' } -->
+
+<!-- attr: { id:'debugging-tools', style: 'font-size: 0.8em' } -->
 # <a id="debugging-tools"></a>Debugging JavaScript
-- Sadly, no intelligent way of debugging client-side JavaScript
+- There is no universal way of debugging client-side JavaScript
   - The only way to debug client-side JavaScript is through the browser
   - Server-side JS can be debugged in several ways
+    - VS Code has integrated debugging
+    - NodeJS comes with V8 inspector
+      - [Debugging with V8 inspector](https://medium.com/@paul_irish/debugging-node-js-nightlies-with-chrome-devtools-7c4a1b95ae27#.olulnv55w)
 - Fortunately all browsers have their own debugging tool/plugin that makes it easier
   - Firefox has **Firebug**
   - Chrome and Opera have **Web developer**
   - Internet Explorer has **F12**
 
+<!-- section start -->
 <!-- attr: { id:'utilities', class:'slide-section', showInPresentation: true, hasScriptWrapper: true } -->
-<!-- # <a id="utilities"></a>Javascript Utilities -->
+<!-- # <a id="utilities"></a>Javascript Tools and Utilities -->
 
 <!-- <img class="slide-image" showInPresentation="true" src="imgs/js-utils.png" style="top:55%; left:40%; width:20%; z-index:-1" /> -->
 
-<!-- attr: { id:'utilities-list' } -->
-# <a id="utilities-list"></a>JavaScript Utilities
+<!-- attr: { id:'utilities-list', style: 'font-size: 0.9em' } -->
+# <a id="utilities-list"></a>JavaScript Tools and Utilities
 - JavaScript Code Quality Tools
-  - http://www.jshint.com/
-  - http://www.jslint.com/
+  - http://eslint.org/
+  - Shows warnings and errors for bad coding style
+  - ESlint can be integrated with a text editor of your choice
+- Node monitor - live-reload for JavaScript files
+  - [nodemon](https://www.npmjs.com/package/nodemon)
+  - Re-executes your script whenever you make changes to it
+- Git - Source control system
+  - [Detailed tutorial for beginners](http://telerikacademy.com/Courses/LectureResources/Video/8154/%d0%92%d0%b8%d0%b4%d0%b5%d0%be)
+
+<!-- attr: { showInPresentation: true } -->
+<!-- # JavaScript Tools and Utilities -->
 - HTML, CSS and JavaScript playgrounds
   - http://jsbin.com 
   - http://liveweave.com
   - https://jsfiddle.net/
 - JavaScript performance tester
   - http://jsperf.com
+- When sharing code with your peers
+  - http://pastebin.com/, https://gist.github.com/ or other similar tools
 
 <!-- section start -->
 <!-- attr: { class:'slide-section', showInPresentation: true } -->
