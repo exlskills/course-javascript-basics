@@ -135,7 +135,7 @@
 </scriрt>
 ```
 
-<!-- attr: { hasScriptWrapper:true } -->
+<!-- attr: { hasScriptWrapper:true, style:'font-size:0.9em' } -->
 # JavaScript - When is Executed?
 - JavaScript code is executed during the page loading or when the browser fires an event
   - All statements are executed at page loading
