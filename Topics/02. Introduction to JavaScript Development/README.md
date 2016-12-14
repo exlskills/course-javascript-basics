@@ -315,7 +315,7 @@ prompt ("enter amount", 10);
 
 <!-- attr: { hasScriptWrapper:true } -->
 # DOM Hierarchy - _Example_
-<!-- <img class="slide-image" showInPresentation="true" src="imgs/sg30.png" style="top:44.15%; left:66.08%; width:34.38%; z-index:-1" /> -->
+<!-- <img class="slide-image" showInPresentation="true" src="imgs/sg30.png" /> -->
 
 <!-- attr: { hasScriptWrapper:true } -->
 # The Math Object
