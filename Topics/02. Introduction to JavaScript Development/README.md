@@ -430,7 +430,7 @@ clearInterval(timer);
 <!-- # Firebug -->
 <!-- <img class="slide-image" showInPresentation="true" src="imgs/pic28.png" style="top:19.39%; left:4.85%; width:94.97%; z-index:-1" /> -->
 
-<!-- attr: { hasScriptWrapper:true } -->
+<!-- attr: { hasScriptWrapper:true, style:'font-size:0.9em' } -->
 # Debugging Node.js
 - **JavaScript** can also be debugged with **Node.js**:
   - Open Terminal/CMD
