@@ -8,7 +8,7 @@
 <!-- <img class="slide-image" showInPresentation="true" src="imgs/pic03.png" style="top:0%; left:26.14%; width:19.30%; z-index:-1" /> -->
 
 <div class="signature">
-	<p class="signature-course">Javascript Fundamentals</p>
+	<p class="signature-course">JavaScript Fundamentals</p>
 	<p class="signature-initiative">Telerik Software Academy</p>
 	<a href="https://telerikacademy.com" class="signature-link">https://telerikacademy.com</a>
 </div>
@@ -130,11 +130,11 @@ let counter = 5;
 - _Example_:
 
 ```js
-var value = 5;
+let value = 5;
 value = 3.14159;
 value = new Number(100); // Number { 100 }
 value = value + 1; // 101
-var biggestNum = Number.MAX_VALUE;
+let biggestNum = Number.MAX_VALUE;
 ```
 
 <!-- attr: { hasScriptWrapper:true, style:'font-size:0.95em' } -->
@@ -142,20 +142,20 @@ var biggestNum = Number.MAX_VALUE;
 - Convert `floating-point` to `integer` number
 
 ```js
-var valueDouble = 8.75;
-var valueInt = valueDouble | 0; // 8
+let valueDouble = 8.75;
+let valueInt = valueDouble | 0; // 8
 ```
 - Convert to `integer` number with rounding
 
 ```js
-var valueDouble = 8.75;
-var roundedInt = (valueDouble + 0.5) | 0; // 9
+let valueDouble = 8.75;
+let roundedInt = (valueDouble + 0.5) | 0; // 9
 ```
 - Convert `string` to `integer`
 
 ```js
-var str = '1234';
-var i = str | 0 + 1; // 1235
+let str = '1234';
+let i = str | 0 + 1; // 1235
 ```
 
 <!-- attr: { hasScriptWrapper:true, showInPresentation: true, class:'slide-section demo' } -->
