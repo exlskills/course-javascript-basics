@@ -56,15 +56,15 @@
 <!-- attr: { hasScriptWrapper: true, style:'font-size: 0.8em' } -->
 # Operators by categories in JavaScript
 
-|        Category      |                                  Operators                              |
-|----------------------|-------------------------------------------------------------------------|
-| Arithmetic           | `+` `-` `*` `/` `%` `++` `--`                                           |
-| Logical              | `&&` <code>&#124;&#124;</code> `^` `!`                                  |
-| Binary               | `&` <code>&#124;</code> `^` `~` `<<` `>>` `>>>`                         |
-| Comparison           | `==` `!=` `<` `>` `<=` `>=` `===` `!==`                                 |
-| Assignment           | `=` `+=` `-=` `*=` `/=` `%=` <code>&#124;=</code> `^=` `<<=` `>>=`      |
-| Concatenation        | `+`                                                                     |
-| Other                | `.` `[]` `()` `?:` `new` `in` `,` `delete` `void` `typeof` `instanceof` |                       |
+|        Category      |                                  Operators                                    |
+|:-------------------- |:----------------------------------------------------------------------------- |
+| Arithmetic           | `+` `-` `*` `/` `%` `++` `--`                                                 |
+| Logical              | `&&` <code>&#124;&#124;</code> `^` `!`                                        |
+| Binary               | `&` <code>&#124;</code> `^` `~` `<<` `>>` `>>>`                               |
+| Comparison           | `==` `!=` `<` `>` `<=` `>=` `===` `!==`                                       |
+| Assignment           | `=` `+=` `-=` `*=` `/=` `%=` <code>&#124;=</code> `^=` `<<=` `>>=`            |
+| Concatenation        | `+`                                                                           |
+| Other                | `.` `[]` `()` `?:` `new` `in` `,` `delete` `void` `typeof` `instanceof` `...` |
 
 <!-- section start -->
 <!-- attr: { id:'arithmetic-operators', class:'slide-section', showInPresentation:true, hasScriptWrapper: true } -->
@@ -72,20 +72,22 @@
 
 <!-- <img class="slide-image" showInPresentation="true" src="imgs/pic05.png" style="top:50%; left:30%; width:40%; z-index:-1; border-radius: 15px" /> -->
 
+<!-- attr: { style: 'font-size: 0.85em' } -->
 # Arithmetic Operators
 - Arithmetic operators `+`, `-`, `*`, `/` are the same as in math 
-- Division operator `/` returns number or  `Infinity` or `NaN`
+- Division operator `/` returns number or `Infinity` or `NaN`
+  - Division in JavaScript returns floating-point number (i.e. 5 / 2 = 2.5)
 - Remainder operator `%` returns the remainder from division of numbers
   - Even on real (floating-point) numbers
-- The special addition operator `++` increments a variable
+- The special addition operator `++` increments (while `--` decrements) a variable's value
 
 <!-- attr: { hasScriptWrapper: true } -->
 # Arithmetic Operators – _Example_
 
 ```js
-let squarePerimeter = 17;
-let squareSide = squarePerimeter / 4.25;
-let squareArea = squareSide * squareSide;
+const squarePerimeter = 17;
+const squareSide = squarePerimeter / 4;
+const squareArea = squareSide * squareSide;
 
 console.log(squareSide); // 4.25
 console.log(squareArea); // 18.0625
@@ -115,7 +117,7 @@ console.log(1.5 / 0.0);  // Infinity
 console.log(-1.5 / 0.0); // -Infinity
 console.log(0.0 / 0.0);  // NaN
 
-let x = 0;
+const x = 0;
 console.log(5 / x);
 ```
 
@@ -157,6 +159,26 @@ console.log(a || true); // True
 console.log(a && true); // True
 console.log(!a); // False
 console.log((5 > 7) ^ (a == b)); // False
+```
+
+<!-- attr: { style: 'font-size: 0.8em' } -->
+# `true`-like and `false`-like values
+- JavaScript, as a weakly typed language, can use every value as `true` or `false`
+- Every value can be converted to it's boolean representation using double not - `!!`
+
+```js
+console.log(
+  !!'', // empty string is false-like
+  !!'0', // non-empty strings are true-like
+  !!0, // zero is false-like
+  !!35, // non-zero numbers are true-like
+  !![], // objects are true-like
+  !!NaN, // NaN is false-like
+  !!'true', // true
+  !!'false' // true,
+  !!null, // both null and undefined are false-like
+  !!undefined
+);
 ```
 
 <!-- attr: { class:'slide-section demo', showInPresentation: true, hasScriptWrapper: true } -->
@@ -297,7 +319,8 @@ console.log(a > b ? 'a > b' : 'b >= a'); // a > b
 let c = b = 3; // b = 3; followed by c = 3;
 
 console.log(c); // 3
-console.log(a instanceof Number); // true
+console.log(new Number(6) instanceof Number); // true
+console.log(6 instanceof Number); // false
 console.log((a + b) / 2); // 4
 console.log(typeof c); // number
 console.log(void(3 + 4)); // undefined
@@ -316,7 +339,7 @@ console.log(void(3 + 4)); // undefined
 # Operators Precedence
 - When in doubt, take a look at the [MDN Precedence chart](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Operator_Precedence)
 - Parenthesis operator always has highest precedence
-- _Note_: it's considered a good practice to use parentheses, even when it's not necessary
+- **It's considered a good practice to use parentheses, even when it's not necessary**
   - Improves code readability
 
 <!-- section start -->
