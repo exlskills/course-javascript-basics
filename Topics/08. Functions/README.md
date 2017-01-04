@@ -73,7 +73,7 @@ function printLogo() {
 
 <!-- attr: {class: "slide-section", showInPresentation: true} -->
 <!-- # Declaring and Creating Functions -->
-## [Demo](/)
+## [Demo](https://github.com/TelerikAcademy/JavaScript-Fundamentals/tree/master/Topics/08.%20Functions/demos)
 <!-- <img class="slide-image" showInPresentation="true" src="imgs/pic10.png" style="top:38.62%; left:31.50%; width:46.43%; z-index:-1" /> -->
 
 # Ways of Defining a Function
@@ -139,7 +139,7 @@ function anotherPrint(){
 
 <!-- attr: {class: 'slide-section'} -->
 # Declaring and Calling Functions
-##  [Demo](/)
+##  [Demo](https://github.com/TelerikAcademy/JavaScript-Fundamentals/tree/master/Topics/08.%20Functions/demos)
 
 <!-- section start -->
 
@@ -240,7 +240,7 @@ function printMax(x, y) {
 
 <!-- attr: {class: 'slide-section'} -->
 # Function Parameters
-##  [Demo](/)
+##  [Demo](https://github.com/TelerikAcademy/JavaScript-Fundamentals/tree/master/Topics/08.%20Functions/demos)
 
 # Printing Triangle – _Example_
 
@@ -293,7 +293,7 @@ function printLine(start, end) {
 
 <!-- attr: {class: 'slide-section'} -->
 # Printing Triangle
-## [Demo]()
+## [Demo](https://github.com/TelerikAcademy/JavaScript-Fundamentals/tree/master/Topics/08.%20Functions/demos)
 
 <!-- attr: {class: 'slide-section'} -->
 # The `arguments` Object
@@ -415,7 +415,7 @@ function isPrime(number){
 
 <!-- attr: { class:'slide-section'} -->
 # Return Value
-## [Demo]()
+## [Demo](https://github.com/TelerikAcademy/JavaScript-Fundamentals/tree/master/Topics/08.%20Functions/demos)
 
 # Sum Even Numbers– _Example_
 - Calculate the sum of all even numbers in an array
@@ -436,7 +436,7 @@ function sum(numbers) {
 
 <!-- attr: { class:'slide-section'} -->
 # Sum of Even Numbers
-## [Demo](/)
+## [Demo](https://github.com/TelerikAcademy/JavaScript-Fundamentals/tree/master/Topics/08.%20Functions/demos)
 
 <!-- section start -->
 
@@ -473,7 +473,7 @@ function countOccurences (value) {
 
 <!-- attr: {class: 'slide-section'} -->
 # Function Scope
-## [Demo]()
+## [Demo](https://github.com/TelerikAcademy/JavaScript-Fundamentals/tree/master/Topics/08.%20Functions/demos)
 <!-- <img class="slide-image" showInPresentation="true" src="imgs/pic27.png" style="top:32.53%; left:26.51%; width:55.83%; z-index:-1" /> -->
 
 <!-- section start -->
