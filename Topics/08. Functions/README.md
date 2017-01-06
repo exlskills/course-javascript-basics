@@ -148,7 +148,7 @@ function anotherPrint(){
 ##  Passing information to functions -->
 
 # Function Parameters
-- To pass information to a function, you can use **parameters**(also known as **arguments**)
+- To pass information to a function, you can use **parameters** (also known as **arguments**)
   - You can pass zero or several input values
   - Each parameter has а name
   - Parameters are assigned to particular values when the function is called
