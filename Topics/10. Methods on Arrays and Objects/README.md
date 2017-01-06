@@ -160,11 +160,10 @@ console.log(numbers.filter(inRange(2, 4))); // [2, 3, 4]
 
 - `Array#reduce`
   - Signature: `[].reduce(callback, initial);`
-  - Callback: `callback(item [, index [, arr]])`
+  - Callback: `callback(accumulator, item [, index [, arr]])`
   - Returns: `Object`
   - Behavior: returns a **single object**, the result of the `callback()`
   - Support: everywhere
-
 
 <!-- attr: {style: 'font-size: 0.9em'} -->
 # Transformations: Array#reduce
