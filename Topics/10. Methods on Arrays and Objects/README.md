@@ -6,7 +6,7 @@
 <div class="signature">
 	<p class="signature-course">JavaScript Fundamentals</p>
 	<p class="signature-initiative">Telerik Software Academy</p>
-	<a href="http://telerikacademy.com" class="signature-link">http://telerikacademy.com</a>
+	<a href="https://telerikacademy.com" class="signature-link">https://telerikacademy.com</a>
 </div>
 
 <!-- <img class="slide-image" showInPresentation="true" src="imgs/pic00.png" style="top:52.01%; left:52.40%; width:50.48%; z-index:-1" /> -->
@@ -470,7 +470,7 @@ console.log(digitNames);
   - Telerik Software Academy
     - [academy.telerik.com](academy.telerik.com)
   - Telerik Academy @ Facebook
-    - [facebook.com/TelerikAcademy](facebook.com/TelerikAcademy)
+    - [facebook.com/TelerikAcademy](https://facebook.com/TelerikAcademy)
   - Telerik Software Academy Forums
     - [forums.academy.telerik.com](forums.academy.telerik.com)
 
