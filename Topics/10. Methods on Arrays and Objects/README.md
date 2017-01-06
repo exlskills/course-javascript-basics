@@ -375,8 +375,7 @@ console.log(people);              // John, Peter, Susan
 # Other Array Methods: `Array#fill`
 
 - `Array#fill`
-  - Signature: `[].fill(callback);`
-  - Callback: `callback(value [, from [, to]])`
+  - Signature: `[].fill(value [, from [, to]])`
   - Returns: `Array`
   - Behavior: **fills an array** with the given value
   - Support: Almost nowhere, needs a polyfill
