@@ -1,13 +1,14 @@
 function solve(args) {
-	let minifyWhiteSpace = args.join('').replace(/\s/g, '');
+	const minifyWhiteSpace = args.join('').replace(/\s/g, '');
 
+	let konpot = minifyWhiteSpace;
 	let oldlen;
 	do {
-		oldlen = minifyWhiteSpace.length;
-		minifyWhiteSpace = minifyWhiteSpace.replace(/{;*}/g, ';');
-	} while(minifyWhiteSpace.length !== oldlen);
+		oldlen = konpot.length;
+		konpot = konpot.replace(/{;*}/g, ';');
+	} while(konpot.length !== oldlen);
 
-	minifyWhiteSpace = minifyWhiteSpace
+	konpot = konpot
 		.replace(/;+/g, ';')
 		.replace(/;{/g, '{')
 		.replace(/{;/g, '{')
@@ -16,7 +17,7 @@ function solve(args) {
 		.replace(/^;/, '')
 		.replace(/;$/, '');
 
-	let konpotLength = minifyWhiteSpace.replace(/[^{};]/g, '').length;
+	let konpotLength = konpot.replace(/[^{};]/g, '').length;
 
 	const identifiers = {};
 	minifyWhiteSpace.split(/[{};]+/)
