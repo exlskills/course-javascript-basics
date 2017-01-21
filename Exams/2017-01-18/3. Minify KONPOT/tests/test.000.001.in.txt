@@ -1,0 +1,11 @@
+hello;
+{this; is
+ ; an;;;example;
+}
+of;
+{
+KONPOT;
+{
+Some_numbers;
+42;5;3}
+_}
