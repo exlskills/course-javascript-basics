@@ -2,10 +2,6 @@
 # Tasks marked with * require additional knowledge or some research
 ===================================
 
-## <a href="http://bgcoder.com/Contests/357/JavaScript-Fundamentals-04-Operators-and-Expressions" target="_blank">Submit homework in bgcoder</a>
-
----
-
 # 01. Odd or Even
 
 ## Description
@@ -35,7 +31,7 @@ function solve(args) {
 - Memory limit: **16MB**
 
 ## Submission
-- Submit your code [here](http://bgcoder.com/Contests/Compete/Index/357#0)
+### Submit your code [here](http://bgcoder.com/Contests/Compete/Index/357#0)
 
 ---
 
@@ -61,7 +57,7 @@ Implement a javascript function that does the following:
 - Memory limit: **16MB**
 
 ## Submission
-- Submit your code [here](http://bgcoder.com/Contests/Compete/Index/357#1)
+### Submit your code [here](http://bgcoder.com/Contests/Compete/Index/357#1)
 
 ---
 
@@ -87,7 +83,7 @@ The **width** and **height** will both be passed in the argument array.
 - Memory limit: **16MB**
 
 ## Submission
-- Submit your code [here](http://bgcoder.com/Contests/Compete/Index/357#2)
+### Submit your code [here](http://bgcoder.com/Contests/Compete/Index/357#2)
 
 ---
 
@@ -111,7 +107,7 @@ Implement a javascript function that takes an array with a single element - an i
 - Memory limit: **16MB**
 
 ## Submission
-- Submit your code [here](http://bgcoder.com/Contests/Compete/Index/357#3)
+### Submit your code [here](http://bgcoder.com/Contests/Compete/Index/357#3)
 
 ---
 
@@ -135,7 +131,7 @@ Using bitwise operators, write a javascript function(that accepts a single array
 - Memory limit: **16MB**
 
 ## Submission
-- Submit your code [here](http://bgcoder.com/Contests/Compete/Index/357#4)
+### Submit your code [here](http://bgcoder.com/Contests/Compete/Index/357#4)
 
 ---
 
@@ -160,7 +156,7 @@ The program should then print **"yes DISTANCE"** if the point is inside the circ
 - Memory limit: **16MB**
 
 ## Submission
-- Submit your code [here](http://bgcoder.com/Contests/Compete/Index/357#5)
+### Submit your code [here](http://bgcoder.com/Contests/Compete/Index/357#5)
 
 ---
 
@@ -183,7 +179,7 @@ Implement a javascript function that accepts an array containing an integer **N*
 - Memory limit: **16MB**
 
 ## Submission
-- Submit your code [here](http://bgcoder.com/Contests/Compete/Index/357#6)
+### Submit your code [here](http://bgcoder.com/Contests/Compete/Index/357#6)
 
 ---
 
@@ -206,7 +202,7 @@ The three values should be read from the console in the order shown below. All t
 - Memory limit: **16MB**
 
 ## Submission
-- Submit your code [here](http://bgcoder.com/Contests/Compete/Index/357#7)
+### Submit your code [here](http://bgcoder.com/Contests/Compete/Index/357#7)
 
 ---
 
@@ -230,7 +226,7 @@ Implement a javascript function that accepts an array with a pair of coordinates
 - Memory limit: **16MB**
 
 ## Submission
-- Submit your code [here](http://bgcoder.com/Contests/Compete/Index/357#8)
+### Submit your code [here](http://bgcoder.com/Contests/Compete/Index/357#8)
 
 
 
