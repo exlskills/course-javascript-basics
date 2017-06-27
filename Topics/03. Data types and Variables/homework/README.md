@@ -1,52 +1,52 @@
-## Homework: Data types and Variables
+# Homework: Data types and Variables
 
-## Tasks marked with * require additional knowledge or some research
+# Tasks marked with * require additional knowledge or some research
 ==================================
 
-## 01. JavaScript literals
+# 01. JavaScript literals
 
-### Description
+## Description
 Assign all the possible JavaScript literals to different variables.
 
-### Submission
+## Submission
 - You do not have to submit anything for this problem
 
 ---
 
-## 02. Quoted text
+# 02. Quoted text
 
-### Description
+## Description
 Create a string variable with quoted text in it.
 For example: `'How you doin'?', Joey said'.`
 
-### Submission
+## Submission
 - You do not have to submit anything for this problem
 
 ---
 
-## 03. Typeof variables
+# 03. Typeof variables
 
-### Description
+## Description
 Try typeof on all variables you created.
 
-### Submission
+## Submission
 - You do not have to submit anything for this problem
 
 ---
 
-## 04. Typeof null
+# 04. Typeof null
 
-### Description
+## Description
 Create null, undefined variables and try typeof on them.
 
-### Submission
+## Submission
 - You do not have to submit anything for this problem
 
 ---
 
-## 05. Parsing numbers
+# 05. Parsing numbers
 
-### Description
+## Description
 Try parsing the following strings to numbers using `parseInt`, `parseFloat`, `Number`, `+` and `| 0`. Fill the answers for yourself in the table below.
 
 | str                    | parseInt(str) | parseFloat(str) | Number(str) | +str | str &#124; 0 |
@@ -58,7 +58,7 @@ Try parsing the following strings to numbers using `parseInt`, `parseFloat`, `Nu
 | 'Infinity'             | ?             | ?               | ?           | ?    | ?            |
 | '99999999999999999999' | ?             | ?               | ?           | ?    | ?            |
 
-### Submission
+## Submission
 - You do not have to submit anything for this problem.
 
 
