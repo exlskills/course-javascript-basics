@@ -1,22 +1,22 @@
-url_name: intro_to_javascript
-display_name: Introduction To JavaScript
+url_name: basics_javascript
+display_name: JavaScript Basics
 org: EXLskills
-course: intro_to_javascript
+course: basics_javascript
 course_image: https://s3-us-west-2.amazonaws.com/exlskills-course-logos/course-java-intro.jpg
 language: en
 est_minutes: 1560
 primary_topic: JavaScript
-repo_url: https://github.com/exlskills/course-javascript-intro
+repo_url: https://github.com/exlskills/course-javascript-basics
 topics:
   - JavaScript
   - Computer Science
   - CompSci
 headline: Receive a basic introduction to JavaScript with EXLskills!
-description: This is the EXLskills free and open-source Introduction To JavaScript Course. It guides learners via explanation, demonstration, and thorough practice, from no more than a basic understanding of JavaScript, to a moderate level of essential coding proficiency.
+description: This is the EXLskills free and open-source JavaScript Basics Course. It guides learners via explanation, demonstration, and thorough practice, from no more than a basic understanding of JavaScript, to a moderate level of essential coding proficiency.
 info_md: |2
   # EXLskills Introduction To JavaScript
 
-  This is the EXLskills free and open-source Introduction To JavaScript Course. It guides learners via explanation, demonstration, and thorough practice, from no more than a basic understanding of JavaScript, to a moderate level of essential coding proficiency.
+  This is the EXLskills free and open-source JavaScript Basics Course. It guides learners via explanation, demonstration, and thorough practice, from no more than a basic understanding of JavaScript, to a moderate level of essential coding proficiency. This course was created from Telerik Academy's [JavaScript Fundamentals Course](https://github.com/TelerikAcademy/JavaScript-Fundamentals) and has been converted to the EOCS format.
 
   ## About EXLskills
 
@@ -40,7 +40,7 @@ info_md: |2
 
   ## License
 
-  The content of this project itself, including, but not limited to the content of all .md (Markdown) and .yaml (YAML) files included in this project, is licensed under the [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License](https://creativecommons.org/licenses/by-nc-sa/4.0/), and all of the source code provided alongside the content, including, but not limited to to the .java (Java) files, is licensed under the source code license provided in the SOURCE_CODE_LICENSE.md file included in the same directory as this notice.
+  The content of this project itself, including, but not limited to the content of all .md (Markdown) and .yaml (YAML) files included in this project, is licensed under the [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License](https://creativecommons.org/licenses/by-nc-sa/4.0/), and all of the source code provided alongside the content, including, but not limited to to the .js (JavaScript) files, is licensed under the source code license provided in the SOURCE_CODE_LICENSE.md file included in the same directory as this notice.
 
   If you have any questions regarding the license, please contact [licensing@exlinc.com](mailto:licensing@exlinc.com)
 

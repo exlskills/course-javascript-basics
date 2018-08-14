@@ -1,93 +1,33 @@
-# JavaScript-Fundamentals
+# EXLskills JavaScript Basics Course
 
-Repository for the course [JavaScript Fundamentals](https://telerikacademy.com/Courses/Courses/Details/339) at [Telerik Academy](https://telerikacademy.com)
+  This is the EXLskills free and open-source JavaScript Basics Course. It guides learners via explanation, demonstration, and thorough practice, from no more than a basic understanding of JavaScript, to a moderate level of essential coding proficiency. This course was created from Telerik Academy's [JavaScript Fundamentals Course](https://github.com/TelerikAcademy/JavaScript-Fundamentals) and has been converted to the EOCS format.
 
+  ## About EXLskills
 
-## Course program
+  [EXLskills](https://exlskills.com) is on a mission to change education with an open-source online digital skills learning, certification, and peer-to-peer instruction platform that is committed to offering premium-quality courseware for 100% free via our open-source courseware methodology. The contents of this repository are developed using the [EXL Open Courseware Standard](https://github.com/exlskills/exl-open-courseware-standard) and are then imported/pushed to [EXLskills.com](https://exlskills.com) with the [eocsutil](https://github.com/exlskills/eocsutil) tool. This process is 100% transparent, free, and open-source.
 
-### [00. Course Introduction](/Topics/00. Course-intro)
+  ## Make Money by Sharing Your Skills
 
-Course Program, Examination
+  Open source courseware contributions are absolutely critical to the success of the [EXLskills.com](https://exlskills.com) mission, yet we all have to keep the lights on... To this end, we offer a peer-to-peer instruction (tutoring-like) conversational interface that learners can use to have their questions answered by a certified EXLskills instructor. As a certified instructor, you choose your own hours, topics, and even your own rate! You can use the mobile instructor chat app (powered by Intercom) to answer questions on-the-go, or use the web application to go deep with learners via chat, screen share, and video! For more information on how to become an instructor and receive your cash sign-up bonus, visit our [instructor page](https://exlskills.com/instructor/).
 
-##### [<img src="https://raw.githubusercontent.com/TelerikAcademy/Common/master/icons/presentation.png" height="18">Slides](https://rawgit.com/TelerikAcademy/JavaScript-Fundamentals/master/Topics/00. Course-intro/index.html) / [<img src="https://raw.githubusercontent.com/TelerikAcademy/Common/master/icons/code.png" height="15">Demos](/Topics/00. Course-intro/demos) / [<img src="https://raw.githubusercontent.com/TelerikAcademy/Common/master/icons/homework.png" height="15">Tasks](/Topics/00. Course-intro/homework) / [<img src="https://raw.githubusercontent.com/TelerikAcademy/Common/master/icons/video.png" height="15">Videos](/Topics/00. Course-intro/VIDEOS.md)
+  ## Format
 
-### [01. Javascript Development Tools](/Topics/01. Javascript-Development-Tools)
+  This course is designed, maintained, and accessed through the EOCS (EXL Open Courseware Standard) format. To learn more about this interoperable standard, please refer to [the documentation](https://github.com/exlskills/exl-open-courseware-standard).
 
+  ## Contributing
 
+  All contributions in the form of pull-requests and issues are welcome and greatly appreciated :)
 
-##### [<img src="https://raw.githubusercontent.com/TelerikAcademy/Common/master/icons/presentation.png" height="18">Slides](https://rawgit.com/TelerikAcademy/JavaScript-Fundamentals/master/Topics/01. Javascript-Development-Tools/index.html) / [<img src="https://raw.githubusercontent.com/TelerikAcademy/Common/master/icons/code.png" height="15">Demos](/Topics/01. Javascript-Development-Tools/demos) / [<img src="https://raw.githubusercontent.com/TelerikAcademy/Common/master/icons/homework.png" height="15">Tasks](/Topics/01. Javascript-Development-Tools/homework) / [<img src="https://raw.githubusercontent.com/TelerikAcademy/Common/master/icons/video.png" height="15">Videos](/Topics/01. Javascript-Development-Tools/VIDEOS.md)
+  ## Translations
 
-### [02. Introduction to JavaScript Development](/Topics/02. Introduction to JavaScript Development)
+  We are always working on translating this course to other languages to make it accessible to as many people around the world as we can. To open work on a new language, please create an issue in this repository for the maintainers to gauge interest and we will start a translation branch.
 
+  ## License
 
+  The content of this project itself, including, but not limited to the content of all .md (Markdown) and .yaml (YAML) files included in this project, is licensed under the [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License](https://creativecommons.org/licenses/by-nc-sa/4.0/), and all of the source code provided alongside the content, including, but not limited to to the .js (JavaScript) files, is licensed under the source code license provided in the SOURCE_CODE_LICENSE.md file included in the same directory as this notice.
 
-##### [<img src="https://raw.githubusercontent.com/TelerikAcademy/Common/master/icons/presentation.png" height="18">Slides](https://rawgit.com/TelerikAcademy/JavaScript-Fundamentals/master/Topics/02. Introduction to JavaScript Development/index.html) / [<img src="https://raw.githubusercontent.com/TelerikAcademy/Common/master/icons/code.png" height="15">Demos](/Topics/02. Introduction to JavaScript Development/demos) / [<img src="https://raw.githubusercontent.com/TelerikAcademy/Common/master/icons/homework.png" height="15">Tasks](/Topics/02. Introduction to JavaScript Development/homework) / [<img src="https://raw.githubusercontent.com/TelerikAcademy/Common/master/icons/video.png" height="15">Videos](/Topics/02. Introduction to JavaScript Development/VIDEOS.md)
+  If you have any questions regarding the license, please contact [licensing@exlinc.com](mailto:licensing@exlinc.com)
 
+  ## Enterprise / Commercial Licensing & Support
 
-
-### [03. Data types and Variables](/Topics/03. Data types and Variables)
-
-
-
-##### [<img src="https://raw.githubusercontent.com/TelerikAcademy/Common/master/icons/presentation.png" height="18"/>Slides](https://rawgit.com/TelerikAcademy/JavaScript-Fundamentals/master/Topics/03. Data types and Variables/index.html) / [<img src="https://raw.githubusercontent.com/TelerikAcademy/Common/master/icons/code.png" height="15"> Demos](/Topics/03. Data types and Variables/demos) / [<img src="https://raw.githubusercontent.com/TelerikAcademy/Common/master/icons/homework.png" height="15">Tasks](/Topics/03. Data types and Variables/homework) / [<img src="https://raw.githubusercontent.com/TelerikAcademy/Common/master/icons/video.png" height="15"> Videos](/Topics/03. Data types and Variables/VIDEOS.md)
-
-
-### [04. Operators and Expressions](/Topics/04. Operators and Expressions)
-
-
-
-##### [<img src="https://raw.githubusercontent.com/TelerikAcademy/Common/master/icons/presentation.png" height="18">Slides](https://rawgit.com/TelerikAcademy/JavaScript-Fundamentals/master/Topics/04. Operators and Expressions/index.html) / [<img src="https://raw.githubusercontent.com/TelerikAcademy/Common/master/icons/code.png" height="15">Demos](/Topics/04. Operators and Expressions/demos) / [<img src="https://raw.githubusercontent.com/TelerikAcademy/Common/master/icons/homework.png" height="15">Tasks](/Topics/04. Operators and Expressions/homework) / [<img src="https://raw.githubusercontent.com/TelerikAcademy/Common/master/icons/video.png" height="15">Videos](/Topics/04. Operators and Expressions/VIDEOS.md)
-
-### [05. Conditional Statements](/Topics/05. Conditional Statements)
-
-
-
-##### [<img src="https://raw.githubusercontent.com/TelerikAcademy/Common/master/icons/presentation.png" height="18"/>Slides](https://rawgit.com/TelerikAcademy/JavaScript-Fundamentals/master/Topics/05. Conditional Statements/index.html) / [<img src="https://raw.githubusercontent.com/TelerikAcademy/Common/master/icons/code.png" height="15"> Demos](/Topics/05. Conditional Statements/demos) / [<img src="https://raw.githubusercontent.com/TelerikAcademy/Common/master/icons/homework.png" height="15">Tasks](/Topics/05. Conditional Statements/homework) / [<img src="https://raw.githubusercontent.com/TelerikAcademy/Common/master/icons/video.png" height="15"> Videos](/Topics/05. Conditional Statements/VIDEOS.md)
-
-### [06. Loops](/Topics/06. Loops)
-
-
-
-##### [<img src="https://raw.githubusercontent.com/TelerikAcademy/Common/master/icons/presentation.png" height="18"/>Slides](https://rawgit.com/TelerikAcademy/JavaScript-Fundamentals/master/Topics/06. Loops/index.html) / [<img src="https://raw.githubusercontent.com/TelerikAcademy/Common/master/icons/code.png" height="15"> Demos](/Topics/06. Loops/demos) / [<img src="https://raw.githubusercontent.com/TelerikAcademy/Common/master/icons/homework.png" height="15">Tasks](/Topics/06. Loops/homework) / [<img src="https://raw.githubusercontent.com/TelerikAcademy/Common/master/icons/video.png" height="15"> Videos](/Topics/06. Loops/VIDEOS.md)
-
-### [07. Arrays](/Topics/07. Arrays)
-
-
-
-##### [<img src="https://raw.githubusercontent.com/TelerikAcademy/Common/master/icons/presentation.png" height="18"/>Slides](https://rawgit.com/TelerikAcademy/JavaScript-Fundamentals/master/Topics/07. Arrays/index.html) / [<img src="https://raw.githubusercontent.com/TelerikAcademy/Common/master/icons/code.png" height="15"> Demos](/Topics/07. Arrays/demos) / [<img src="https://raw.githubusercontent.com/TelerikAcademy/Common/master/icons/homework.png" height="15">Tasks](/Topics/07. Arrays/homework) / [<img src="https://raw.githubusercontent.com/TelerikAcademy/Common/master/icons/video.png" height="15"> Videos](/Topics/07. Arrays/VIDEOS.md)
-
-### [08. Functions](/Topics/08. Functions)
-
-
-
-##### [<img src="https://raw.githubusercontent.com/TelerikAcademy/Common/master/icons/presentation.png" height="18"/>Slides](https://rawgit.com/TelerikAcademy/JavaScript-Fundamentals/master/Topics/08. Functions/index.html) / [<img src="https://raw.githubusercontent.com/TelerikAcademy/Common/master/icons/code.png" height="15"> Demos](/Topics/08. Functions/demos) / [<img src="https://raw.githubusercontent.com/TelerikAcademy/Common/master/icons/homework.png" height="15">Tasks](/Topics/08. Functions/homework) / [<img src="https://raw.githubusercontent.com/TelerikAcademy/Common/master/icons/video.png" height="15"> Videos](/Topics/08. Functions/VIDEOS.md)
-
-### [09. Using Objects](/Topics/09. Using Objects)
-
-
-
-##### [<img src="https://raw.githubusercontent.com/TelerikAcademy/Common/master/icons/presentation.png" height="18"/>Slides](https://rawgit.com/TelerikAcademy/JavaScript-Fundamentals/master/Topics/09. Using Objects/index.html) / [<img src="https://raw.githubusercontent.com/TelerikAcademy/Common/master/icons/code.png" height="15"> Demos](/Topics/09. Using Objects/demos) / [<img src="https://raw.githubusercontent.com/TelerikAcademy/Common/master/icons/homework.png" height="15">Tasks](/Topics/09. Using Objects/homework) / [<img src="https://raw.githubusercontent.com/TelerikAcademy/Common/master/icons/video.png" height="15"> Videos](/Topics/09. Using Objects/VIDEOS.md)
-
-### [10. Methods on Arrays and Objects](/Topics/10. Methods on Arrays and Objects)
-
-
-
-##### [<img src="https://raw.githubusercontent.com/TelerikAcademy/Common/master/icons/presentation.png" height="18"/>Slides](https://rawgit.com/TelerikAcademy/JavaScript-Fundamentals/master/Topics/10. Methods on Arrays and Objects/index.html) / [<img src="https://raw.githubusercontent.com/TelerikAcademy/Common/master/icons/code.png" height="15"> Demos](/Topics/10. Methods on Arrays and Objects/demos) / [<img src="https://raw.githubusercontent.com/TelerikAcademy/Common/master/icons/homework.png" height="15">Tasks](/Topics/10. Methods on Arrays and Objects/homework) / [<img src="https://raw.githubusercontent.com/TelerikAcademy/Common/master/icons/video.png" height="15"> Videos](/Topics/10. Methods on Arrays and Objects/VIDEOS.md)
-
-### [11. Strings](/Topics/11. Strings)
-
-
-
-##### [<img src="https://raw.githubusercontent.com/TelerikAcademy/Common/master/icons/presentation.png" height="18"/>Slides](https://rawgit.com/TelerikAcademy/JavaScript-Fundamentals/master/Topics/11. Strings/index.html) / [<img src="https://raw.githubusercontent.com/TelerikAcademy/Common/master/icons/code.png" height="15"> Demos](/Topics/11. Strings/demos) / [<img src="https://raw.githubusercontent.com/TelerikAcademy/Common/master/icons/homework.png" height="15">Tasks](/Topics/11. Strings/homework) / [<img src="https://raw.githubusercontent.com/TelerikAcademy/Common/master/icons/video.png" height="15"> Videos](/Topics/11. Strings/VIDEOS.md)
-
-### [12. Regular Expressions](/Topics/12. Regular Expressions)
-
-
-
-##### [<img src="https://raw.githubusercontent.com/TelerikAcademy/Common/master/icons/presentation.png" height="18"/>Slides](https://rawgit.com/TelerikAcademy/JavaScript-Fundamentals/master/Topics/12. Regular Expressions/index.html) / [<img src="https://raw.githubusercontent.com/TelerikAcademy/Common/master/icons/code.png" height="15"> Demos](/Topics/12. Regular Expressions/demos) / [<img src="https://raw.githubusercontent.com/TelerikAcademy/Common/master/icons/homework.png" height="15">Tasks](/Topics/12. Regular Expressions/homework) / [<img src="https://raw.githubusercontent.com/TelerikAcademy/Common/master/icons/video.png" height="15"> Videos](/Topics/12. Regular Expressions/VIDEOS.md)
-
-### [13. Exam preparation](/Topics/13. Exam preparation)
-
-
-
-##### [<img src="https://raw.githubusercontent.com/TelerikAcademy/Common/master/icons/presentation.png" height="18"/>Slides](https://rawgit.com/TelerikAcademy/JavaScript-Fundamentals/master/Topics/13. Exam preparation/index.html) / [<img src="https://raw.githubusercontent.com/TelerikAcademy/Common/master/icons/code.png" height="15"> Demos](/Topics/13. Exam preparation/demos) / [<img src="https://raw.githubusercontent.com/TelerikAcademy/Common/master/icons/homework.png" height="15">Tasks](/Topics/13. Exam preparation/homework) / [<img src="https://raw.githubusercontent.com/TelerikAcademy/Common/master/icons/video.png" height="15"> Videos](/Topics/13. Exam preparation/VIDEOS.md)
+  For enterprise licenses and/or support, please send an email enquiry to [enterprise@exlinc.com](mailto:enterprise@exlinc.com)
