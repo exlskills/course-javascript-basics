@@ -1,9 +1,0 @@
-<div>
-    <p>Some bulsh*t text + na peshlqka modela & i gosho e tuka brato</p>
-    <br />
-    <span>Passed na peshlqka modela and i gosho e tuka brato</span>
-    <br />
-    <div>
-        <span>More bulsh*t text</span>
-    <div>
-</div>

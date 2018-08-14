@@ -1,1 +1,0 @@
-<div data-bind-content="name">Steven</div>

@@ -1,8 +1,0 @@
-<div>
-    <nk-if condition="peshov">
-    gadno a? (peshov)
-    hackvane ima tuk (var nqma in nikoi)
-    goshoviq
-    peshoviq
-    ivaylo sucks more :D
-</div>

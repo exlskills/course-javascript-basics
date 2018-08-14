@@ -1,9 +1,0 @@
-<div>
-    <p>Some bulsh*t text</p>
-    <br />
-    <span>Passed</span>
-    <br />
-    <div>
-        <span>More bulsh*t text</span>
-    <div>
-</div>

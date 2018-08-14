@@ -1,1 +1,0 @@
-outside circle outside rectangle
