@@ -1,0 +1,11 @@
+api_version: 1
+environment: javascript_default_free
+src_path: code_input.prob.repl/src
+tmpl_path: code_input.prob.repl/tmpl
+tests:
+ - "node -e 'require("/workspace/src/main/javascript/exlcode/ChapterSevenQuestionFour").searchArray(3, [1,2,3,4,5,6])' | grep -w 2"
+ - "node -e 'require("/workspace/src/main/javascript/exlcode/ChapterSevenQuestionFour").searchArray(6, [5,6,7,8,9])' | grep -w 1"
+ - "node -e 'require("/workspace/src/main/javascript/exlcode/ChapterSevenQuestionFour").searchArray(50, [10,20,30,40,50])' | grep -w 4"
+ - "node -e 'require("/workspace/src/main/javascript/exlcode/ChapterSevenQuestionFour").searchArray(0, [0,5,10,76,809,1000])' | grep -w 0"
+display:
+  height: 500px

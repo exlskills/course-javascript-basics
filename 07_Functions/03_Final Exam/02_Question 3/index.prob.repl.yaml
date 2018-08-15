@@ -1,0 +1,17 @@
+api_version: 1
+environment: javascript_default_free
+src_path: code_input.prob.repl/src
+tmpl_path: code_input.prob.repl/tmpl
+tests:
+ - "node -e 'require("./ChapterEightQuestionThree").englishDigit(40)' | grep -w zero"
+ - "node -e 'require("./ChapterEightQuestionThree").englishDigit(21)' | grep -w one"
+ - "node -e 'require("./ChapterEightQuestionThree").englishDigit(32)' | grep -w two"
+ - "node -e 'require("./ChapterEightQuestionThree").englishDigit(3)' | grep -w three"
+ - "node -e 'require("./ChapterEightQuestionThree").englishDigit(44)' | grep -w four"
+ - "node -e 'require("./ChapterEightQuestionThree").englishDigit(55)' | grep -w five"
+ - "node -e 'require("./ChapterEightQuestionThree").englishDigit(16)' | grep -w six"
+ - "node -e 'require("./ChapterEightQuestionThree").englishDigit(77)' | grep -w seven"
+ - "node -e 'require("./ChapterEightQuestionThree").englishDigit(98)' | grep -w eight"
+ - "node -e 'require("./ChapterEightQuestionThree").englishDigit(29)' | grep -w nine"
+display:
+  height: 500px

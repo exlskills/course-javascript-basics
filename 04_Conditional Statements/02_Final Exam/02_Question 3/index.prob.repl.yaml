@@ -1,0 +1,18 @@
+api_version: 1
+environment: javascript_default_free
+src_path: code_input.prob.repl/src
+tmpl_path: code_input.prob.repl/tmpl
+tests:
+ - "node -e 'require("/workspace/src/main/javascript/exlcode/ChapterFiveQuestionThree").digitToWord(0)' | grep -w zero"
+ - "node -e 'require("/workspace/src/main/javascript/exlcode/ChapterFiveQuestionThree").digitToWord(1)' | grep -w one"
+ - "node -e 'require("/workspace/src/main/javascript/exlcode/ChapterFiveQuestionThree").digitToWord(2)' | grep -w two"
+ - "node -e 'require("/workspace/src/main/javascript/exlcode/ChapterFiveQuestionThree").digitToWord(3)' | grep -w three"
+ - "node -e 'require("/workspace/src/main/javascript/exlcode/ChapterFiveQuestionThree").digitToWord(4)' | grep -w four"
+ - "node -e 'require("/workspace/src/main/javascript/exlcode/ChapterFiveQuestionThree").digitToWord(5)' | grep -w five"
+ - "node -e 'require("/workspace/src/main/javascript/exlcode/ChapterFiveQuestionThree").digitToWord(6)' | grep -w six"
+ - "node -e 'require("/workspace/src/main/javascript/exlcode/ChapterFiveQuestionThree").digitToWord(7)' | grep -w seven"
+ - "node -e 'require("/workspace/src/main/javascript/exlcode/ChapterFiveQuestionThree").digitToWord(8)' | grep -w eight"
+ - "node -e 'require("/workspace/src/main/javascript/exlcode/ChapterFiveQuestionThree").digitToWord(9)' | grep -w nine"
+ - "node -e 'require("/workspace/src/main/javascript/exlcode/ChapterFiveQuestionThree").digitToWord(10)' | grep -w not'\s'a'\s'digit"
+display:
+  height: 500px

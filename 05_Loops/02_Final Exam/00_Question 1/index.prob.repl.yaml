@@ -1,0 +1,11 @@
+api_version: 1
+environment: javascript_default_free
+src_path: code_input.prob.repl/src
+tmpl_path: code_input.prob.repl/tmpl
+tests:
+ - "node -e 'require("/workspace/src/main/javascript/exlcode/ChapterSixQuestionOne").printNumberSum("123456")' | grep -w 21"
+ - "node -e 'require("/workspace/src/main/javascript/exlcode/ChapterSixQuestionOne").printNumberSum("302")' | grep -w 5"
+ - "node -e 'require("/workspace/src/main/javascript/exlcode/ChapterSixQuestionOne").printNumberSum("20")' | grep -w 2"
+ - "node -e 'require("/workspace/src/main/javascript/exlcode/ChapterSixQuestionOne").printNumberSum("7")' | grep -w 7"
+display:
+  height: 500px

@@ -1,0 +1,13 @@
+api_version: 1
+environment: javascript_default_free
+src_path: code_input.prob.repl/src
+tmpl_path: code_input.prob.repl/tmpl
+tests:
+ - "node -e 'require("/workspace/src/main/javascript/exlcode/ChapterFiveQuestionTwo").sortNumbers(30,25,1)' | grep -w '30,25,1' "
+ - "node -e 'require("/workspace/src/main/javascript/exlcode/ChapterFiveQuestionTwo").sortNumbers(40,25,30)' | grep -w '40,30,25' "
+ - "node -e 'require("/workspace/src/main/javascript/exlcode/ChapterFiveQuestionTwo").sortNumbers(21,42,2)' | grep -w '42,21,2' "
+ - "node -e 'require("/workspace/src/main/javascript/exlcode/ChapterFiveQuestionTwo").sortNumbers(0,56,23)' | grep -w '56,23,0' "
+ - "node -e 'require("/workspace/src/main/javascript/exlcode/ChapterFiveQuestionTwo").sortNumbers(14,8,90)' | grep -w '90,14,8' "
+ - "node -e 'require("/workspace/src/main/javascript/exlcode/ChapterFiveQuestionTwo").sortNumbers(14,81,90)' | grep -w '90,81,14' "
+display:
+  height: 500px

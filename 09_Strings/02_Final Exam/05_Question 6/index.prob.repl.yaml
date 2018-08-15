@@ -1,0 +1,11 @@
+api_version: 1
+environment: javascript_default_free
+src_path: code_input.prob.repl/src
+tmpl_path: code_input.prob.repl/tmpl
+tests:
+ - "node -e 'require("/workspace/src/main/javascript/exlcode/ChapterTenQuestionSix").changeUrl("https://exlskills.com/instructor")' | grep -w exlskills.com"
+ - "node -e 'require("/workspace/src/main/javascript/exlcode/ChapterTenQuestionSix").changeUrl("https://exlinc.com/company")' | grep -w exlinc.com"
+ - "node -e 'require("/workspace/src/main/javascript/exlcode/ChapterTenQuestionSix").changeUrl("https://exlcode.com/features")' | grep -w exlcode.com"
+ - "node -e 'require("/workspace/src/main/javascript/exlcode/ChapterTenQuestionSix").changeUrl("https://exlcode.com/")' | grep -w exlcode.com"
+display:
+  height: 500px

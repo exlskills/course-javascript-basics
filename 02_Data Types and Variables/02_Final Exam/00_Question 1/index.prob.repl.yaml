@@ -1,0 +1,12 @@
+api_version: 1
+environment: javascript_default_free
+src_path: code_input.prob.repl/src
+tmpl_path: code_input.prob.repl/tmpl
+tests:
+ - "node -e 'require("/workspace/src/main/javascript/exlcode/ChapterThreeQuestionOne").quotedText("Hello")' | grep -w \'Hello\' "
+ - "node -e 'require("/workspace/src/main/javascript/exlcode/ChapterThreeQuestionOne").quotedText("and")' | grep -w \'and\' "
+ - "node -e 'require("/workspace/src/main/javascript/exlcode/ChapterThreeQuestionOne").quotedText("123")' | grep -w \'123\' "
+ - "node -e 'require("/workspace/src/main/javascript/exlcode/ChapterThreeQuestionOne").quotedText("qwert123")' | grep -w \'qwert123\' "
+ - "node -e 'require("/workspace/src/main/javascript/exlcode/ChapterThreeQuestionOne").quotedText("pp'\''s")' | grep -w \'pp\'s\' "
+display:
+  height: 500px

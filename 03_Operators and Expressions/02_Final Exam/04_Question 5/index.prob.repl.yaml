@@ -1,0 +1,16 @@
+api_version: 1
+environment: javascript_default_free
+src_path: code_input.prob.repl/src
+tmpl_path: code_input.prob.repl/tmpl
+tests:
+ - "node -e 'require("/workspace/src/main/javascript/exlcode/ChapterFourQuestionFive").pointInCircle(0,0)' | grep -w true"
+ - "node -e 'require("/workspace/src/main/javascript/exlcode/ChapterFourQuestionFive").pointInCircle(2,0)' | grep -w true"
+ - "node -e 'require("/workspace/src/main/javascript/exlcode/ChapterFourQuestionFive").pointInCircle(0,2)' | grep -w true"
+ - "node -e 'require("/workspace/src/main/javascript/exlcode/ChapterFourQuestionFive").pointInCircle(1,1)' | grep -w true"
+ - "node -e 'require("/workspace/src/main/javascript/exlcode/ChapterFourQuestionFive").pointInCircle(0,-2)' | grep -w true"
+ - "node -e 'require("/workspace/src/main/javascript/exlcode/ChapterFourQuestionFive").pointInCircle(-2,0)' | grep -w true"
+ - "node -e 'require("/workspace/src/main/javascript/exlcode/ChapterFourQuestionFive").pointInCircle(-1,-1)' | grep -w true"
+ - "node -e 'require("/workspace/src/main/javascript/exlcode/ChapterFourQuestionFive").pointInCircle(-3,-1)' | grep -w false"
+ - "node -e 'require("/workspace/src/main/javascript/exlcode/ChapterFourQuestionFive").pointInCircle(3,1)' | grep -w false"
+display:
+  height: 500px

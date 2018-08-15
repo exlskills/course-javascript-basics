@@ -1,0 +1,11 @@
+api_version: 1
+environment: javascript_default_free
+src_path: code_input.prob.repl/src
+tmpl_path: code_input.prob.repl/tmpl
+tests:
+ - "node -e 'require("/workspace/src/main/javascript/exlcode/ChapterThreeQuestionTwo").parseNumbers("123")' | grep -w 124"
+ - "node -e 'require("/workspace/src/main/javascript/exlcode/ChapterThreeQuestionTwo").parseNumbers("-1")' | grep -w 0"
+ - "node -e 'require("/workspace/src/main/javascript/exlcode/ChapterThreeQuestionTwo").parseNumbers("0")' | grep -w 1"
+ - "node -e 'require("/workspace/src/main/javascript/exlcode/ChapterThreeQuestionTwo").parseNumbers("1234r")' | grep -w 1235"
+display:
+  height: 500px

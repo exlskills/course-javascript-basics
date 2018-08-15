@@ -1,0 +1,11 @@
+api_version: 1
+environment: javascript_default_free
+src_path: code_input.prob.repl/src
+tmpl_path: code_input.prob.repl/tmpl
+tests:
+ - "node -e 'require("/workspace/src/main/javascript/exlcode/ChapterEightQuestionFour").countArray(10, [2,3,4,53,2,2,2,2])' | grep -w 0"
+ - "node -e 'require("/workspace/src/main/javascript/exlcode/ChapterEightQuestionFour").countArray(3, [4,3,3,5,6,7,3,2])' | grep -w 3"
+ - "node -e 'require("/workspace/src/main/javascript/exlcode/ChapterEightQuestionFour").countArray(1, [1,2,3,4,5,6,7,8,9])' | grep -w 1"
+ - "node -e 'require("/workspace/src/main/javascript/exlcode/ChapterEightQuestionFour").countArray(11, [1,1,3,1,5,11,7,8,9])' | grep -w 1"
+display:
+  height: 500px
