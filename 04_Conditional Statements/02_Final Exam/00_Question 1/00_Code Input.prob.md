@@ -1,5 +1,5 @@
 >>Complete the function <code>exchangeGreater</code> so that it satisfies the following condition:
-<p>Write an if statement that takes two double variables a and b and exchanges their values if the first one is greater than the second. As a result print the values a and b, separated by a space.<br/>
+<p>Write an if statement that takes two integers a and b and prints the value b first if a is greater than the b. If a is less than or equal to the b, print the value of a first. Print the first number and the second number with a space.<br/>
 For example:<br/>
 <code>exchangeGreater(2,30)</code> should return "2 30"<br/>
 <code>exchangeGreater(3,3)</code> should return "3 3"<br/>
@@ -7,4 +7,4 @@ For example:<br/>
 
 = #!exl::repl('index.prob.repl.yaml')
 
-||Exchange their values ONLY if the first number is larger than the second number ||
+||Exchange their values ONLY if the first number is larger than the second number. Use nested if statements or if-else statements to solve this question. ||

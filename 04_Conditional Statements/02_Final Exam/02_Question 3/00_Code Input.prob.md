@@ -1,9 +1,10 @@
 >>Complete the function <code>digitToWord</code> so that it satisfies the following condition:
-<p>Prints the digit input as a word (in English). Print "not a digit" in case of invalid input.<br/>
+<p>Prints the numeric digit (input) as a word in English in lowercase. Print "not a digit" in the input is not a digit (between 0-9).<br/>
 For example:<br/>
-<code>digitToWord(2)</code> should return "two"<br/>
-<code>digitToWord(3)</code> should return "three"<br/>
-<code>digitToWord("Hello")</code> should return "not a digit"</p><<
+<code>digitToWord(2)</code> should print "two"<br/>
+<code>digitToWord(0)</code> should print "zero"<br/>
+<code>digitToWord(10)</code> should print "not a digit"<br/>
+<code>digitToWord("Hello")</code> should print "not a digit"</p><<
 
 = #!exl::repl('index.prob.repl.yaml')
 

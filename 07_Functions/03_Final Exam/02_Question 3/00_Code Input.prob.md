@@ -1,10 +1,10 @@
 >>Complete the function <code>englishDigit</code> so that it satisfies the following condition:
-<p>Returns the last digit of given integer as an English word.<br/>
+<p>Prints the last digit of given integer as an English word in lowercase.<br/>
 For example:<br/>
-<code>englishDigit(49)</code> should return "nine"<br/>
-<code>englishDigit(23)</code> should return "three"<br/>
-<code>englishDigit(2)</code> should return "two"</p><<
+<code>englishDigit(49)</code> should print "nine"<br/>
+<code>englishDigit(23)</code> should print "three"<br/>
+<code>englishDigit(2)</code> should print "two"</p><<
 
 = #!exl::repl('index.prob.repl.yaml')
 
-||Use parseInt to solve this question ||
+||Use a switch statement to solve this question ||

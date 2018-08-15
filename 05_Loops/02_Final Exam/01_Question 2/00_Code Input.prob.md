@@ -1,10 +1,10 @@
 >>Complete the function <code>calculateStats</code> so that it satisfies the following condition:
-<p>Accepts an array of numbers and returns the minimal, the maximal number, the sum and the average of all numbers in one line<br/>
+<p>Accepts a string (positive integer) prints the smallest digit, largest digit, the sum of the digits and the average of all 4 digits in one line.<br/>
 For example:<br/>
-<code>calculateStats([2,3,4])</code> should return "max=4, min=2, sum=9, avg=3"<br/>
-<code>calculateStats([3,0,4,5])</code> should return "max=5, min=0, sum=12, avg=3"<br/>
-<code>calculateStats([10,20,30,40])</code> should return "max=40, min=12, sum=100, avg=25"</p><<
+<code>calculateStats("2345")</code> should print "max=5, min=2, sum=14, avg=3.5"<br/>
+<code>calculateStats("3045")</code> should print "max=5, min=0, sum=12, avg=3"<br/>
+<code>calculateStats("9283")</code> should print "max=9, min=2, sum=22, avg=5.75"</p><<
 
 = #!exl::repl('index.prob.repl.yaml')
 
-||Write different for loops to calculate each value ||
+||Write different for loops to calculate the different values (or one for loop if you're confident)||

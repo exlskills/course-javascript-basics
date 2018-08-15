@@ -1,9 +1,9 @@
 >>Complete the function <code>parseTags</code> so that it satisfies the following condition:
-<p>Changes the given text as show below: <br/>
+<p>Changes and prints the given text as show below. Each string will only have either have one tag or none<br/>
 For example:<br/>
-<code>parseTags("(upcase)text(upcase)")</code> should return "TEXT"<br/>
-<code>parseTags("(lowcase)Text(lowcase)")</code> should return "text"<br/>
-<code>parseTags("(upcase)text(/upcase)(lowcase)Text(lowcase)")</code> should return "TEXTtext"</p><<
+<code>parseTags("(upcase)text(upcase)")</code> should print "TEXT"<br/>
+<code>parseTags("(lowcase)Text(lowcase)")</code> should print "text"<br/>
+<code>parseTags("text")</code> should print "text"</p><<
 
 = #!exl::repl('index.prob.repl.yaml')
 

@@ -1,10 +1,10 @@
->>Complete the function <code>printNums</code> so that it satisfies the following condition:
-<p>Accepts a string (positive integer N) and prints all the numbers from 1 to N inclusive, on a single line, separated by a whitespace.<br/>
+>>Complete the function <code>printNumberSum</code> so that it satisfies the following condition:
+<p>Accepts a string (positive integer) and prints the sum of all the digits in the string.<br/>
 For example:<br/>
-<code>printNums("123456")</code> should return "1 2 3 4 5 6"<br/>
-<code>printNums("302")</code> should return "3 0 2"<br/>
-<code>printNums("1")</code> should return "1"</p><<
+<code>printNumberSum("123456")</code> should print 21<br/>
+<code>printNumberSum("302")</code> should print 5<br/>
+<code>printNumberSum("20")</code> should print 2</p><<
 
 = #!exl::repl('index.prob.repl.yaml')
 
-||Use the string index inside the loop to solve this question ||
+||Use the string indexer inside the loop to solve this question ||
