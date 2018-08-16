@@ -3,9 +3,10 @@ environment: javascript_default_free
 src_path: code_input.prob.repl/src
 tmpl_path: code_input.prob.repl/tmpl
 tests:
- - "node -e 'require("/workspace/src/main/javascript/exlcode/ChapterEightQuestionTwo").getLargest([2,3,5])' | grep -w 5"
- - "node -e 'require("/workspace/src/main/javascript/exlcode/ChapterEightQuestionTwo").getLargest([0,-2,-4])' | grep -w 0"
- - "node -e 'require("/workspace/src/main/javascript/exlcode/ChapterEightQuestionTwo").getLargest([50,2,3,])' | grep -w 50"
- - "node -e 'require("/workspace/src/main/javascript/exlcode/ChapterEightQuestionTwo").getLargest([1,1,1,1,1,1,2])' | grep -w 2"
+  node:
+    - "node -e 'require("/workspace/src/main/javascript/exlcode/ChapterEightQuestionTwo").getLargest([2,3,5])' | grep -w 5"
+    - "node -e 'require("/workspace/src/main/javascript/exlcode/ChapterEightQuestionTwo").getLargest([0,-2,-4])' | grep -w 0"
+    - "node -e 'require("/workspace/src/main/javascript/exlcode/ChapterEightQuestionTwo").getLargest([50,2,3,])' | grep -w 50"
+    - "node -e 'require("/workspace/src/main/javascript/exlcode/ChapterEightQuestionTwo").getLargest([1,1,1,1,1,1,2])' | grep -w 2"
 display:
   height: 500px

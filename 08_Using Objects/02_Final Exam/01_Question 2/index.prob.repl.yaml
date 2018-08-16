@@ -3,9 +3,10 @@ environment: javascript_default_free
 src_path: code_input.prob.repl/src
 tmpl_path: code_input.prob.repl/tmpl
 tests:
- - "node -e 'require("/workspace/src/main/javascript/exlcode/ChapterNineQuestionTwo").youngestPerson(["George", "Hill", 42])' | grep -w 'George Hill' "
- - "node -e 'require("/workspace/src/main/javascript/exlcode/ChapterNineQuestionTwo").youngestPerson(["George", "Hill", 42, "Bill", "Davis", 21, "Lex", "Smith", 2])' | grep -w 'Lex Smith' "
- - "node -e 'require("/workspace/src/main/javascript/exlcode/ChapterNineQuestionTwo").youngestPerson(["George", "Hill", 42, "Bill", "Davis", 21])' | grep -w 'Bill Davis' "
- - "node -e 'require("/workspace/src/main/javascript/exlcode/ChapterNineQuestionTwo").youngestPerson(["George", "Hill", 42, "Jack", "Freeman", 21, "Lex", "Smith", 2, "Abc", "Cba", 0])' | grep -w 'Abc Cba' "
+  node:
+    - "node -e 'require("/workspace/src/main/javascript/exlcode/ChapterNineQuestionTwo").youngestPerson(["George", "Hill", 42])' | grep -w 'George Hill' "
+    - "node -e 'require("/workspace/src/main/javascript/exlcode/ChapterNineQuestionTwo").youngestPerson(["George", "Hill", 42, "Bill", "Davis", 21, "Lex", "Smith", 2])' | grep -w 'Lex Smith' "
+    - "node -e 'require("/workspace/src/main/javascript/exlcode/ChapterNineQuestionTwo").youngestPerson(["George", "Hill", 42, "Bill", "Davis", 21])' | grep -w 'Bill Davis' "
+    - "node -e 'require("/workspace/src/main/javascript/exlcode/ChapterNineQuestionTwo").youngestPerson(["George", "Hill", 42, "Jack", "Freeman", 21, "Lex", "Smith", 2, "Abc", "Cba", 0])' | grep -w 'Abc Cba' "
 display:
   height: 500px

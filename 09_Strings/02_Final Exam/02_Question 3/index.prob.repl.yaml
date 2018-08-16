@@ -3,9 +3,10 @@ environment: javascript_default_free
 src_path: code_input.prob.repl/src
 tmpl_path: code_input.prob.repl/tmpl
 tests:
- - "node -e 'require("/workspace/src/main/javascript/exlcode/ChapterTenQuestionThree").substringText("is", "This is is is is")' | grep -w 5"
- - "node -e 'require("/workspace/src/main/javascript/exlcode/ChapterTenQuestionThree").substringText("This", "This is is is is")' | grep -w 1"
- - "node -e 'require("/workspace/src/main/javascript/exlcode/ChapterTenQuestionThree").substringText("That", "This is is is is")' | grep -w 0"
- - "node -e 'require("/workspace/src/main/javascript/exlcode/ChapterTenQuestionThree").substringText("Ta", "Take take is is is")' | grep -w 1"
+  node:
+    - "node -e 'require("/workspace/src/main/javascript/exlcode/ChapterTenQuestionThree").substringText("is", "This is is is is")' | grep -w 5"
+    - "node -e 'require("/workspace/src/main/javascript/exlcode/ChapterTenQuestionThree").substringText("This", "This is is is is")' | grep -w 1"
+    - "node -e 'require("/workspace/src/main/javascript/exlcode/ChapterTenQuestionThree").substringText("That", "This is is is is")' | grep -w 0"
+    - "node -e 'require("/workspace/src/main/javascript/exlcode/ChapterTenQuestionThree").substringText("Ta", "Take take is is is")' | grep -w 1"
 display:
   height: 500px

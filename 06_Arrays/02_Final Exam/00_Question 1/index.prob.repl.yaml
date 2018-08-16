@@ -3,9 +3,10 @@ environment: javascript_default_free
 src_path: code_input.prob.repl/src
 tmpl_path: code_input.prob.repl/tmpl
 tests:
- - "node -e 'require("/workspace/src/main/javascript/exlcode/ChapterSevenQuestionOne").allocateArray(1)' | grep -w ['\s'0'\s']"
- - "node -e 'require("/workspace/src/main/javascript/exlcode/ChapterSevenQuestionOne").allocateArray(2)' | grep -w ['\s'0,'\s'5'\s']"
- - "node -e 'require("/workspace/src/main/javascript/exlcode/ChapterSevenQuestionOne").allocateArray(3)' | grep -w ['\s'0,'\s'5,'\s'10'\s']"
- - "node -e 'require("/workspace/src/main/javascript/exlcode/ChapterSevenQuestionOne").allocateArray(4)' | grep -w ['\s'0,'\s'5,'\s'10,'\s'15'\s']"
+  node:
+    - "node -e 'require("/workspace/src/main/javascript/exlcode/ChapterSevenQuestionOne").allocateArray(1)' | grep -w ['\s'0'\s']"
+    - "node -e 'require("/workspace/src/main/javascript/exlcode/ChapterSevenQuestionOne").allocateArray(2)' | grep -w ['\s'0,'\s'5'\s']"
+    - "node -e 'require("/workspace/src/main/javascript/exlcode/ChapterSevenQuestionOne").allocateArray(3)' | grep -w ['\s'0,'\s'5,'\s'10'\s']"
+    - "node -e 'require("/workspace/src/main/javascript/exlcode/ChapterSevenQuestionOne").allocateArray(4)' | grep -w ['\s'0,'\s'5,'\s'10,'\s'15'\s']"
 display:
   height: 500px

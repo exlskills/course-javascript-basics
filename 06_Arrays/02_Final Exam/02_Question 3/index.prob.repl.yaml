@@ -3,9 +3,10 @@ environment: javascript_default_free
 src_path: code_input.prob.repl/src
 tmpl_path: code_input.prob.repl/tmpl
 tests:
- - "node -e 'require("/workspace/src/main/javascript/exlcode/ChapterSevenQuestionThree").findFrequent([2,3,4,5,2,3,2,1])' | grep -w 2"
- - "node -e 'require("/workspace/src/main/javascript/exlcode/ChapterSevenQuestionThree").findFrequent([2,3,4,2,14,1,2,3,4,5,1,1,1])' | grep -w 1"
- - "node -e 'require("/workspace/src/main/javascript/exlcode/ChapterSevenQuestionThree").findFrequent([0,4,5,73,2,405,2])' | grep -w 2"
- - "node -e 'require("/workspace/src/main/javascript/exlcode/ChapterSevenQuestionThree").findFrequent([0,4,5,4,4,405,2])' | grep -w 4"
+  node:
+    - "node -e 'require("/workspace/src/main/javascript/exlcode/ChapterSevenQuestionThree").findFrequent([2,3,4,5,2,3,2,1])' | grep -w 2"
+    - "node -e 'require("/workspace/src/main/javascript/exlcode/ChapterSevenQuestionThree").findFrequent([2,3,4,2,14,1,2,3,4,5,1,1,1])' | grep -w 1"
+    - "node -e 'require("/workspace/src/main/javascript/exlcode/ChapterSevenQuestionThree").findFrequent([0,4,5,73,2,405,2])' | grep -w 2"
+    - "node -e 'require("/workspace/src/main/javascript/exlcode/ChapterSevenQuestionThree").findFrequent([0,4,5,4,4,405,2])' | grep -w 4"
 display:
   height: 500px

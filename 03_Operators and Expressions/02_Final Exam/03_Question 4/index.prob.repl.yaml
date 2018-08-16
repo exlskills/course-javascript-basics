@@ -3,10 +3,11 @@ environment: javascript_default_free
 src_path: code_input.prob.repl/src
 tmpl_path: code_input.prob.repl/tmpl
 tests:
- - "node -e 'require("/workspace/src/main/javascript/exlcode/ChapterFourQuestionFour").lastDigit(1234)' | grep -w 4"
- - "node -e 'require("/workspace/src/main/javascript/exlcode/ChapterFourQuestionFour").lastDigit(1237)' | grep -w 7"
- - "node -e 'require("/workspace/src/main/javascript/exlcode/ChapterFourQuestionFour").lastDigit(0)' | grep -w 0"
- - "node -e 'require("/workspace/src/main/javascript/exlcode/ChapterFourQuestionFour").lastDigit(3000)' | grep -w 0"
- - "node -e 'require("/workspace/src/main/javascript/exlcode/ChapterFourQuestionFour").lastDigit(3001)' | grep -w 1"
+  node:
+    - "node -e 'require("/workspace/src/main/javascript/exlcode/ChapterFourQuestionFour").lastDigit(1234)' | grep -w 4"
+    - "node -e 'require("/workspace/src/main/javascript/exlcode/ChapterFourQuestionFour").lastDigit(1237)' | grep -w 7"
+    - "node -e 'require("/workspace/src/main/javascript/exlcode/ChapterFourQuestionFour").lastDigit(0)' | grep -w 0"
+    - "node -e 'require("/workspace/src/main/javascript/exlcode/ChapterFourQuestionFour").lastDigit(3000)' | grep -w 0"
+    - "node -e 'require("/workspace/src/main/javascript/exlcode/ChapterFourQuestionFour").lastDigit(3001)' | grep -w 1"
 display:
   height: 500px

@@ -3,9 +3,10 @@ environment: javascript_default_free
 src_path: code_input.prob.repl/src
 tmpl_path: code_input.prob.repl/tmpl
 tests:
- - "node -e 'require("/workspace/src/main/javascript/exlcode/ChapterElevenQuestionOne").endsWithCharacter(["let", "me", "you", "give", "take"])' | grep -w 'let' "
- - "node -e 'require("/workspace/src/main/javascript/exlcode/ChapterElevenQuestionOne").endsWithCharacter(["let", "get", "you", "set", "take"])' | grep -w 'let get set' "
- - "node -e 'require("/workspace/src/main/javascript/exlcode/ChapterElevenQuestionOne").endsWithCharacter(["yout", "me", "him", "give", "take"])' | grep -w 'yout' "
- - "node -e 'require("/workspace/src/main/javascript/exlcode/ChapterElevenQuestionOne").endsWithCharacter(["take", "met"])' | grep -w 'met' "
+  node:
+    - "node -e 'require("/workspace/src/main/javascript/exlcode/ChapterElevenQuestionOne").endsWithCharacter(["let", "me", "you", "give", "take"])' | grep -w 'let' "
+    - "node -e 'require("/workspace/src/main/javascript/exlcode/ChapterElevenQuestionOne").endsWithCharacter(["let", "get", "you", "set", "take"])' | grep -w 'let get set' "
+    - "node -e 'require("/workspace/src/main/javascript/exlcode/ChapterElevenQuestionOne").endsWithCharacter(["yout", "me", "him", "give", "take"])' | grep -w 'yout' "
+    - "node -e 'require("/workspace/src/main/javascript/exlcode/ChapterElevenQuestionOne").endsWithCharacter(["take", "met"])' | grep -w 'met' "
 display:
   height: 500px

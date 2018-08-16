@@ -3,9 +3,10 @@ environment: javascript_default_free
 src_path: code_input.prob.repl/src
 tmpl_path: code_input.prob.repl/tmpl
 tests:
- - "node -e 'require("/workspace/src/main/javascript/exlcode/ChapterSixQuestionThree").palindrome(3)' | grep -w '123321' "
- - "node -e 'require("/workspace/src/main/javascript/exlcode/ChapterSixQuestionThree").palindrome(2)' | grep -w '1221' "
- - "node -e 'require("/workspace/src/main/javascript/exlcode/ChapterSixQuestionThree").palindrome(1)' | grep -w '11' "
- - "node -e 'require("/workspace/src/main/javascript/exlcode/ChapterSixQuestionThree").palindrome(4)' | grep -w '12344321' "
+  node:
+    - "node -e 'require("/workspace/src/main/javascript/exlcode/ChapterSixQuestionThree").palindrome(3)' | grep -w '123321' "
+    - "node -e 'require("/workspace/src/main/javascript/exlcode/ChapterSixQuestionThree").palindrome(2)' | grep -w '1221' "
+    - "node -e 'require("/workspace/src/main/javascript/exlcode/ChapterSixQuestionThree").palindrome(1)' | grep -w '11' "
+    - "node -e 'require("/workspace/src/main/javascript/exlcode/ChapterSixQuestionThree").palindrome(4)' | grep -w '12344321' "
 display:
   height: 500px
