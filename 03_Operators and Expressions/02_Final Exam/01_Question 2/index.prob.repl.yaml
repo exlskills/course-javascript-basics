@@ -4,10 +4,10 @@ src_path: code_input.prob.repl/src
 tmpl_path: code_input.prob.repl/tmpl
 tests:
   node:
-    - "node -e 'require("/workspace/src/main/javascript/exlcode/ChapterFourQuestionTwo").divisionPractise(32)' | grep -w false"
-    - "node -e 'require("/workspace/src/main/javascript/exlcode/ChapterFourQuestionTwo").divisionPractise(40)' | grep -w false"
-    - "node -e 'require("/workspace/src/main/javascript/exlcode/ChapterFourQuestionTwo").divisionPractise(35)' | grep -w true"
-    - "node -e 'require("/workspace/src/main/javascript/exlcode/ChapterFourQuestionTwo").divisionPractise(28)' | grep -w false"
-    - "node -e 'require("/workspace/src/main/javascript/exlcode/ChapterFourQuestionTwo").divisionPractise(1015)' | grep -w true"
+    - "node -e 'require("/workspace/src/main/javascript/exlcode/ChapterFourQuestionTwo").divisionPractice(32)' | grep -w false"
+    - "node -e 'require("/workspace/src/main/javascript/exlcode/ChapterFourQuestionTwo").divisionPractice(40)' | grep -w false"
+    - "node -e 'require("/workspace/src/main/javascript/exlcode/ChapterFourQuestionTwo").divisionPractice(35)' | grep -w true"
+    - "node -e 'require("/workspace/src/main/javascript/exlcode/ChapterFourQuestionTwo").divisionPractice(28)' | grep -w false"
+    - "node -e 'require("/workspace/src/main/javascript/exlcode/ChapterFourQuestionTwo").divisionPractice(1015)' | grep -w true"
 display:
   height: 500px
