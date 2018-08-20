@@ -1,5 +1,5 @@
-let x = y = 6; // x=6 and y=6 
-console.log(y);
+let x = 6;
+console.log(x); // 6
 console.log(x -= 1); // 5
 console.log(x += 3); // 8
 console.log(x /= 2); // 4
