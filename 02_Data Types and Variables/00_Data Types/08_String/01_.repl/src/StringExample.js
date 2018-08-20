@@ -1,14 +1,13 @@
 // String concatenation
 let welcome = 'Welcome to JavaScript';
 let name = 'John' + ' ' + 'Doe';
-let greeting = `${welcome}, ${name}` + '!';
+let greeting = welcome + ',' + name + '!';
 console.log(greeting);
 
 // Concatenating the first and last name of a person to obtain his/her full name:
 let firstName = 'Adrian';
 let lastName = 'Brown';
 let fullName = firstName + ' ' + lastName;
-console.log('Hello, ' + firstName + '!');
 console.log('Your full name is: ' + fullName);
 
 // Unicode Examples

@@ -13,6 +13,7 @@ console.log(New);
 console.log(_2Pac);
 console.log(поздрав);
 console.log(greeting);
+
 // Examples_ of bad identifiers (uncommenting them will throw errors):
 
 // let new; 
