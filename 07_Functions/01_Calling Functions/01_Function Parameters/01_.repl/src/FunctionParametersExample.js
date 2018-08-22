@@ -4,7 +4,7 @@ function printSign(number) {
   } else if (number < 0) {
       console.log("Negative");
   } else {
-      console.log("Zero");
+      console.log("The number is zero");
   }
 }
 

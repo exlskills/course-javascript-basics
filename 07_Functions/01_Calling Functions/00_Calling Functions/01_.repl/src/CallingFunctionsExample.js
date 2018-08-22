@@ -1,9 +1,11 @@
 function printGreeting() {
   console.log("Hello");
 }
+
 function print() {
   printGreeting();
 }
+
 function fibonacci(num) { // example of recursion
   if (num <= 2) {
     return 1;

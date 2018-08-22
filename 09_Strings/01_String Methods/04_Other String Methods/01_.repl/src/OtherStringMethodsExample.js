@@ -1,5 +1,5 @@
 // valueOf()
-var str1 = "JavaScript";
+var str1 = new String("JavaScript");
 console.log(str1.valueOf());
 
 // split()
