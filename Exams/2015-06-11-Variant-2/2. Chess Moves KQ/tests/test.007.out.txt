@@ -1,9 +1,0 @@
-no
-no
-yes
-no
-yes
-no
-yes
-no
-yes
