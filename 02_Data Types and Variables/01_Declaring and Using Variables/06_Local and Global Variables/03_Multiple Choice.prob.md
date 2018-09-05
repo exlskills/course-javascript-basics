@@ -1,6 +1,6 @@
 >>Consider the following code segment:
 
-```js
+```
 sum = 0;
 function add() {
     let firstNumber = 10;
