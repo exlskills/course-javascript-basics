@@ -15,7 +15,7 @@ What will the following code print to the console?<<
 
 (x) 1 {{Correct because both `total / 2 == 0` and `total > 10` evaluate to true.}}
 ( ) 2 {{Incorrect because the first case evaluates to true, and since the `break;` statement exists, 2 will never be printed.}}
-( ) 3 {{Incorrect because the first case evaluates to true, and since the `break;` statement exists, 3 will never be printed}}
+( ) 3 {{Incorrect because the first case evaluates to true, and since the `break;` statement exists, 3 will never be printed.}}
 ( ) 4 {{Incorrect because the first case evaluates to true, and since the `break;` statement exists, 4 will never be printed.}}
 ( ) 5 {{Incorrect because the first case evaluates to true, and since the `break;` statement exists, 5 will never be printed.}}
 
