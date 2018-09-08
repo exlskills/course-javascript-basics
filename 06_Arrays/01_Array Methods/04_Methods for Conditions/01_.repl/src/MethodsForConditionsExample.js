@@ -3,7 +3,7 @@ var arr2 = [10, 12, 14, 16, 18, 20];
 function isEvenNumber(number) {
     return number % 2 == 0;
 }
-// arrayname,every()
+// arrayname.every()
 console.log(arr1.every(isEvenNumber));
 console.log(arr2.every(isEvenNumber));
 

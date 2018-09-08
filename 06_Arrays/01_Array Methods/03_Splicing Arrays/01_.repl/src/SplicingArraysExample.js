@@ -7,6 +7,6 @@ var names = ["John", "Jack"];
 //Inserts element(s) at position index
 names.splice(0, 0, "Jill", "Jim", "Jacob");
 console.log(names);
-//removes a element(s) at position index, 0 is the index and 2 is the number of items removed
+//removes element(s) at position index, 0 is the index and 2 is the number of items removed
 names.splice(0, 2);
 console.log(names);
