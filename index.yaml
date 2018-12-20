@@ -5,6 +5,7 @@ course: basics_javascript
 course_image: https://s3-us-west-2.amazonaws.com/exlskills-course-logos/javascript-on-off.gif
 language: en
 est_minutes: 1560
+weight: 1400
 primary_topic: JavaScript
 repo_url: https://github.com/exlskills/course-javascript-basics
 topics:
