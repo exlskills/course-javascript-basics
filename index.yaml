@@ -1,8 +1,8 @@
 url_name: basics_javascript
-display_name: JavaScript Basics
+display_name: JavaScript Fundamentals
 org: EXLskills
 course: basics_javascript
-course_image: https://s3-us-west-2.amazonaws.com/exlskills-course-logos/course-java-intro.jpg
+course_image: https://s3-us-west-2.amazonaws.com/exlskills-course-logos/javascript-on-off.gif
 language: en
 est_minutes: 1560
 primary_topic: JavaScript
@@ -12,11 +12,11 @@ topics:
   - Computer Science
   - CompSci
 headline: Receive a basic introduction to JavaScript with EXLskills!
-description: This is the EXLskills free and open-source JavaScript Basics Course. It guides learners via explanation, demonstration, and thorough practice, from no more than a basic understanding of JavaScript, to a moderate level of essential coding proficiency.
+description: This is the EXLskills free and open-source JavaScript Fundamentals Course. It guides learners via explanation, demonstration, and thorough practice, from no more than a basic understanding of JavaScript, to a moderate level of essential coding proficiency.
 info_md: |2
   # EXLskills Introduction To JavaScript
 
-  This is the EXLskills free and open-source JavaScript Basics Course. It guides learners via explanation, demonstration, and thorough practice, from no more than a basic understanding of JavaScript, to a moderate level of essential coding proficiency. This course was created from Telerik Academy's [JavaScript Fundamentals Course](https://github.com/TelerikAcademy/JavaScript-Fundamentals) and has been converted to the EOCS format.
+  This is the EXLskills free and open-source JavaScript Fundamentals Course. It guides learners via explanation, demonstration, and thorough practice, from no more than a basic understanding of JavaScript, to a moderate level of essential coding proficiency. This course was created from Telerik Academy's [JavaScript Fundamentals Course](https://github.com/TelerikAcademy/JavaScript-Fundamentals) and has been converted to the EOCS format.
 
   ## About EXLskills
 
